@@ -1,0 +1,29 @@
+# 環境変数(APIキーを含むので絶対コミットしない)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# 生成データ(大量になるためGit管理外)
+data/raw_*.json
+data/summary_*.json
+
+# テストキャッシュ
+.pytest_cache/
+tests/__pycache__/
+
+# エディタ・OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

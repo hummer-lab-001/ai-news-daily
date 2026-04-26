@@ -1,0 +1,139 @@
+sources:
+  # ===== コンサル実務 (weight 3) — 日本語メディア =====
+  - name: ITmedia AI+
+    type: rss
+    url: https://rss.itmedia.co.jp/rss/2.0/aiplus.xml
+    weight: 3
+    lang: ja
+
+  # Ledge.ai: 2025年時点でRSSフィード(404)。サイト自体がリニューアルされた可能性あり。
+  # 代替候補: https://ledge.ai/ のサイト確認後、新しいRSSパスが判明したら有効化してください。
+  # - name: Ledge.ai
+  #   type: rss
+  #   url: https://ledge.ai/feed
+  #   weight: 3
+  #   lang: ja
+
+  # ZDNet Japan AI: AI専用RSSが廃止済み(404)。
+  # 代替候補: https://japan.zdnet.com/ でRSSリンクを確認してください。
+  # - name: ZDNet Japan AI
+  #   type: rss
+  #   url: https://japan.zdnet.com/rss/ai/index.rdf
+  #   weight: 3
+  #   lang: ja
+
+  - name: ASCII.jp AI
+    type: rss
+    url: https://ascii.jp/rss.xml
+    filter_keywords: [AI, 生成AI, LLM, ChatGPT, Claude, Gemini]
+    weight: 3
+    lang: ja
+
+  - name: 日経クロステック AI
+    type: rss
+    url: https://xtech.nikkei.com/rss/index.rdf
+    filter_keywords: [AI, 生成AI, LLM]
+    weight: 3
+    lang: ja
+
+  # AI Scholar (日本語AI研究ニュース) — Ledge.ai・ZDNet代替として追加
+  - name: AI-Scholar
+    type: rss
+    url: https://ai-scholar.tech/feed
+    weight: 2
+    lang: ja
+
+  # ===== コンサル実務 (weight 3) — ツール・製品 =====
+  - name: OpenAI Blog
+    type: rss
+    url: https://openai.com/blog/rss.xml
+    weight: 3
+    lang: en
+
+  # Anthropic News: 公式RSSフィードなし(404)。代替策は以下のいずれか:
+  #   A) https://www.anthropic.com/news を定期スクレイピング(要実装)
+  #   B) Anthropic公式X(@AnthropicAI)のRSS代替サービスを利用
+  # - name: Anthropic News
+  #   type: rss
+  #   url: https://www.anthropic.com/news/rss.xml
+  #   weight: 3
+  #   lang: en
+
+  - name: Google AI Blog
+    type: rss
+    url: https://blog.google/technology/ai/rss/
+    weight: 3
+    lang: en
+
+  - name: Product Hunt AI
+    type: api
+    url: https://api.producthunt.com/v2/api/graphql
+    category: artificial-intelligence
+    weight: 3
+    lang: en
+
+  # ===== ビジネス・業界 (weight 2) =====
+  - name: TechCrunch AI
+    type: rss
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    weight: 2
+    lang: en
+
+  - name: VentureBeat AI
+    type: rss
+    url: https://venturebeat.com/category/ai/feed/
+    weight: 2
+    lang: en
+
+  # The Verge AI: 元URLは404のため、正しいパスに修正済み
+  - name: The Verge AI
+    type: rss
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    weight: 2
+    lang: en
+
+  # ===== 技術・研究 (weight 1) — バランス2割 =====
+  - name: arXiv cs.AI
+    type: arxiv
+    categories: [cs.AI, cs.LG, cs.CL]
+    max_items: 5
+    weight: 1
+    lang: en
+
+  - name: Hugging Face Daily Papers
+    type: api
+    url: https://huggingface.co/api/daily_papers
+    max_items: 3
+    weight: 1
+    lang: en
+
+  - name: Google DeepMind
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+    weight: 1
+    lang: en
+
+  # Meta AI Blog: 公式URLは404のため、Meta Engineering(AI研究カテゴリ)に変更
+  - name: Meta AI Blog
+    type: rss
+    url: https://engineering.fb.com/category/ai-research/feed/
+    weight: 1
+    lang: en
+
+  - name: Hacker News (AI)
+    type: api
+    url: https://hn.algolia.com/api/v1/search
+    query: "(AI OR LLM OR GPT OR Claude OR Gemini)"
+    min_points: 100
+    weight: 1
+    lang: en
+
+# 取得範囲(時間)
+lookback_hours: 24
+
+# 除外キーワード(ノイズカット)
+exclude_keywords:
+  - クリプト
+  - 仮想通貨
+  - NFT
+  - 占い

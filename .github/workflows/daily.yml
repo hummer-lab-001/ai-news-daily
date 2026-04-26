@@ -1,0 +1,47 @@
+name: Daily AI News Update
+
+on:
+  schedule:
+    - cron: '0 21 * * *'  # 21:00 UTC = 翌 06:00 JST
+  workflow_dispatch:       # 手動実行ボタン
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Python 3.11 をセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 依存パッケージをインストール
+        run: pip install -r requirements.txt
+
+      - name: 記事取得・要約・HTML生成
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python -m src.fetch
+          python -m src.summarize
+          python -m src.build
+
+      - name: GitHub Pages にデプロイ
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+
+      - name: アーカイブをコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/archive/ data/ || true
+          git diff --cached --quiet || git commit -m "Archive $(date -u +%Y-%m-%d)"
+          git push || true
