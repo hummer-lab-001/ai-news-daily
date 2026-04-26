@@ -1,0 +1,22 @@
+{
+  "name": "AI News Daily",
+  "short_name": "AIニュース",
+  "description": "日本のAIコンサル実務向け毎朝更新ニュースダッシュボード",
+  "start_url": "/ai-news-daily/",
+  "display": "standalone",
+  "background_color": "#1e40af",
+  "theme_color": "#1e40af",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "https://placehold.co/192x192/1e40af/white?text=AI",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://placehold.co/512x512/1e40af/white?text=AI",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
