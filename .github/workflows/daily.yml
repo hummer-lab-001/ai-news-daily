@@ -3,7 +3,7 @@ name: Daily AI News Update
 on:
   schedule:
     - cron: '0 17 * * *'  # 21:00 UTC = 翌 06:00 JST
-  workflow_dispatch:       # 手動実行ボタン
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,7 +25,6 @@ jobs:
         run: |
           pip install -r requirements.txt
           pip install -r youtube_pipeline/requirements.txt
-          pip install beautifulsoup4
 
       - name: 記事取得・要約・HTML生成
         env:
@@ -66,23 +65,36 @@ jobs:
         id: date
         run: echo "value=$(TZ=Asia/Tokyo date '+%Y-%m-%d')" >> "$GITHUB_OUTPUT"
 
-      - name: 音声生成 (Fish Audio TTS)
+      - name: ① ダイアログ変換 (記号除去 + 2人掛け合い化)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWS_TEXT_PATH: output/news.txt
+          DIALOGUE_JSON_PATH: output/dialogue.json
+        run: python youtube_pipeline/prepare_dialogue.py
+
+      - name: ② 音声生成 (2人キャスター + 1.5倍速)
         env:
           FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
-          NEWS_TEXT_PATH: output/news.txt
+          FISH_VOICE_ID_A: ${{ secrets.FISH_VOICE_ID_A }}
+          FISH_VOICE_ID_B: ${{ secrets.FISH_VOICE_ID_B }}
+          AUDIO_SPEED: "1.5"
+          DIALOGUE_JSON_PATH: output/dialogue.json
           NEWS_AUDIO_PATH: output/news.mp3
+          TIMING_JSON_PATH: output/timing.json
         run: python youtube_pipeline/generate_audio.py
 
-      - name: 動画生成 (画像 + 音声 → MP4)
+      - name: ③ 動画生成 (オープニング + スライドショー + エンディング)
         env:
           NEWS_DATE: ${{ steps.date.outputs.value }}
-          NEWS_TEXT_PATH: output/news.txt
+          DIALOGUE_JSON_PATH: output/dialogue.json
+          TIMING_JSON_PATH: output/timing.json
           NEWS_AUDIO_PATH: output/news.mp3
           NEWS_VIDEO_PATH: output/news.mp4
           NEWS_THUMB_PATH: output/thumbnail.png
+          SLIDES_DIR: output/slides
         run: python youtube_pipeline/generate_video.py
 
-      - name: YouTube アップロード
+      - name: ④ YouTube アップロード
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
