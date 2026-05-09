@@ -42,7 +42,7 @@
     <div class="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
       <div>
         <h1 class="text-lg font-bold leading-tight">📰 今日のAIニュース</h1>
-        <p class="text-blue-200 text-xs mt-0.5">2026年05月10日 &nbsp;|&nbsp; 最終更新: 00:00 JST</p>
+        <p class="text-blue-200 text-xs mt-0.5">2026年05月10日 &nbsp;|&nbsp; 最終更新: 05:02 JST</p>
       </div>
       <button
         onclick="document.documentElement.classList.toggle('dark'); localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light')"
@@ -66,7 +66,7 @@
           <div class="flex items-start justify-between gap-2 mb-1">
             <div class="flex items-center gap-2 flex-wrap">
               <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#1</span>
-              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
             </div>
             <span class="text-sm whitespace-nowrap">
               <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
@@ -74,21 +74,25 @@
           </div>
 
           <h3 class="font-bold text-base leading-snug mb-2">
-            <a href="https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.producthunt.com/products/openai" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              Anthropic・OpenAIがエンタープライズAI市場で激しく競争
+              Codex in Chrome - ブラウザ自動化AIが実用段階に
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AnthropicとOpenAIがエンタープライズAI市場に注力する動きが加速。両社とも企業向けAPIサービスを強化し、大手企業との契約獲得競争が激化。特にエンタープライズ向けのセキュリティ・カスタマイズ機能が差別化のポイントに。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">OpenAIのCodexがChrome拡張として登場し、ブラウザ内のナビゲーションやタスク自動化を実現。従来は手作業だったWebベースの反復作業をAIに委譲できる。
+
+RPA製品の代替として、より柔軟な自動化が可能に。特に情報収集・データ入力・定型的なWeb操作で威力を発揮。
+
+実装コストが低く、既存のブラウザ業務フローに即座に組み込める点が実務向き。中小企業でも導入ハードルが低い。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> 日本企業のAI導入では、ClaudeとChatGPTの機能・価格・セキュリティを比較提案することが必須に
+            💼 <strong>実務ポイント:</strong> RPAツール導入を検討中のクライアントに、より柔軟で安価な選択肢として提案可能
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: TechCrunch AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt</p>
         </article>
         
         <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
@@ -103,21 +107,25 @@
           </div>
 
           <h3 class="font-bold text-base leading-snug mb-2">
-            <a href="https://www.producthunt.com/products/openai" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/plandex-ai/plandex" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              OpenAI Codex、Chrome上でタスク自動化が可能に
+              Plandex - 複雑なコーディングタスク向けAIエンジン
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">OpenAIのCodexがChromeブラウザ上でWebナビゲーションとタスク自動化を実行可能に。ブラウザ操作の自動化により、データ収集・フォーム入力などの定型業務を効率化。開発者向けAPIとして展開予定。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">複数ファイルにまたがる複雑なコーディングタスクを処理するAIエンジンがオープンソースで公開。単純なコード生成を超え、プロジェクト全体の文脈を理解した開発支援を実現。
+
+GitHubで公開されており、既存の開発ワークフローに統合可能。エンタープライズ開発での生産性向上に直結。
+
+従来のCopilot的ツールでは難しかった、設計レベルからの実装支援が可能になる点が革新的。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> RPAの次世代として、ブラウザ操作自動化のPoCを顧客に提案できる具体的なユースケース
+            💼 <strong>実務ポイント:</strong> 大規模開発案件で開発工数30-40%削減の可能性。技術的負債の解消支援にも活用可
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Hacker News</p>
         </article>
         
         <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
@@ -132,28 +140,32 @@
           </div>
 
           <h3 class="font-bold text-base leading-snug mb-2">
-            <a href="https://www.producthunt.com/products/staff-rip" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.producthunt.com/products/kodhau-senior-context-for-ai-agents" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              Staff.rip - 自然言語でコード変更を指示して即デプロイ
+              KodHau - AIエージェントに組織のコンテキストを注入
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">自然言語でコード変更を記述するだけで、AIが実装・テスト・デプロイまで自動実行するツール。開発者はビジネスロジックの記述に集中でき、技術的実装の詳細はAIが担当。GitHub連携で既存ワークフローに統合可能。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AIコーディングツールが本番環境を壊すリスクを軽減。チームの意思決定履歴や設計思想をAIに学習させ、組織固有のベストプラクティスに沿ったコード生成を実現。
+
+大企業特有の「なぜこの実装なのか」という暗黙知をAIに継承させることで、属人化リスクを低減。
+
+オンボーディング期間の短縮や、退職者のナレッジ保全にも活用できる実務的価値が高い。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> 非エンジニアでもシステム改修が可能になり、内製化支援のハードルが大幅に下がる
+            💼 <strong>実務ポイント:</strong> レガシーシステム保守やドキュメント不足プロジェクトで即効性あり。ナレッジマネジメント施策としても提案可
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt</p>
         </article>
         
         <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
           <div class="flex items-start justify-between gap-2 mb-1">
             <div class="flex items-center gap-2 flex-wrap">
               <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#4</span>
-              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
             </div>
             <span class="text-sm whitespace-nowrap">
               <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
@@ -161,21 +173,25 @@
           </div>
 
           <h3 class="font-bold text-base leading-snug mb-2">
-            <a href="https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.producthunt.com/products/staff-rip" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              Cloudflare、AI効率化で1,100職種が不要に - 売上は過去最高
+              Staff.rip - 自然言語でコード変更を即デプロイ
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">Cloudflareが初の大規模レイオフを実施。CEO曰く、AIによる効率化でサポート・運用職種1,100が不要になった一方、売上は過去最高を記録。AI導入による生産性向上と雇用減少のリアルな事例。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">コード変更を自然言語で記述するだけで実装・デプロイまで完結するツール。非エンジニアでもシステム改修を指示できる時代の到来を示唆。
+
+DevOpsパイプラインとの統合により、テストからリリースまで自動化。小規模な機能追加や修正を劇的に高速化。
+
+ビジネスサイドの要望を即座にシステムに反映できるため、アジリティが飛躍的に向上する。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> AI導入による業務効率化の定量効果を示す重要な先行事例。組織変革提案の説得材料に
+            💼 <strong>実務ポイント:</strong> DX推進の切り札。ビジネス部門の自律的なシステム改善を実現し、IT部門の負荷を軽減
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: TechCrunch AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt</p>
         </article>
         
         <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
@@ -190,21 +206,25 @@
           </div>
 
           <h3 class="font-bold text-base leading-snug mb-2">
-            <a href="https://www.producthunt.com/products/kodhau-senior-context-for-ai-agents" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.producthunt.com/products/clawtick" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              KodHau - AIエージェントにチーム意思決定の文脈を提供
+              ClawTick - AIエージェント向けゼロインフラCronジョブ
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AIエージェントが本番環境を壊さないよう、チームの意思決定・コーディング規約・過去の失敗事例を文脈として提供するツール。AIコード生成の品質と安全性を組織知で担保。Slack/GitHub連携で自動学習。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AIエージェントの定期実行をコマンド一発で実現。インフラ構築不要で、スケジュール実行環境を即座に獲得できる。
+
+従来はサーバー管理が必須だった定期バッチ処理を、完全マネージドで提供。AIエージェントの実用化を加速。
+
+中小企業でもインフラエンジニア不在で本格的なAI自動化を導入できる環境が整いつつある。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> AIコード生成導入時の品質管理・ガバナンス課題への実践的なソリューション
+            💼 <strong>実務ポイント:</strong> AIエージェント導入の最大の障壁だった運用負荷を解消。PoC→本番移行のハードルが大幅に低下
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt</p>
         </article>
         
         <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
@@ -219,21 +239,25 @@
           </div>
 
           <h3 class="font-bold text-base leading-snug mb-2">
-            <a href="https://www.producthunt.com/products/clawtick" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.producthunt.com/products/nylas" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              ClawTick - AIエージェント向けCronジョブをゼロインフラで実現
+              Nylas CLI - AIエージェント向けメール・カレンダー統合
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AIエージェントの定期実行をワンコマンドで設定できるサービス。インフラ構築不要で、スケジューリング・リトライ・監視が自動化。マルチエージェントのワークフロー管理にも対応。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AIエージェントがメール・カレンダー・連絡先を直接操作できるCLIツール。ビジネスコミュニケーションの自動化が現実的に。
+
+スケジュール調整、メール対応、会議準備などのルーチンワークをAIに委譲可能に。アシスタント業務の自動化に直結。
+
+API統合により、既存の業務システムとシームレスに連携。エンタープライズでの採用障壁が低い。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> AIエージェント本格運用時のインフラ課題を解決。PoC→本番移行を加速できる
+            💼 <strong>実務ポイント:</strong> バックオフィス業務の自動化で即効性。特に営業・カスタマーサポート部門で工数削減効果大
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt</p>
         </article>
         
         <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
@@ -248,21 +272,25 @@
           </div>
 
           <h3 class="font-bold text-base leading-snug mb-2">
-            <a href="https://www.producthunt.com/products/nylas" target="_blank" rel="noopener noreferrer"
+            <a href="https://news.ycombinator.com/item?id=41590682" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              Nylas CLI - AIエージェント向けメール・カレンダー・連絡先API
+              Sourcetable - AIスプレッドシート&amp;データプラットフォーム
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AIエージェントがメール送受信・カレンダー管理・連絡先操作を行うための統合API。Gmail/Outlook等の主要サービスに対応。スケジュール調整・メール対応の自動化が簡単に実装可能。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">Show HNで紹介されたAI統合型スプレッドシート。Excel/Googleスプレッドシートの使い勝手を保ちつつ、AI分析機能を実装。
+
+データ分析の民主化を推進。非データサイエンティストでも高度な分析が可能に。BIツールとスプレッドシートの中間的存在。
+
+既存のスプレッドシート文化を持つ日本企業にとって、最も導入しやすいAIツールの一つになる可能性。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> 営業・カスタマーサポートのAI自動化で即実装できる基盤技術
+            💼 <strong>実務ポイント:</strong> データドリブン経営を推進したいがBIツール導入に抵抗ある企業への橋渡し役として最適
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Hacker News</p>
         </article>
         
         <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
@@ -277,21 +305,25 @@
           </div>
 
           <h3 class="font-bold text-base leading-snug mb-2">
-            <a href="https://www.producthunt.com/products/noteweave" target="_blank" rel="noopener noreferrer"
+            <a href="https://twigg.ai" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              Noteweave - リサーチから実行計画まで数時間で生成
+              Twigg.ai - LLM向けGit的コンテキスト管理
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">市場調査・競合分析から実行可能なプロダクション計画まで、AIが数時間で生成。複数ソースからの情報統合・分析・アクションプラン作成を自動化。戦略立案の初速を大幅に向上。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">LLMのコンテキスト管理をGitのように扱えるインターフェース。プロンプトのバージョン管理や変更履歴の追跡が可能に。
+
+AI活用が進むほど課題となる「どのプロンプトがどの結果を生んだか」の管理問題を解決。再現性と品質管理を実現。
+
+エンタープライズでのAI活用における統制・ガバナンスの基盤技術として注目。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> コンサルティングの提案書作成・市場調査フェーズを大幅に効率化できる
+            💼 <strong>実務ポイント:</strong> AI活用の成熟度が上がった企業で必須のツール。プロンプトエンジニアリングの組織的蓄積に貢献
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Hacker News</p>
         </article>
         
         <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
@@ -308,19 +340,23 @@
           <h3 class="font-bold text-base leading-snug mb-2">
             <a href="https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              Nvidia、2026年だけでAI関連株式投資に400億ドル投入
+              NvidiaがAI企業に400億ドルの株式投資
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">NvidiaがAIエコシステムへの投資を加速。2026年既に400億ドルをAI企業の株式取得に充当。AIインフラ・開発ツール・アプリケーション企業への戦略投資を拡大し、エコシステム全体を囲い込み。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">Nvidiaが2026年だけで既に400億ドル相当のAI関連企業への株式投資をコミット。単なるチップベンダーからAIエコシステムの投資家へ進化。
+
+ハードウェア販売に留まらず、AI産業全体の成長に賭ける戦略。投資先企業は資金とGPUアクセスの両方を獲得。
+
+日本のAIスタートアップにとっても、Nvidia経由の資金調達ルートが現実的な選択肢に。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> Nvidia投資先企業の製品は今後主流化する可能性が高く、技術選定の参考指標に
+            💼 <strong>実務ポイント:</strong> クライアントのAI投資判断材料に。NvidiaがバックアップするAI技術は実用化確度が高いと評価可
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: TechCrunch AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: TechCrunch</p>
         </article>
         
         <article class="border-l-4 rounded-lg p-4 shadow-sm border-yellow-400 bg-yellow-50 dark:bg-gray-800 dark:border-opacity-60">
@@ -335,21 +371,25 @@
           </div>
 
           <h3 class="font-bold text-base leading-snug mb-2">
-            <a href="https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure" target="_blank" rel="noopener noreferrer"
+            <a href="https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/" target="_blank" rel="noopener noreferrer"
                class="hover:underline text-blue-700 dark:text-blue-400">
-              Microsoft、OpenAIのAmazon移籍とAzure批判を警戒していた
+              Intelの株価1年で490%上昇 - AI復活の現実味
             </a>
           </h3>
 
-          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">MicrosoftのNadella CEOとOpenAIのAltman CEOの提携初期、MicrosoftはOpenAIがAmazonに移りAzureを批判することを警戒していたことが判明。クラウドインフラ競争の舞台裏が明らかに。</p>
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">Intelの株価が過去1年で490%上昇。かつてのチップ王者がAI時代に向けた反転攻勢に成功しつつある。
+
+ただしウォール街の期待が実際のターンアラウンドを先行している可能性も。投資家は実態以上に楽観的な見方。
+
+日本企業にとっては、Nvidia一強時代からの選択肢多様化を意味。コスト最適化の可能性が広がる。</p>
 
           
           <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
-            💼 <strong>実務ポイント:</strong> 主要AI企業のクラウド依存関係を理解することで、顧客のインフラ選定を適切に助言できる
+            💼 <strong>実務ポイント:</strong> AIインフラ投資の分散戦略を提案可能に。単一ベンダー依存リスクを指摘する材料としても有効
           </div>
           
 
-          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: The Verge AI</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: TechCrunch</p>
         </article>
         
       </div>
@@ -361,7 +401,7 @@
     <section>
       <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
         <span class="bg-gray-500 text-white text-xs px-2 py-0.5 rounded font-semibold">注目</span>
-        その他 15 件
+        その他 11 件
       </h2>
 
       <ul class="divide-y divide-gray-200 dark:divide-gray-700 bg-white dark:bg-gray-800 rounded-lg shadow-sm overflow-hidden">
@@ -371,10 +411,10 @@
           <div class="min-w-0">
             <a href="https://www.producthunt.com/products/allen-institute-of-artificial-intelligence" target="_blank" rel="noopener noreferrer"
                class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              MolmoAct 2 - 3Dで推論してから行動するオープンロボティクスモデル
+              MolmoAct 2 - 3D推論する次世代ロボティクスモデル
             </a>
             
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">3D空間認識と行動計画を統合したオープンソースのロボット制御AI</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">行動前に3D空間で推論するオープンソースロボットモデル。製造業での活用に期待</p>
             
           </div>
         </li>
@@ -384,88 +424,10 @@
           <div class="min-w-0">
             <a href="https://www.producthunt.com/products/prism-26" target="_blank" rel="noopener noreferrer"
                class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              Prism - 「利用可能」ではなく「最適」な候補者を採用
+              Prism - AI活用の採用プラットフォーム
             </a>
             
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">AI活用で候補者の潜在能力を評価し、最適なマッチングを実現する採用ツール</p>
-            
-          </div>
-        </li>
-        
-        <li class="px-4 py-3 flex items-start gap-3">
-          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
-          <div class="min-w-0">
-            <a href="https://www.producthunt.com/products/how-ai-pilled-are-you" target="_blank" rel="noopener noreferrer"
-               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              How AI-pilled are you? - 組織のAI習熟度を診断
-            </a>
-            
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">組織のAI活用レベルを可視化する診断ツール</p>
-            
-          </div>
-        </li>
-        
-        <li class="px-4 py-3 flex items-start gap-3">
-          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
-          <div class="min-w-0">
-            <a href="https://www.producthunt.com/products/flare-9" target="_blank" rel="noopener noreferrer"
-               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              Flare - GenZ向けAIネイティブ音声SNS
-            </a>
-            
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">音声ファーストのAI搭載ソーシャルアプリ</p>
-            
-          </div>
-        </li>
-        
-        <li class="px-4 py-3 flex items-start gap-3">
-          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
-          <div class="min-w-0">
-            <a href="https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy" target="_blank" rel="noopener noreferrer"
-               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              AIデータセンター建設ラッシュの最新動向
-            </a>
-            
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">大規模AIデータセンター建設が電力網に与える影響と論争</p>
-            
-          </div>
-        </li>
-        
-        <li class="px-4 py-3 flex items-start gap-3">
-          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
-          <div class="min-w-0">
-            <a href="https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games" target="_blank" rel="noopener noreferrer"
-               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              PlayStation、AIをゲーム制作の「強力なツール」と位置付け
-            </a>
-            
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">ソニーがゲーム開発におけるAI活用方針を詳細に説明</p>
-            
-          </div>
-        </li>
-        
-        <li class="px-4 py-3 flex items-start gap-3">
-          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
-          <div class="min-w-0">
-            <a href="https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/" target="_blank" rel="noopener noreferrer"
-               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              Intel株価、1年で490%上昇も実態は不透明
-            </a>
-            
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Intelの復活ストーリーへの期待が株価に先行している可能性</p>
-            
-          </div>
-        </li>
-        
-        <li class="px-4 py-3 flex items-start gap-3">
-          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
-          <div class="min-w-0">
-            <a href="https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/" target="_blank" rel="noopener noreferrer"
-               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              解雇されたOracle従業員、退職金交渉も拒否される
-            </a>
-            
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">リモートワーカー分類でWARN法保護対象外とされたケースも</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">「今いる候補者」ではなく「最適な候補者」を採用するAI人材マッチング</p>
             
           </div>
         </li>
@@ -473,12 +435,38 @@
         <li class="px-4 py-3 flex items-start gap-3">
           <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">実務</span>
           <div class="min-w-0">
-            <a href="https://blog.google/company-news/inside-google/company-announcements/the-small-brief/" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.producthunt.com/products/how-ai-pilled-are-you" target="_blank" rel="noopener noreferrer"
                class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              Google、AIで中小企業向け広告をクリエイティブレジェンドと制作
+              How AI-pilled are you? - 組織のAI成熟度診断
             </a>
             
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">著名クリエイターがAI活用で中小企業の広告制作を支援</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">自社のAI活用レベルを客観的に診断できるアセスメントツール</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://www.producthunt.com/products/sendly-2" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Sendly - AIエージェント向けSMS送信サービス
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">AIエージェントが直接SMS送信できる開発者向けAPI。通知自動化に</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://www.producthunt.com/products/google" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Google Health - 健康管理の新しい関係性
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Googleが健康分野に本格参入。AIによるパーソナライズド医療の入口</p>
             
           </div>
         </li>
@@ -488,10 +476,10 @@
           <div class="min-w-0">
             <a href="https://ascii.jp/elem/000/004/400/4400688/?rss" target="_blank" rel="noopener noreferrer"
                class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              慶應義塾大学、長野県岡谷市でAI×学生×地域産業の特別企画
+              慶應藤田研がシルクフェアでAI×地域産業企画
             </a>
             
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">シルクフェアでAI活用の地域産業活性化プロジェクトを実施</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">長野県岡谷市で学生とAIによる地域産業活性化の実証実験</p>
             
           </div>
         </li>
@@ -499,38 +487,25 @@
         <li class="px-4 py-3 flex items-start gap-3">
           <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
           <div class="min-w-0">
-            <a href="https://github.com/plandex-ai/plandex" target="_blank" rel="noopener noreferrer"
+            <a href="https://ascii.jp/elem/000/004/386/4386154/?rss" target="_blank" rel="noopener noreferrer"
                class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              Plandex - 複雑タスク向けAIコーディングエンジン
+              4380円のシャオミAIネットワークカメラが高コスパ
             </a>
             
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">複雑な開発タスクを自動化するAIコーディングツール</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">2K・360度・AI検知搭載で4380円。見守りカメラの民主化</p>
             
           </div>
         </li>
         
         <li class="px-4 py-3 flex items-start gap-3">
-          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
           <div class="min-w-0">
-            <a href="https://news.ycombinator.com/item?id=41590682" target="_blank" rel="noopener noreferrer"
+            <a href="https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/" target="_blank" rel="noopener noreferrer"
                class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              Sourcetable - AIスプレッドシート&amp;データプラットフォーム
+              Oracle解雇労働者の交渉決裂
             </a>
             
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">AI機能を統合したスプレッドシート型データ分析ツール</p>
-            
-          </div>
-        </li>
-        
-        <li class="px-4 py-3 flex items-start gap-3">
-          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
-          <div class="min-w-0">
-            <a href="https://twigg.ai" target="_blank" rel="noopener noreferrer"
-               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              Twigg.ai - LLM向けGit風コンテキスト管理インターフェース
-            </a>
-            
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">LLMのコンテキストをGitのように管理できるツール</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">リモート分類でWARN法保護外。AI時代の労働者保護に課題</p>
             
           </div>
         </li>
@@ -540,23 +515,36 @@
           <div class="min-w-0">
             <a href="https://arxiv.org/abs/2605.06663" target="_blank" rel="noopener noreferrer"
                class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              EMO: 創発的モジュール性のためのMoE事前学習
+              EMO: Mixture of Expertsの新事前学習手法
             </a>
             
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Mixture of Expertsの新しい事前学習手法に関する研究</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">モジュール性を創発させるMoE事前学習論文。効率的なモデル構築に</p>
             
           </div>
         </li>
         
         <li class="px-4 py-3 flex items-start gap-3">
-          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">実務</span>
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">研究</span>
           <div class="min-w-0">
-            <a href="https://ascii.jp/elem/000/004/386/4386154/?rss" target="_blank" rel="noopener noreferrer"
+            <a href="https://arxiv.org/abs/2605.06627" target="_blank" rel="noopener noreferrer"
                class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
-              4,380円の超コスパネットワークカメラ、AI検知・双方向通話搭載
+              PianoCoRe: 統合ピアノMIDIデータセット
             </a>
             
-            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">シャオミの2K・360°・AI機能付きスマートカメラレビュー</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">洗練されたピアノMIDIデータセット。音楽生成AIの学習に活用</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">研究</span>
+          <div class="min-w-0">
+            <a href="https://arxiv.org/abs/2605.06642" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              StraTA: 強化学習エージェントの戦略的軌道抽象化
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">エージェント型強化学習にインセンティブ設計を組み込む研究</p>
             
           </div>
         </li>
