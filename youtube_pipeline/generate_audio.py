@@ -1,60 +1,176 @@
 """
 generate_audio.py
-Fish Audio API を使って AIニュース本文 → MP3 を生成する。
-GitHub Actions (ubuntu-latest) で動作。
+dialogue.json を読み込み、2人の声で交互に音声生成 → ffmpegで連結 → 1.5倍速MP3を出力
 環境変数:
-  FISH_AUDIO_API_KEY : Fish Audio の APIキー (GitHub Secrets)
-  FISH_VOICE_ID      : 使用する声のID (GitHub Secrets または デフォルト値)
-入力:  output/news.txt  (既存ワークフローが生成したニュース本文)
-出力:  output/news.mp3
+  FISH_AUDIO_API_KEY : Fish Audio APIキー
+  FISH_VOICE_ID_A    : キャスターA（男性風）の声ID
+  FISH_VOICE_ID_B    : キャスターB（女性風）の声ID
+  AUDIO_SPEED        : 再生速度倍率（デフォルト 1.5）
+入力:  output/dialogue.json
+出力:  output/news.mp3, output/timing.json
 """
 
 import os
 import sys
+import json
+import shutil
+import subprocess
+import tempfile
+
+
+def get_audio_duration(path: str) -> float:
+    """ffprobeで音声の長さ（秒）を取得"""
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", path],
+        capture_output=True, text=True
+    )
+    try:
+        return float(result.stdout.strip())
+    except ValueError:
+        return 0.0
 
 
 def main() -> None:
-    api_key  = os.environ.get("FISH_AUDIO_API_KEY", "")
-    voice_id = os.environ.get("FISH_VOICE_ID", "f1d92c18f84e47c6b5bc0cebb80ddaf5")
-    text_path = os.environ.get("NEWS_TEXT_PATH", "output/news.txt")
-    audio_path = os.environ.get("NEWS_AUDIO_PATH", "output/news.mp3")
+    api_key = os.environ.get("FISH_AUDIO_API_KEY", "")
+    voice_a = os.environ.get("FISH_VOICE_ID_A", "f1d92c18f84e47c6b5bc0cebb80ddaf5")
+    voice_b = os.environ.get("FISH_VOICE_ID_B", "4be4823b28884678b6c5bd1785516652")
+    speed   = float(os.environ.get("AUDIO_SPEED", "1.5"))
+
+    dialogue_path = os.environ.get("DIALOGUE_JSON_PATH", "output/dialogue.json")
+    out_path      = os.environ.get("NEWS_AUDIO_PATH",   "output/news.mp3")
+    timing_path   = os.environ.get("TIMING_JSON_PATH",  "output/timing.json")
 
     if not api_key:
-        print("[エラー] FISH_AUDIO_API_KEY が設定されていません")
+        print("[エラー] FISH_AUDIO_API_KEY 未設定")
         sys.exit(1)
 
-    if not os.path.exists(text_path):
-        print(f"[エラー] ニューステキストが見つかりません: {text_path}")
+    if not os.path.exists(dialogue_path):
+        print(f"[エラー] {dialogue_path} が見つかりません")
         sys.exit(1)
 
-    with open(text_path, encoding="utf-8") as f:
-        text = f.read().strip()
-
-    if not text:
-        print("[エラー] ニューステキストが空です")
-        sys.exit(1)
-
-    print(f"[音声生成] テキスト長: {len(text)} 文字")
-    print(f"[音声生成] 声ID: {voice_id}")
+    with open(dialogue_path, encoding="utf-8") as f:
+        dialogue = json.load(f)
 
     try:
         from fish_audio_sdk import Session, TTSRequest
     except ImportError:
-        print("[エラー] fish-audio-sdk がインストールされていません: pip install fish-audio-sdk")
+        print("[エラー] fish-audio-sdk 未インストール")
         sys.exit(1)
 
-    os.makedirs(os.path.dirname(audio_path), exist_ok=True)
+    session = Session(api_key)
+
+    # フラットなセリフ列に整形しつつタイミング情報を記録
+    flat_lines = []
+    timing = {"opening_lines": 0, "topics": [], "closing_lines": 0}
+
+    for line in dialogue.get("opening", []):
+        flat_lines.append(line)
+        timing["opening_lines"] += 1
+
+    for topic in dialogue.get("topics", []):
+        timing["topics"].append({
+            "title": topic.get("title", ""),
+            "n_lines": len(topic.get("lines", []))
+        })
+        for line in topic.get("lines", []):
+            flat_lines.append(line)
+
+    for line in dialogue.get("closing", []):
+        flat_lines.append(line)
+        timing["closing_lines"] += 1
+
+    if not flat_lines:
+        print("[エラー] セリフが0件")
+        sys.exit(1)
+
+    print(f"[音声生成] {len(flat_lines)}セリフ・{speed}倍速")
+
+    tmpdir = tempfile.mkdtemp()
+    audio_files = []
+    durations = []
 
     try:
-        session = Session(api_key)
-        with open(audio_path, "wb") as f:
-            for chunk in session.tts(TTSRequest(reference_id=voice_id, text=text)):
-                f.write(chunk)
-        size_kb = os.path.getsize(audio_path) // 1024
-        print(f"[音声生成完了] {audio_path} ({size_kb} KB)")
-    except Exception as e:
-        print(f"[エラー] Fish Audio API 呼び出し失敗: {e}")
-        sys.exit(1)
+        for i, line in enumerate(flat_lines, 1):
+            speaker = line.get("speaker", "A")
+            text    = (line.get("text", "") or "").strip()
+            if not text:
+                durations.append(0.0)
+                continue
+
+            voice_id = voice_a if speaker == "A" else voice_b
+            chunk_path = os.path.join(tmpdir, f"chunk_{i:04d}.mp3")
+
+            preview = text[:40].replace("\n", " ")
+            print(f"  [{i:>3}/{len(flat_lines)}] {speaker}: {preview}...", end="", flush=True)
+            try:
+                with open(chunk_path, "wb") as f:
+                    for chunk in session.tts(TTSRequest(reference_id=voice_id, text=text)):
+                        f.write(chunk)
+            except Exception as e:
+                print(f"\n[エラー] Fish Audio API失敗: {e}")
+                sys.exit(1)
+
+            audio_files.append(chunk_path)
+            # 1.5倍速後の長さ
+            dur = get_audio_duration(chunk_path) / speed
+            durations.append(dur)
+            print(f" {dur:.1f}秒")
+
+        # 全チャンクを連結
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        concat_file = os.path.join(tmpdir, "concat.txt")
+        with open(concat_file, "w") as f:
+            for af in audio_files:
+                f.write(f"file '{af}'\n")
+
+        tmp_concat = os.path.join(tmpdir, "concat.mp3")
+        print(f"\n[連結中]...")
+        subprocess.run(
+            ["ffmpeg", "-y", "-f", "concat", "-safe", "0",
+             "-i", concat_file, "-c", "copy", tmp_concat],
+            check=True, capture_output=True
+        )
+
+        # 速度変更（atempoは0.5〜2.0が一回の上限）
+        print(f"[速度変更] {speed}倍速")
+        atempo_chain = build_atempo_chain(speed)
+        subprocess.run(
+            ["ffmpeg", "-y", "-i", tmp_concat,
+             "-filter:a", atempo_chain,
+             "-b:a", "192k", out_path],
+            check=True, capture_output=True
+        )
+
+        size_kb = os.path.getsize(out_path) // 1024
+        total = sum(durations)
+        print(f"[音声完成] {out_path} ({size_kb}KB / {total:.1f}秒)")
+
+        # タイミング情報を保存
+        timing["durations"] = durations
+        timing["total_duration"] = total
+        with open(timing_path, "w", encoding="utf-8") as f:
+            json.dump(timing, f, ensure_ascii=False, indent=2)
+        print(f"[タイミング保存] {timing_path}")
+
+    finally:
+        shutil.rmtree(tmpdir, ignore_errors=True)
+
+
+def build_atempo_chain(speed: float) -> str:
+    """atempoは0.5〜2.0までの制約があるので必要なら多段にする"""
+    if speed <= 0:
+        return "atempo=1.0"
+    chain = []
+    s = speed
+    while s > 2.0:
+        chain.append("atempo=2.0")
+        s /= 2.0
+    while s < 0.5:
+        chain.append("atempo=0.5")
+        s /= 0.5
+    chain.append(f"atempo={s:.4f}")
+    return ",".join(chain)
 
 
 if __name__ == "__main__":
