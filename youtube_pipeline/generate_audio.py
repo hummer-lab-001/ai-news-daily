@@ -33,8 +33,8 @@ def get_audio_duration(path: str) -> float:
 
 def main() -> None:
     api_key = os.environ.get("FISH_AUDIO_API_KEY", "")
-    voice_a = os.environ.get("FISH_VOICE_ID_A", "f1d92c18f84e47c6b5bc0cebb80ddaf5")
-    voice_b = os.environ.get("FISH_VOICE_ID_B", "4be4823b28884678b6c5bd1785516652")
+    voice_a = os.environ.get("FISH_VOICE_ID_A") or "f1d92c18f84e47c6b5bc0cebb80ddaf5"
+    voice_b = os.environ.get("FISH_VOICE_ID_B") or "4be4823b28884678b6c5bd1785516652"
     speed   = float(os.environ.get("AUDIO_SPEED", "1.5"))
 
     dialogue_path = os.environ.get("DIALOGUE_JSON_PATH", "output/dialogue.json")
