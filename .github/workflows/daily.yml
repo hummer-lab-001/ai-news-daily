@@ -22,7 +22,10 @@ jobs:
           cache: 'pip'
 
       - name: 依存パッケージをインストール
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install -r youtube_pipeline/requirements.txt
+          pip install beautifulsoup4
 
       - name: 記事取得・要約・HTML生成
         env:
@@ -37,6 +40,67 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
+
+      - name: ニュース本文をテキスト抽出
+        run: |
+          mkdir -p output
+          python << 'EOF'
+          from bs4 import BeautifulSoup
+          with open('docs/index.html', encoding='utf-8') as f:
+              soup = BeautifulSoup(f.read(), 'html.parser')
+          for tag in soup(['script', 'style', 'nav', 'footer']):
+              tag.decompose()
+          text = soup.get_text(separator='\n', strip=True)
+          lines = [line for line in text.split('\n') if line.strip()]
+          with open('output/news.txt', 'w', encoding='utf-8') as f:
+              f.write('\n'.join(lines))
+          print(f'[完了] news.txt 生成: {len(lines)} 行')
+          EOF
+
+      - name: ffmpeg と日本語フォントをインストール
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y --no-install-recommends ffmpeg fonts-noto-cjk
+
+      - name: 放送日を取得
+        id: date
+        run: echo "value=$(TZ=Asia/Tokyo date '+%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
+      - name: 音声生成 (Fish Audio TTS)
+        env:
+          FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
+          NEWS_TEXT_PATH: output/news.txt
+          NEWS_AUDIO_PATH: output/news.mp3
+        run: python youtube_pipeline/generate_audio.py
+
+      - name: 動画生成 (画像 + 音声 → MP4)
+        env:
+          NEWS_DATE: ${{ steps.date.outputs.value }}
+          NEWS_TEXT_PATH: output/news.txt
+          NEWS_AUDIO_PATH: output/news.mp3
+          NEWS_VIDEO_PATH: output/news.mp4
+          NEWS_THUMB_PATH: output/thumbnail.png
+        run: python youtube_pipeline/generate_video.py
+
+      - name: YouTube アップロード
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          NEWS_DATE: ${{ steps.date.outputs.value }}
+          NEWS_TEXT_PATH: output/news.txt
+          NEWS_VIDEO_PATH: output/news.mp4
+          NEWS_THUMB_PATH: output/thumbnail.png
+        run: python youtube_pipeline/upload_youtube.py
+
+      - name: 結果をサマリー表示
+        if: always()
+        run: |
+          if [ -f output/youtube_video_id.txt ]; then
+            VIDEO_ID=$(cat output/youtube_video_id.txt)
+            echo "## ✅ YouTube アップロード成功" >> "$GITHUB_STEP_SUMMARY"
+            echo "🎬 https://youtube.com/watch?v=${VIDEO_ID}" >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: アーカイブをコミット
         run: |
