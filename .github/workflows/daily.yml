@@ -34,6 +34,31 @@ jobs:
           python -m src.summarize
           python -m src.build
 
+      - name: HTMLにキャッシュ無効化メタタグを注入（iPhoneアプリ対策）
+        run: |
+          python << 'EOF'
+          import os, re
+          for root, dirs, files in os.walk('docs'):
+              for fn in files:
+                  if not fn.endswith('.html'):
+                      continue
+                  path = os.path.join(root, fn)
+                  with open(path, encoding='utf-8') as f:
+                      html = f.read()
+                  if 'Cache-Control' in html:
+                      continue
+                  meta_tags = '''<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+          <meta http-equiv="Pragma" content="no-cache">
+          <meta http-equiv="Expires" content="0">'''
+                  if '<head>' in html:
+                      html = html.replace('<head>', '<head>\n' + meta_tags, 1)
+                  else:
+                      html = meta_tags + '\n' + html
+                  with open(path, 'w', encoding='utf-8') as f:
+                      f.write(html)
+                  print(f'[キャッシュ無効化] {path}')
+          EOF
+
       - name: GitHub Pages にデプロイ
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -72,18 +97,18 @@ jobs:
           DIALOGUE_JSON_PATH: output/dialogue.json
         run: python youtube_pipeline/prepare_dialogue.py
 
-      - name: ② 音声生成 (2人キャスター + 1.5倍速)
+      - name: ② 音声生成 (2人キャスター + 1.2倍速)
         env:
           FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
           FISH_VOICE_ID_A: ${{ secrets.FISH_VOICE_ID_A }}
           FISH_VOICE_ID_B: ${{ secrets.FISH_VOICE_ID_B }}
-          AUDIO_SPEED: "1.5"
+          AUDIO_SPEED: "1.2"
           DIALOGUE_JSON_PATH: output/dialogue.json
           NEWS_AUDIO_PATH: output/news.mp3
           TIMING_JSON_PATH: output/timing.json
         run: python youtube_pipeline/generate_audio.py
 
-      - name: ③ 動画生成 (オープニング + スライドショー + エンディング)
+      - name: ③ 動画生成 (Aoiキャラ + ニューススタジオ風)
         env:
           NEWS_DATE: ${{ steps.date.outputs.value }}
           DIALOGUE_JSON_PATH: output/dialogue.json
