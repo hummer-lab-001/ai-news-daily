@@ -35,7 +35,7 @@ HINA_URL = os.environ.get(
 )
 STUDIO_URL = os.environ.get(
     "STUDIO_IMAGE_URL",
-    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260510_042918_e91d930e-133c-43f3-a3d7-e5e3596f8115.png"
+    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260510_050434_c59ecd08-ff7a-4332-8b84-585c2c069746.png"
 )
 AOI_LOCAL_PATH    = "output/assets/aoi.png"
 HINA_LOCAL_PATH   = "output/assets/hina.png"
@@ -112,25 +112,30 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
     hina_path = download_image(HINA_URL, HINA_LOCAL_PATH)
 
-    # 両キャラ固定サイズ（小さめ）でスタジオを広く見せる
-    char_w = 280
-    char_h = 540
-    char_y = HEIGHT - char_h - 80   # 下寄せ・フッター上に配置
+    # キャラは下半分に配置（モニターを隠さない）
+    char_w = 240
+    char_h = 360
+    char_y = HEIGHT - char_h - 70
 
     aoi_img  = crop_character(aoi_path,  char_w, char_h)
     hina_img = crop_character(hina_path, char_w, char_h)
 
-    if aoi_img:  img.paste(aoi_img,  (10, char_y))
-    if hina_img: img.paste(hina_img, (WIDTH - char_w - 10, char_y))
+    if aoi_img:  img.paste(aoi_img,  (20, char_y))
+    if hina_img: img.paste(hina_img, (WIDTH - char_w - 20, char_y))
 
-    # 中央テキストパネル（固定位置・ずれなし）
+    # モニター位置にテキストパネル（上部・正面の大きいモニターと重ねる）
     overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
     od = ImageDraw.Draw(overlay)
-    panel_left, panel_right = 320, WIDTH - 320
-    panel_top,  panel_bot   = 130, char_y + 40
-    od.rectangle([(panel_left, panel_top), (panel_right, panel_bot)], fill=(5, 15, 35, 215))
+    # モニター位置に合わせて配置（上部中央・横長）
+    panel_left, panel_right = 240, WIDTH - 240
+    panel_top,  panel_bot   = 120, 480
+    # メインパネル（モニター画面感・濃いダーク）
+    od.rectangle([(panel_left, panel_top), (panel_right, panel_bot)], fill=(3, 8, 18, 250))
+    # モニターのベゼル風細枠
     od.rectangle([(panel_left, panel_top), (panel_left + 4, panel_bot)], fill=(*ACCENT, 255))
     od.rectangle([(panel_right - 4, panel_top), (panel_right, panel_bot)], fill=(*ACCENT, 255))
+    od.rectangle([(panel_left, panel_top), (panel_right, panel_top + 4)], fill=(*ACCENT, 255))
+    od.rectangle([(panel_left, panel_bot - 4), (panel_right, panel_bot)], fill=(*ACCENT, 255))
     img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
     draw = ImageDraw.Draw(img)
 
@@ -144,10 +149,10 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     draw.rectangle([(0, HEIGHT - 65), (WIDTH, HEIGHT - 60)], fill=ACCENT)
 
     f_header = find_font(32)
-    f_title  = find_font(38 if mode == "opening" else 34)
-    f_sub    = find_font(24)
+    f_title  = find_font(56 if mode == "opening" else 50)
+    f_sub    = find_font(28)
     f_footer = find_font(22)
-    f_label  = find_font(22)
+    f_label  = find_font(24)
 
     # ヘッダー
     if   mode == "opening": program_label = "OPENING"
@@ -156,24 +161,28 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     draw.text((30, 25), program_label, font=f_header, fill=WHITE)
 
     # LIVEバッジ
-    draw.rectangle([(panel_left + 20, panel_top + 20),
-                    (panel_left + 90, panel_top + 52)], fill=HOT)
-    draw.text((panel_left + 30, panel_top + 24), "LIVE", font=f_label, fill=WHITE)
+    draw.rectangle([(panel_left + 25, panel_top + 25),
+                    (panel_left + 110, panel_top + 62)], fill=HOT)
+    draw.text((panel_left + 38, panel_top + 28), "LIVE", font=f_label, fill=WHITE)
 
-    # タイトル
-    text_left  = panel_left + 20
-    text_right = panel_right - 20
+    # タイトル（影付きで超見やすく）
+    text_left  = panel_left + 30
+    text_right = panel_right - 30
     text_w = text_right - text_left
-    char_per_line = max(8, int(text_w / (f_title.size * 0.6)))
+    char_per_line = max(6, int(text_w / (f_title.size * 0.6)))
     lines = textwrap.wrap(title, width=char_per_line) if title else [""]
-    line_h = f_title.size + 10
+    line_h = f_title.size + 14
     block_h = len(lines) * line_h
-    y = panel_top + 80 + max(0, ((panel_bot - panel_top - 80) - block_h) // 2 - 30)
+    y = panel_top + 90 + max(0, ((panel_bot - panel_top - 90) - block_h) // 2 - 30)
     for line in lines:
+        # 黒い影（後ろに描画）
+        draw.text((text_left + 3, y + 3), line, font=f_title, fill=(0, 0, 0))
+        # 本体（白）
         draw.text((text_left, y), line, font=f_title, fill=WHITE)
         y += line_h
 
     if subtitle:
+        draw.text((text_left + 2, y + 18), subtitle, font=f_sub, fill=(0, 0, 0))
         draw.text((text_left, y + 16), subtitle, font=f_sub, fill=ACCENT)
 
     # フッター
