@@ -160,12 +160,11 @@ def make_studio_slide(title: str, subtitle: str, date_disp: str, out_path: str,
     f_sub    = find_font(26)
     f_footer = find_font(22)
 
-    # ヘッダー（emojiはフォント未対応で□×表示になるため削除）
+    # ヘッダー（日付は表示しない）
     if   mode == "opening": program_label = "OPENING"
     elif mode == "closing": program_label = "ENDING"
     else:                   program_label = "毎日AIニュース"
     draw.text((30, 25), program_label, font=f_header, fill=WHITE)
-    draw.text((WIDTH - 270, 28), date_disp, font=f_date, fill=ACCENT)
 
     # キャスターネームプレートは削除（クリーンな画面に）
 
