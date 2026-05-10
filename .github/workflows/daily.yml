@@ -81,16 +81,52 @@ jobs:
           print(f'[完了] news.txt 生成: {len(lines)} 行')
           EOF
 
+      - name: 重複チェック（前日と同じニュースなら以降スキップ）
+        id: dup_check
+        run: |
+          python << 'EOF'
+          import hashlib, os, sys
+          with open('output/news.txt', encoding='utf-8') as f:
+              current = f.read()
+          current_hash = hashlib.sha256(current.encode('utf-8')).hexdigest()
+          print(f'[ハッシュ] 今日: {current_hash[:16]}...')
+
+          os.makedirs('data', exist_ok=True)
+          last_hash_path = 'data/last_news_hash.txt'
+          if os.path.exists(last_hash_path):
+              with open(last_hash_path) as f:
+                  last_hash = f.read().strip()
+              print(f'[ハッシュ] 前日: {last_hash[:16]}...')
+              if current_hash == last_hash:
+                  print('[スキップ] ニュース内容が前日と同一のため動画生成・アップロードをスキップします')
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                      f.write('skip=true\n')
+                  with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+                      f.write('## ⏭️ 配信スキップ\n')
+                      f.write('ニュース内容が前日と同一のため、動画生成・アップロードをスキップしました。\n')
+                  sys.exit(0)
+
+          # 新しいハッシュを保存
+          with open(last_hash_path, 'w') as f:
+              f.write(current_hash)
+          print('[継続] ニュース内容が更新されています。動画生成に進みます')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('skip=false\n')
+          EOF
+
       - name: ffmpeg と日本語フォントをインストール
+        if: steps.dup_check.outputs.skip != 'true'
         run: |
           sudo apt-get update -q
           sudo apt-get install -y --no-install-recommends ffmpeg fonts-noto-cjk
 
       - name: 放送日を取得
+        if: steps.dup_check.outputs.skip != 'true'
         id: date
         run: echo "value=$(TZ=Asia/Tokyo date '+%Y-%m-%d')" >> "$GITHUB_OUTPUT"
 
       - name: ① ダイアログ変換 (記号除去 + 2人掛け合い化)
+        if: steps.dup_check.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWS_TEXT_PATH: output/news.txt
@@ -98,6 +134,7 @@ jobs:
         run: python youtube_pipeline/prepare_dialogue.py
 
       - name: ② 音声生成 (2人キャスター + 1.2倍速)
+        if: steps.dup_check.outputs.skip != 'true'
         env:
           FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
           FISH_VOICE_ID_A: ${{ secrets.FISH_VOICE_ID_A }}
@@ -109,6 +146,7 @@ jobs:
         run: python youtube_pipeline/generate_audio.py
 
       - name: ③ 動画生成 (Aoiキャラ + ニューススタジオ風)
+        if: steps.dup_check.outputs.skip != 'true'
         env:
           NEWS_DATE: ${{ steps.date.outputs.value }}
           DIALOGUE_JSON_PATH: output/dialogue.json
@@ -120,6 +158,7 @@ jobs:
         run: python youtube_pipeline/generate_video.py
 
       - name: ④ YouTube アップロード
+        if: steps.dup_check.outputs.skip != 'true'
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
@@ -139,7 +178,8 @@ jobs:
             echo "🎬 https://youtube.com/watch?v=${VIDEO_ID}" >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: アーカイブをコミット
+      - name: アーカイブとハッシュをコミット
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
