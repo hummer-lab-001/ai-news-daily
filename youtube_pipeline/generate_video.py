@@ -28,14 +28,19 @@ FONT_FB  = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 # キャラクター画像URL（Higgsfield CloudFront）
 AOI_URL = os.environ.get(
     "AOI_IMAGE_URL",
-    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260509_163956_150d9827-80e9-4102-adc9-c236672044df.png"
+    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260510_011904_d37adc90-702d-42b1-901d-8f9335ede8f2.png"
 )
 HINA_URL = os.environ.get(
     "HINA_IMAGE_URL",
-    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260509_154237_7f9c0cbf-c6ee-4977-b451-8b43fd3cb46c.png"
+    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260510_011127_8249e8cc-ee28-4428-9c46-909d7270fc57.png"
 )
-AOI_LOCAL_PATH  = "output/assets/aoi.png"
-HINA_LOCAL_PATH = "output/assets/hina.png"
+STUDIO_URL = os.environ.get(
+    "STUDIO_IMAGE_URL",
+    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260510_005605_388ec50e-62f4-4f3b-9b2a-2867d6548b57.png"
+)
+AOI_LOCAL_PATH    = "output/assets/aoi.png"
+HINA_LOCAL_PATH   = "output/assets/hina.png"
+STUDIO_LOCAL_PATH = "output/assets/studio.png"
 
 
 def find_font(size: int):
@@ -93,13 +98,29 @@ def make_studio_slide(title: str, subtitle: str, date_disp: str, out_path: str,
     """
     from PIL import Image, ImageDraw, ImageEnhance
 
-    img = Image.new("RGB", (WIDTH, HEIGHT), DARKBG)
+    # ベース：スタジオ背景をフルキャンバスに
+    studio_path = download_image(STUDIO_URL, STUDIO_LOCAL_PATH)
+    if studio_path and os.path.exists(studio_path):
+        try:
+            studio = Image.open(studio_path).convert("RGB")
+            sw, sh = studio.size
+            scale = max(WIDTH / sw, HEIGHT / sh)
+            studio = studio.resize((int(sw * scale), int(sh * scale)), Image.LANCZOS)
+            cw, ch = studio.size
+            studio = studio.crop(((cw - WIDTH) // 2, (ch - HEIGHT) // 2,
+                                  (cw - WIDTH) // 2 + WIDTH, (ch - HEIGHT) // 2 + HEIGHT))
+            img = studio.copy()
+        except Exception as e:
+            print(f"[警告] スタジオ画像配置失敗: {e}")
+            img = Image.new("RGB", (WIDTH, HEIGHT), DARKBG)
+    else:
+        img = Image.new("RGB", (WIDTH, HEIGHT), DARKBG)
 
-    # 左半分にAoi、右半分にHinaを配置
+    # 左にAoi、右にHinaを配置
     aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
     hina_path = download_image(HINA_URL, HINA_LOCAL_PATH)
 
-    char_w = 380
+    char_w = 360
     char_h = 720
     aoi_img  = crop_character(aoi_path,  char_w, char_h)
     hina_img = crop_character(hina_path, char_w, char_h)
@@ -292,8 +313,9 @@ def main() -> None:
     os.makedirs(slides_dir, exist_ok=True)
 
     # 事前ダウンロード（共有キャッシュ）
-    download_image(AOI_URL,  AOI_LOCAL_PATH)
-    download_image(HINA_URL, HINA_LOCAL_PATH)
+    download_image(AOI_URL,    AOI_LOCAL_PATH)
+    download_image(HINA_URL,   HINA_LOCAL_PATH)
+    download_image(STUDIO_URL, STUDIO_LOCAL_PATH)
 
     slide_paths = []
     slide_durs  = []
