@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>今日のAIニュース — 2026年05月11日</title>
+  <meta name="description" content="日本のAIコンサル実務向け毎朝更新AIニュースダッシュボード" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1e40af" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="AI News Daily" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: {} }
+    }
+  </script>
+
+  <style>
+    /* PWAホーム画面アイコン用フォールバック */
+    @media (display-mode: standalone) {
+      body { padding-top: env(safe-area-inset-top); }
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen font-sans">
+
+  <!-- ダークモード切替 -->
+  <script>
+    if (localStorage.getItem('theme') === 'dark' ||
+        (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+
+  <!-- ヘッダ -->
+  <header class="bg-blue-800 dark:bg-blue-950 text-white shadow-lg sticky top-0 z-10">
+    <div class="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div>
+        <h1 class="text-lg font-bold leading-tight">📰 今日のAIニュース</h1>
+        <p class="text-blue-200 text-xs mt-0.5">2026年05月11日 &nbsp;|&nbsp; 最終更新: 05:05 JST</p>
+      </div>
+      <button
+        onclick="document.documentElement.classList.toggle('dark'); localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light')"
+        class="p-2 rounded-full hover:bg-blue-700 transition"
+        aria-label="ダークモード切替"
+      >🌙</button>
+    </div>
+  </header><main class="max-w-2xl mx-auto px-4 py-6 space-y-10">
+
+    <!-- ===== 必読 TOP10 ===== -->
+    <section>
+      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <span class="bg-red-600 text-white text-xs px-2 py-0.5 rounded font-semibold">必読</span>
+        TOP 10
+      </h2>
+
+      
+      <div class="space-y-4">
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#1</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              xAIがAnthropicと大型提携、SpaceXへの影響は
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">xAIとAnthropicが大型提携を発表。TechCrunchのEquityポッドキャストでは、この提携が親会社SpaceXに与える影響について懐疑的な見方を示している。
+
+イーロン・マスク率いるxAIとClaude開発元のAnthropicという競合関係にあった両社の提携は、AI業界の勢力図を大きく変える可能性がある。
+
+SpaceXのリソースやインフラがどう活用されるのか、マスクの他事業との利益相反懸念など、今後の展開が注目される。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 競合大手の提携は日本企業のAIベンダー選定戦略にも影響。複数ベンダー体制の見直しが必要に
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: TechCrunch AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#2</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.producthunt.com/products/openai" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              ChromeでCodexが利用可能に、ブラウザ自動化が加速
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">OpenAIのCodexがChrome拡張機能として提供開始。ブラウザ内のナビゲーションやタスクの自動化をAIが実行できるようになった。
+
+従来のRPA的な定型作業だけでなく、状況判断を伴う複雑なブラウザ操作もAIが代行可能に。業務効率化の新たな選択肢として注目される。
+
+Claude Codeと同様のアプローチで、エージェント型AIの実用化が加速している。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> ブラウザ自動化AIは導入ハードル低く即効性あり。RPA更新時期の企業に代替提案可能
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#3</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.producthunt.com/products/agentpeek" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              AgentPeek: Claude CodeとCodexをMacのノッチで常時監視
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">MacのノッチエリアにClaude CodeとCodexの動作状況を表示するツール「AgentPeek」が登場。AIエージェントの稼働状況を常時モニタリングできる。
+
+バックグラウンドで動作するAIエージェントの「今何をしているか」を可視化し、ユーザーの安心感と制御感を向上させる設計。
+
+複数のAIエージェントを同時運用する際の管理ツールとして、今後需要が高まる可能性がある。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> エージェント監視ツールは企業導入時のガバナンス要件。セキュリティ部門への説明材料に
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#4</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/03585/050800002/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              AIエージェント開発は「正解」なのか？　米国では否定論も
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">日経BPのAI・データラボ所長が、AIエージェント開発の是非について解説。日本では導入が進む一方、AI先進国の米国では「開発するな」との主張も増えている。
+
+過度な自動化によるリスク、人間の判断を介さない業務遂行の危険性、コスト対効果への疑問などが米国で議論されている。
+
+日本企業は米国の失敗事例を学びつつ、自社に適したAIエージェント活用の形を模索する必要がある。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> エージェント導入の成否を分けるのは技術より運用設計。米国の反省を活かした提案を
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: 日経クロステック AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#5</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.producthunt.com/products/notion-3-4" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              Notion 3.4リリース、新ダッシュボード・コネクタ・スマートAIエージェント搭載
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">Notionが大型アップデート版3.4をリリース。新しいダッシュボード機能、外部サービスとのコネクタ、改良されたサイドバー、よりスマートなAIエージェント機能を追加。
+
+企業の情報ハブとしてのNotionの地位をさらに強化する内容で、特にAIエージェントの精度向上が業務効率化に貢献すると期待される。
+
+日本企業でもNotionを情報基盤として採用する動きが加速する可能性がある。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> Notionの進化は社内Wiki・ナレッジベース刷新の好機。情報整理PJと併せて提案
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#6</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.producthunt.com/products/clawtick" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              ClawTick: AIエージェント向けcronジョブをワンコマンドで、インフラ不要
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AIエージェントの定期実行を簡単に設定できる「ClawTick」が登場。従来のcronジョブのようにインフラ構築不要で、ワンコマンドでAIエージェントのスケジュール実行が可能に。
+
+AIエージェントの運用で課題となる「いつ、どのタイミングで実行するか」の管理を大幅に簡素化する。
+
+開発・運用の両面でAIエージェント活用のハードルを下げるツールとして注目される。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> エージェント運用の実務課題を解決。PoC後の本番運用移行時の提案材料に最適
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#7</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.producthunt.com/products/staff-rip" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              Staff.rip: 自然言語でコード変更を指示して即デプロイ
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">コード変更を自然言語で記述するだけで実装・デプロイまで完了する「Staff.rip」が登場。プログラミング知識がなくてもシステム改修が可能に。
+
+開発者不足に悩む企業にとって、ビジネスサイドの人材がシステム改修に関与できる画期的なツールとなる可能性がある。
+
+ただし品質管理やセキュリティ面での運用ルール整備が必須となる。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 非エンジニアによるシステム改修は諸刃の剣。ガバナンス設計とセットで提案すべき
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: Product Hunt AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#8</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/03576/040600001/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              Browser Use導入で既存ブラウザをAI対応化、Chrome・Edge等に対応
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">ChromeやEdgeなどの既存Webブラウザに「Browser Use」を導入することで、AIブラウザとしての機能を追加できる。新しいブラウザへの乗り換え不要。
+
+企業で既に標準化されているブラウザ環境を維持しながら、AI機能を段階的に導入できるメリットがある。
+
+セキュリティポリシーや既存ツールとの互換性を保ちつつAI化を進めたい企業に適している。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 既存ブラウザ環境を活かせるため、IT部門の抵抗が少ない。段階的AI導入の入口に
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: 日経クロステック AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#9</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/00086/00402/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              LINEヤフーが「Agent i」開始、日本市場での独自性を武器に
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">LINEヤフーがAIエージェントの新ブランド「Agent i」を発表。LINEやYahoo! JAPANからワンタップで利用でき、両サービスのデータを活用した提案が可能。
+
+日本国内で圧倒的なユーザー基盤を持つLINEとYahoo!のデータを活かし、OpenAI等の海外勢に対抗する戦略。
+
+日本語・日本市場特化型のAIエージェントとして、企業の顧客接点強化に活用できる可能性がある。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 日本の消費者接点ではLINE活用が鉄板。マーケ・CS部門へのエージェント提案に最適
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: 日経クロステック AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#10</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">実務</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/00142/02617/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              橋梁補修工法を生成AIが提案、八千代エンジニヤリングが支援ツール開発
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">八千代エンジニヤリングが、橋梁の点検調書から損傷原因を分析し、最適な補修工法を自動提案する生成AI支援ツールを開発した。
+
+高度な専門性が求められる橋梁補修設計において、技術者の習熟度によるばらつきや手戻りを削減し、品質の標準化を実現する。
+
+インフラ老朽化が進む日本において、専門技術者不足を補う重要なソリューションとなる可能性がある。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 建設・インフラ業界の技術継承問題に直撃。同様のアプローチを他専門領域にも展開可
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: 日経クロステック AI</p>
+        </article>
+        
+      </div>
+      
+    </section>
+
+    <!-- ===== その他注目 ===== -->
+    
+    <section>
+      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <span class="bg-gray-500 text-white text-xs px-2 py-0.5 rounded font-semibold">注目</span>
+        その他 15 件
+      </h2>
+
+      <ul class="divide-y divide-gray-200 dark:divide-gray-700 bg-white dark:bg-gray-800 rounded-lg shadow-sm overflow-hidden">
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">実務</span>
+          <div class="min-w-0">
+            <a href="https://www.itmedia.co.jp/enterprise/articles/2605/09/news020.html" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              AI面接官の普及で63%が経験済み、改善要望が続出
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">米国ではAI面接官が普及も運用面への注文多数、企業側のデメリットも</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://ascii.jp/elem/000/004/400/4400701/?rss" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Windowsクラッシュ原因をAIで究明する方法
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Windows 11のクラッシュ頻度増加に対し、AIを活用した原因究明手法を解説</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://ascii.jp/elem/000/004/400/4400711/?rss" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              マスク対オープンAI裁判で「引き抜き工作」が明らかに
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">マスクがテスラ内にAIラボ設立しアルトマンCEO含む人材引き抜き図る</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/01111/050100078/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              AI開発の主役はゲーマー？固定概念では置いていかれる
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">ゲーム開発者のAI親和性を無視できず、SIベンダーも変革が必要</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">実務</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/03076/050700025/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              コロプラが「世界初」生成AIゲーム、クリエイター画風を学習
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">作家の画風学習AIでカードイラスト生成、創造力拡張の新アプローチ</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/00148/042700434/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              AIが仕事を奪う？日本以外のITは常にそうだった
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">日本の人手不足は本当か、IT業界の構造的課題への問題提起</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://www.producthunt.com/products/adject" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Adject 2.0: AIで超リアルな商品ビジュアル作成
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">商品撮影をAIで代替、マーケティング素材制作の効率化ツール</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://www.producthunt.com/products/keel-3" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Keel: メモリーが自分に帰属するAIアシスタント
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">ユーザーがAIの記憶データを完全管理できる新しいアシスタント</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">研究</span>
+          <div class="min-w-0">
+            <a href="https://www.producthunt.com/products/allen-institute-of-artificial-intelligence" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              MolmoAct 2: 3D推論する行動前オープンロボティクスモデル
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">行動前に3D空間で推論するオープンソースロボティクスAI</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://www.producthunt.com/products/prism-26" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Prism: 利用可能な候補でなく最高の候補を採用
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">AI活用で採用の質を向上させる人材マッチングツール</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              インドで音声AIは困難、Wispr Flowは挑戦を続ける
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Hinglish対応で成長も音声AI製品は課題多数、インド市場の可能性</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              AI用語解説: ハルシネーションなど重要用語の定義集
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">AI時代の必須用語を平易に解説、ビジネス会話で困らないガイド</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://news.ycombinator.com/item?id=41590682" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Sourcetable: AIスプレッドシート＆データプラットフォーム
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">スプレッドシートとAIを融合した新しいデータ分析基盤</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://github.com/plandex-ai/plandex" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Plandex: 複雑タスク向けAIコーディングエンジン
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">複雑な開発タスクをAIが計画的に実行するコーディング支援ツール</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://twigg.ai" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Twigg.ai: LLM向けGit、コンテキスト管理インターフェース
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">LLMのコンテキストをGitのようにバージョン管理できるツール</p>
+            
+          </div>
+        </li>
+        
+      </ul>
+    </section>
+    
+
+  </main>
+
+  <!-- フッタ -->
+  <footer class="max-w-2xl mx-auto px-4 py-8 mt-4 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-500 dark:text-gray-400 space-y-4">
+
+    <!-- バックナンバー -->
+    
+    <div>
+      <h3 class="font-semibold text-gray-700 dark:text-gray-300 mb-2">📂 バックナンバー(直近30日)</h3>
+      <ul class="flex flex-wrap gap-2">
+        
+        <li>
+          <a href="archive/2026-05-10.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-10
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-09.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-09
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-08.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-08
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-07.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-07
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-06.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-06
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-05.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-05
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-04.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-04
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-03.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-03
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-02.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-02
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-01.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-01
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-30.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-30
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-29.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-29
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-28.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-28
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-27.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-27
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-26.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-26
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-24.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-24
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+    <!-- 取得失敗ソース -->
+    
+
+    <p class="text-xs text-center text-gray-400 pt-2">
+      AI News Daily — 毎朝6:00 JST 自動更新 &nbsp;|&nbsp;
+      <a href="https://github.com/hummer-lab-001/ai-news-daily" class="hover:underline" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
