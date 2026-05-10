@@ -1,8 +1,8 @@
 """
 generate_video.py
-ニューススタジオ風スライド（Aoi + Hina 2人キャスター + 高層ビル背景）を音声に合わせて切り替える動画を生成。
-入力:  output/dialogue.json, output/timing.json, output/news.mp3
-出力:  output/news.mp4, output/thumbnail.png, output/slides/*.png
+ニューススタジオ風スライド（Aoi + Hina + 高層ビル背景）
+- A6: セリフ単位でスピーカーを大きく切り替え
+- A7: クリック率最適化サムネを別途生成
 """
 
 import os
@@ -13,7 +13,6 @@ import subprocess
 import tempfile
 import textwrap
 import urllib.request
-from datetime import datetime
 
 
 WIDTH, HEIGHT = 1280, 720
@@ -22,13 +21,13 @@ ACCENT   = (0, 200, 255)
 WHITE    = (255, 255, 255)
 SUBCOLOR = (180, 220, 255)
 DARKBG   = (5, 15, 35)
+HOT      = (255, 60, 50)
 FONT_JA  = "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
 FONT_FB  = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-# キャラクター画像URL（Higgsfield CloudFront）
 AOI_URL = os.environ.get(
     "AOI_IMAGE_URL",
-    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260510_011904_d37adc90-702d-42b1-901d-8f9335ede8f2.png"
+    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260510_033603_5dae32bb-0432-47b3-99cb-ff78daf251bb.png"
 )
 HINA_URL = os.environ.get(
     "HINA_IMAGE_URL",
@@ -36,7 +35,7 @@ HINA_URL = os.environ.get(
 )
 STUDIO_URL = os.environ.get(
     "STUDIO_IMAGE_URL",
-    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260510_005605_388ec50e-62f4-4f3b-9b2a-2867d6548b57.png"
+    "https://d8j0ntlcm91z4.cloudfront.net/user_33dxZ6VrJEWONHus0sRNp74z8Vt/hf_20260510_042918_e91d930e-133c-43f3-a3d7-e5e3596f8115.png"
 )
 AOI_LOCAL_PATH    = "output/assets/aoi.png"
 HINA_LOCAL_PATH   = "output/assets/hina.png"
@@ -58,7 +57,7 @@ def download_image(url: str, local: str) -> str:
     if os.path.exists(local):
         return local
     os.makedirs(os.path.dirname(local), exist_ok=True)
-    print(f"[キャラ画像] DL: {os.path.basename(local)}")
+    print(f"[画像DL] {os.path.basename(local)}")
     try:
         urllib.request.urlretrieve(url, local)
         return local
@@ -68,7 +67,6 @@ def download_image(url: str, local: str) -> str:
 
 
 def crop_character(image_path: str, target_w: int, target_h: int):
-    """キャラ画像を指定サイズにクロップして返す"""
     from PIL import Image
     if not image_path or not os.path.exists(image_path):
         return None
@@ -78,27 +76,17 @@ def crop_character(image_path: str, target_w: int, target_h: int):
         scale = max(target_w / iw, target_h / ih)
         new_w, new_h = int(iw * scale), int(ih * scale)
         img = img.resize((new_w, new_h), Image.LANCZOS)
-        # 中央クロップ
         left = (new_w - target_w) // 2
-        top  = max(0, (new_h - target_h) // 3)  # 顔が見えるよう上寄り
+        top  = max(0, (new_h - target_h) // 3)
         return img.crop((left, top, left + target_w, top + target_h))
     except Exception as e:
         print(f"[警告] クロップ失敗: {e}")
         return None
 
 
-def make_studio_slide(title: str, subtitle: str, date_disp: str, out_path: str,
-                       mode: str = "topic", active_speaker: str = "A"):
-    """
-    ニューススタジオ風スライド：
-    - 左：Aoi（メインキャスター）
-    - 右：Hina（サブキャスター）
-    - 中央：ニュース見出し
-    - active_speaker = "A" or "B" でハイライト
-    """
-    from PIL import Image, ImageDraw, ImageEnhance
-
-    # ベース：スタジオ背景をフルキャンバスに
+def make_studio_base():
+    """スタジオ背景（共通ベース）"""
+    from PIL import Image
     studio_path = download_image(STUDIO_URL, STUDIO_LOCAL_PATH)
     if studio_path and os.path.exists(studio_path):
         try:
@@ -107,39 +95,58 @@ def make_studio_slide(title: str, subtitle: str, date_disp: str, out_path: str,
             scale = max(WIDTH / sw, HEIGHT / sh)
             studio = studio.resize((int(sw * scale), int(sh * scale)), Image.LANCZOS)
             cw, ch = studio.size
-            studio = studio.crop(((cw - WIDTH) // 2, (ch - HEIGHT) // 2,
-                                  (cw - WIDTH) // 2 + WIDTH, (ch - HEIGHT) // 2 + HEIGHT))
-            img = studio.copy()
+            return studio.crop(((cw - WIDTH) // 2, (ch - HEIGHT) // 2,
+                               (cw - WIDTH) // 2 + WIDTH, (ch - HEIGHT) // 2 + HEIGHT))
         except Exception as e:
             print(f"[警告] スタジオ画像配置失敗: {e}")
-            img = Image.new("RGB", (WIDTH, HEIGHT), DARKBG)
-    else:
-        img = Image.new("RGB", (WIDTH, HEIGHT), DARKBG)
+    return Image.new("RGB", (WIDTH, HEIGHT), DARKBG)
 
-    # 左にAoi、右にHinaを配置
+
+def make_line_slide(title: str, subtitle: str, out_path: str,
+                     mode: str = "topic", active_speaker: str = "A"):
+    """A6: セリフ単位のスライド。喋ってる方を大きく中央寄せ"""
+    from PIL import Image, ImageDraw
+
+    img = make_studio_base()
+
     aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
     hina_path = download_image(HINA_URL, HINA_LOCAL_PATH)
 
-    char_w = 360
-    char_h = 720
-    aoi_img  = crop_character(aoi_path,  char_w, char_h)
-    hina_img = crop_character(hina_path, char_w, char_h)
+    # スピーカーで配置を変える
+    if active_speaker == "A":
+        # Aoi 大（左寄り）/ Hina 小（右端）
+        aoi_w, aoi_h = 460, 720
+        hina_w, hina_h = 220, 380
+        aoi_x, aoi_y = 0, 0
+        hina_x, hina_y = WIDTH - hina_w - 10, HEIGHT - hina_h - 100
+    else:
+        # Hina 大（右寄り）/ Aoi 小（左端）
+        aoi_w, aoi_h = 220, 380
+        hina_w, hina_h = 460, 720
+        aoi_x, aoi_y = 10, HEIGHT - aoi_h - 100
+        hina_x, hina_y = WIDTH - hina_w, 0
 
-    # 両キャラともクリアな明度で表示（フィルターなし）
-    if aoi_img:
-        img.paste(aoi_img, (0, 0))
-    if hina_img:
-        img.paste(hina_img, (WIDTH - char_w, 0))
+    aoi_img  = crop_character(aoi_path,  aoi_w,  aoi_h)
+    hina_img = crop_character(hina_path, hina_w, hina_h)
 
-    # 中央のセンターパネル（半透明ダーク）
+    if active_speaker == "A":
+        if aoi_img:  img.paste(aoi_img,  (aoi_x,  aoi_y))
+        if hina_img: img.paste(hina_img, (hina_x, hina_y))
+    else:
+        if hina_img: img.paste(hina_img, (hina_x, hina_y))
+        if aoi_img:  img.paste(aoi_img,  (aoi_x,  aoi_y))
+
+    # 中央テキストパネル
     overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
     od = ImageDraw.Draw(overlay)
-    panel_left  = char_w - 20
-    panel_right = WIDTH - char_w + 20
-    od.rectangle([(panel_left, 90), (panel_right, HEIGHT - 70)], fill=(5, 15, 35, 230))
-    # 縦アクセントライン
-    od.rectangle([(panel_left, 90),  (panel_left + 4,  HEIGHT - 70)], fill=(*ACCENT, 255))
-    od.rectangle([(panel_right - 4, 90), (panel_right, HEIGHT - 70)], fill=(*ACCENT, 255))
+    panel_top, panel_bot = 200, HEIGHT - 100
+    if active_speaker == "A":
+        panel_left, panel_right = 480, WIDTH - 240
+    else:
+        panel_left, panel_right = 240, WIDTH - 480
+    od.rectangle([(panel_left, panel_top), (panel_right, panel_bot)], fill=(5, 15, 35, 220))
+    od.rectangle([(panel_left, panel_top), (panel_left + 4, panel_bot)], fill=(*ACCENT, 255))
+    od.rectangle([(panel_right - 4, panel_top), (panel_right, panel_bot)], fill=(*ACCENT, 255))
     img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
     draw = ImageDraw.Draw(img)
 
@@ -153,52 +160,37 @@ def make_studio_slide(title: str, subtitle: str, date_disp: str, out_path: str,
     draw.rectangle([(0, HEIGHT - 65), (WIDTH, HEIGHT - 60)], fill=ACCENT)
 
     f_header = find_font(32)
-    f_date   = find_font(32)
-    f_label  = find_font(22)
-    f_name   = find_font(24)
-    f_title  = find_font(46 if mode == "opening" else 40)
-    f_sub    = find_font(26)
+    f_title  = find_font(38 if mode == "opening" else 34)
+    f_sub    = find_font(24)
     f_footer = find_font(22)
+    f_label  = find_font(22)
 
-    # ヘッダー（日付は表示しない）
+    # ヘッダー
     if   mode == "opening": program_label = "OPENING"
     elif mode == "closing": program_label = "ENDING"
     else:                   program_label = "毎日AIニュース"
     draw.text((30, 25), program_label, font=f_header, fill=WHITE)
 
-    # キャスターネームプレートは削除（クリーンな画面に）
+    # LIVEバッジ
+    draw.rectangle([(panel_left + 20, panel_top + 20),
+                    (panel_left + 90, panel_top + 52)], fill=HOT)
+    draw.text((panel_left + 30, panel_top + 24), "LIVE", font=f_label, fill=WHITE)
 
-    # 中央パネル：LIVE バッジ
-    cx_left = panel_left + 30
-    live_y = 110
-    draw.rectangle([(cx_left, live_y), (cx_left + 70, live_y + 32)], fill=(220, 0, 50))
-    draw.text((cx_left + 12, live_y + 4), "LIVE", font=f_label, fill=WHITE)
-    draw.text((cx_left + 90, live_y + 5), "Marunouchi", font=f_label, fill=SUBCOLOR)
-
-    # 中央パネル：メインタイトル
-    text_left  = panel_left + 30
-    text_right = panel_right - 30
+    # タイトル
+    text_left  = panel_left + 20
+    text_right = panel_right - 20
     text_w = text_right - text_left
-
-    # 折り返し計算
     char_per_line = max(8, int(text_w / (f_title.size * 0.6)))
     lines = textwrap.wrap(title, width=char_per_line) if title else [""]
-    line_h = f_title.size + 12
+    line_h = f_title.size + 10
     block_h = len(lines) * line_h
-    y = (HEIGHT - block_h) // 2 - 30
+    y = panel_top + 80 + max(0, ((panel_bot - panel_top - 80) - block_h) // 2 - 30)
     for line in lines:
-        bbox = draw.textbbox((0, 0), line, font=f_title)
-        tw = bbox[2] - bbox[0]
-        x = text_left + (text_w - tw) // 2
-        draw.text((x, y), line, font=f_title, fill=WHITE)
+        draw.text((text_left, y), line, font=f_title, fill=WHITE)
         y += line_h
 
-    # サブタイトル
     if subtitle:
-        bbox = draw.textbbox((0, 0), subtitle, font=f_sub)
-        tw = bbox[2] - bbox[0]
-        x = text_left + (text_w - tw) // 2
-        draw.text((x, y + 16), subtitle, font=f_sub, fill=ACCENT)
+        draw.text((text_left, y + 16), subtitle, font=f_sub, fill=ACCENT)
 
     # フッター
     if   mode == "closing": footer = "チャンネル登録・高評価よろしくお願いします！"
@@ -209,11 +201,64 @@ def make_studio_slide(title: str, subtitle: str, date_disp: str, out_path: str,
     img.save(out_path, "PNG")
 
 
-def topic_majority_speaker(topic_lines):
-    """トピック内で多く喋ってる話者を返す"""
-    a = sum(1 for l in topic_lines if l.get("speaker") == "A")
-    b = sum(1 for l in topic_lines if l.get("speaker") == "B")
-    return "A" if a >= b else "B"
+def make_thumbnail(headline: str, out_path: str):
+    """A7: YouTubeサムネ専用（クリック率最適化版）"""
+    from PIL import Image, ImageDraw, ImageFilter
+
+    img = make_studio_base()
+
+    aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
+    hina_path = download_image(HINA_URL, HINA_LOCAL_PATH)
+
+    aoi_img  = crop_character(aoi_path,  340, 720)
+    hina_img = crop_character(hina_path, 340, 720)
+
+    if aoi_img:  img.paste(aoi_img,  (0, 0))
+    if hina_img: img.paste(hina_img, (WIDTH - 340, 0))
+
+    # 中央パネル（強コントラスト）
+    overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
+    od.rectangle([(310, 100), (WIDTH - 310, HEIGHT - 100)], fill=(5, 15, 35, 235))
+    # 太いアクセント枠
+    od.rectangle([(305, 95), (WIDTH - 305, HEIGHT - 95)], outline=(*ACCENT, 255), width=6)
+    img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
+    draw = ImageDraw.Draw(img)
+
+    # 上部「今日のAIニュース」の帯
+    draw.rectangle([(305, 95), (WIDTH - 305, 165)], fill=ACCENT)
+    f_label = find_font(40)
+    label = "毎日AIニュース"
+    bbox = draw.textbbox((0, 0), label, font=f_label)
+    lw = bbox[2] - bbox[0]
+    draw.text(((WIDTH - lw) // 2, 110), label, font=f_label, fill=DARKBG)
+
+    # メインヘッドライン（超大きく）
+    f_head = find_font(72)
+    head_lines = textwrap.wrap(headline, width=11) if headline else [""]
+    if len(head_lines) > 3:
+        head_lines = head_lines[:3]
+    line_h = f_head.size + 12
+    block_h = len(head_lines) * line_h
+    y = 200 + max(0, (HEIGHT - 300 - block_h) // 2)
+    for line in head_lines:
+        bbox = draw.textbbox((0, 0), line, font=f_head)
+        lw = bbox[2] - bbox[0]
+        x = (WIDTH - lw) // 2
+        # 影
+        draw.text((x + 4, y + 4), line, font=f_head, fill=(0, 0, 0))
+        draw.text((x, y), line, font=f_head, fill=WHITE)
+        y += line_h
+
+    # 下部ホットリボン
+    draw.rectangle([(305, HEIGHT - 165), (WIDTH - 305, HEIGHT - 95)], fill=HOT)
+    f_hot = find_font(36)
+    hot_text = "今日も最新AI"
+    bbox = draw.textbbox((0, 0), hot_text, font=f_hot)
+    hw = bbox[2] - bbox[0]
+    draw.text(((WIDTH - hw) // 2, HEIGHT - 152), hot_text, font=f_hot, fill=WHITE)
+
+    img.save(out_path, "PNG")
 
 
 def make_video(slide_paths, slide_durations, audio_path, out_path):
@@ -223,7 +268,7 @@ def make_video(slide_paths, slide_durations, audio_path, out_path):
         for i, (slide, dur) in enumerate(zip(slide_paths, slide_durations)):
             if dur <= 0.05:
                 continue
-            seg = os.path.join(tmpdir, f"seg_{i:03d}.mp4")
+            seg = os.path.join(tmpdir, f"seg_{i:04d}.mp4")
             r = subprocess.run([
                 "ffmpeg", "-y", "-loop", "1", "-i", slide,
                 "-c:v", "libx264", "-tune", "stillimage",
@@ -270,19 +315,12 @@ def make_video(slide_paths, slide_durations, audio_path, out_path):
 
 
 def main() -> None:
-    date_str   = os.environ.get("NEWS_DATE", datetime.now().strftime("%Y-%m-%d"))
     dlg_path   = os.environ.get("DIALOGUE_JSON_PATH", "output/dialogue.json")
     timing_path= os.environ.get("TIMING_JSON_PATH",   "output/timing.json")
     audio_path = os.environ.get("NEWS_AUDIO_PATH",    "output/news.mp3")
     video_path = os.environ.get("NEWS_VIDEO_PATH",    "output/news.mp4")
     thumb_path = os.environ.get("NEWS_THUMB_PATH",    "output/thumbnail.png")
     slides_dir = os.environ.get("SLIDES_DIR",         "output/slides")
-
-    try:
-        dt = datetime.strptime(date_str, "%Y-%m-%d")
-        date_disp = dt.strftime("%Y年%m月%d日")
-    except ValueError:
-        date_disp = date_str
 
     for p, name in [(audio_path, "音声"), (timing_path, "timing.json"), (dlg_path, "dialogue.json")]:
         if not os.path.exists(p):
@@ -293,64 +331,69 @@ def main() -> None:
         timing = json.load(f)
     with open(dlg_path, encoding="utf-8") as f:
         dialogue = json.load(f)
+
     durations = timing["durations"]
+    line_speakers = timing.get("line_speakers", [])
 
     os.makedirs(slides_dir, exist_ok=True)
 
-    # 事前ダウンロード（共有キャッシュ）
     download_image(AOI_URL,    AOI_LOCAL_PATH)
     download_image(HINA_URL,   HINA_LOCAL_PATH)
     download_image(STUDIO_URL, STUDIO_LOCAL_PATH)
 
+    # ───── A6: セリフ単位スライド生成 ─────
     slide_paths = []
     slide_durs  = []
     cursor = 0
 
-    # オープニング
-    n = timing.get("opening_lines", 0)
-    if n > 0:
-        s = os.path.join(slides_dir, "00_opening.png")
-        # オープニングはAoiが主導
-        make_studio_slide("今日のAIニュース", date_disp, date_disp, s,
-                          mode="opening", active_speaker="A")
+    # オープニング（セリフごと）
+    n_open = timing.get("opening_lines", 0)
+    opening_lines = dialogue.get("opening", [])
+    for i in range(n_open):
+        spk = line_speakers[cursor] if cursor < len(line_speakers) else "A"
+        s = os.path.join(slides_dir, f"00_opening_{i:03d}.png")
+        make_line_slide("今日のAIニュース", "", s, mode="opening", active_speaker=spk)
         slide_paths.append(s)
-        slide_durs.append(sum(durations[cursor:cursor + n]))
-        cursor += n
+        slide_durs.append(durations[cursor] if cursor < len(durations) else 0)
+        cursor += 1
 
-    # トピックごと
-    for i, (timing_topic, dlg_topic) in enumerate(zip(timing.get("topics", []),
-                                                        dialogue.get("topics", []))):
-        s = os.path.join(slides_dir, f"{i+1:02d}_topic.png")
-        title = timing_topic.get("title", f"トピック{i+1}") or f"トピック{i+1}"
-        active = topic_majority_speaker(dlg_topic.get("lines", []))
-        make_studio_slide(title, f"トピック {i+1}", date_disp, s,
-                          mode="topic", active_speaker=active)
-        slide_paths.append(s)
+    # トピック（セリフごと）
+    for ti, (timing_topic, dlg_topic) in enumerate(zip(timing.get("topics", []),
+                                                         dialogue.get("topics", []))):
+        title = timing_topic.get("title", f"トピック{ti+1}") or f"トピック{ti+1}"
         n_lines = timing_topic.get("n_lines", 0)
-        slide_durs.append(sum(durations[cursor:cursor + n_lines]))
-        cursor += n_lines
+        for li in range(n_lines):
+            spk = line_speakers[cursor] if cursor < len(line_speakers) else "A"
+            s = os.path.join(slides_dir, f"{ti+1:02d}_{li:03d}.png")
+            make_line_slide(title, f"トピック {ti+1}", s, mode="topic", active_speaker=spk)
+            slide_paths.append(s)
+            slide_durs.append(durations[cursor] if cursor < len(durations) else 0)
+            cursor += 1
 
-    # クロージング
-    n = timing.get("closing_lines", 0)
-    if n > 0:
-        s = os.path.join(slides_dir, "99_closing.png")
-        # クロージングはHinaが視聴者へ呼びかけ寄り
-        make_studio_slide("ご視聴ありがとうございました", "明日もお楽しみに！", date_disp, s,
-                          mode="closing", active_speaker="B")
+    # クロージング（セリフごと）
+    n_close = timing.get("closing_lines", 0)
+    for i in range(n_close):
+        spk = line_speakers[cursor] if cursor < len(line_speakers) else "B"
+        s = os.path.join(slides_dir, f"99_closing_{i:03d}.png")
+        make_line_slide("ご視聴ありがとうございました", "明日もお楽しみに！", s,
+                        mode="closing", active_speaker=spk)
         slide_paths.append(s)
-        slide_durs.append(sum(durations[cursor:cursor + n]))
-        cursor += n
+        slide_durs.append(durations[cursor] if cursor < len(durations) else 0)
+        cursor += 1
 
     if not slide_paths:
         print("[エラー] スライドが0個")
         sys.exit(1)
 
     print(f"[動画生成] スライド数: {len(slide_paths)} / 合計: {sum(slide_durs):.1f}秒")
-    for i, (p, d) in enumerate(zip(slide_paths, slide_durs)):
-        print(f"  [{i:>2}] {os.path.basename(p)} : {d:.1f}秒")
 
-    shutil.copy(slide_paths[0], thumb_path)
-    print(f"[サムネイル] {thumb_path}")
+    # ───── A7: サムネ生成（メイントピックを使用） ─────
+    main_headline = "今日のAIニュース"
+    topics = dialogue.get("topics", [])
+    if topics:
+        main_headline = topics[0].get("title", main_headline) or main_headline
+    make_thumbnail(main_headline, thumb_path)
+    print(f"[サムネイル] {thumb_path} (見出し: {main_headline})")
 
     make_video(slide_paths, slide_durs, audio_path, video_path)
 
