@@ -125,12 +125,7 @@ def make_studio_slide(title: str, subtitle: str, date_disp: str, out_path: str,
     aoi_img  = crop_character(aoi_path,  char_w, char_h)
     hina_img = crop_character(hina_path, char_w, char_h)
 
-    # スピーカーに応じて明度調整
-    if active_speaker == "A":
-        if hina_img: hina_img = ImageEnhance.Brightness(hina_img).enhance(0.55)
-    else:
-        if aoi_img:  aoi_img  = ImageEnhance.Brightness(aoi_img).enhance(0.55)
-
+    # 両キャラともクリアな明度で表示（フィルターなし）
     if aoi_img:
         img.paste(aoi_img, (0, 0))
     if hina_img:
@@ -165,23 +160,14 @@ def make_studio_slide(title: str, subtitle: str, date_disp: str, out_path: str,
     f_sub    = find_font(26)
     f_footer = find_font(22)
 
-    # ヘッダー
-    if   mode == "opening": program_label = "📺 OPENING"
-    elif mode == "closing": program_label = "🙏 ENDING"
-    else:                   program_label = "🤖 毎日AIニュース"
+    # ヘッダー（emojiはフォント未対応で□×表示になるため削除）
+    if   mode == "opening": program_label = "OPENING"
+    elif mode == "closing": program_label = "ENDING"
+    else:                   program_label = "毎日AIニュース"
     draw.text((30, 25), program_label, font=f_header, fill=WHITE)
     draw.text((WIDTH - 270, 28), date_disp, font=f_date, fill=ACCENT)
 
-    # キャスターネームプレート
-    name_y = HEIGHT - 130
-    # Aoi (左)
-    draw.rectangle([(20, name_y), (260, name_y + 50)],
-                   fill=(*ACCENT, 255) if active_speaker == "A" else (60, 60, 80))
-    draw.text((30, name_y + 8), "🎙 Aoi  メインMC", font=f_name, fill=WHITE)
-    # Hina (右)
-    draw.rectangle([(WIDTH - 260, name_y), (WIDTH - 20, name_y + 50)],
-                   fill=(*ACCENT, 255) if active_speaker == "B" else (60, 60, 80))
-    draw.text((WIDTH - 250, name_y + 8), "🎙 Hina  サブMC", font=f_name, fill=WHITE)
+    # キャスターネームプレートは削除（クリーンな画面に）
 
     # 中央パネル：LIVE バッジ
     cx_left = panel_left + 30
@@ -216,9 +202,9 @@ def make_studio_slide(title: str, subtitle: str, date_disp: str, out_path: str,
         draw.text((x, y + 16), subtitle, font=f_sub, fill=ACCENT)
 
     # フッター
-    if   mode == "closing": footer = "🔔 チャンネル登録・高評価よろしくお願いします！"
-    elif mode == "opening": footer = "📡 毎朝6時 LIVE  |  Morning AI News"
-    else:                   footer = "📡 毎日AIニュース  |  Powered by AI"
+    if   mode == "closing": footer = "チャンネル登録・高評価よろしくお願いします！"
+    elif mode == "opening": footer = "毎朝6時 配信中"
+    else:                   footer = "毎日AIニュース"
     draw.text((30, HEIGHT - 42), footer, font=f_footer, fill=ACCENT)
 
     img.save(out_path, "PNG")
