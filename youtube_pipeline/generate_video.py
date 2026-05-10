@@ -104,7 +104,7 @@ def make_studio_base():
 
 def make_line_slide(title: str, subtitle: str, out_path: str,
                      mode: str = "topic", active_speaker: str = "A"):
-    """A6: セリフ単位のスライド。喋ってる方を大きく中央寄せ"""
+    """静止スライド：両キャラ固定位置、テキスト中央固定（A6撤廃版）"""
     from PIL import Image, ImageDraw
 
     img = make_studio_base()
@@ -112,39 +112,23 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
     hina_path = download_image(HINA_URL, HINA_LOCAL_PATH)
 
-    # スピーカーで配置を変える
-    if active_speaker == "A":
-        # Aoi 大（左寄り）/ Hina 小（右端）
-        aoi_w, aoi_h = 460, 720
-        hina_w, hina_h = 220, 380
-        aoi_x, aoi_y = 0, 0
-        hina_x, hina_y = WIDTH - hina_w - 10, HEIGHT - hina_h - 100
-    else:
-        # Hina 大（右寄り）/ Aoi 小（左端）
-        aoi_w, aoi_h = 220, 380
-        hina_w, hina_h = 460, 720
-        aoi_x, aoi_y = 10, HEIGHT - aoi_h - 100
-        hina_x, hina_y = WIDTH - hina_w, 0
+    # 両キャラ固定サイズ（小さめ）でスタジオを広く見せる
+    char_w = 280
+    char_h = 540
+    char_y = HEIGHT - char_h - 80   # 下寄せ・フッター上に配置
 
-    aoi_img  = crop_character(aoi_path,  aoi_w,  aoi_h)
-    hina_img = crop_character(hina_path, hina_w, hina_h)
+    aoi_img  = crop_character(aoi_path,  char_w, char_h)
+    hina_img = crop_character(hina_path, char_w, char_h)
 
-    if active_speaker == "A":
-        if aoi_img:  img.paste(aoi_img,  (aoi_x,  aoi_y))
-        if hina_img: img.paste(hina_img, (hina_x, hina_y))
-    else:
-        if hina_img: img.paste(hina_img, (hina_x, hina_y))
-        if aoi_img:  img.paste(aoi_img,  (aoi_x,  aoi_y))
+    if aoi_img:  img.paste(aoi_img,  (10, char_y))
+    if hina_img: img.paste(hina_img, (WIDTH - char_w - 10, char_y))
 
-    # 中央テキストパネル
+    # 中央テキストパネル（固定位置・ずれなし）
     overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
     od = ImageDraw.Draw(overlay)
-    panel_top, panel_bot = 200, HEIGHT - 100
-    if active_speaker == "A":
-        panel_left, panel_right = 480, WIDTH - 240
-    else:
-        panel_left, panel_right = 240, WIDTH - 480
-    od.rectangle([(panel_left, panel_top), (panel_right, panel_bot)], fill=(5, 15, 35, 220))
+    panel_left, panel_right = 320, WIDTH - 320
+    panel_top,  panel_bot   = 130, char_y + 40
+    od.rectangle([(panel_left, panel_top), (panel_right, panel_bot)], fill=(5, 15, 35, 215))
     od.rectangle([(panel_left, panel_top), (panel_left + 4, panel_bot)], fill=(*ACCENT, 255))
     od.rectangle([(panel_right - 4, panel_top), (panel_right, panel_bot)], fill=(*ACCENT, 255))
     img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
@@ -341,45 +325,38 @@ def main() -> None:
     download_image(HINA_URL,   HINA_LOCAL_PATH)
     download_image(STUDIO_URL, STUDIO_LOCAL_PATH)
 
-    # ───── A6: セリフ単位スライド生成 ─────
+    # 静止スライド（トピックごとに1枚・効率化）
     slide_paths = []
     slide_durs  = []
     cursor = 0
 
-    # オープニング（セリフごと）
+    # オープニング
     n_open = timing.get("opening_lines", 0)
-    opening_lines = dialogue.get("opening", [])
-    for i in range(n_open):
-        spk = line_speakers[cursor] if cursor < len(line_speakers) else "A"
-        s = os.path.join(slides_dir, f"00_opening_{i:03d}.png")
-        make_line_slide("今日のAIニュース", "", s, mode="opening", active_speaker=spk)
+    if n_open > 0:
+        s = os.path.join(slides_dir, "00_opening.png")
+        make_line_slide("今日のAIニュース", "", s, mode="opening")
         slide_paths.append(s)
-        slide_durs.append(durations[cursor] if cursor < len(durations) else 0)
-        cursor += 1
+        slide_durs.append(sum(durations[cursor:cursor + n_open]))
+        cursor += n_open
 
-    # トピック（セリフごと）
-    for ti, (timing_topic, dlg_topic) in enumerate(zip(timing.get("topics", []),
-                                                         dialogue.get("topics", []))):
+    # トピックごと
+    for ti, timing_topic in enumerate(timing.get("topics", [])):
         title = timing_topic.get("title", f"トピック{ti+1}") or f"トピック{ti+1}"
         n_lines = timing_topic.get("n_lines", 0)
-        for li in range(n_lines):
-            spk = line_speakers[cursor] if cursor < len(line_speakers) else "A"
-            s = os.path.join(slides_dir, f"{ti+1:02d}_{li:03d}.png")
-            make_line_slide(title, f"トピック {ti+1}", s, mode="topic", active_speaker=spk)
-            slide_paths.append(s)
-            slide_durs.append(durations[cursor] if cursor < len(durations) else 0)
-            cursor += 1
-
-    # クロージング（セリフごと）
-    n_close = timing.get("closing_lines", 0)
-    for i in range(n_close):
-        spk = line_speakers[cursor] if cursor < len(line_speakers) else "B"
-        s = os.path.join(slides_dir, f"99_closing_{i:03d}.png")
-        make_line_slide("ご視聴ありがとうございました", "明日もお楽しみに！", s,
-                        mode="closing", active_speaker=spk)
+        s = os.path.join(slides_dir, f"{ti+1:02d}_topic.png")
+        make_line_slide(title, f"トピック {ti+1}", s, mode="topic")
         slide_paths.append(s)
-        slide_durs.append(durations[cursor] if cursor < len(durations) else 0)
-        cursor += 1
+        slide_durs.append(sum(durations[cursor:cursor + n_lines]))
+        cursor += n_lines
+
+    # クロージング
+    n_close = timing.get("closing_lines", 0)
+    if n_close > 0:
+        s = os.path.join(slides_dir, "99_closing.png")
+        make_line_slide("ご視聴ありがとうございました", "明日もお楽しみに！", s, mode="closing")
+        slide_paths.append(s)
+        slide_durs.append(sum(durations[cursor:cursor + n_close]))
+        cursor += n_close
 
     if not slide_paths:
         print("[エラー] スライドが0個")
