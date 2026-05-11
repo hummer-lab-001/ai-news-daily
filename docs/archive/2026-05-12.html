@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>今日のAIニュース — 2026年05月12日</title>
+  <meta name="description" content="日本のAIコンサル実務向け毎朝更新AIニュースダッシュボード" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1e40af" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="AI News Daily" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: {} }
+    }
+  </script>
+
+  <style>
+    /* PWAホーム画面アイコン用フォールバック */
+    @media (display-mode: standalone) {
+      body { padding-top: env(safe-area-inset-top); }
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen font-sans">
+
+  <!-- ダークモード切替 -->
+  <script>
+    if (localStorage.getItem('theme') === 'dark' ||
+        (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+
+  <!-- ヘッダ -->
+  <header class="bg-blue-800 dark:bg-blue-950 text-white shadow-lg sticky top-0 z-10">
+    <div class="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div>
+        <h1 class="text-lg font-bold leading-tight">📰 今日のAIニュース</h1>
+        <p class="text-blue-200 text-xs mt-0.5">2026年05月12日 &nbsp;|&nbsp; 最終更新: 06:53 JST</p>
+      </div>
+      <button
+        onclick="document.documentElement.classList.toggle('dark'); localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light')"
+        class="p-2 rounded-full hover:bg-blue-700 transition"
+        aria-label="ダークモード切替"
+      >🌙</button>
+    </div>
+  </header><main class="max-w-2xl mx-auto px-4 py-6 space-y-10">
+
+    <!-- ===== 必読 TOP10 ===== -->
+    <section>
+      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <span class="bg-red-600 text-white text-xs px-2 py-0.5 rounded font-semibold">必読</span>
+        TOP 10
+      </h2>
+
+      
+      <div class="space-y-4">
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#1</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">実務</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://ascii.jp/elem/000/004/401/4401065/?rss" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              【AIエージェント研修】非エンジニア向けClaude Code法人研修サービス提供開始
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">セキュリティを重視した内容で、非エンジニア向けのClaude Code法人研修サービスが提供開始。企業のAIエージェント活用を現場レベルで加速させる実践的なプログラム。
+
+法人向けに特化した研修内容で、情報セキュリティリスクに配慮しながらClaude Codeを業務活用できる人材育成を支援。現場の非エンジニアがAIエージェントを安全に使いこなすための実務的なトレーニングを提供。
+
+企業のAI導入において、技術部門だけでなく全社的なAI活用を推進するための重要な教育インフラとして期待される。セキュリティガバナンスとAI活用の両立がポイント。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 全社的AI活用の鍵は非エンジニア教育。セキュリティ重視の法人研修は顧客提案の差別化要素になる。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ASCII.jp AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#2</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/business/articles/2605/11/news014.html" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              NEC×Anthropic協業は「想像以上の反響」　社長対談で語られた日本AI戦略
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">NECとAnthropicの電撃的協業について両社社長が対談。日本市場における反響の大きさと、日本企業に最適化されたAI開発戦略が明らかに。
+
+日本企業の業務特性や規制環境に合わせたClaude活用の具体的な展開が語られ、日の丸AIとしての差別化戦略が示された。エンタープライズ向けの信頼性とセキュリティが重視される。
+
+大手SIerとトップAIラボの協業により、日本企業のAI導入が加速する可能性が高まっている。企業向けAIソリューションの選択肢が大きく広がる転換点。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> NEC経由のClaude活用は日本企業の稟議を通しやすい。エンタープライズ案件の提案材料として有効。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#3</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://atmarkit.itmedia.co.jp/ait/articles/2605/12/news009.html" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              GPT-5.5が開発者に熱狂される理由は「最後まで自走する力」
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">GPT-5.5はベンチマーク性能で絶対王者ではないが、開発者が熱狂する理由は「最後まで自走する力」にある。Codexとの組み合わせによる実装完遂能力が評価されている。
+
+トークン効率の良さと、途中で止まらずにタスクを完了させる信頼性が実務での使い勝手を大きく向上させている。ベンチマークだけでは測れない実践的な価値。
+
+開発現場では数値性能よりも「使える」かどうかが重要。GPT-5.5は実装の最終段階まで伴走できるため、実際の開発生産性向上に直結する。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> ベンチマーク重視から実用性重視へ。顧客のAI選定基準も「完遂力」で再評価すべき時期。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#4</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://atmarkit.itmedia.co.jp/ait/articles/2605/11/news041.html" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              AIエージェントがFigmaでデザイン作成・編集可能に　意図しないUI生成を防ぐ仕組み搭載
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">Figma社がAIエージェントによるキャンバス上での直接的なデザイン作成・編集機能を提供開始。意図しないデザイン生成を防ぐセーフガード機能も実装。
+
+AIエージェントがデザインツールを直接操作できることで、デザインプロセスの自動化が大きく進展。人間のデザイナーとAIの協働体制が実現可能に。
+
+デザイン業務におけるAI活用の新しい形態として、単なる生成ツールから実行エージェントへの進化を示す事例。品質管理とのバランスが今後の課題。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> デザイン工程のAI自動化提案が可能に。制作会社やインハウスデザイン部門への導入支援機会。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#5</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/aiplus/articles/2605/11/news122.html" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              日本のAI普及率、世界平均の3倍ペースで上昇　日本語性能改善が要因
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">Microsoftレポートによると、日本のAI普及率が世界平均の3倍ペースで上昇。主要因は各AIモデルの日本語性能向上にある。
+
+言語の壁が解消されたことで、日本企業でのAI導入が急速に進展。特にビジネスコミュニケーションや文書作成での活用が広がっている。
+
+日本市場特有の「品質重視」文化に対応できる日本語性能の向上が、企業導入の心理的ハードルを大きく下げた。今後さらなる加速が見込まれる。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 「日本語が不安」という導入障壁が消滅。これまで躊躇していた企業への再提案好機。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#6</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">実務</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/news/articles/2605/11/news114.html" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              バクラクが契約業務自動化サービス提供予定　新リース会計基準判定にも対応
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">LayerXが契約業務を支援する新サービス「バクラク契約管理」を今夏提供予定。AIエージェントが契約業務を自動化し、2027年度適用の新リース会計基準判定にも対応。
+
+バックオフィス業務のAI化が加速する中、契約という専門性の高い領域での実用化が進展。会計基準対応という具体的な規制ニーズに応える形でのサービス設計。
+
+企業の法務・経理部門における業務効率化とコンプライアンス対応を同時に実現する実務的なソリューション。中堅企業での導入拡大が期待される。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 新会計基準対応という明確なペインポイントへの提案材料。法務・経理部門へのAI導入の突破口。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#7</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/00001/11718/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              MUFGがGoogleと戦略的提携　リテール金融でAIエージェント導入加速
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">三菱UFJフィナンシャル・グループがGoogleと戦略的提携を締結。総合金融サービス「エムット」を含むリテール分野でAIエージェントを導入し、SMBCより先行を狙う。
+
+金融業界におけるAI活用競争が本格化。顧客接点でのAIエージェント活用により、パーソナライズされた金融サービス提供を目指す。
+
+メガバンクの本格的なAI戦略提携は、金融業界全体のデジタル化を加速させる契機となる。他の金融機関も追随する可能性が高い。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 金融業界のAI活用本格化を示すシグナル。金融クライアントへの提案タイミングとして最適。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: 日経クロステック AI</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#8</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://openai.com/index/openai-launches-the-deployment-company" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              OpenAI、企業のAI導入支援に特化した「DeployCo」を設立
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">OpenAIが企業のAI本番環境導入を支援する新会社「DeployCo」を設立。フロンティアAIを実際の業務に組み込み、測定可能な成果に結びつけることを目的とする。
+
+AI開発企業が導入支援に特化した組織を別会社化することで、エンタープライズ向けサービスを強化。技術提供だけでなく実装支援まで一貫してサポート。
+
+企業のAI導入における「実装の壁」を解消する動き。OpenAIがコンサルティング領域に本格参入し、従来のSI/コンサル市場に影響を与える可能性。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> OpenAIの導入支援強化は競合でもあり協業機会でもある。差別化ポイントの再定義が必要。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: OpenAI Blog</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#9</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/enterprise/articles/2605/11/news060.html" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              NTTグループ、AI事業でGAFAM級の存在感目指す　フルスタック提供体制
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">NTTグループがAI関連サービスの取り組みを明らかにし、インフラからアプリケーションまでフルスタックで提供する事業体制でGAFAM級の存在感を目指す。
+
+通信インフラの強みを活かし、データセンターからAIサービスまで一貫して提供する垂直統合戦略。日本企業としての信頼性とグローバル企業との競争力の両立を図る。
+
+国内最大手通信事業者の本格的なAI事業参入は、日本のAI産業構造に大きな影響を与える。エンタープライズ市場での存在感拡大が予想される。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> NTTのフルスタック戦略は大手企業案件での提案選択肢を広げる。パートナー戦略の見直し時期。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-yellow-400 bg-yellow-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#10</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-yellow-500 font-bold">★★★</span><span class="text-gray-300">☆☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/news/articles/2605/11/news027.html" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              ChatGPT以降公開のWebサイト35%がAI生成か　スタンフォード大学等が調査
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">スタンフォード大学等の研究により、ChatGPT公開以降に作成されたWebサイトの約35%がAI生成コンテンツである可能性が示された。「不自然に明るい文章」が特徴。
+
+インターネット上のコンテンツエコシステムにAI生成テキストが急速に浸透。オリジナルコンテンツと生成コンテンツの境界が曖昧になっている現状が明らかに。
+
+SEOやコンテンツマーケティングの在り方に大きな影響。AI生成コンテンツの品質管理と真偽判定が今後の重要課題となる。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> AIコンテンツ氾濫時代のマーケティング戦略見直しが必要。品質重視のコンテンツ制作支援が差別化に。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+      </div>
+      
+    </section>
+
+    <!-- ===== その他注目 ===== -->
+    
+    <section>
+      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <span class="bg-gray-500 text-white text-xs px-2 py-0.5 rounded font-semibold">注目</span>
+        その他 15 件
+      </h2>
+
+      <ul class="divide-y divide-gray-200 dark:divide-gray-700 bg-white dark:bg-gray-800 rounded-lg shadow-sm overflow-hidden">
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://www.itmedia.co.jp/aiplus/articles/2605/11/news118.html" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              ソニーCEOがクリエイティブ領域でのAI活用進捗を明かす　ゲーム開発にも導入
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">ソニーグループがゲーム開発を含むクリエイティブ領域でのAI活用を推進</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">研究</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/03565/042400013/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              ウーブン・バイ・トヨタ、自動運転AI開発に7工程　走行データ選別にAI検索活用
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">トヨタの自動運転AI学習データ作成環境が明らかに、7工程で効率化</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">研究</span>
+          <div class="min-w-0">
+            <a href="https://monoist.itmedia.co.jp/mn/articles/2605/11/news022.html" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              TGR-DがAI-CAE技術を導入　RICOSとレーシングカー空力解析を検証
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">トヨタのレーシング部門が機械学習活用の空力解析を導入</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://www.itmedia.co.jp/news/articles/2605/11/news021.html" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              AI生成の「ゴミ報告」殺到で脆弱性懸賞金制度が機能不全に　HackerOneが新規受付停止
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">AIで大量生成された低品質な脆弱性報告が懸賞金制度を圧迫</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">実務</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/03588/041400004/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              生成AI最大の課題は「ウソをつく」　指示の工夫でリスクを減らす方法
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">ハルシネーション対策としてプロンプトエンジニアリングの重要性を解説</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/00138/042802011/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              AI時代のデータと天然資源枯渇問題　なぜ今「データスペース」が必要か
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">AI学習用データ枯渇問題とデータスペース構想の必要性を解説</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600007/042700216/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              基幹システム刷新はDXの前提　AI活用による市民開発の成否
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">日本企業が基幹システム刷新をDXの前提条件として位置付ける傾向</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600014/050700227/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              2027年卒就活生は「AIネーティブ」　企業の採用活動も変化
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">ES作成や面接練習でAI活用が当たり前の世代が就活市場に登場</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/03576/040600002/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              AIブラウザでWebサイトから特定記事を探す　ローカルLLMでも稼働可能
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Browser UseでローカルLLM活用のWebスクレイピング自動化を実現</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600009/050700222/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              OpenClaw：AIエージェント自作のためのオープンソース基盤
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">外部AIモデルを連係し自分専用のAIエージェントを構築できる基盤ソフト</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Googleが初のAI開発ゼロデイ攻撃を検知・阻止
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Google Threat IntelligenceがAIで開発された脆弱性攻撃を初めて検知</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Diggが復活、今度はAIニュースアグリゲーターとして
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">かつての人気サービスDiggがAI活用のニュースキュレーションで再始動</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              宇宙データセンター向けロケット不足　Cowboy Spaceが2.75億ドル調達
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">AI需要増でデータセンター宇宙展開を目指すがロケット供給が課題</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Google Finance、AI機能を欧州に拡大
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">AI搭載の新しいGoogle Finance体験が欧州市場に展開</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://www.itmedia.co.jp/news/articles/2605/08/news061.html" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              人型重機の技術を市販ロボに応用　国産スタートアップ人機一体
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">JR向け人型重機の技術を協働ロボットに展開、実用化を加速</p>
+            
+          </div>
+        </li>
+        
+      </ul>
+    </section>
+    
+
+  </main>
+
+  <!-- フッタ -->
+  <footer class="max-w-2xl mx-auto px-4 py-8 mt-4 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-500 dark:text-gray-400 space-y-4">
+
+    <!-- バックナンバー -->
+    
+    <div>
+      <h3 class="font-semibold text-gray-700 dark:text-gray-300 mb-2">📂 バックナンバー(直近30日)</h3>
+      <ul class="flex flex-wrap gap-2">
+        
+        <li>
+          <a href="archive/2026-05-11.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-11
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-10.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-10
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-09.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-09
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-08.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-08
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-07.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-07
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-06.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-06
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-05.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-05
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-04.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-04
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-03.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-03
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-02.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-02
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-05-01.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-05-01
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-30.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-30
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-29.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-29
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-28.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-28
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-27.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-27
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-26.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-26
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-04-24.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-04-24
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+    <!-- 取得失敗ソース -->
+    
+
+    <p class="text-xs text-center text-gray-400 pt-2">
+      AI News Daily — 毎朝6:00 JST 自動更新 &nbsp;|&nbsp;
+      <a href="https://github.com/hummer-lab-001/ai-news-daily" class="hover:underline" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
