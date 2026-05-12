@@ -2,7 +2,7 @@ name: Daily AI News Update
 
 on:
   schedule:
-    - cron: '0 17 * * *'  # 21:00 UTC = 翌 06:00 JST
+        - cron: '0 20 * * *'  # 20:00 UTC = 翌 05:00 JST (06:00公開狙い・遅延余裕あり)
   workflow_dispatch:
 
 jobs:
