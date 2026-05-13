@@ -55,10 +55,27 @@ jobs:
           # HTML生成
           python -m src.build
 
-      - name: HTMLにキャッシュ無効化メタタグを注入（iPhoneアプリ対策）
+      - name: HTMLにキャッシュ無効化メタタグ＋JS注入（iPhoneアプリ対策強化版）
         run: |
           python << 'EOF'
           import os, re
+          # キャッシュ無効化のメタタグ + JS（強力版）
+          inject_block = '''<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+          <meta http-equiv="Pragma" content="no-cache">
+          <meta http-equiv="Expires" content="0">
+          <script>
+          // iPhoneホーム画面アプリ対策：URLにタイムスタンプを付与して強制リロード
+          (function(){
+            var url = new URL(window.location.href);
+            var v = url.searchParams.get('v');
+            var today = new Date().toISOString().slice(0,10).replace(/-/g,'');
+            if (v !== today) {
+              url.searchParams.set('v', today);
+              window.location.replace(url.toString());
+            }
+          })();
+          </script>'''
+
           for root, dirs, files in os.walk('docs'):
               for fn in files:
                   if not fn.endswith('.html'):
@@ -66,18 +83,18 @@ jobs:
                   path = os.path.join(root, fn)
                   with open(path, encoding='utf-8') as f:
                       html = f.read()
-                  if 'Cache-Control' in html:
-                      continue
-                  meta_tags = '''<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-          <meta http-equiv="Pragma" content="no-cache">
-          <meta http-equiv="Expires" content="0">'''
+                  # 既存のキャッシュ対策ブロックを除去（古い版が残ってる場合）
+                  html = re.sub(r'<meta http-equiv="Cache-Control"[^>]*>\s*', '', html)
+                  html = re.sub(r'<meta http-equiv="Pragma"[^>]*>\s*', '', html)
+                  html = re.sub(r'<meta http-equiv="Expires"[^>]*>\s*', '', html)
+                  # 新ブロックを挿入
                   if '<head>' in html:
-                      html = html.replace('<head>', '<head>\n' + meta_tags, 1)
+                      html = html.replace('<head>', '<head>\n' + inject_block, 1)
                   else:
-                      html = meta_tags + '\n' + html
+                      html = inject_block + '\n' + html
                   with open(path, 'w', encoding='utf-8') as f:
                       f.write(html)
-                  print(f'[キャッシュ無効化] {path}')
+                  print(f'[キャッシュ無効化＋JS注入] {path}')
           EOF
 
       - name: GitHub Pages にデプロイ
