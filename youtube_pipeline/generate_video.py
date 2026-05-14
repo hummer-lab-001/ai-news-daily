@@ -291,7 +291,7 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
 
     # フッター（キャラの後に描画して足元情報を残す）
     if   mode == "closing": footer = "チャンネル登録・高評価よろしくお願いします！"
-    elif mode == "opening": footer = "毎朝6時 配信中"
+    elif mode == "opening": footer = "平日配信中"
     else:                   footer = "毎日AIニュース"
     draw.text((30, HEIGHT - 42), footer, font=f_footer, fill=ACCENT)
 
