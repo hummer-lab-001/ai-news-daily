@@ -191,9 +191,17 @@ def make_studio_base():
 
 def make_line_slide(title: str, subtitle: str, out_path: str,
                      mode: str = "topic", active_speaker: str = "A"):
-    """静止スライド：両キャラ固定位置、テキスト中央固定（A6撤廃版）"""
+    """静止スライド：サムネと同じテンプレートを使用（顔被り問題解消・統一感UP）"""
     from PIL import Image, ImageDraw
 
+    # サムネテンプレが存在する場合、そのまま動画スライドとしても使う
+    template_thumb = "youtube_pipeline/thumbnail_template.png"
+    if os.path.exists(template_thumb):
+        # テンプレ＋トピックタイトル合成
+        compose_thumbnail_from_template(template_thumb, title, out_path)
+        return
+
+    # フォールバック：テンプレがない場合は従来のスタジオ合成
     img = make_studio_base()
 
     aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
