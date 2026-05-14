@@ -111,35 +111,42 @@ def crop_character_transparent(image_path: str, target_w: int, target_h: int,
         return None
 
 
-def crop_to_person_normalized(image_path: str, target_w: int, target_h: int):
-    """透過画像から実際の人物部分を検出して同じサイズに正規化する。
-    両キャラの人物の高さが揃うので、サイズ感が完全一致する。
+def crop_to_person_normalized(image_path: str, target_w: int, target_h: int,
+                                upper_ratio: float = 0.55):
+    """透過画像から人物の上半身（顔＋胸元）を検出してアップで揃える。
+    upper_ratio: 人物の上から何割を使うか（0.5=半身、0.4=顔寄り）
     """
     from PIL import Image
     if not image_path or not os.path.exists(image_path):
         return None
     try:
         img = Image.open(image_path).convert("RGBA")
-        # 透明度から人物の bounding box を取得
-        bbox = img.getbbox()  # 不透明領域の外接矩形
+        bbox = img.getbbox()
         if not bbox:
             return None
-        # 人物部分のみ切り出し
-        person = img.crop(bbox)
+        left, top, right, bottom = bbox
+        # 上半身だけにクロップ
+        upper_bottom = top + int((bottom - top) * upper_ratio)
+        person = img.crop((left, top, right, upper_bottom))
         pw, ph = person.size
 
-        # 人物の高さが target_h の 95% になるようスケール（少し余白）
-        person_target_h = int(target_h * 0.95)
-        scale = person_target_h / ph
+        # キャンバスを埋めるようスケール（顔がデカく見える）
+        scale_h = target_h / ph
+        scale_w = target_w / pw
+        scale = max(scale_h, scale_w)  # キャンバスを完全に埋める
         new_pw = int(pw * scale)
-        new_ph = person_target_h
+        new_ph = int(ph * scale)
         person = person.resize((new_pw, new_ph), Image.LANCZOS)
 
-        # target_w × target_h のキャンバスに中央配置（下寄せ）
+        # 中央クロップ
+        canvas_crop_left = max(0, (new_pw - target_w) // 2)
+        canvas_crop_top = 0  # 上寄せ（顔を上部に）
+        person = person.crop((canvas_crop_left, canvas_crop_top,
+                              canvas_crop_left + target_w, canvas_crop_top + target_h))
+
+        # 透過キャンバスに配置
         canvas = Image.new("RGBA", (target_w, target_h), (0, 0, 0, 0))
-        paste_x = (target_w - new_pw) // 2
-        paste_y = target_h - new_ph  # 下寄せ（足元揃え）
-        canvas.paste(person, (paste_x, paste_y), person)
+        canvas.paste(person, (0, 0), person)
         return canvas
     except Exception as e:
         print(f"[警告] 人物正規化失敗: {e}")
@@ -199,9 +206,9 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
 
     aoi_cutout  = remove_background(aoi_path)
     hina_cutout = remove_background(hina_path)
-    # 人物部分を自動検出して同じサイズに正規化（サイズ感を強制統一）
-    aoi_img  = crop_to_person_normalized(aoi_cutout,  char_w, char_h)
-    hina_img = crop_to_person_normalized(hina_cutout, char_w, char_h)
+    # Aoi はアップ寄り、Hina は現状維持
+    aoi_img  = crop_to_person_normalized(aoi_cutout,  char_w, char_h, upper_ratio=0.42)
+    hina_img = crop_to_person_normalized(hina_cutout, char_w, char_h, upper_ratio=0.55)
 
     # RGBA 合成のため一旦 RGBA に
     img = img.convert("RGBA")
