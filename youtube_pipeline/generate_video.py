@@ -195,61 +195,114 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
 
 
 def make_thumbnail(headline: str, out_path: str):
-    """A7: YouTubeサムネ専用（クリック率最適化版）"""
-    from PIL import Image, ImageDraw, ImageFilter
+    """サムネ：上70%にホットトピック帯、下30%にキャラ＋ブランド"""
+    from PIL import Image, ImageDraw
 
-    img = make_studio_base()
+    # キャンバス
+    img = Image.new("RGB", (WIDTH, HEIGHT), DARKBG)
 
-    aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
-    hina_path = download_image(HINA_URL, HINA_LOCAL_PATH)
+    # ───── 上70%（504px）：HOT TOPIC バナー ─────
+    banner_h = int(HEIGHT * 0.7)  # 504
+    # 赤グラデーション風（上が濃く、下がやや明るく）
+    for y in range(banner_h):
+        ratio = y / banner_h
+        r = int(200 - 30 * ratio)
+        g = int(20 + 10 * ratio)
+        b = int(30 + 20 * ratio)
+        for x in range(WIDTH):
+            img.putpixel((x, y), (r, g, b))
+    # でも遅いので、上書きでベタ塗り
+    overlay = Image.new("RGB", (WIDTH, banner_h), (200, 30, 40))
+    img.paste(overlay, (0, 0))
+    # 縞模様の動きで派手に
+    draw_banner = ImageDraw.Draw(img)
+    for i in range(0, WIDTH, 80):
+        draw_banner.polygon([(i, 0), (i + 30, 0), (i + 60, banner_h), (i + 30, banner_h)],
+                           fill=(220, 40, 50))
 
-    aoi_img  = crop_character(aoi_path,  340, 720)
-    hina_img = crop_character(hina_path, 340, 720)
+    # 「TODAY 注目」ラベル（左上）
+    f_today = find_font(36)
+    draw_banner.rectangle([(30, 30), (260, 80)], fill=(255, 220, 50))
+    draw_banner.text((50, 36), "TODAY 注目", font=f_today, fill=(40, 0, 0))
 
-    if aoi_img:  img.paste(aoi_img,  (0, 0))
-    if hina_img: img.paste(hina_img, (WIDTH - 340, 0))
+    # 「🔥」記号代わりに「!」を装飾
+    draw_banner.rectangle([(WIDTH - 130, 30), (WIDTH - 30, 130)], fill=(255, 220, 50))
+    f_fire = find_font(64)
+    draw_banner.text((WIDTH - 110, 35), "!!", font=f_fire, fill=(200, 0, 0))
 
-    # 中央パネル（強コントラスト）
-    overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
-    od = ImageDraw.Draw(overlay)
-    od.rectangle([(310, 100), (WIDTH - 310, HEIGHT - 100)], fill=(5, 15, 35, 235))
-    # 太いアクセント枠
-    od.rectangle([(305, 95), (WIDTH - 305, HEIGHT - 95)], outline=(*ACCENT, 255), width=6)
-    img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
-    draw = ImageDraw.Draw(img)
-
-    # 上部「今日のAIニュース」の帯
-    draw.rectangle([(305, 95), (WIDTH - 305, 165)], fill=ACCENT)
-    f_label = find_font(40)
-    label = "毎日AIニュース"
-    bbox = draw.textbbox((0, 0), label, font=f_label)
-    lw = bbox[2] - bbox[0]
-    draw.text(((WIDTH - lw) // 2, 110), label, font=f_label, fill=DARKBG)
-
-    # メインヘッドライン（超大きく）
-    f_head = find_font(72)
-    head_lines = textwrap.wrap(headline, width=11) if headline else [""]
+    # メインヘッドライン（超大きく、影付き）
+    f_head = find_font(82)
+    head_lines = textwrap.wrap(headline, width=10) if headline else [""]
     if len(head_lines) > 3:
         head_lines = head_lines[:3]
-    line_h = f_head.size + 12
+    line_h = f_head.size + 18
     block_h = len(head_lines) * line_h
-    y = 200 + max(0, (HEIGHT - 300 - block_h) // 2)
+    y = 130 + max(0, (banner_h - 130 - 30 - block_h) // 2)
     for line in head_lines:
-        bbox = draw.textbbox((0, 0), line, font=f_head)
+        bbox = draw_banner.textbbox((0, 0), line, font=f_head)
         lw = bbox[2] - bbox[0]
         x = (WIDTH - lw) // 2
-        # 影
-        draw.text((x + 4, y + 4), line, font=f_head, fill=(0, 0, 0))
-        draw.text((x, y), line, font=f_head, fill=WHITE)
+        # 黒い太い縁取り（複数回ずらして描画）
+        for dx, dy in [(-3,-3),(-3,3),(3,-3),(3,3),(-3,0),(3,0),(0,-3),(0,3)]:
+            draw_banner.text((x + dx, y + dy), line, font=f_head, fill=(0, 0, 0))
+        # 白本体
+        draw_banner.text((x, y), line, font=f_head, fill=WHITE)
         y += line_h
 
-    # 下部ホットリボン
-    draw.rectangle([(305, HEIGHT - 165), (WIDTH - 305, HEIGHT - 95)], fill=HOT)
-    f_hot = find_font(36)
-    hot_text = "今日も最新AI"
-    bbox = draw.textbbox((0, 0), hot_text, font=f_hot)
-    hw = bbox[2] - bbox[0]
-    draw.text(((WIDTH - hw) // 2, HEIGHT - 152), hot_text, font=f_hot, fill=WHITE)
+    # ───── 下30%（216px）：キャラ＋ブランド ─────
+    char_area_top = banner_h  # 504
+
+    # スタジオ背景の下部を背景に
+    studio_path = download_image(STUDIO_URL, STUDIO_LOCAL_PATH)
+    if studio_path and os.path.exists(studio_path):
+        try:
+            studio = Image.open(studio_path).convert("RGB")
+            sw, sh = studio.size
+            scale = max(WIDTH / sw, HEIGHT / sh)
+            studio = studio.resize((int(sw * scale), int(sh * scale)), Image.LANCZOS)
+            cw, ch = studio.size
+            studio = studio.crop(((cw - WIDTH) // 2, (ch - HEIGHT) // 2,
+                                  (cw - WIDTH) // 2 + WIDTH, (ch - HEIGHT) // 2 + HEIGHT))
+            studio_bottom = studio.crop((0, char_area_top, WIDTH, HEIGHT))
+            img.paste(studio_bottom, (0, char_area_top))
+        except Exception:
+            pass
+
+    # キャラを下に配置
+    char_h = HEIGHT - char_area_top  # 216
+    char_w = 200
+    aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
+    hina_path = download_image(HINA_URL, HINA_LOCAL_PATH)
+    aoi_img  = crop_character(aoi_path,  char_w, char_h)
+    hina_img = crop_character(hina_path, char_w, char_h)
+    if aoi_img:  img.paste(aoi_img,  (30, char_area_top))
+    if hina_img: img.paste(hina_img, (WIDTH - char_w - 30, char_area_top))
+
+    # 中央：チャンネルブランド
+    draw = ImageDraw.Draw(img)
+    brand_left  = char_w + 60
+    brand_right = WIDTH - char_w - 60
+    brand_overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    bo = ImageDraw.Draw(brand_overlay)
+    bo.rectangle([(brand_left, char_area_top + 30),
+                  (brand_right, HEIGHT - 30)], fill=(5, 15, 35, 230))
+    img = Image.alpha_composite(img.convert("RGBA"), brand_overlay).convert("RGB")
+    draw = ImageDraw.Draw(img)
+
+    f_brand = find_font(48)
+    f_sub_brand = find_font(22)
+    brand_text = "毎日AIニュース"
+    bbox = draw.textbbox((0, 0), brand_text, font=f_brand)
+    bw = bbox[2] - bbox[0]
+    bx = (WIDTH - bw) // 2
+    by = char_area_top + 50
+    draw.text((bx, by), brand_text, font=f_brand, fill=WHITE)
+
+    sub = "毎朝6時 / 1日5分のAIインテリジェンス"
+    bbox = draw.textbbox((0, 0), sub, font=f_sub_brand)
+    sw_ = bbox[2] - bbox[0]
+    sx = (WIDTH - sw_) // 2
+    draw.text((sx, by + 60), sub, font=f_sub_brand, fill=ACCENT)
 
     img.save(out_path, "PNG")
 
@@ -373,13 +426,13 @@ def main() -> None:
 
     print(f"[動画生成] スライド数: {len(slide_paths)} / 合計: {sum(slide_durs):.1f}秒")
 
-    # ───── A7: サムネ生成（メイントピックを使用） ─────
+    # ───── サムネイル：上70%にホットトピック自動生成 ─────
     main_headline = "今日のAIニュース"
     topics = dialogue.get("topics", [])
     if topics:
         main_headline = topics[0].get("title", main_headline) or main_headline
     make_thumbnail(main_headline, thumb_path)
-    print(f"[サムネイル] {thumb_path} (見出し: {main_headline})")
+    print(f"[サムネイル] ホットトピック版生成: {main_headline}")
 
     make_video(slide_paths, slide_durs, audio_path, video_path)
 
