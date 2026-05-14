@@ -66,6 +66,49 @@ def download_image(url: str, local: str) -> str:
         return ""
 
 
+def remove_background(image_path: str) -> str:
+    """rembg で背景を透過化。透過版のパスを返す（キャッシュあり）"""
+    if not image_path or not os.path.exists(image_path):
+        return ""
+    base, ext = os.path.splitext(image_path)
+    cutout_path = base + "_cutout.png"
+    if os.path.exists(cutout_path):
+        return cutout_path
+    try:
+        from rembg import remove
+        from PIL import Image
+        print(f"[背景透過] {os.path.basename(image_path)} 処理中...")
+        with open(image_path, "rb") as f:
+            input_data = f.read()
+        output_data = remove(input_data)
+        with open(cutout_path, "wb") as f:
+            f.write(output_data)
+        print(f"[背景透過] {os.path.basename(cutout_path)} 完了")
+        return cutout_path
+    except Exception as e:
+        print(f"[警告] 背景透過失敗 {image_path}: {e}")
+        return image_path  # 失敗時は元画像を返す
+
+
+def crop_character_transparent(image_path: str, target_w: int, target_h: int):
+    """透過キャラ画像をリサイズして返す（RGBA）"""
+    from PIL import Image
+    if not image_path or not os.path.exists(image_path):
+        return None
+    try:
+        img = Image.open(image_path).convert("RGBA")
+        iw, ih = img.size
+        scale = max(target_w / iw, target_h / ih)
+        new_w, new_h = int(iw * scale), int(ih * scale)
+        img = img.resize((new_w, new_h), Image.LANCZOS)
+        left = (new_w - target_w) // 2
+        top  = max(0, (new_h - target_h) // 3)
+        return img.crop((left, top, left + target_w, top + target_h))
+    except Exception as e:
+        print(f"[警告] 透過クロップ失敗: {e}")
+        return None
+
+
 def crop_character(image_path: str, target_w: int, target_h: int):
     from PIL import Image
     if not image_path or not os.path.exists(image_path):
@@ -112,16 +155,21 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
     hina_path = download_image(HINA_URL, HINA_LOCAL_PATH)
 
-    # キャラは下半分に配置（モニターを隠さない）
-    char_w = 240
-    char_h = 360
+    # キャラは下半分に配置（透過版でスタジオに馴染ませる）
+    char_w = 280
+    char_h = 420
     char_y = HEIGHT - char_h - 70
 
-    aoi_img  = crop_character(aoi_path,  char_w, char_h)
-    hina_img = crop_character(hina_path, char_w, char_h)
+    aoi_cutout  = remove_background(aoi_path)
+    hina_cutout = remove_background(hina_path)
+    aoi_img  = crop_character_transparent(aoi_cutout,  char_w, char_h)
+    hina_img = crop_character_transparent(hina_cutout, char_w, char_h)
 
-    if aoi_img:  img.paste(aoi_img,  (20, char_y))
-    if hina_img: img.paste(hina_img, (WIDTH - char_w - 20, char_y))
+    # RGBA 合成のため一旦 RGBA に
+    img = img.convert("RGBA")
+    if aoi_img:  img.paste(aoi_img,  (20, char_y), aoi_img)
+    if hina_img: img.paste(hina_img, (WIDTH - char_w - 20, char_y), hina_img)
+    img = img.convert("RGB")
 
     # モニター位置にテキストパネル（上部・正面の大きいモニターと重ねる）
     overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
@@ -383,9 +431,15 @@ def main() -> None:
 
     os.makedirs(slides_dir, exist_ok=True)
 
-    download_image(AOI_URL,    AOI_LOCAL_PATH)
-    download_image(HINA_URL,   HINA_LOCAL_PATH)
+    aoi_local  = download_image(AOI_URL,    AOI_LOCAL_PATH)
+    hina_local = download_image(HINA_URL,   HINA_LOCAL_PATH)
     download_image(STUDIO_URL, STUDIO_LOCAL_PATH)
+
+    # キャラの背景を事前に透過化（rembgは初回モデルDLで時間かかるため1回だけ）
+    print("[前処理] キャラ画像の背景を透過化中...")
+    remove_background(aoi_local)
+    remove_background(hina_local)
+    print("[前処理] 完了")
 
     # 静止スライド（トピックごとに1枚・効率化）
     slide_paths = []
@@ -426,13 +480,19 @@ def main() -> None:
 
     print(f"[動画生成] スライド数: {len(slide_paths)} / 合計: {sum(slide_durs):.1f}秒")
 
-    # ───── サムネイル：上70%にホットトピック自動生成 ─────
-    main_headline = "今日のAIニュース"
-    topics = dialogue.get("topics", [])
-    if topics:
-        main_headline = topics[0].get("title", main_headline) or main_headline
-    make_thumbnail(main_headline, thumb_path)
-    print(f"[サムネイル] ホットトピック版生成: {main_headline}")
+    # ───── サムネイル：手作り固定サムネを優先使用 ─────
+    static_thumb = "youtube_pipeline/thumbnail.png"
+    if os.path.exists(static_thumb):
+        shutil.copy(static_thumb, thumb_path)
+        print(f"[サムネイル] 手作り固定サムネを使用: {static_thumb}")
+    else:
+        # フォールバック：自動生成（固定サムネが見つからない場合のみ）
+        main_headline = "今日のAIニュース"
+        topics = dialogue.get("topics", [])
+        if topics:
+            main_headline = topics[0].get("title", main_headline) or main_headline
+        make_thumbnail(main_headline, thumb_path)
+        print(f"[サムネイル] フォールバック自動生成: {main_headline}")
 
     make_video(slide_paths, slide_durs, audio_path, video_path)
 
