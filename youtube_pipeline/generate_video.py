@@ -284,7 +284,8 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     aoi_img  = crop_to_person_normalized(aoi_cutout,  char_w, char_h, upper_ratio=0.42)
     hina_img = crop_to_person_normalized(hina_cutout, char_w, char_h, upper_ratio=0.55)
     img = img.convert("RGBA")
-    if aoi_img:  img.paste(aoi_img,  (20, char_y), aoi_img)
+    # Aoi は左に60pxシフト（モニター被り解消）、Hina は現状
+    if aoi_img:  img.paste(aoi_img,  (-40, char_y), aoi_img)
     if hina_img: img.paste(hina_img, (WIDTH - char_w - 20, char_y), hina_img)
     img = img.convert("RGB")
     draw = ImageDraw.Draw(img)
