@@ -199,36 +199,23 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     aoi_path  = download_image(AOI_URL,  AOI_LOCAL_PATH)
     hina_path = download_image(HINA_URL, HINA_LOCAL_PATH)
 
-    # キャラは下半分に配置（透過版でスタジオに馴染ませる）
+    # キャラサイズ（先に決めておく）
     char_w = 280
     char_h = 420
     char_y = HEIGHT - char_h - 70
 
-    aoi_cutout  = remove_background(aoi_path)
-    hina_cutout = remove_background(hina_path)
-    # Aoi はアップ寄り、Hina は現状維持
-    aoi_img  = crop_to_person_normalized(aoi_cutout,  char_w, char_h, upper_ratio=0.42)
-    hina_img = crop_to_person_normalized(hina_cutout, char_w, char_h, upper_ratio=0.55)
-
-    # RGBA 合成のため一旦 RGBA に
-    img = img.convert("RGBA")
-    if aoi_img:  img.paste(aoi_img,  (20, char_y), aoi_img)
-    if hina_img: img.paste(hina_img, (WIDTH - char_w - 20, char_y), hina_img)
-    img = img.convert("RGB")
-
-    # モニター位置にテキストパネル（上部・正面の大きいモニターと重ねる）
+    # ───── 順序：背景 → パネル → テキスト → キャラ（前面） ─────
+    # ① モニター位置にテキストパネル（先に描画）
     overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
     od = ImageDraw.Draw(overlay)
-    # モニター位置に合わせて配置（上部中央・横長）
     panel_left, panel_right = 240, WIDTH - 240
-    panel_top,  panel_bot   = 120, 480
-    # メインパネル（モニター画面感・濃いダーク）
+    panel_top,  panel_bot   = 100, 510
     od.rectangle([(panel_left, panel_top), (panel_right, panel_bot)], fill=(3, 8, 18, 250))
-    # モニターのベゼル風細枠
-    od.rectangle([(panel_left, panel_top), (panel_left + 4, panel_bot)], fill=(*ACCENT, 255))
-    od.rectangle([(panel_right - 4, panel_top), (panel_right, panel_bot)], fill=(*ACCENT, 255))
-    od.rectangle([(panel_left, panel_top), (panel_right, panel_top + 4)], fill=(*ACCENT, 255))
-    od.rectangle([(panel_left, panel_bot - 4), (panel_right, panel_bot)], fill=(*ACCENT, 255))
+    # ベゼル風枠
+    od.rectangle([(panel_left, panel_top), (panel_left + 5, panel_bot)], fill=(*ACCENT, 255))
+    od.rectangle([(panel_right - 5, panel_top), (panel_right, panel_bot)], fill=(*ACCENT, 255))
+    od.rectangle([(panel_left, panel_top), (panel_right, panel_top + 5)], fill=(*ACCENT, 255))
+    od.rectangle([(panel_left, panel_bot - 5), (panel_right, panel_bot)], fill=(*ACCENT, 255))
     img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
     draw = ImageDraw.Draw(img)
 
@@ -242,10 +229,10 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     draw.rectangle([(0, HEIGHT - 65), (WIDTH, HEIGHT - 60)], fill=ACCENT)
 
     f_header = find_font(32)
-    f_title  = find_font(56 if mode == "opening" else 50)
-    f_sub    = find_font(28)
+    f_title  = find_font(72 if mode == "opening" else 64)  # 大幅サイズUP
+    f_sub    = find_font(32)
     f_footer = find_font(22)
-    f_label  = find_font(24)
+    f_label  = find_font(28)
 
     # ヘッダー
     if   mode == "opening": program_label = "OPENING"
@@ -253,32 +240,56 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     else:                   program_label = "毎日AIニュース"
     draw.text((30, 25), program_label, font=f_header, fill=WHITE)
 
-    # LIVEバッジ
+    # LIVEバッジ（パネル左上）
     draw.rectangle([(panel_left + 25, panel_top + 25),
-                    (panel_left + 110, panel_top + 62)], fill=HOT)
-    draw.text((panel_left + 38, panel_top + 28), "LIVE", font=f_label, fill=WHITE)
+                    (panel_left + 130, panel_top + 70)], fill=HOT)
+    draw.text((panel_left + 40, panel_top + 30), "LIVE", font=f_label, fill=WHITE)
 
-    # タイトル（影付きで超見やすく）
-    text_left  = panel_left + 30
-    text_right = panel_right - 30
+    # テキスト領域＝キャラに被らない中央ゾーンに限定
+    # キャラは x=20-300（Aoi）と x=980-1260（Hina）を占有
+    # → テキストは x=320-960（中央 640px）に収める
+    text_left  = 320
+    text_right = WIDTH - 320
     text_w = text_right - text_left
-    char_per_line = max(6, int(text_w / (f_title.size * 0.6)))
+
+    # タイトル（超デカ・極太縁取り）
+    char_per_line = max(5, int(text_w / (f_title.size * 0.65)))
     lines = textwrap.wrap(title, width=char_per_line) if title else [""]
-    line_h = f_title.size + 14
+    line_h = f_title.size + 18
     block_h = len(lines) * line_h
-    y = panel_top + 90 + max(0, ((panel_bot - panel_top - 90) - block_h) // 2 - 30)
+    y = panel_top + 100 + max(0, ((panel_bot - panel_top - 100) - block_h) // 2 - 30)
     for line in lines:
-        # 黒い影（後ろに描画）
-        draw.text((text_left + 3, y + 3), line, font=f_title, fill=(0, 0, 0))
-        # 本体（白）
-        draw.text((text_left, y), line, font=f_title, fill=WHITE)
+        bbox = draw.textbbox((0, 0), line, font=f_title)
+        lw = bbox[2] - bbox[0]
+        x = text_left + (text_w - lw) // 2
+        # 黒の極太縁取り（8方向にずらして描画 = 太字感UP）
+        for dx, dy in [(-3,-3),(-3,0),(-3,3),(0,-3),(0,3),(3,-3),(3,0),(3,3),
+                       (-2,-2),(2,-2),(-2,2),(2,2)]:
+            draw.text((x + dx, y + dy), line, font=f_title, fill=(0, 0, 0))
+        # 白本体
+        draw.text((x, y), line, font=f_title, fill=WHITE)
         y += line_h
 
     if subtitle:
-        draw.text((text_left + 2, y + 18), subtitle, font=f_sub, fill=(0, 0, 0))
-        draw.text((text_left, y + 16), subtitle, font=f_sub, fill=ACCENT)
+        bbox = draw.textbbox((0, 0), subtitle, font=f_sub)
+        sw = bbox[2] - bbox[0]
+        sx = text_left + (text_w - sw) // 2
+        for dx, dy in [(-2,0),(2,0),(0,-2),(0,2)]:
+            draw.text((sx + dx, y + 16 + dy), subtitle, font=f_sub, fill=(0, 0, 0))
+        draw.text((sx, y + 16), subtitle, font=f_sub, fill=ACCENT)
 
-    # フッター
+    # ② キャラを最後に貼る（テキストより前面に出る）
+    aoi_cutout  = remove_background(aoi_path)
+    hina_cutout = remove_background(hina_path)
+    aoi_img  = crop_to_person_normalized(aoi_cutout,  char_w, char_h, upper_ratio=0.42)
+    hina_img = crop_to_person_normalized(hina_cutout, char_w, char_h, upper_ratio=0.55)
+    img = img.convert("RGBA")
+    if aoi_img:  img.paste(aoi_img,  (20, char_y), aoi_img)
+    if hina_img: img.paste(hina_img, (WIDTH - char_w - 20, char_y), hina_img)
+    img = img.convert("RGB")
+    draw = ImageDraw.Draw(img)
+
+    # フッター（キャラの後に描画して足元情報を残す）
     if   mode == "closing": footer = "チャンネル登録・高評価よろしくお願いします！"
     elif mode == "opening": footer = "毎朝6時 配信中"
     else:                   footer = "毎日AIニュース"
