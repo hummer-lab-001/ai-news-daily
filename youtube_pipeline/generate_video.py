@@ -298,6 +298,82 @@ def make_line_slide(title: str, subtitle: str, out_path: str,
     img.save(out_path, "PNG")
 
 
+def compose_thumbnail_from_template(template_path: str, headline: str, out_path: str):
+    """テンプレートサムネの赤い帯エリアに今日のトピックを自動描画する"""
+    from PIL import Image, ImageDraw
+
+    template = Image.open(template_path).convert("RGB")
+    tw, th = template.size
+    # YouTubeサムネ標準 1280x720 にリサイズ（テンプレが違うサイズの場合）
+    if (tw, th) != (1280, 720):
+        scale = max(1280 / tw, 720 / th)
+        new_w, new_h = int(tw * scale), int(th * scale)
+        template = template.resize((new_w, new_h), Image.LANCZOS)
+        cw, ch = template.size
+        template = template.crop(((cw - 1280) // 2, (ch - 720) // 2,
+                                   (cw - 1280) // 2 + 1280, (ch - 720) // 2 + 720))
+
+    draw = ImageDraw.Draw(template)
+
+    # 赤い帯のテキスト描画エリア（テンプレの構図に合わせる）
+    banner_left, banner_right = 200, 1180
+    banner_top,  banner_bot   = 30,  420
+    text_w = banner_right - banner_left
+    text_h = banner_bot - banner_top
+
+    # フォントサイズを自動調整：1行で収まらなければ縮小・改行
+    YELLOW = (255, 230, 30)
+    OUTLINE = (0, 0, 0)
+
+    # 改行を試行：適切なフォントサイズを探す
+    import textwrap
+    best_lines = None
+    best_font_size = 100
+    for fs in [110, 100, 92, 84, 76, 68, 60]:
+        f = find_font(fs)
+        # 1行あたりの文字数を推定
+        chars_per_line = max(4, int(text_w / (fs * 0.85)))
+        for char_n in range(chars_per_line, 3, -1):
+            test_lines = textwrap.wrap(headline, width=char_n)
+            if not test_lines:
+                continue
+            line_h = fs + 8
+            block_h = len(test_lines) * line_h
+            # 1行の最大幅をチェック
+            max_lw = 0
+            for line in test_lines:
+                bbox = draw.textbbox((0, 0), line, font=f)
+                max_lw = max(max_lw, bbox[2] - bbox[0])
+            if max_lw <= text_w and block_h <= text_h:
+                best_lines = test_lines
+                best_font_size = fs
+                break
+        if best_lines:
+            break
+    if not best_lines:
+        best_lines = [headline[:10] + "..."]
+        best_font_size = 60
+
+    f_title = find_font(best_font_size)
+    line_h = best_font_size + 8
+    block_h = len(best_lines) * line_h
+    y = banner_top + (text_h - block_h) // 2
+
+    for line in best_lines:
+        bbox = draw.textbbox((0, 0), line, font=f_title)
+        lw = bbox[2] - bbox[0]
+        x = banner_left + (text_w - lw) // 2
+        # 極太縁取り（黒・8方向×複数距離）
+        for d in [4, 3]:
+            for dx, dy in [(-d,-d),(-d,0),(-d,d),(0,-d),(0,d),(d,-d),(d,0),(d,d)]:
+                draw.text((x + dx, y + dy), line, font=f_title, fill=OUTLINE)
+        # 本体（黄色）
+        draw.text((x, y), line, font=f_title, fill=YELLOW)
+        y += line_h
+
+    template.save(out_path, "PNG")
+
+
 def make_thumbnail(headline: str, out_path: str):
     """サムネ：上70%にホットトピック帯、下30%にキャラ＋ブランド"""
     from PIL import Image, ImageDraw
@@ -536,17 +612,25 @@ def main() -> None:
 
     print(f"[動画生成] スライド数: {len(slide_paths)} / 合計: {sum(slide_durs):.1f}秒")
 
-    # ───── サムネイル：手作り固定サムネを優先使用 ─────
-    static_thumb = "youtube_pipeline/thumbnail.png"
-    if os.path.exists(static_thumb):
+    # ───── サムネイル：テンプレ + 毎日のトピック自動合成 ─────
+    main_headline = "今日のAIニュース"
+    topics = dialogue.get("topics", [])
+    if topics:
+        main_headline = topics[0].get("title", main_headline) or main_headline
+
+    template_thumb = "youtube_pipeline/thumbnail_template.png"
+    static_thumb   = "youtube_pipeline/thumbnail.png"
+
+    if os.path.exists(template_thumb):
+        # テンプレに今日のトピックを描画
+        compose_thumbnail_from_template(template_thumb, main_headline, thumb_path)
+        print(f"[サムネイル] テンプレ＋トピック合成: {main_headline}")
+    elif os.path.exists(static_thumb):
+        # 固定サムネ（旧運用）
         shutil.copy(static_thumb, thumb_path)
-        print(f"[サムネイル] 手作り固定サムネを使用: {static_thumb}")
+        print(f"[サムネイル] 固定サムネを使用: {static_thumb}")
     else:
-        # フォールバック：自動生成（固定サムネが見つからない場合のみ）
-        main_headline = "今日のAIニュース"
-        topics = dialogue.get("topics", [])
-        if topics:
-            main_headline = topics[0].get("title", main_headline) or main_headline
+        # フォールバック自動生成
         make_thumbnail(main_headline, thumb_path)
         print(f"[サムネイル] フォールバック自動生成: {main_headline}")
 
