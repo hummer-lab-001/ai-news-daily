@@ -173,17 +173,17 @@ def main() -> None:
             check=True, capture_output=True
         )
 
-        # BGM ミックス（冒頭8秒・末尾8秒・音量小さめ）
+        # BGM ミックス（冒頭15秒・末尾10秒・音量7%統一）
         bgm_path = resolve_bgm()
         if bgm_path and os.path.exists(bgm_path):
             narration_dur = get_audio_duration(tmp_speed)
-            intro_dur = 8.0   # 冒頭BGMの長さ（秒）
-            outro_dur = 8.0   # 末尾BGMの長さ（秒）
-            intro_vol = 0.12  # 冒頭BGM音量（大幅DOWN）
-            outro_vol = 0.10  # 末尾BGM音量（大幅DOWN）
+            intro_dur = 15.0  # 冒頭BGMの長さ（秒）
+            outro_dur = 10.0  # 末尾BGMの長さ（秒）
+            intro_vol = 0.07  # 冒頭BGM音量（7%）
+            outro_vol = 0.07  # 末尾BGM音量（7%）
             outro_delay_ms = int(max(0, narration_dur - outro_dur) * 1000)
 
-            print(f"[BGM] 冒頭{intro_dur}秒＋末尾{outro_dur}秒に挿入（音量{intro_vol}/{outro_vol}・ナレーション{narration_dur:.1f}秒）")
+            print(f"[BGM] 冒頭{intro_dur}秒＋末尾{outro_dur}秒に挿入（音量{intro_vol}統一・ナレーション{narration_dur:.1f}秒）")
             mix_filter = (
                 # 冒頭BGM：0〜5秒、後半フェードアウト
                 f"[1:a]atrim=0:{intro_dur},asetpts=PTS-STARTPTS,"
