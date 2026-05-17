@@ -2,8 +2,13 @@ name: Daily AI News Update
 
 on:
   schedule:
-      - cron: '0 14 * * 0-4'  # 14:00 UTC 日〜木曜起動 = 月〜金 JST 早朝公開（土日完全停止）
+    - cron: '0 14 * * 0-4'  # 14:00 UTC 日〜木曜起動 = 月〜金 JST 早朝公開（平日のみ）
   workflow_dispatch:
+    inputs:
+      skip_youtube:
+        description: 'YouTubeアップロードをスキップ（テストモード）'
+        type: boolean
+        default: false
 
 jobs:
   build:
@@ -197,8 +202,19 @@ jobs:
           SLIDES_DIR: output/slides
         run: python youtube_pipeline/generate_video.py
 
-      - name: ④ YouTube アップロード
+      - name: 動画とサムネをダウンロード可能にする（テスト確認用）
         if: steps.dup_check.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-video-preview
+          path: |
+            output/news.mp4
+            output/thumbnail.png
+            output/news.mp3
+          retention-days: 7
+
+      - name: ④ YouTube アップロード（テストモード時はスキップ）
+        if: steps.dup_check.outputs.skip != 'true' && github.event.inputs.skip_youtube != 'true'
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
@@ -207,7 +223,20 @@ jobs:
           NEWS_TEXT_PATH: output/news.txt
           NEWS_VIDEO_PATH: output/news.mp4
           NEWS_THUMB_PATH: output/thumbnail.png
+          DIALOGUE_JSON_PATH: output/dialogue.json
         run: python youtube_pipeline/upload_youtube.py
+
+      - name: テストモードの通知
+        if: github.event.inputs.skip_youtube == 'true'
+        run: |
+          echo "## 🧪 テストモードで実行されました" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "YouTubeアップロードはスキップされました。" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "📥 **動画ダウンロード手順:**" >> "$GITHUB_STEP_SUMMARY"
+          echo "1. このページの上部「Summary」へ" >> "$GITHUB_STEP_SUMMARY"
+          echo "2. 下にスクロール → \"Artifacts\" セクション" >> "$GITHUB_STEP_SUMMARY"
+          echo "3. \"news-video-preview\" をクリックしてダウンロード" >> "$GITHUB_STEP_SUMMARY"
 
       - name: 結果をサマリー表示
         if: always()
