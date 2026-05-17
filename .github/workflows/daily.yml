@@ -2,7 +2,7 @@ name: Daily AI News Update
 
 on:
   schedule:
-    - cron: '0 14 * * 0-4'  # 14:00 UTC 日〜木曜起動 = 月〜金 JST 早朝公開（平日のみ）
+      - cron: '0 15 * * 0-4'  # 15:00 UTC 月〜金曜起動 = 翌00:00 JST = 月〜金 JST 早朝公開（日付ズレ防止）
   workflow_dispatch:
     inputs:
       skip_youtube:
