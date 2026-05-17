@@ -173,17 +173,17 @@ def main() -> None:
             check=True, capture_output=True
         )
 
-        # BGM ミックス（冒頭5秒・末尾5秒のみ）
+        # BGM ミックス（冒頭8秒・末尾8秒・音量小さめ）
         bgm_path = resolve_bgm()
         if bgm_path and os.path.exists(bgm_path):
             narration_dur = get_audio_duration(tmp_speed)
-            intro_dur = 5.0   # 冒頭BGMの長さ（秒）
-            outro_dur = 5.0   # 末尾BGMの長さ（秒）
-            intro_vol = 0.35  # 冒頭BGM音量
-            outro_vol = 0.30  # 末尾BGM音量
+            intro_dur = 8.0   # 冒頭BGMの長さ（秒）
+            outro_dur = 8.0   # 末尾BGMの長さ（秒）
+            intro_vol = 0.12  # 冒頭BGM音量（大幅DOWN）
+            outro_vol = 0.10  # 末尾BGM音量（大幅DOWN）
             outro_delay_ms = int(max(0, narration_dur - outro_dur) * 1000)
 
-            print(f"[BGM] 冒頭{intro_dur}秒＋末尾{outro_dur}秒に挿入（ナレーション{narration_dur:.1f}秒）")
+            print(f"[BGM] 冒頭{intro_dur}秒＋末尾{outro_dur}秒に挿入（音量{intro_vol}/{outro_vol}・ナレーション{narration_dur:.1f}秒）")
             mix_filter = (
                 # 冒頭BGM：0〜5秒、後半フェードアウト
                 f"[1:a]atrim=0:{intro_dur},asetpts=PTS-STARTPTS,"
@@ -225,10 +225,12 @@ def main() -> None:
             json.dump(timing, f, ensure_ascii=False, indent=2)
         print(f"[タイミング保存] {timing_path}")
 
-        # SRT字幕ファイル生成（冒頭BGMの5秒分シフト考慮）
+        # SRT字幕ファイル生成（クール・シンプル路線）
+        # キャスター名は初回登場のみ・以降はテキストのみ
         srt_path = os.environ.get("SUBTITLE_PATH", "output/subtitles.srt")
         srt_lines = []
         cursor_sec = 0.0
+        shown_speakers = set()  # 既にラベル表示済みのスピーカー
         for i, (line, dur) in enumerate(zip(flat_lines, durations), 1):
             text = (line.get("text", "") or "").strip()
             if not text or dur < 0.1:
@@ -239,8 +241,13 @@ def main() -> None:
             srt_lines.append(f"{i}")
             srt_lines.append(f"{_sec_to_srt(start)} --> {_sec_to_srt(end)}")
             speaker = line.get("speaker", "A")
-            speaker_label = "Aoi" if speaker == "A" else "Hina"
-            srt_lines.append(f"[{speaker_label}] {text}")
+            # 初回登場時のみキャスター名を付ける
+            if speaker not in shown_speakers:
+                speaker_label = "Aoi" if speaker == "A" else "Hina"
+                srt_lines.append(f"[{speaker_label}] {text}")
+                shown_speakers.add(speaker)
+            else:
+                srt_lines.append(text)
             srt_lines.append("")
             cursor_sec += dur
         with open(srt_path, "w", encoding="utf-8") as f:
