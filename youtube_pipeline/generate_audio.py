@@ -34,8 +34,16 @@ def get_audio_duration(path: str) -> float:
         return 0.0
 
 
-def download_bgm(url: str) -> str:
-    """BGMファイルをダウンロードしてキャッシュパスを返す"""
+def resolve_bgm() -> str:
+    """BGMファイルのパスを取得。優先順位: ローカルファイル > URL"""
+    # ① リポジトリ内のローカルBGMファイル
+    local_bgm = "youtube_pipeline/bgm.mp3"
+    if os.path.exists(local_bgm):
+        print(f"[BGM] ローカルファイル使用: {local_bgm}")
+        return local_bgm
+
+    # ② URL指定の場合はダウンロード
+    url = os.environ.get("BGM_URL", "").strip()
     if not url:
         return ""
     cache_path = "output/assets/bgm.mp3"
@@ -43,7 +51,7 @@ def download_bgm(url: str) -> str:
         return cache_path
     try:
         os.makedirs(os.path.dirname(cache_path), exist_ok=True)
-        print(f"[BGM] ダウンロード: {url[:60]}...")
+        print(f"[BGM] URLからダウンロード: {url[:60]}...")
         urllib.request.urlretrieve(url, cache_path)
         return cache_path
     except Exception as e:
@@ -165,23 +173,32 @@ def main() -> None:
             check=True, capture_output=True
         )
 
-        # BGM ミックス（指定されていれば）
-        bgm_path = download_bgm(bgm_url)
+        # BGM ミックス（冒頭5秒・末尾5秒のみ）
+        bgm_path = resolve_bgm()
         if bgm_path and os.path.exists(bgm_path):
-            print(f"[BGM] ナレーションとミックス（音量{bgm_volume}）")
-            # ナレーションの長さを取得
             narration_dur = get_audio_duration(tmp_speed)
-            # BGMをループ + フェードイン/アウト + 音量調整 + ミックス
+            intro_dur = 5.0   # 冒頭BGMの長さ（秒）
+            outro_dur = 5.0   # 末尾BGMの長さ（秒）
+            intro_vol = 0.35  # 冒頭BGM音量
+            outro_vol = 0.30  # 末尾BGM音量
+            outro_delay_ms = int(max(0, narration_dur - outro_dur) * 1000)
+
+            print(f"[BGM] 冒頭{intro_dur}秒＋末尾{outro_dur}秒に挿入（ナレーション{narration_dur:.1f}秒）")
             mix_filter = (
-                f"[1:a]aloop=loop=-1:size=2e+09,"
-                f"volume={bgm_volume},"
-                f"afade=t=in:st=0:d=2,"
-                f"afade=t=out:st={max(0, narration_dur - 2):.2f}:d=2[bgm];"
-                f"[0:a][bgm]amix=inputs=2:duration=first:dropout_transition=0[out]"
+                # 冒頭BGM：0〜5秒、後半フェードアウト
+                f"[1:a]atrim=0:{intro_dur},asetpts=PTS-STARTPTS,"
+                f"volume={intro_vol},afade=t=out:st={intro_dur-1.5}:d=1.5[intro];"
+                # 末尾BGM：別ソースから5秒、フェードイン+アウト、ナレーション末尾に配置
+                f"[2:a]atrim=0:{outro_dur},asetpts=PTS-STARTPTS,"
+                f"volume={outro_vol},afade=t=in:st=0:d=1.5,afade=t=out:st={outro_dur-1.5}:d=1.5,"
+                f"adelay={outro_delay_ms}|{outro_delay_ms}[outro];"
+                # ナレーション + 冒頭BGM + 末尾BGM を3つミックス
+                f"[0:a][intro][outro]amix=inputs=3:duration=first:dropout_transition=0[out]"
             )
             r = subprocess.run([
                 "ffmpeg", "-y",
                 "-i", tmp_speed,
+                "-i", bgm_path,
                 "-i", bgm_path,
                 "-filter_complex", mix_filter,
                 "-map", "[out]",
@@ -193,8 +210,9 @@ def main() -> None:
                 print(f"[警告] BGMミックス失敗、ナレーションのみ使用:\n{r.stderr[-300:]}")
                 shutil.copy(tmp_speed, out_path)
             else:
-                print(f"[BGM] ミックス完了")
+                print(f"[BGM] ミックス完了（冒頭・末尾のみ）")
         else:
+            print(f"[BGM] BGMファイルなし、ナレーションのみ")
             shutil.copy(tmp_speed, out_path)
 
         size_kb = os.path.getsize(out_path) // 1024
