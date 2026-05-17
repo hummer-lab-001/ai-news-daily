@@ -536,14 +536,50 @@ def make_video(slide_paths, slide_durations, audio_path, out_path):
             print(f"[エラー] 連結失敗: {r.stderr[-500:]}")
             sys.exit(1)
 
-        r = subprocess.run([
-            "ffmpeg", "-y", "-i", video_only, "-i", audio_path,
-            "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
-            "-shortest", "-movflags", "+faststart", out_path
-        ], capture_output=True, text=True)
-        if r.returncode != 0:
-            print(f"[エラー] 音声合成失敗: {r.stderr[-500:]}")
-            sys.exit(1)
+        # 字幕ファイルがあれば焼き込み
+        subtitle_path = os.environ.get("SUBTITLE_PATH", "output/subtitles.srt")
+        if os.path.exists(subtitle_path):
+            # 字幕付きで音声合成
+            print(f"[字幕焼き込み] {subtitle_path}")
+            vf_filter = (
+                f"subtitles={subtitle_path}:force_style="
+                "'FontName=Noto Sans CJK JP,"
+                "FontSize=22,"
+                "PrimaryColour=&H00FFFFFF,"
+                "OutlineColour=&H00000000,"
+                "BorderStyle=1,"
+                "Outline=3,"
+                "Shadow=1,"
+                "MarginV=40,"
+                "Alignment=2'"
+            )
+            r = subprocess.run([
+                "ffmpeg", "-y", "-i", video_only, "-i", audio_path,
+                "-vf", vf_filter,
+                "-c:v", "libx264", "-preset", "fast",
+                "-c:a", "aac", "-b:a", "192k",
+                "-shortest", "-movflags", "+faststart", out_path
+            ], capture_output=True, text=True)
+            if r.returncode != 0:
+                print(f"[警告] 字幕焼き込み失敗、字幕なしで生成:\n{r.stderr[-300:]}")
+                # フォールバック：字幕なし
+                r = subprocess.run([
+                    "ffmpeg", "-y", "-i", video_only, "-i", audio_path,
+                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                    "-shortest", "-movflags", "+faststart", out_path
+                ], capture_output=True, text=True)
+                if r.returncode != 0:
+                    print(f"[エラー] 音声合成失敗: {r.stderr[-500:]}")
+                    sys.exit(1)
+        else:
+            r = subprocess.run([
+                "ffmpeg", "-y", "-i", video_only, "-i", audio_path,
+                "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                "-shortest", "-movflags", "+faststart", out_path
+            ], capture_output=True, text=True)
+            if r.returncode != 0:
+                print(f"[エラー] 音声合成失敗: {r.stderr[-500:]}")
+                sys.exit(1)
 
     finally:
         shutil.rmtree(tmpdir, ignore_errors=True)

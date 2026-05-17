@@ -68,11 +68,21 @@ def upload_video(creds, video_path: str, title: str, description: str, thumb_pat
 
     youtube = build("youtube", "v3", credentials=creds)
 
+    # SEO最適化タグ（最大15個程度・YouTube推奨）
+    tags = [
+        "AIニュース", "AI", "人工知能",
+        "ChatGPT", "Claude", "Gemini",
+        "OpenAI", "Anthropic", "Google",
+        "AI業界", "AIビジネス", "テクノロジー",
+        "IT", "DX", "デジタル変革",
+        "毎日AIニュース", "AI最新情報", "朝のニュース",
+        "ビジネスニュース", "テック業界",
+    ]
     body = {
         "snippet": {
             "title": title,
             "description": description,
-            "tags": ["AIニュース", "人工知能", "テクノロジー", "毎日更新"],
+            "tags": tags[:30],   # YouTube上限500文字以内
             "categoryId": "28",   # 科学・技術
             "defaultLanguage": "ja",
             "defaultAudioLanguage": "ja",
@@ -169,7 +179,26 @@ def main() -> None:
     except ValueError:
         date_display = date_str
 
-    title = f"今日のAIニュース {date_display}"
+    # 今日のメイントピックを取得（dialogue.json から）
+    main_topic = ""
+    dialogue_path = os.environ.get("DIALOGUE_JSON_PATH", "output/dialogue.json")
+    if os.path.exists(dialogue_path):
+        try:
+            with open(dialogue_path, encoding="utf-8") as f:
+                dlg = json.load(f)
+            topics = dlg.get("topics", [])
+            if topics:
+                main_topic = topics[0].get("title", "") or ""
+        except Exception as e:
+            print(f"[警告] dialogue.json 読み込み失敗: {e}")
+
+    # タイトル：メイントピック + ブランド + 日付
+    if main_topic:
+        title = f"【AIニュース】{main_topic} | {date_display}"
+    else:
+        title = f"【AIニュース】今日の最新AI動向 | {date_display}"
+    # YouTubeタイトル上限100文字
+    title = title[:99]
 
     description_parts = [
         f"📰 {date_display} の最新AIニュースをお届けします。",

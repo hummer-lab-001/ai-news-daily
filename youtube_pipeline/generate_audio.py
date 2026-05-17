@@ -225,8 +225,39 @@ def main() -> None:
             json.dump(timing, f, ensure_ascii=False, indent=2)
         print(f"[タイミング保存] {timing_path}")
 
+        # SRT字幕ファイル生成（冒頭BGMの5秒分シフト考慮）
+        srt_path = os.environ.get("SUBTITLE_PATH", "output/subtitles.srt")
+        srt_lines = []
+        cursor_sec = 0.0
+        for i, (line, dur) in enumerate(zip(flat_lines, durations), 1):
+            text = (line.get("text", "") or "").strip()
+            if not text or dur < 0.1:
+                cursor_sec += dur
+                continue
+            start = cursor_sec
+            end = cursor_sec + dur
+            srt_lines.append(f"{i}")
+            srt_lines.append(f"{_sec_to_srt(start)} --> {_sec_to_srt(end)}")
+            speaker = line.get("speaker", "A")
+            speaker_label = "Aoi" if speaker == "A" else "Hina"
+            srt_lines.append(f"[{speaker_label}] {text}")
+            srt_lines.append("")
+            cursor_sec += dur
+        with open(srt_path, "w", encoding="utf-8") as f:
+            f.write("\n".join(srt_lines))
+        print(f"[字幕保存] {srt_path}")
+
     finally:
         shutil.rmtree(tmpdir, ignore_errors=True)
+
+
+def _sec_to_srt(sec: float) -> str:
+    """秒を SRT形式 HH:MM:SS,mmm に変換"""
+    h = int(sec // 3600)
+    m = int((sec % 3600) // 60)
+    s = int(sec % 60)
+    ms = int((sec - int(sec)) * 1000)
+    return f"{h:02d}:{m:02d}:{s:02d},{ms:03d}"
 
 
 def build_atempo_chain(speed: float) -> str:
