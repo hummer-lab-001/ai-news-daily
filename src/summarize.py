@@ -21,7 +21,10 @@ SYSTEM_PROMPT = """\
 以下の記事群から、日本企業のAI活用実務に最も役立つ情報を抽出してください。
 
 重要度の判断基準(優先順):
-0. 【最優先】Anthropic / Claude / Claude Code 関連の記事は、TOP10のうち8件を必ず占めるよう優先する。残り2件は他のAIトピック(ChatGPT、Gemini、業界動向、日本市場等)から選ぶ。
+0. 【最優先】Anthropic / Claude / Claude Code 関連の記事は、TOP10のうち8件を目安に優先する。
+   ただし、ユーザーメッセージ末尾の【重複禁止】リストがこの優先より強い＝配信済みと同じ出来事で
+   Anthropic枠を埋めてはならない。新しいAnthropic関連の出来事が足りない日は、無理に8件へ届かせず、
+   残りを他のAIトピック(ChatGPT、Gemini、業界動向、日本市場等)の最新ニュースで補うこと。
 1. 日本企業がすぐ使える具体的な活用事例・ツール・サービス
 2. 主要AIツール(ChatGPT/Claude/Gemini/Copilot等)の新機能・価格・仕様変更
 3. 日本のAI市場動向・規制・大手SIer/コンサル動向
@@ -69,6 +72,55 @@ def load_raw_articles(date_str: str | None = None) -> dict:
         raise FileNotFoundError(f"生データが見つかりません: {path}\n先に src/fetch.py を実行してください。")
     with open(path, encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_recent_titles(today_str: str, max_titles: int = 40) -> list[str]:
+    """直近の配信済み summary から must_read タイトルを集める（重複回避用）。
+
+    2026-08-19 追加: 透かし問題が言い換え（ウォーターマーク騒動→透かし物議→透かし問題再燃）で
+    連日 must_read 上位を占めた対策。summary_*.json は同日付で .gitignore から外し、
+    リポジトリにコミットされて実行間で持ち越される。
+    """
+    titles: list[str] = []
+    for p in sorted(DATA_DIR.glob("summary_*.json"))[-8:]:
+        if today_str in p.name:
+            continue
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        date = d.get("date", "")
+        for it in d.get("must_read", []):
+            t = (it.get("title_ja") or "").strip()
+            if t:
+                titles.append(f"[{date}] {t}")
+    return titles[-max_titles:]
+
+
+def build_avoid_block(recent_titles: list[str]) -> str:
+    if not recent_titles:
+        return ""
+    return (
+        "\n\n【重複禁止（最重要・例外なし）】以下は直近の配信で既に掲載済みのトピックである。"
+        "これらと同じ出来事を、タイトルの言い換え・切り口の変更・「再燃」「続報」「物議」等の"
+        "再パッケージで再び must_read に立ててはならない（Anthropic/Claude 関連でも例外にしない）。"
+        "扱ってよい続報は、掲載後に起きた新しい出来事（新発表・新機能・新数値・新決定）が"
+        "記事本文から確認できる場合だけで、そのときは新しい出来事の方を主題にすること:\n- "
+        + "\n- ".join(recent_titles)
+    )
+
+
+def cleanup_old_summaries(keep_days: int = 30) -> None:
+    """30日より古い summary を削除（リポジトリ肥大防止。docs/archive と同じ保持期間）。"""
+    cutoff = datetime.now(JST) - timedelta(days=keep_days)
+    for p in DATA_DIR.glob("summary_*.json"):
+        try:
+            d = datetime.strptime(p.stem.split("_")[1], "%Y%m%d").replace(tzinfo=JST)
+            if d < cutoff:
+                p.unlink()
+                logger.info(f"古いsummaryを削除: {p.name}")
+        except Exception:
+            pass
 
 
 def build_user_message(articles: list[dict]) -> str:
@@ -135,9 +187,14 @@ def main():
         save_summary({"must_read": [], "digest": []}, failed_sources)
         return
 
-    user_message = build_user_message(articles)
+    today_str = datetime.now(JST).strftime("%Y%m%d")
+    recent_titles = load_recent_titles(today_str)
+    if recent_titles:
+        logger.info(f"重複回避: 直近の配信済み {len(recent_titles)} タイトルをプロンプトに反映")
+    user_message = build_user_message(articles) + build_avoid_block(recent_titles)
     summary = call_claude(user_message)
     save_summary(summary, failed_sources)
+    cleanup_old_summaries()
     logger.info(f"must_read: {len(summary.get('must_read', []))} 件, digest: {len(summary.get('digest', []))} 件")
 
 

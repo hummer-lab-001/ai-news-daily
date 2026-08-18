@@ -3,6 +3,7 @@ name: Daily AI News Update
 on:
   schedule:
       - cron: '0 15 * * 0-4'  # 15:00 UTC 月〜金曜起動 = 翌00:00 JST = 月〜金 JST 早朝公開（日付ズレ防止）
+      - cron: '30 22 * * 0-4' # 22:30 UTC = 07:30 JST 再走便（深夜便がハング・失敗した日の自動リカバリー。成功済みの日はアップロード済みゲートでスキップされる）
   workflow_dispatch:
     inputs:
       skip_youtube:
@@ -10,9 +11,17 @@ on:
         type: boolean
         default: false
 
+# 同時実行は1本だけ。新しい実行が始まったら、吊り下がったままの古い実行を自動キャンセルする
+# （2026-08-19: 深夜便が10時間以上 In progress のまま止まり、当日の動画が出なかった実害への対策）
+concurrency:
+  group: daily-news
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    # ハング対策: 通常8〜14分で終わる。45分を超えたら失敗として殺す（無限 In progress を防ぐ）
+    timeout-minutes: 45
     permissions:
       contents: write
 
@@ -128,7 +137,22 @@ jobs:
         id: dup_check
         run: |
           python << 'EOF'
-          import hashlib, os, sys
+          import hashlib, os, sys, datetime
+
+          # ゲート1: 本日分アップロード済みなら再走便はスキップ（二重アップロード防止）
+          today_jst = (datetime.datetime.utcnow() + datetime.timedelta(hours=9)).strftime('%Y-%m-%d')
+          mark_path = 'data/last_upload_date.txt'
+          if os.path.exists(mark_path):
+              with open(mark_path) as f:
+                  if f.read().strip() == today_jst:
+                      print(f'[スキップ] 本日({today_jst})分は既にアップロード済み（再走便ガード）')
+                      with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                          f.write('skip=true\n')
+                      with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+                          f.write('## ⏭️ 配信スキップ\n本日分は既にアップロード済みのためスキップしました（再走便ガード）。\n')
+                      sys.exit(0)
+
+          # ゲート2: 前日と同じニュース内容ならスキップ（従来どおり）
           with open('output/news.txt', encoding='utf-8') as f:
               current = f.read()
           current_hash = hashlib.sha256(current.encode('utf-8')).hexdigest()
@@ -226,6 +250,10 @@ jobs:
           DIALOGUE_JSON_PATH: output/dialogue.json
         run: python youtube_pipeline/upload_youtube.py
 
+      - name: アップロード完了を記録（再走便ガード用）
+        if: steps.dup_check.outputs.skip != 'true' && github.event.inputs.skip_youtube != 'true'
+        run: TZ=Asia/Tokyo date '+%Y-%m-%d' > data/last_upload_date.txt
+
       - name: テストモードの通知
         if: github.event.inputs.skip_youtube == 'true'
         run: |
@@ -254,4 +282,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/archive/ data/ || true
           git diff --cached --quiet || git commit -m "Archive $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main || true
           git push || true

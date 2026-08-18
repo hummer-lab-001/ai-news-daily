@@ -15,7 +15,8 @@ env/
 
 # 生成データ(大量になるためGit管理外)
 data/raw_*.json
-data/summary_*.json
+# summary_*.json は 2026-08-19 から管理対象に変更＝実行間で配信済みトピックを持ち越し、
+# 重複回避リスト（src/summarize.py の load_recent_titles）の材料にする。30日で自動削除される
 
 # テストキャッシュ
 .pytest_cache/
