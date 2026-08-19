@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "Claude Code週次制限枠50%増を8月31日まで延長、恒久化も視野",
+      "summary_ja": "AnthropicがAIコーディング支援ツール「Claude Code」の週次利用制限枠50%増量キャンペーンを8月末まで延長。開発者の生産性向上ニーズに応える形で、恒久化も検討中と示唆している。\n\nClaude Codeは開発現場での利用が急増しており、制限枠の拡大要望が継続的に寄せられていた背景がある。今回の延長により、企業での本格導入に向けた検証期間も確保できる。\n\n恒久化については技術的・経済的な検証を進めているとのことで、実現すればコスト予測が立ちやすくなり企業導入の障壁が下がる可能性がある。",
+      "consultant_insight": "制限枠拡大の恒久化は顧客のAI開発環境の安定化に直結。導入検討中の企業には8月中の試用を推奨。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/19/2000000611/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "国産LLM「LLM-jp-4 33B」公開、全ベンチマークで従来モデル超え",
+      "summary_ja": "国立情報学研究所（NII）がオープンな国産LLMの新バージョン「LLM-jp-4 33B」を公開。約332億パラメータのDense型モデルで、4種類のベンチマーク全てで従来モデルを上回るスコアを記録。\n\nオープンソース化により、日本企業が自社環境で自由に改変・運用できる点が最大の特徴。データ主権やセキュリティを重視する企業にとって、海外依存を減らす選択肢となる。\n\n国産LLMの性能向上は、日本語処理精度の改善だけでなく、企業の内製化支援やコスト削減にも貢献する可能性が高い。",
+      "consultant_insight": "データ主権重視の顧客には国産LLM活用を提案する好機。オンプレ環境での検証価値あり。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/19/2000000626/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "OpenAI法人パートナー網拡充、中小企業の「AIなんて」に眠る伸びしろ",
+      "summary_ja": "OpenAIが日本での法人向けパートナーネットワークを拡充。新規パートナー3社が座談会で語ったのは、「うちの会社にAIなんて」と謙遜する中小企業にこそ大きな改善余地があるという実態。\n\n中小企業は大手に比べてデジタル化が遅れているケースが多く、AI導入による業務効率化の効果が出やすい。特に人手不足が深刻な業種では、小さな自動化でも大きなインパクトを生む。\n\nパートナー網の拡充により、地域密着型の支援体制が整いつつあり、中小企業のAI活用の障壁が下がることが期待される。",
+      "consultant_insight": "中小企業向けAI導入支援の需要が急拡大中。パートナー連携で地方案件も開拓可能。",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/19/2000000615/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "Replit、GPT-5.6 Luna搭載の無料モードでソフトウェア作成を民主化",
+      "summary_ja": "ReplitがGPT-5.6 Lunaを搭載した「Free Mode」を導入。トークンコストを気にせず、誰でもアイデアを動作するソフトウェアに変換できる環境を提供開始。\n\n従来のノーコード・ローコードツールと異なり、自然言語でソフトウェアを記述できるため、非エンジニアでも本格的な開発が可能に。教育現場やスタートアップでの活用が期待される。\n\nGPT-5.6 Lunaの搭載により、コード生成精度が向上し、実用レベルのアプリケーション開発が無料で試せるようになった点が画期的。",
+      "consultant_insight": "非エンジニアによる内製開発の可能性を広げる。顧客のプロトタイプ検証に活用推奨。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/replit"
+    },
+    {
+      "rank": 5,
+      "title_ja": "ChatGPT広告が欧州31市場に拡大、ユーザー意思決定時に広告表示",
+      "summary_ja": "OpenAIがChatGPT広告を欧州31市場に拡大。ユーザーが情報を探索し、選択肢を比較し、意思決定を行うタイミングで広告を表示する新たな広告モデルを展開。\n\n従来の検索広告と異なり、対話型AIの文脈に沿った広告配信が可能になり、ユーザー体験を損なわずに広告効果を高める設計。広告主にとっては新たなタッチポイントとなる。\n\n日本市場での展開も時間の問題とみられ、企業のマーケティング戦略にChatGPT広告を組み込む検討が必要になる可能性が高い。",
+      "consultant_insight": "対話型AI広告の到来。顧客のマーケティング戦略にChatGPT広告の検討を提案する時期。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe"
+    },
+    {
+      "rank": 6,
+      "title_ja": "NTTが小型LLM「tsuzumi 2」にこだわる理由、企業実務の現実解を目指す",
+      "summary_ja": "NTTが開発する国産LLM「tsuzumi 2」は、小型化・日本語処理・データ主権を重視。大規模化一辺倒ではなく、企業が生成AIを実務に組み込む際の現実解を追求する。\n\n小型LLMは計算コストが低く、オンプレミス環境での運用が容易。データを外部に出せない企業や、レイテンシを重視するリアルタイム処理に適している。\n\nNTTは通信インフラ事業者として、エッジ環境でのAI活用を見据えており、tsuzumi 2はその戦略の中核を担う。",
+      "consultant_insight": "オンプレ・エッジでのAI活用を検討する顧客には小型LLMが現実解。tsuzumi 2は有力候補。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/articles/2607/14/news012.html"
+    },
+    {
+      "rank": 7,
+      "title_ja": "ChatGPT反論で道徳判断の3割超が覆る、高齢者ほど説得されやすい傾向",
+      "summary_ja": "神戸大学の研究で、ChatGPTの反論により道徳的判断の3割超が覆ることが判明。特に高齢者が説得されやすい傾向があり、AIの影響力の大きさが浮き彫りに。\n\n正解のない道徳問題において、AIの論理的な反論が人間の判断を変える影響力を持つことが実証された。意思決定支援ツールとしてのAI活用には慎重な設計が必要。\n\nAIの説得力が高まる中、企業の倫理的判断や意思決定プロセスにAIを組み込む際のガバナンス体制が重要になる。",
+      "consultant_insight": "AI意思決定支援の導入時には、倫理的判断のガバナンス設計が不可欠。高齢者向けサービスは特に注意。",
+      "importance": 4,
+      "category": "研究",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/19/2000000627/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "AI活用スキル格差が仕事・評価に影響、6割のエンジニアが実感",
+      "summary_ja": "ITエンジニア572人の調査で、AI活用スキルの差が業務効率だけでなく仕事やキャリアにも影響し始めていることが明らかに。6割が「AI格差」を実感している。\n\nAIを使えるかどうかだけでなく、どの程度使いこなせるかが問われる時代に。スキル差が評価や昇進に影響するケースも出始めており、企業の人材育成戦略が問われる。\n\nAI活用スキルの標準化や研修体制の整備が急務。スキル格差の放置は組織の生産性格差に直結する。",
+      "consultant_insight": "AI活用スキルの標準化・研修体制整備を急ぐべき。スキル格差は組織の競争力に直結。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news047.html"
+    },
+    {
+      "rank": 9,
+      "title_ja": "Google・英政府、AIで飛行機雲回避の大規模実証を開始、世界初",
+      "summary_ja": "GoogleがNATSなど英政府・航空管制大手と共同で、AIを用いて飛行機雲を回避する世界初の大規模実証プログラムを開始。北大西洋の洋上空域で航路を微調整し温暖化影響を抑える。\n\n飛行機雲は温暖化への影響が大きいとされ、航路の最適化により環境負荷を削減できる可能性がある。空域規模での協調的回避は技術的に困難だったが、AIの活用で実現に近づいた。\n\nGoogleは計算基盤などを現物提供し、航空業界のカーボンニュートラル実現に向けた技術開発を加速させる姿勢を示している。",
+      "consultant_insight": "AI×環境対策の先進事例。顧客の脱炭素戦略にAI活用の可能性を提案できる。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2608/19/2000000613/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "OpenAI、AIの国家安全保障における民主的監視強化イニシアチブを開始",
+      "summary_ja": "OpenAIが国家安全保障分野でのAI活用における民主的監視を強化するイニシアチブを開始。政府機関にツール・訓練・技術支援を提供し、透明性と説明責任を確保する。\n\nAIの国家安全保障利用が拡大する中、民間企業と政府の協力体制が重要に。OpenAIは技術提供だけでなく、民主的ガバナンスの枠組み構築にも貢献する姿勢。\n\n日本でも防衛・安全保障分野でのAI活用が議論されており、民主的監視の仕組み作りが今後の課題となる。",
+      "consultant_insight": "AI×国家安全保障の透明性確保が世界的課題。日本企業も防衛AI案件でガバナンス設計が必須に。",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "人材育成を阻む「学ぶ時間がない」以外の課題をガートナーが指摘",
+      "one_liner": "デジタル人材育成の障壁は時間不足だけでなく組織文化や評価制度にもある",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/17/news086.html"
+    },
+    {
+      "title_ja": "冷間鍛造FEMをAIで高速予測するサロゲートモデル「ForgeNet」発表",
+      "one_liner": "解析結果を固定格子へ投影し適応的リメッシュの課題に対処する製造業向けAI",
+      "category": "研究",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/19/news030.html"
+    },
+    {
+      "title_ja": "JetBrainsが「原始人トーク」でトークン65%削減を検証",
+      "one_liner": "AIに簡潔な言葉で話すとトークン削減できるスキル「Caveman」の効果を実証",
+      "category": "研究",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news042.html"
+    },
+    {
+      "title_ja": "話題の職種FDE、OpenAI現役2人が実態を語る",
+      "one_liner": "フィールドデプロイメントエンジニアの役割と日常業務を紹介",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/19/2000000560/"
+    },
+    {
+      "title_ja": "嫌われまくるAI営業電話、今すぐ取れる自衛策は",
+      "one_liner": "SNSで迷惑の声が多数、AI営業電話への対策方法を紹介",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2608/19/2000000583/"
+    },
+    {
+      "title_ja": "AWSジャパン、地域創生プログラム「LEAP」で最大5万ドル支援",
+      "one_liner": "地域企業のAI・クラウド活用を包括的に支援するプログラムを開始",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03353/"
+    },
+    {
+      "title_ja": "IBMとNEC、AI時代に適応しメインフレーム提供を継続",
+      "one_liner": "オープン環境やクラウドと適材適所で使い分け、AIで効率化を図る",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/080600564/080600003/"
+    },
+    {
+      "title_ja": "DeepSeek、外部調達で1兆円調達し評価額8兆円超え",
+      "one_liner": "基盤モデルを公開し企業が自社環境で運用可能、世界のAI勢力図を塗り替える可能性",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/040900481/080700035/"
+    },
+    {
+      "title_ja": "AI半導体、推論シフトでNVIDIA1強から群雄割拠へ",
+      "one_liner": "AI用途が学習から推論へシフトし半導体市場の競争軸が変化",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00152/00001/"
+    },
+    {
+      "title_ja": "キオクシア、CXL対応フラッシュメモリーでAIデータセンター狙う",
+      "one_liner": "ストレージ・クラス・メモリーでの採用を目指すXL1シリーズを開発中",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11949/"
+    },
+    {
+      "title_ja": "選挙偽情報対策で法改正、企業SNS運用に新リスク",
+      "one_liner": "AI生成画像・映像に表示義務、大規模プラットフォームにも対策義務化",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03714/080500003/"
+    },
+    {
+      "title_ja": "ソニー新社長「フィジカルAIなら強みを出せる」と自信",
+      "one_liner": "現実世界のデジタル化と仮想世界への取り込みで競争力を発揮",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00001/00682/"
+    },
+    {
+      "title_ja": "Amazon、AI搭載Alexa+をFire TVで無料提供、Prime不要",
+      "one_liner": "米国のFire TV対応デバイスで自動アップグレード開始",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/"
+    },
+    {
+      "title_ja": "Calendly、AI議事録ツール市場に参入",
+      "one_liner": "スケジュール調整アシスタント「Callie」も同時リリース",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/"
+    },
+    {
+      "title_ja": "Etched評価額、1カ月で2倍の21億ドルに",
+      "one_liner": "Jane StreetがAIクラスターシステムに感銘を受け大型ラウンドを主導",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
+    }
+  ],
+  "date": "20260820",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "arXiv cs.AI: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CL&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)"
+  ]
+}
