@@ -144,7 +144,9 @@ def call_claude(user_message: str) -> dict:
             ".env.example を参考に .env ファイルを作成するか、環境変数を設定してください。"
         )
 
-    client = anthropic.Anthropic(api_key=api_key)
+    # 🔴2026-08-20: タイムアウト未指定だと1リクエストが最長10分×内部リトライで待ち続け、
+    #   深夜便が45分〜6時間ハングする原因になっていた。3分で切り、リトライは1回だけにする。
+    client = anthropic.Anthropic(api_key=api_key, timeout=180.0, max_retries=1)
     logger.info("Claude API にリクエスト送信中...")
 
     message = client.messages.create(

@@ -3,7 +3,10 @@ name: Daily AI News Update
 on:
   schedule:
       - cron: '0 15 * * 0-4'  # 15:00 UTC 月〜金曜起動 = 翌00:00 JST = 月〜金 JST 早朝公開（日付ズレ防止）
-      - cron: '30 22 * * 0-4' # 22:30 UTC = 07:30 JST 再走便（深夜便がハング・失敗した日の自動リカバリー。成功済みの日はアップロード済みゲートでスキップされる）
+      - cron: '0 20 * * 0-4'  # 20:00 UTC = 05:00 JST 再走便（2026-08-20 HUMMERさん指示で07:30→05:00へ前倒し）
+                              # 1回目は0:00 JST起動だがGitHub側の遅延で実際の投稿は1:00〜3:00 JST。
+                              # 45分でタイムアウトしても1:45には終わるので、5:00なら十分な間隔がある。
+                              # 成功済みの日はアップロード済みゲートでスキップされる（二重投稿しない）。
   workflow_dispatch:
     inputs:
       skip_youtube:
@@ -41,6 +44,7 @@ jobs:
           pip install -r youtube_pipeline/requirements.txt
 
       - name: 記事取得・要約・HTML生成（リトライ機能付き）
+        timeout-minutes: 12   # 🔴どこで止まったかを次回ログ無しで特定するため、段ごとに上限を置く
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -194,6 +198,7 @@ jobs:
 
       - name: ① ダイアログ変換 (記号除去 + 2人掛け合い化)
         if: steps.dup_check.outputs.skip != 'true'
+        timeout-minutes: 8
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWS_TEXT_PATH: output/news.txt
@@ -202,6 +207,7 @@ jobs:
 
       - name: ② 音声生成 (2人キャスター + 1.2倍速 + BGM)
         if: steps.dup_check.outputs.skip != 'true'
+        timeout-minutes: 15   # 🔴Fish Audio をセリフ数ぶん呼ぶ＝止まると最も長引く箇所
         env:
           FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
           FISH_VOICE_ID_A: ${{ secrets.FISH_VOICE_ID_A }}
@@ -216,6 +222,7 @@ jobs:
 
       - name: ③ 動画生成 (Aoiキャラ + ニューススタジオ風)
         if: steps.dup_check.outputs.skip != 'true'
+        timeout-minutes: 15
         env:
           NEWS_DATE: ${{ steps.date.outputs.value }}
           DIALOGUE_JSON_PATH: output/dialogue.json
@@ -239,6 +246,7 @@ jobs:
 
       - name: ④ YouTube アップロード（テストモード時はスキップ）
         if: steps.dup_check.outputs.skip != 'true' && github.event.inputs.skip_youtube != 'true'
+        timeout-minutes: 20
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}

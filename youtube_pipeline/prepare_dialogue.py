@@ -45,7 +45,8 @@ def convert_to_dialogue(text: str) -> dict:
         sys.exit(1)
 
     model = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-5")
-    client = anthropic.Anthropic(api_key=api_key)
+    # 🔴2026-08-20: タイムアウト未指定だと待ち続けてハングするため、3分で切る（上と同じ理由）
+    client = anthropic.Anthropic(api_key=api_key, timeout=180.0, max_retries=1)
 
     prompt = f"""あなたはAIニュース番組の構成作家です。
 以下のニュース原稿を、テンポの良い「2人キャスターの掛け合い形式」に書き直してください。
