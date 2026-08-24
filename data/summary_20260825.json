@@ -2,9 +2,9 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "【復旧済み】Claude / Claude Codeで障害発生、エラー原因特定し修正完了",
-      "summary_ja": "Anthropic公式発表。日本時間8月24日午後2時27分時点でClaudeおよびClaude Codeにて障害が発生し、ユーザーアクセスに影響。同社ステータスサイトによると原因を特定し修正作業を実施、その後復旧が確認された。\n\n大規模障害ではあったものの迅速な対応で短時間での復旧を実現。Anthropicの運用体制の強固さを示す事例となった。\n\nClaude依存度が高い企業は、今後の障害対策として代替モデルやキャッシュ戦略の検討が推奨される。",
-      "consultant_insight": "Claude依存の企業は今回の障害を機に、複数AIモデル併用と障害時BCP策定を検討すべき。",
+      "title_ja": "【復旧済み】Claude、Claude Codeで障害発生",
+      "summary_ja": "米AnthropicのAIサービス「Claude」「Claude Code」などで障害が発生した。日本時間8月24日午後2時27分時点で原因を特定し、修正作業中との報告。その後復旧済み。\n\nClaudeは業務利用が増加している中で、サービス停止は業務への影響が大きい。今回の障害は比較的短時間で復旧したが、重要業務での依存度を見直す契機にもなる。\n\n障害発生時の代替手段（ChatGPT、Gemini等）の準備や、ミッションクリティカルな用途ではオンプレミス型AIの検討も必要。",
+      "consultant_insight": "Claude依存の顧客には「障害時の代替プラン」提案が急務。複数AIの併用体制構築を支援すべき",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
@@ -12,9 +12,9 @@
     },
     {
       "rank": 2,
-      "title_ja": "ChatGPT・Gemini・Claude Sonnet 5の「速度」と「安定性」を実測比較、応答時間と時間帯変動を検証",
-      "summary_ja": "ITmedia AI+が主要AIチャット3サービスの応答速度を実測。ChatGPT、Gemini、Claude Sonnet 5について時間帯別の速度変動と安定性を数値で比較検証した。\n\n実測の結果、サービスごとに得意な時間帯や安定性の傾向が明らかに。企業利用では業務時間帯での応答速度が生産性に直結する。\n\nユーザー企業は自社の利用時間帯を考慮し、最適なサービス選定や複数併用の判断材料として活用可能。",
-      "consultant_insight": "速度・安定性の実測データは、業務時間帯に合わせたAIサービス選定の客観的根拠になる。",
+      "title_ja": "ChatGPT、Gemini、Claude Sonnet 5の応答速度・安定性を実測比較",
+      "summary_ja": "主要AIチャットサービス3種（ChatGPT、Gemini、Claude Sonnet 5）の応答速度と安定性を実測。時間帯による変動や測定値のばらつきを検証した。\n\n実務利用では応答速度の安定性が重要。測定結果から、業務用途に最適なサービスを選定する判断材料が得られる。\n\n時間帯による速度変動が大きい場合、業務のピーク時間を避けた運用設計が有効。コスト・速度・安定性の三要素で総合判断が必要。",
+      "consultant_insight": "SLA未公開のAIサービスでは実測データが顧客説得材料に。時間帯別パフォーマンスで業務設計を最適化",
       "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
@@ -22,175 +22,175 @@
     },
     {
       "rank": 3,
-      "title_ja": "生成AIの品質を「AIで測る」手法 ―― LLM as a Judge の3要素と実装ポイント",
-      "summary_ja": "dotDataがブログで「LLM as a Judge」の基礎を解説。AIの出力を別のAIが評価する手法について、品質確保に必要な3つの要素を実例付きで紹介した。\n\nAI評価の信頼性を担保するには、評価基準の明確化・複数モデル併用・人間による最終検証が不可欠。単一AIに依存するリスクも指摘。\n\nコンサル実務では、クライアント企業のAI導入後の品質管理プロセス設計に即応用できる知見となる。",
-      "consultant_insight": "AI品質評価を自動化しつつ、人間の最終判断を組み込む二段構えの設計が現実解。",
-      "importance": 5,
-      "category": "実務",
+      "title_ja": "30Bクラスオープンモデルが「熱い」理由──27BでOpus 4.6超えも",
+      "summary_ja": "Meta、NVIDIA、Alibabaが30B（300億）パラメータクラスのオープンモデルを相次ぎ公開。国産「LLM-jp-4 33B」も登場し、このサイズのモデルが注目される理由と留意点を解説。\n\n30Bクラスは性能とコストのバランスが良く、企業のオンプレミス運用に適したサイズ。一部モデルは27BパラメータでClaude Opus 4.6を超える性能を実現。\n\n大規模モデル（100B超）ほどインフラ負荷が高くなく、中小企業でも導入可能。オープンソースのため商用利用の自由度も高い。",
+      "consultant_insight": "クラウドAI予算に悩む顧客には30Bオープンモデルのオンプレ運用を提案。コスト削減と性能を両立",
+      "importance": 4,
+      "category": "ツール",
       "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news048.html"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/24/2000000723/"
     },
     {
       "rank": 4,
-      "title_ja": "AIエージェント活用を阻む「予算の壁」――セールスフォース・IBM・マネーフォワードの新機能は打開策になるか",
-      "summary_ja": "企業のAIエージェント導入で最大の障壁は「予算が立てられない」こと。従量課金では事前にコスト見通しが立たず、ROI試算も困難で投資判断が進まない。\n\nセールスフォース、IBM、マネーフォワードが相次いで「利用量上限設定」「定額プラン」などコスト予測可能な料金体系を発表。\n\n予算確定が必須の大企業・官公庁向けに、AI導入の財務ハードルを下げる選択肢が整いつつある。",
-      "consultant_insight": "予算枠を事前確定できる料金プランの登場で、大企業のAIエージェント導入が加速する。",
+      "title_ja": "AIエージェント活用を阻む「予算の壁」──セールスフォース、IBM、マネーフォワードが打開策",
+      "summary_ja": "企業のAIエージェント活用において、AI利用コストの事前予測が困難なため投資判断ができず、予算化・ROI算出が進まない「予算の壁」が存在する。\n\nセールスフォース、IBM、マネーフォワードが提供を開始した最新機能は、コスト予測可能性を高める仕組みを提供し、この壁の打開を目指す。\n\n従量課金制が主流のAIサービスでは予算管理が難しく、経営層の承認が得られにくい。固定料金や上限設定機能が普及すれば導入加速が期待できる。",
+      "consultant_insight": "AIエージェント導入の稟議書には「月額上限保証」「ROI試算ツール」を必須添付。経営承認率が向上",
       "importance": 5,
-      "category": "業界",
+      "category": "実務",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2608/24/news075.html"
     },
     {
       "rank": 5,
-      "title_ja": "Sakana AI、防衛省の「情報分析業務」を支援するAI開発契約を締結",
-      "summary_ja": "Sakana AIが防衛省と情報分析業務支援AIの開発契約を締結。自衛隊の指揮統制システム高度化に続く第2弾の官公庁案件となる。\n\n国産AI企業による防衛分野への技術提供が本格化。データ主権・安全保障の観点から、国内ベンダーへの発注が加速する流れを象徴。\n\nAI活用が進む防衛・インフラ・金融など規制業界で、国産ベンダー選定の動きが今後も拡大する見込み。",
-      "consultant_insight": "安全保障分野でのAI活用は国産ベンダー優先が加速、他規制業界も追随の可能性。",
+      "title_ja": "「LLM as a Judge」でAIの品質をAIが測る──3つの成功要素とは",
+      "summary_ja": "AIの出力を別のAIが評価する手法「LLM as a Judge」について、dotDataがブログで基礎を解説。AIにAIを評価させながら品質を確保する具体的手法を紹介。\n\n従来の人手による評価は時間・コストがかかるため、AI自動評価が注目される。ただし評価AI自体の信頼性確保が課題となる。\n\n成功には(1)明確な評価基準、(2)多様なテストケース、(3)人間によるスポット検証の3要素が必要。完全自動化は避け、人間の監督を残すべき。",
+      "consultant_insight": "AI品質管理の自動化で人件費削減を訴求。ただし「AI評価AI」の監査体制構築も同時提案が必須",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news048.html"
+    },
+    {
+      "rank": 6,
+      "title_ja": "Sakana AI、防衛省の「情報分析」をAI支援──指揮統制に続く第2弾",
+      "summary_ja": "Sakana AIは、防衛省における情報分析業務を支援するAIの開発契約を締結。自衛隊の指揮統制システム高度化に続く第2弾プロジェクト。\n\n防衛分野でのAI活用は、リアルタイム情報分析・意思決定支援が主な用途。Sakana AIの国産技術が採用される意義は大きい。\n\nセキュリティ要件が厳格な官公庁案件では、国産AI・オンプレミス運用が前提となるケースが増加。民間企業でも機密性の高い業務には同様のアプローチが有効。",
+      "consultant_insight": "防衛省案件の実績は、金融・医療など規制業界への展開材料に。セキュリティ重視顧客へのPRに活用可",
       "importance": 4,
       "category": "業界",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2608/24/2000000711/"
     },
     {
-      "rank": 6,
-      "title_ja": "Anthropic Claude Code、使用量リセット再実施で「消費早すぎ」問題に追加対応",
-      "summary_ja": "Claude Codeで一部ユーザーの使用量が想定より早く消費される問題が再び確認され、Anthropicが使用量リセットを再実施。\n\n前回の50％増量延長に続く追加対応で、ユーザー体験の改善を最優先する姿勢を示した。消費量の透明性向上も今後の課題。\n\nコード生成AIの従量課金モデルは利用者にとってコスト予測が難しく、企業導入時は定額・上限設定プランの選択が現実的。",
-      "consultant_insight": "Claude Code導入企業は、使用量可視化と定額プラン移行を検討すべきタイミング。",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2608/24/2000000703/"
-    },
-    {
       "rank": 7,
-      "title_ja": "なぜいま30Bクラスのオープンモデルが「熱い」のか ―― 27BパラメータでOpus 4.6超えも登場",
-      "summary_ja": "MetaとNVIDIA、Alibaba、国産LLM-jp-4 33Bなど30Bクラスのオープンモデルが相次ぎ公開。27Bパラメータで高性能なOpus 4.6を超える性能も報告されている。\n\n大規模モデル並みの性能を持ちつつ、オンプレミス運用やファインチューニングが現実的なサイズとして再注目。企業の自社環境での運用ニーズに合致。\n\nデータ主権やコスト最適化を重視する企業にとって、30Bクラスは商用クローズドモデルの現実的代替候補となる。",
-      "consultant_insight": "30Bクラスは自社運用可能な性能とコストの最適バランス、オンプレAI戦略の核になる。",
-      "importance": 4,
-      "category": "研究",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2608/24/2000000723/"
-    },
-    {
-      "rank": 8,
-      "title_ja": "日本企業のAI投資「成果あり」はわずか13％、アクセンチュア調査が指摘する「人任せ」の限界",
-      "summary_ja": "アクセンチュアの調査で、日本企業の78％がAI投資拡大に意欲を示す一方、全社的な成果を実感する企業は13％にとどまり、世界平均を大きく下回った。\n\n経営層がAI活用をIT部門や外部ベンダーに「人任せ」にし、全社戦略として推進できていない構造的課題が浮き彫りに。\n\nAI導入の成否は技術選定より、経営層の関与度と全社的な業務変革の意思決定がカギ。コンサルは経営層の巻き込みを最優先すべき。",
-      "consultant_insight": "AI成果の日本13％vs世界平均は、経営層の関与不足が主因。技術より組織改革が先。",
+      "title_ja": "日本企業のAI投資「成果あり」わずか13％──アクセンチュアが指摘する「人任せ」の限界",
+      "summary_ja": "アクセンチュア調査によると、日本企業の78％がAI投資拡大に意欲を示す一方、全社的な成果を実感する企業は13％にとどまり、世界平均を大きく下回る。\n\n投資意欲と成果実感のギャップの原因は「人任せ」体質。IT部門やベンダーに丸投げし、経営層・現場が主体的に関与しない構造が問題。\n\n成果を出すには、経営層のコミットメント、現場の巻き込み、段階的な実証実験とスケールアップのサイクル確立が必要。",
+      "consultant_insight": "「AI導入=成果」ではない事実を前面に。経営層巻き込み型の推進体制構築支援で差別化を",
       "importance": 5,
       "category": "業界",
       "source_name": "ITmedia AI+",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news047.html"
     },
     {
-      "rank": 9,
-      "title_ja": "「非エンジニアに役立つかで価値が決まる」―― たった1時間で開発したツール、GitHub史上最速で伸びた理由",
-      "summary_ja": "WhatsAppからAIエージェントに指示を出すツール「OpenClaw」開発者がSnowflakeイベントで語った。個人の趣味から始まったツールが、今やMicrosoftの製品基盤にまで採用されている。\n\nエンジニア以外でも使えるUI設計が急速な普及のカギ。コーディングエージェントの真価は「非技術者でも使える」かどうかで決まる。\n\n企業のAI導入でも、現場の非エンジニアが日常的に使える設計が成否を分ける。技術先行ではなくUX優先が正解。",
-      "consultant_insight": "AI導入の成否は非エンジニアが使えるか。技術より現場UXを最優先で設計すべき。",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/24/news010.html"
-    },
-    {
-      "rank": 10,
-      "title_ja": "ニトリ、「社内用語」の壁をAIで解決 ―― 地道な整備で「赤羽店の寝具の売上高」を自然言語で出せるように",
-      "summary_ja": "ニトリがAI分析導入で直面した「社内用語」の壁。店舗名や商品カテゴリーの独自用語がAIの理解を妨げ、自然言語での分析指示ができなかった。\n\n用語の標準化と辞書整備を地道に進め、誰もが「赤羽店の寝具の売上高を出して」と指示できるデータ基盤を構築。\n\n企業のAI活用では、データクレンジングや用語統一などの「地味な準備」が最も重要。華やかな技術導入より基盤整備が先。",
-      "consultant_insight": "AI導入前に「社内用語の標準化」と「データ辞書整備」が必須。地味だが最重要工程。",
+      "rank": 8,
+      "title_ja": "ニトリ、「社内用語」の壁をAIで突破──「赤羽店の寝具の売上高」が即座に可能に",
+      "summary_ja": "ニトリは、社内用語がAI分析を妨げる課題に対し、地道な「力技」で解決。誰もが使いやすいデータ分析基盤を構築した。\n\n「赤羽店の寝具の売上高を出して」といった自然言語クエリを実現するには、社内用語の標準化・辞書整備が不可欠。ニトリは膨大な用語を整理し、AIが理解できる形に変換。\n\n多くの企業が同様の課題を抱えるが、地道な用語整理を避けて通れない。短期的には手間だが、長期的にはAI活用の基盤となる。",
+      "consultant_insight": "「社内用語辞書」整備は地味だが必須。ニトリ事例で経営層を説得し、用語標準化PJを受注",
       "importance": 4,
       "category": "実務",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/business/articles/2608/24/news058.html"
+    },
+    {
+      "rank": 9,
+      "title_ja": "カインズ、「AIが書いた感」を抑えた口コミ投稿支援AI──ユーザーの声の真正性をどう保つか",
+      "summary_ja": "カインズは、ユーザーによる口コミ投稿の作文をAIでサポートする機能を開発。ただし「AI代筆の文章はユーザーの声なのか」という問いに直面した。\n\n解決策は、AIを「補助」に徹底させ、完全な代筆を避ける設計。ユーザーの意図を引き出し、表現を整える程度にとどめることで真正性を保持。\n\nAI活用では「便利さ」と「真正性」のバランスが重要。過度なAI依存は信頼性を損なうため、人間の関与を残す設計が求められる。",
+      "consultant_insight": "AI補助と人間関与のバランス設計がカギ。カインズ事例でマーケティング部門への提案材料に",
+      "importance": 3,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2608/24/news059.html"
+    },
+    {
+      "rank": 10,
+      "title_ja": "西尾市役所、「少人数対話型」生成AI研修で日常使いを実現──情報政策課長が年100回講師担当",
+      "summary_ja": "愛知県西尾市は、職員の生成AI活用を促す少人数研修を開始。情報政策課長が年間約100回の講師役を担い、担当業務別の助言や受講後の相談、専用端末による成果物作成を支援。\n\n大規模一斉研修では定着しにくい生成AIスキルを、少人数・対話型で個別最適化。職員が日常業務で即座に活用できる実践的な内容。\n\n自治体の限られたリソースでも、内製・継続的なフォローアップで成果を出せる好事例。民間企業にも応用可能なアプローチ。",
+      "consultant_insight": "「一斉研修→放置」では定着しない現実を訴求。西尾市型の継続フォロー体制構築支援を提案",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/articles/2608/24/news032.html"
     }
   ],
   "digest": [
     {
-      "title_ja": "カインズ、口コミ作成AIで「AI代筆感」を抑える工夫を実装",
-      "one_liner": "ユーザーの声を尊重しつつAI支援でレビュー投稿促進、独自の文体調整で自然な口コミ実現",
+      "title_ja": "「野良AI」の発覚パターンと防衛策──約500社の商談分析から",
+      "one_liner": "社内の誰がどのAIを使っているか把握できず、事後発覚が多い。実例から現実的な対処法を解説",
       "category": "実務",
-      "url": "https://www.itmedia.co.jp/business/articles/2608/24/news059.html"
-    },
-    {
-      "title_ja": "愛知県西尾市、生成AI「少人数対話型研修」で職員の日常利用を促進",
-      "one_liner": "情報政策課長が年100回の講師役、業務別助言と専用端末で庁内のAI定着狙う",
-      "category": "実務",
-      "url": "https://kn.itmedia.co.jp/kn/articles/2608/24/news032.html"
-    },
-    {
-      "title_ja": "野良AI発覚の2パターンと防衛策、約500社の商談分析から解説",
-      "one_liner": "誰がどのAIを使っているか把握できない企業多数、事後発覚が典型で現実的対策を提言",
-      "category": "業界",
       "url": "https://kn.itmedia.co.jp/kn/articles/2608/24/news039.html"
     },
     {
-      "title_ja": "KDDI、商業施設開発をAI支援、市場分析・戦略立案を最短1日で",
-      "one_liner": "JR西日本SCのノウハウと人流データ組み合わせ、従来4カ月の業務を短縮",
+      "title_ja": "ロボット費用対効果、3年以内に人手を上回る──インテル調査",
+      "one_liner": "60％が5年以内に多数のロボット運用を予想。ただし人間との協働戦略は40％のみ",
+      "category": "業界",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/24/news061.html"
+    },
+    {
+      "title_ja": "ソフトクリエイト、国内初「Secure AI Productivity」Specialization取得",
+      "one_liner": "Microsoft 365 Copilotとゼロトラストで生成AIを安全活用。導入・定着支援を強化",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/428/4428852/?rss"
+    },
+    {
+      "title_ja": "大企業向けRAG「ChatSense」、最大1GBファイルも学習可能に",
+      "one_liner": "巨大ファイルもAIが学習できる機能追加。大規模データ活用の幅が拡大",
       "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/428/4428942/?rss"
+    },
+    {
+      "title_ja": "光電融合の業界地図、NVIDIAとブロードコムが先陣──「基本」の22社",
+      "one_liner": "生成AI普及でデータセンターの光電融合デバイス導入が加速。中核企業の業界地図を公開",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03716/080700002/"
+    },
+    {
+      "title_ja": "AIリスクの根本要因は「帰納的アプローチ」──従来の品質管理が通用せず",
+      "one_liner": "AIの開発手法と人間類似性がリスクを生む。従来のソフトウェア品質管理では対処困難",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03713/00003/"
+    },
+    {
+      "title_ja": "NVIDIA「DGX Spark」、本命用途は「ローカル推論」──GUI操作も可能",
+      "one_liner": "AI専用パソコンの本命はローカル推論サーバー。GUI使用で操作性も向上",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03726/081900002/"
+    },
+    {
+      "title_ja": "トヨタ、E2E自動運転で「ハイブリッド」構成──説明可能性を追求",
+      "one_liner": "完全E2Eに踏み込まず、モジュラーAIとルールベースを組み合わせ。説明可能性を重視",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03721/081700007/"
+    },
+    {
+      "title_ja": "Waymo、「強化版」E2E自動運転でレベル4達成──モジュラー型でテスラ対抗",
+      "one_liner": "複数AIモデルとルールベースを組み合わせ、単一モデルE2Eのブラックボックス化を回避",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03367/082100036/"
+    },
+    {
+      "title_ja": "フィジカルAIを支える「空間知能」──米World Labsが世界モデル開発",
+      "one_liner": "社会課題解決を目指すスタートアップの最前線。空間知能がフィジカルAIの基盤に",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03088/081900024/"
+    },
+    {
+      "title_ja": "XRグラス、映像はマイクロLED台頭──部材は「ソニー王国」に",
+      "one_liner": "50g以下の軽量AR+AIグラスでマイクロLEDディスプレーが存在感。ソニー系が市場参入へ",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03720/082300005/"
+    },
+    {
+      "title_ja": "KDDI、売れる商業施設づくりをAI支援──市場分析を最短1日で",
+      "one_liner": "従来4カ月の市場分析・戦略立案を最短1日に短縮。JR西日本のノウハウと人流データを活用",
+      "category": "実務",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11979/"
     },
     {
-      "title_ja": "大東建託、350億円の基幹刷新を完遂、内製とDXで市民開発推進",
-      "one_liner": "ITベンダー丸投げせず内製貫き、AI活用と市民開発で生産性向上",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01159/081000085/"
-    },
-    {
-      "title_ja": "NVIDIA「DGX Spark」AIパソコン実機レビュー、ミニPCサイズで生成AI学習可能",
-      "one_liner": "小型ながら高性能、基本はLinuxパソコンで生成AIの学習までこなす",
+      "title_ja": "OpenAI、GPT-5.6をKiroに投入──開発者向け価格性能を向上",
+      "one_liner": "Kiroでソフトウェア開発の計画・構築・レビュー・テストを支援。価格性能が改善",
       "category": "ツール",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03726/081900001/"
+      "url": "https://openai.com/index/gpt-5-6-in-kiro"
     },
     {
-      "title_ja": "フロンティアAI、サイバー攻撃悪用リスクで各国政府・業界が警鐘",
-      "one_liner": "高度な汎用AIが攻撃に使われると被害急速拡大、対策急務と指摘",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01679/062500291/"
-    },
-    {
-      "title_ja": "要約アプリの全体像解説、Gemini API利用環境の準備方法",
-      "one_liner": "生成AIで様々なファイル形式の文書を一気に要約するアプリをPythonで作成",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03692/072200001/"
-    },
-    {
-      "title_ja": "ルネサス、第3世代MRDIMM向けチップセット発表、次世代AIサーバーへ布石",
-      "one_liner": "次世代AIサーバー・HPC向けメモリーモジュールでの採用見込む",
-      "category": "ツール",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11965/"
-    },
-    {
-      "title_ja": "トヨタ、AIのE2E自動運転・開発スピード向上・ロボット新分野で未来へ投資",
-      "one_liner": "3つの課題に挑戦、失敗の場を糧に次の夢を描く",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03721/081000001/"
-    },
-    {
-      "title_ja": "究極のARグラス実現へ、広視野角フルカラー超軽量で光学系に革新",
-      "one_liner": "50g以下でフルカラー・広FOVを実現、AI+AR統合グラスの進化加速",
-      "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03720/082000004/"
-    },
-    {
-      "title_ja": "General Intuition、60億ドル評価でロボティクスAIファンデーション開発推進",
-      "one_liner": "ValorとPoint72が出資、空間・時間を理解する汎用AIエージェント訓練",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
-    },
-    {
-      "title_ja": "OpenAI、あらゆる業務向けAIエージェントを開発中、全員が使うか？",
-      "one_liner": "ソフトウェアエンジニア向けから大衆向けまでAIエージェントの普及狙う",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
-    },
-    {
-      "title_ja": "Hugging Face、130億ドルでの買収協議報道、創業者は責任感から慎重姿勢",
-      "one_liner": "オープンソースAIコミュニティの中核、買収先選定に高い責任意識",
+      "title_ja": "Hugging Face、130億ドルで買収交渉中との報道",
+      "one_liner": "創業者は責任感から慎重姿勢。オープンソースAIプラットフォームの今後に注目",
       "category": "業界",
       "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/"
     },
     {
-      "title_ja": "謎の新AIモデル「Ox Alpha」登場、開発元不明で憶測広がる",
-      "one_liner": "正体不明のステルスモデルがネットで話題、背景企業は依然謎のまま",
+      "title_ja": "OpenAI、あらゆる業務向けAIエージェントを構築中──全員が使うか？",
+      "one_liner": "ソフトウェアエンジニアから一般業務まで、AIエージェントの大衆化を推進。普及の鍵は？",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/"
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
     }
   ],
   "date": "20260825",
