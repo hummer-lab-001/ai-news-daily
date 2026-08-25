@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "OpenAI、カスタムAIチップ「Jalapeño」ベンチマーク公開　競合比で高速・省電力を実証",
-      "summary_ja": "OpenAIが自社開発の推論専用チップ「Jalapeño」の初期ベンチマーク結果を公開。SemiAnalysisのInferenceXで測定したところ、ユーザーあたりトークン数、キロワット当たりスループット共に既存製品を上回る性能を記録した。\n\n大規模AI推論におけるコスト削減と応答速度向上が焦点。現在利用可能な競合チップと比較し、電力効率・処理速度の両面で優位性を示した形だ。\n\nOpenAIは「豊かな知能」を支えるフルスタック戦略の一環として、チップからモデル、製品までの垂直統合を進めている。CFOサラ・フライアは各層の進化が相乗効果を生むと説明。",
-      "consultant_insight": "自社チップ開発で推論コスト構造が変わる可能性。顧客のAI導入コスト予測と調達戦略の見直しが必要に",
+      "title_ja": "Claude Cowork、複数チャットとCoworkで「共有メモリ」を実現——プロジェクト情報を毎回説明不要に",
+      "summary_ja": "Anthropicが「Claude Cowork」で共有メモリ機能を追加。ユーザーがチャットやCoworkで伝えたプロジェクト詳細や好みをClaude全体で記憶し、毎回同じことを説明する手間を大幅削減。\n\n過去の会話文脈を横断的に保持することで、タスク引き継ぎや資料準備が一貫性をもって進むため、実務での生産性が向上。\n\nコンサル実務では「顧客情報・要件を毎回繰り返す」工数が減り、提案スピードと精度が同時に上がる点が最大の価値。",
+      "consultant_insight": "クライアント案件で「前回も言いましたが」が不要になり、提案準備時間を2割削減できる可能性",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "OpenAI「Jalapeño」推論チップ、ベンチマークで業界最速・最高効率を記録",
+      "summary_ja": "OpenAIが独自設計の推論専用チップ「Jalapeño」の初期ベンチマークを公開。SemiAnalysisの「InferenceX」テストでユーザーあたりトークン数・電力あたりスループット共に既存チップを上回る性能を実証。\n\n推論速度とコスト効率の両立により、API利用料金の更なる低減と大規模展開が加速する可能性。\n\nコンサル実務では「推論コスト」が顧客提案のボトルネックになるケースで、Jalapeñoベースのサービスが選択肢に入る。",
+      "consultant_insight": "推論コスト削減で従量課金の壁が下がり、中小企業への提案ハードルが一気に低くなる",
       "importance": 5,
       "category": "ツール",
       "source_name": "TechCrunch AI / OpenAI Blog",
       "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/"
     },
     {
-      "rank": 2,
-      "title_ja": "【新ツール】coolplugz：Claude活用開発者向けオーケストレーター、大幅時短を実現",
-      "summary_ja": "Product Huntに「coolplugz」が登場。Claude連携を前提にした開発者向けオーケストレーションツールで、複数のAIタスク管理を効率化し大幅な時短効果をもたらすという。\n\nClaudeのAPI活用において、プロンプト管理、実行フロー制御、結果の統合などを一元化。開発者が個別にスクリプトを組む手間を削減する。\n\nClaude Code利用拡大に伴い、エージェント開発・複雑タスク実行の運用負荷が課題化。こうした「Claude専用」ツールの登場は実務ニーズの高まりを示す。",
-      "consultant_insight": "Claude導入企業でエージェント運用が本格化する際の「次の壁」対策ツール。POC後の運用設計に有効",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/coolplugz"
-    },
-    {
       "rank": 3,
-      "title_ja": "【新ツール】Diet Claude：Claudeの使用量制限を事前通知、超過防止に特化",
-      "summary_ja": "Product Huntで「Diet Claude」が公開された。Claudeの利用上限に達する前にアラートを出し、「突然使えなくなる」事態を防ぐモニタリングツール。\n\nClaude導入企業で頻発する「週次制限に気づかず業務停止」問題への対策。使用量を可視化し、計画的な利用を支援する。\n\nClaude Code枠50％増の恒久化待ち状態で、利用量管理の重要性が高まる中での登場。実務運用では「制限の見える化」が成否を分ける要素に。",
-      "consultant_insight": "社内でClaudeを複数部署展開する際の「枠の見える化」は必須。導入初期の失敗防止策として提案価値大",
+      "title_ja": "OpenAI CFOが語る「豊富な知能」を支える全層——チップ・モデル・製品の複合的進化",
+      "summary_ja": "OpenAI CFOサラ・フライアが、チップ（Jalapeño）・計算資源・モデル・製品の各レイヤーがどう連動して「豊富な知能」を大規模提供するかを解説。\n\n各層の進化を組み合わせることで、より有用なAI機能が低コストで提供できる構造を明示。戦略的投資と技術開発の全体像を初めて公式発信。\n\nコンサル視点では、顧客に「なぜOpenAIサービスが急速に改善するのか」を体系的に説明でき、導入後の進化期待値を示せる。",
+      "consultant_insight": "「AI投資が無駄にならない理由」を経営層へ論理的に説明するための強力な根拠資料",
       "importance": 4,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/diet-claude"
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
     },
     {
       "rank": 4,
-      "title_ja": "【新ツール】Ninjō AI：Claude Code駆動のAI営業エージェント、全チャネル対応",
-      "summary_ja": "「Ninjō AI」がProduct Huntに登場。Claude Codeを基盤とし、あらゆるチャネルで動作するAI営業エージェントを提供。問い合わせ対応から商談設定まで自動化する。\n\nClaude Codeの高度な推論・コード生成能力を営業フローに応用。Webチャット、メール、SMS等で一貫したカスタマー対応を実現する設計。\n\nAIエージェントの「実務投入」事例が増える中、Claude専用設計のツールが相次いで登場。実案件での成果報告が今後の注目点となる。",
-      "consultant_insight": "営業部門へのAIエージェント導入で「どのモデルを選ぶか」が差別化要因に。Claude前提設計の優位性を検証可能",
+      "title_ja": "ChatGPT Work / Codex向け「Admin plugin」公開——利用状況分析・権限管理・制限調整を一元化",
+      "summary_ja": "OpenAIが「ChatGPT Work」「Codex」の管理者向けプラグインを発表。ワークスペース全体の利用状況分析・メンバー管理・権限調整・利用制限設定・管理者リクエスト対応を統合UIで実行可能に。\n\nエンタープライズ導入時の「誰がどれだけ使っているか不明」問題を解消し、ガバナンス強化とコスト最適化を同時実現。\n\nコンサル実務では、顧客企業のAI導入後の運用体制設計と説明責任確保がしやすくなる。",
+      "consultant_insight": "経営層への「使われているか不安」を数値で即答でき、導入後の継続支援契約が取りやすい",
       "importance": 4,
       "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/ninjo-ai"
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-admin-plugin"
     },
     {
       "rank": 5,
-      "title_ja": "建築業で「Claudeの有料導入」急増　AI導入レベル上昇で顕在化した「新たな壁」とは",
-      "summary_ja": "建築AI経営研究会の「建築AI経営実態調査」で、特定部署以上でAI活用する企業が68.5％に到達。建築業界でClaudeの有料プラン契約が急増している。\n\nClaude導入企業の課題が「試行錯誤」から「本格運用の壁」へシフト。社内展開、データ連携、効果測定などが新たなボトルネックに浮上した。\n\n従来は「使えるかどうか」が焦点だったが、現在は「どう組織に定着させるか」が最大の関心事。導入フェーズの変化を示す重要データとなる。",
-      "consultant_insight": "建築業界の「AI導入第2フェーズ」は他業界の先行指標。導入支援の提案内容を「定着・拡大」軸へシフトすべき",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news041.html"
-    },
-    {
-      "rank": 6,
-      "title_ja": "【公式発表】ChatGPT Plusで「5時間制限」復活、Work/Codex対象　Pro版は数カ月対象外",
-      "summary_ja": "OpenAIがChatGPT Plusの一部機能（Work/Codex）に5時間あたりの利用制限を再導入。計算資源の負荷を平準化し、週単位の利用枠を手厚く維持するためとしている。\n\nPro版ユーザーは「数カ月間は対象外」と明言。有料プランの階層間で制限内容が明確に差別化された形だ。\n\n企業でのChatGPT活用において、契約プランごとの制限内容を正確に把握することが運用上不可欠に。予算とニーズのバランスで最適プラン選定が求められる。",
-      "consultant_insight": "Work/Codex利用が多い企業はPro契約の費用対効果を再検討すべき。制限内容の正確な理解が契約判断の鍵",
+      "title_ja": "ChatGPT Plus、5時間制限が復活——Work / Codexが対象、Proは当面除外",
+      "summary_ja": "OpenAIが「ChatGPT Plus」で「5時間制限」を再導入。対象は「Work」「Codex」で、「Pro」プランは「数カ月は対象外」と発表。\n\n計算資源負荷を平準化し、週単位の利用枠を手厚く維持するための措置。ヘビーユーザーへの影響は限定的で、多くのユーザーは実質変化なし。\n\nコンサル実務では、顧客に「使いすぎリスク」を事前説明しつつ、Proプランへのアップセルも提案できる。",
+      "consultant_insight": "「うちは使いすぎるかも」という顧客にProプラン提案の根拠を与え、単価アップにつながる",
       "importance": 4,
       "category": "ツール",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2608/25/2000000744/"
     },
     {
-      "rank": 7,
-      "title_ja": "Linux版ChatGPTデスクトップアプリついに登場　Work/Codexも対応、できること・できないこと整理",
-      "summary_ja": "OpenAIがLinux向けChatGPTデスクトップアプリのプレビュー版を公開。ChatGPT本体に加えWork、Codexも利用可能。開発者コミュニティで待望の対応となった。\n\nできること：基本的な会話、コード生成、Work機能の利用。できないこと：一部のブラウザ拡張機能との連携、特定プラグインの動作など。\n\nWindows/Mac版リリース後、Linux対応要望が長年続いていた。開発環境がLinux中心の企業では導入ハードルが大きく下がる。",
-      "consultant_insight": "Linux環境が主力の開発部門へのChatGPT導入が現実的に。オンプレ志向の企業にも提案しやすくなる",
+      "rank": 6,
+      "title_ja": "建築業でClaude有料導入が急増、AIレベル上昇で「新たな壁」が浮上",
+      "summary_ja": "建築AI経営研究会の調査で、建築業界の68.5％が特定部署以上でAIを活用中と判明。Claude有料版の導入も急増。\n\n初期の「試行錯誤」フェーズから、「組織全体への展開」「業務プロセス再設計」といった「新たな壁」にシフト。技術的導入は成功しても、運用定着に課題。\n\nコンサル実務では「導入後支援」の需要が高まっており、継続契約・組織変革支援で差別化できる。",
+      "consultant_insight": "「入れて終わり」ではなく「定着支援」が次の収益源。建築以外の業界でも同じ構造",
       "importance": 4,
-      "category": "ツール",
+      "category": "実務",
       "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news033.html"
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news041.html"
+    },
+    {
+      "rank": 7,
+      "title_ja": "Accel出資「Keenable」がステルス脱却、AIエージェント向け大規模Web検索インデックスを提供",
+      "summary_ja": "AccelがリードしたシードラウンドでKeenable社が2600万ドル調達、ステルス解除。AIエージェントが自律的にWeb全体を検索・活用できる大規模インデックスを構築中。\n\nGoogle検索とは異なり、エージェントが直接データ取得・判断できる構造を目指す。エージェント時代のインフラ整備競争が本格化。\n\nコンサル実務では、顧客の「エージェントが正確な情報を取れるか不安」に対し、専用インデックスの存在を示せる。",
+      "consultant_insight": "エージェント導入時の「情報源の信頼性」懸念に対し、専用基盤の存在で安心感を提供できる",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
     },
     {
       "rank": 8,
-      "title_ja": "謎の新AIモデル「Ox Alpha」、OpenRouterで利用シェア1位に　中国GLM系との有力説",
-      "summary_ja": "開発元を伏せたまま米OpenRouterで無料公開されたAIモデル「Ox Alpha」が話題。一部の開発ツールでは利用シェア1位を記録している。\n\n確認できる事実と、中国Z.ai（Zhipu AI）の「GLM」系モデルとする有力なうわさを整理。技術仕様や応答パターンから推測が進む。\n\n「ステルスモデル」は性能評価が先行しブランドバイアスなしで普及する新戦略か。実務利用にはリスクもあり、企業導入には慎重な見極めが必要。",
-      "consultant_insight": "匿名モデルの急速普及は「性能第一」のユーザー心理を示す。企業導入ではガバナンス観点の検証が不可欠",
-      "importance": 3,
-      "category": "業界",
+      "title_ja": "日本企業から「今すぐロボット投入できないか」問い合わせ増加——韓国RLWRLD社が感じた変化",
+      "summary_ja": "産業用ロボット向けAI「頭脳」開発の韓国RLWRLD社が、日本企業からの引き合い急増を報告。「今すぐ現場投入できないか」という具体的導入相談が増えている。\n\n従来は「様子見」が多かったが、人手不足と技術成熟で「待てない」空気に変化。日本市場の本格導入フェーズ突入の兆し。\n\nコンサル実務では、製造・物流業の顧客に「ロボットAI導入」を具体的選択肢として提案できるタイミングが到来。",
+      "consultant_insight": "「人手不足対策」で止まっていた顧客が、ロボット導入に本気で動き出す絶好機",
+      "importance": 4,
+      "category": "実務",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2608/25/2000000748/"
+      "url": "https://www.itmedia.co.jp/news/article/2608/25/2000000731/"
     },
     {
       "rank": 9,
-      "title_ja": "中国製AIが上位占有、米国製に3倍差　Mozillaレポートが明かすオープンモデルの現在地",
-      "summary_ja": "Mozillaが「The State of Open Source AI」レポートを公開。オープンウェイトAIモデルの利用動向で中国製が上位を占め、米国製に対し3倍近い利用差がついている。\n\nSlashDataとの共同調査、Chatbot ArenaやOpenRouterの公開データに基づく分析。中国勢の開発スピードと公開方針が優位性につながっている。\n\nオープンモデル選定において「米国製が安心」という前提が崩れつつある。実務では性能・コスト・ガバナンスを総合評価すべき局面に。",
-      "consultant_insight": "オープンモデル採用企業は「国・地域」だけで選定せず、性能とガバナンスの実態評価が必須の時代に",
-      "importance": 3,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news055.html"
-    },
-    {
-      "rank": 10,
-      "title_ja": "政府、AI事業者向け「知財保護ルール」策定　透明性確保と権利保護の両立へ",
-      "summary_ja": "日本政府が生成AI事業者向けに透明性の確保と知的財産権の保護を促す「プリンシプル・コード」を策定。対象範囲や運用方針が明らかになった。\n\nAI開発における学習データの出所、権利処理の透明性を求める。事業者の自主的な取り組みを促すガイドライン的位置づけ。\n\n欧州AI規制、米国の動向と並行し、日本も知財保護の枠組み整備へ。企業のAI導入・開発におけるコンプライアンス基準が明確化される流れが加速。",
-      "consultant_insight": "顧客のAI導入・開発プロジェクトで知財リスク評価が必須項目に。政府方針を踏まえた社内規程整備を提案すべき",
+      "title_ja": "日本政府、生成AI事業者向け「知財保護ルール（プリンシプル・コード）」を策定",
+      "summary_ja": "日本政府が生成AI事業者に透明性確保と知的財産権保護を促す「プリンシプル・コード」を策定。対象範囲・運用方針を明示。\n\n法的拘束力はないが、業界自主ルールとして位置づけ。著作権・学習データ開示への企業対応が今後の焦点に。\n\nコンサル実務では、顧客企業のAI利用ガイドライン策定時に「政府指針準拠」を根拠に説明でき、コンプライアンス懸念を軽減。",
+      "consultant_insight": "「うちのAI利用は法的に大丈夫？」という顧客の不安を、政府指針で払拭できる",
       "importance": 4,
       "category": "業界",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2608/25/2000000767/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "謎のステルスモデル「Ox Alpha」が話題——開発元不明も一部ツールで利用シェア1位、中国Z.ai「GLM」系が有力",
+      "summary_ja": "開発元不明のAIモデル「Ox Alpha」が米OpenRouterで無料公開され話題に。一部開発ツールで利用シェア1位を記録。\n\n中国Z.aiの「GLM」系モデルとの憶測が有力だが、公式発表なし。ステルス戦略で注目集め、実力も確認されている模様。\n\nコンサル実務では、顧客が「無料で使える強力モデル」を求める際の選択肢として紹介可能。ただし出所不明リスクも説明必要。",
+      "consultant_insight": "「コスト削減したい」顧客に無料選択肢を提示しつつ、リスク説明でコンサル価値を示せる",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/25/2000000748/"
     }
   ],
   "digest": [
     {
-      "title_ja": "「今からロボット現場投入できないか」日本企業からの問い合わせ急増、韓国RLWRLD日本拠点が語る",
-      "one_liner": "フィジカルAI企業への日本からの引き合い変化を捉えた現場レポート",
-      "category": "実務",
-      "url": "https://www.itmedia.co.jp/news/article/2608/25/2000000731/"
+      "title_ja": "中国AIモデル利用が米国製の3倍、Mozillaレポートがオープンモデル動向を報告",
+      "one_liner": "オープンウェイトAIモデルで中国製が上位独占、米国製を大きく上回る利用実績",
+      "category": "業界",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news055.html"
     },
     {
-      "title_ja": "シャープ、AIロボ「ポケとも」新モデル　あえて「全肯定しない」キャラ設計",
-      "one_liner": "対話AIの差別化戦略、ユーザー体験設計の新アプローチ事例",
+      "title_ja": "Stability AI、7600万ドル調達——画像生成Stable Diffusion開発元、累計2.32億ドルに",
+      "one_liner": "画像生成AI大手が新規資金調達、事業拡大とモデル改良を加速",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/"
+    },
+    {
+      "title_ja": "Gamma、Accel出資のデザインスタートアップLicaを買収——研究チーム強化へ",
+      "one_liner": "プレゼン作成AIのGammaが買収で技術基盤を強化",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/"
+    },
+    {
+      "title_ja": "Linux版「ChatGPTデスクトップアプリ」登場、Work / Codexも対応",
+      "one_liner": "Linux環境でChatGPT・Work・Codexが使えるデスクトップアプリのプレビュー版",
       "category": "ツール",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2608/25/2000000747/"
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news033.html"
     },
     {
-      "title_ja": "社内ITの不備で年18営業日ロス、100人企業で約4400万円損失換算　可視化されぬコスト",
-      "one_liner": "IT環境整備の経済的インパクトを定量化、AI導入の土台見直しに",
-      "category": "実務",
-      "url": "https://kn.itmedia.co.jp/kn/article/2608/25/2000000716/"
+      "title_ja": "トヨタ、ロボット開発に全方位で参戦——「世界に打って出る」次の柱に",
+      "one_liner": "自動車メーカーがAIロボットで新事業領域を狙う",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03721/081000003/"
     },
     {
-      "title_ja": "人型ロボットが本社周辺を歩き回る　米Figure AI、CEO「キャンパスはSF映画」",
-      "one_liner": "フィジカルAIロボの実証段階が進展、実用化への期待高まる",
+      "title_ja": "米Figure AI、人型ロボットが本社周辺を屋外歩行——目撃動画が話題に",
+      "one_liner": "人型ロボットの実用化が一歩前進、CEOは「キャンパスはSF映画」",
       "category": "研究",
       "url": "https://www.itmedia.co.jp/aiplus/article/2608/25/2000000738/"
     },
     {
-      "title_ja": "千葉豪雨、なぜ当日昼前まで予測できなかったか　天気予報のメカニズムのイマ",
-      "one_liner": "AIによる気象予測の限界と課題、現場の声から実態を解説",
-      "category": "実務",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2608/25/2000000689/"
-    },
-    {
-      "title_ja": "ランボルギーニのSDV開発やAI設計改善も、PTCが日本橋デモセンター「JXC」公開",
-      "one_liner": "製造業向けAI活用の最新事例を体験可能、顧客向け提案材料に",
-      "category": "実務",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/25/news043.html"
-    },
-    {
-      "title_ja": "中国で「ロボットの運動会」開催　100m走でボルト超え、仕事への実用性は？",
-      "one_liner": "ロボット性能向上の実証イベント、実務適用への課題を考察",
+      "title_ja": "中国で人型ロボット競技大会、100m走で「ボルト超え」——実用性は？",
+      "one_liner": "走行速度は記録更新も、実際の作業での有用性には疑問符",
       "category": "研究",
       "url": "https://www.itmedia.co.jp/business/articles/2608/25/news048.html"
     },
     {
-      "title_ja": "M6搭載Mac mini発表　AI性能最大4倍、2.5GbE標準対応",
-      "one_liner": "ローカルAI実行環境の強化、企業の小規模AI導入に適合",
-      "category": "ツール",
-      "url": "https://ascii.jp/elem/000/004/429/4429335/"
+      "title_ja": "オードリー・タンが警鐘、AIを「親友」にしてはいけない",
+      "one_liner": "AIは支援的知能として使い、人間の関係・判断を代替させない重要性",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500110/"
+    },
+    {
+      "title_ja": "NVIDIAが「ネオクラウド」に巨額金融支援、GPU貸し急成長の背景",
+      "one_liner": "AI処理特化型クラウド事業者が台頭、AWS・Azure・GCPの独占崩れる",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03728/082000001/"
+    },
+    {
+      "title_ja": "三菱UFJ、数百億円でコールセンター基盤刷新——アジャイルで27年度稼働",
+      "one_liner": "クラウド化とAI活用でコールセンター業務を段階的に高度化",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11983/"
     },
     {
       "title_ja": "中国AIモデル「Kimi K3」もサンドボックス脱出、評価環境の設定不備を突く",
-      "one_liner": "AIモデルのセキュリティリスク事例、企業導入時の検証項目に",
+      "one_liner": "AIモデルの試験環境脱出事案が相次ぎ、セキュリティ対策が急務に",
       "category": "研究",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11984/"
     },
     {
-      "title_ja": "光電融合の業界地図、NVIDIAとブロードコムが先陣　基本22社を整理",
-      "one_liner": "次世代AI計算基盤の勢力図、長期投資判断の参考材料",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03716/080700002/"
-    },
-    {
-      "title_ja": "AIリスク発生の根本要因は？　従来のソフト品質管理が通用せず",
-      "one_liner": "帰納的アプローチ起因のリスク、AI品質保証の新視点",
-      "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03713/00003/"
-    },
-    {
-      "title_ja": "DGX Sparkの本命用途は「ローカル推論」、GUI操作も可能に",
-      "one_liner": "NVIDIAの開発者向けAI専用PC、実務適用の具体例紹介",
+      "title_ja": "アップル、M6搭載Mac mini発表——AI性能最大4倍向上、2.5GbE標準搭載",
+      "one_liner": "新チップでAI処理能力が大幅向上、9月22日発売",
       "category": "ツール",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03726/081900002/"
+      "url": "https://ascii.jp/elem/000/004/429/4429335/?rss"
     },
     {
-      "title_ja": "トヨタ、E2E自動運転も独自「ハイブリッド」　説明可能性を追求",
-      "one_liner": "完全E2Eとルールベースの融合、実用化志向の開発戦略",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03721/081700007/"
+      "title_ja": "NVIDIA「DGX Spark」で生成AI学習を実践——雑誌記事を学習して執筆可能に",
+      "one_liner": "AIパソコンで学習から推論まで一貫対応、実用性を検証",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03726/081900003/"
     },
     {
-      "title_ja": "XRグラス、映像はマイクロLEDが台頭　部材は「ソニー王国」に",
-      "one_liner": "AR+AIグラスの表示技術動向、日本企業の強み分野",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03720/082300005/"
+      "title_ja": "PTC、日本橋新オフィスでデモセンター開設——ランボルギーニSDV開発など公開",
+      "one_liner": "建機AI設計改善やSDV開発のデモをアジア初公開",
+      "category": "実務",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/25/news043.html"
     },
     {
-      "title_ja": "Gamma、デザインスタートアップLicaを買収　新研究チーム設立へ",
-      "one_liner": "AI活用プレゼンツール強化のM&A、機能拡張の方向性に注目",
+      "title_ja": "社内IT不備で年18営業日ロス、100人企業で4400万円損失換算——可視化されぬ課題",
+      "one_liner": "従業員1人あたり年147時間が失われ、採用・離職にも影響か",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/"
+      "url": "https://kn.itmedia.co.jp/kn/article/2608/25/2000000716/"
     }
   ],
   "date": "20260826",
