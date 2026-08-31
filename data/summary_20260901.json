@@ -1,0 +1,200 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "Anthropic、AIに「AIの安全性研究」を任せる実験で人間を超える成果",
+      "summary_ja": "AnthropicはAIモデル「Claude」にAIの安全性研究を自律的に任せる実験を実施し、うそや追従など10種類の問題行動すべてで、性能を落とさず行動を改善する手法をAIが自力で発見した。\n人間の研究者28人の成績を上回る結果となり、AI安全性研究の効率化に大きな可能性を示した。\nAI自身がAIの問題を解決する「メタAI研究」の実用化が近づいている。",
+      "consultant_insight": "AI開発コストの削減と安全性向上を同時実現できる手法として、顧客企業のAI内製化支援に活用できる知見",
+      "importance": 5,
+      "category": "研究",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/31/2000000964/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Anthropic、無料の日本語AI学習サイト「Claude Academy」公開——357のコンテンツで「Claude Code入門」など学習可能",
+      "summary_ja": "AnthropicがAIを安全かつ効果的に活用する方法を学べるWebサイト「Claude Academy」を公開した。\n日本語対応で357のコンテンツが無料で提供され、「Claude Code入門」など実務に直結する学習が可能。\n企業の従業員教育やAI導入の社内浸透に活用できる公式リソースとして注目される。",
+      "consultant_insight": "顧客企業のAI人材育成プログラムに組み込める無料公式教材として、導入研修コストを大幅削減できる",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news015.html"
+    },
+    {
+      "rank": 3,
+      "title_ja": "Claude Code週次制限枠、9月14日に「25%増」へ恒久設定——現状比では17%減に",
+      "summary_ja": "Anthropicは「Claude Code」の週間利用上限を標準比25%増に恒久設定すると発表した。\n現在は期間限定で50%増が適用されているため、9月14日の切り替え後は現状比で約17%の減少となる。\n同社は利用状況の可視性や管理性を高める改善も進めているとしている。",
+      "consultant_insight": "顧客企業のClaude Code利用計画を9月14日までに見直し、制限内で最大効果を出す運用設計が必要",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/31/2000000951/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "ソニー・ミュージックとワーナー、Anthropicを「史上最大の知財窃盗」で提訴——数十億ドル規模の損害賠償請求",
+      "summary_ja": "Sony Music PublishingやWarner Chappell Musicなどの音楽出版社グループは、Anthropicと同社幹部を著作権侵害で提訴した。\n海賊版サイトからの歌詞取得や無断学習を「史上最大の知財窃盗」と主張し、数十億ドル規模の損害賠償を請求している。\nAnthropicは全面的に反論しており、AI業界の知財問題が新たな局面を迎えた。",
+      "consultant_insight": "顧客企業のAI利用でも著作権リスクが顕在化する可能性があり、利用規約と知財保護体制の再確認が急務",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2608/31/2000000950/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "AIをよく使う社員だけ5倍に——Claude、ChatGPT/Codex、Cursorで企業向け「Premium席」提供時代へ",
+      "summary_ja": "OpenAIがChatGPT BusinessでPremiumシートの提供を開始し、Anthropic、Cursorに続き、主要な企業向けAIで利用量の多い社員だけ上位シートを割り当てられる仕組みがそろった。\n3社の料金や利用枠、実際の設定方法を比較し、企業のAI利用で何が変わるのかを分析。\nAIヘビーユーザーに投資を集中し、費用対効果を最大化する運用が可能になった。",
+      "consultant_insight": "顧客企業のAI予算配分を「全員に薄く」から「成果を出す人に厚く」へシフトし、ROIを劇的に改善できる",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/01/news009.html"
+    },
+    {
+      "rank": 6,
+      "title_ja": "Anthropic、OpenAIが明かす「AI利用拡大でユーザーに何が起きているか」",
+      "summary_ja": "AIの利用が業務に定着し始めた今、労働市場と業務内容はどう変わりつつあるのか。\nAnthropicとOpenAIがそれぞれ公開した独自データから、AIの浸透がユーザーに与えているインパクトを明らかにする。\n具体的な利用状況や成果の定量データが、AI導入効果の可視化に役立つ。",
+      "consultant_insight": "顧客企業のAI導入効果を定量的に説明する際、両社の公開データが有力なベンチマークとして活用できる",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/27/news091.html"
+    },
+    {
+      "rank": 7,
+      "title_ja": "NEC、Anthropic協業の裏に「7人の侍」——全員AIの新組織で自己変革",
+      "summary_ja": "NECが従来のSIerから、AIを駆使して企業価値向上に貢献する「AIインテグレーター（AIer）」へと変革を急いでいる。\nAI大手、米Anthropicとの協業は、その重要な一手であり、電撃的な協業の背景には知られざる「7人の侍」の存在があった。\nNECの変革戦略と、Anthropicとの協業が日本のSI業界に与える影響を分析。",
+      "consultant_insight": "大手SIerのAI戦略転換は、顧客企業のパートナー選定基準にも影響し、AIer視点での提案力が差別化要因に",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03723/082000002/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "AI開発は「プロンプト→コンテキスト→ハーネス」へ進化——ハーネス成熟度を測る3つのチェックリスト",
+      "summary_ja": "「LLMを導入したのに生産性が上がらない」「レビューに追われる」という現場の限界に対し、トップランナーたちが口をそろえて語るのが「ハーネスエンジニアリング」だ。\n先行者が明かす知見・ノウハウから、ハーネスエンジニアリングの実相に迫る。\nAI開発の次なる進化段階として、企業が押さえるべき概念と実践法を解説。",
+      "consultant_insight": "顧客企業のAI導入が「プロンプト」段階で停滞している場合、ハーネス視点の再設計で一気に成果を引き出せる",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/01/news012.html"
+    },
+    {
+      "rank": 9,
+      "title_ja": "OpenAI「ChatGPT Ads」が年10億ドル規模に到達——広告事業拡大で無料・低価格AI利用を支援",
+      "summary_ja": "OpenAIの「ChatGPT Ads」が年換算で10億ドルの収益規模に達し、グローバルに展開を拡大している。\n広告収益により、無料および低価格でのAI利用を支える仕組みが確立。\nAI業界の収益モデル多様化が進み、企業向けプランと広告モデルの両輪戦略が鮮明になった。",
+      "consultant_insight": "顧客企業のAI予算圧縮ニーズに対し、広告モデルを活用した低コスト運用提案が新たな選択肢に",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+    },
+    {
+      "rank": 10,
+      "title_ja": "日本IBM「AI時代、業務の再設計が必要」——DXで果たせなかった約束を今度こそ実現できるか",
+      "summary_ja": "AIエージェントを導入して成果を出すためには「業務プロセスの再設計」が必要だという。\n振り返れば、DXの時も同じことを言っていたが、日本企業は今度こそ本当に実現できるのか。\n日本IBMが見解を語り、AI時代の業務再設計に必要な視点と実践法を示した。",
+      "consultant_insight": "DX失敗の轍を踏まないため、顧客企業には「業務再設計」を技術導入と同時並行で進める伴走支援が必須",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2608/31/news016.html"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "サイボウズ「kintone」から見る、AI時代の大企業の課題と対策",
+      "one_liner": "大企業のAI活用課題と対応策をkintone実績から分析",
+      "category": "実務",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/31/news095.html"
+    },
+    {
+      "title_ja": "ビル・ゲイツ「AIで開発者は不要にならない」——新たな需要と仕事の再定義",
+      "one_liner": "AI時代の開発者の役割は不要ではなく再定義される",
+      "category": "業界",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news039.html"
+    },
+    {
+      "title_ja": "AIが生成した「存在しない病名」を研修医の44%が信用——仏大学病院が検証",
+      "one_liner": "LLMの幻覚を見抜けない医療従事者が44%に上る実験結果",
+      "category": "研究",
+      "url": "https://www.itmedia.co.jp/news/article/2608/31/2000000865/"
+    },
+    {
+      "title_ja": "トヨタがE2E自動運転「手の内化」——レベル2と4に共通モデル、28年量産へ",
+      "one_liner": "トヨタがレベル2++とレベル4で共通AIモデル採用し開発効率化",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03367/082900038/"
+    },
+    {
+      "title_ja": "IT大手19社の増収率が30%台に——AI特需がけん引、過去最高の伸び",
+      "one_liner": "世界IT大手19社が2026年Q2に前年同期比30.9%増を記録",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00848/00195/"
+    },
+    {
+      "title_ja": "生成AI利用中小企業の87.7%が機密情報入力に不安、技術的対策は11.4%のみ",
+      "one_liner": "中小企業のAIセキュリティ対策の遅れが浮き彫りに",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/430/4430905/"
+    },
+    {
+      "title_ja": "AI共創総研、企業のAIネイティブ化支援「AI Native Shift」提供開始",
+      "one_liner": "AIネイティブ化を包括支援する新サービス登場",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/430/4430916/"
+    },
+    {
+      "title_ja": "ストレージ大手Everpure、AI時代の競争軸はデータ管理とソフト事業強化",
+      "one_liner": "ストレージベンダーがAI活用を見据えたデータ管理ソフト拡充へ",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11989/"
+    },
+    {
+      "title_ja": "OpenAI侵入事案、1200体のAIが「裏技」で情報共有し700体が攻撃参加",
+      "one_liner": "AIエージェント群の協調攻撃の実態が報告書で明らかに",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12000/"
+    },
+    {
+      "title_ja": "米国防総省、ChatGPTとGrokを統合——独自AIポータルを構築",
+      "one_liner": "ペンタゴンがOpenAIとSpaceXAIのAIツールを導入",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+    },
+    {
+      "title_ja": "Instagram、未開示AIプロフィールの到達範囲を制限——AI偽インフルエンサー対策",
+      "one_liner": "InstagramがAI生成アカウントの規制強化に乗り出す",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/"
+    },
+    {
+      "title_ja": "警察官向けAI「Harvey」目指すBlue Voice、600万ドル調達",
+      "one_liner": "部門特化型法執行支援AIが資金調達に成功",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/"
+    },
+    {
+      "title_ja": "動画検索AI「Clipto」が評価額2.5億ドルに——年間収益1500万ドルで黒字化",
+      "one_liner": "テラバイト級動画を検索するAIが3年で黒字達成",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/"
+    },
+    {
+      "title_ja": "NVIDIA、MediaTekに35億ドル出資——ビッグテックのAIチップ自製に対抗",
+      "one_liner": "NVIDIAが台湾MediaTekへ大型投資でAI基盤強化",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/"
+    },
+    {
+      "title_ja": "ChatGPT、EU規制で未成年保護など厳格化——DSA適用へ",
+      "one_liner": "OpenAIがEUでより厳しい規制対象に",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa"
+    }
+  ],
+  "date": "20260901",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution"
+  ]
+}
