@@ -1,0 +1,200 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "OpenAI「ChatGPT Health」、Epic統合で電子カルテへ直接アクセス可能に",
+      "summary_ja": "OpenAIがChatGPT Healthに米Epic Systems社製電子カルテシステムとの統合機能を追加。臨床医が患者の医療記録を読み取り専用でChatGPT上に取り込み、診療文脈を参照しながらAIに相談できる。医療研究など信頼性の高い情報源とも接続可能に。\n\n米国医療機関の約8割が導入するEpicとの統合により、AIが診療現場の実データに基づく支援を提供できる体制が整う。患者プライバシーは読み取り専用アクセスで保護され、HIPAA準拠の設計。\n\n日本でも電子カルテ標準化が進む中、医療AIの実用化モデルとして注目される。医療機関向けAI活用の先行事例として、日本の病院・クリニックへの導入可能性を検討する価値がある。",
+      "consultant_insight": "日本の医療DX推進に向け、電子カルテ×生成AIの統合事例として顧客提案の参考に",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "OpenAI Blog / TechCrunch",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Google「Google Pics」発表、AI主導のデザインツールでCanva/Adobe市場に参入",
+      "summary_ja": "GoogleがWorkspace向けに「Google Pics」を発表。プロンプト入力でプロ品質のデザインを生成する、AI特化型デザインツール。従来のCanva/Adobeが「手作業ベースのデザイン」であるのに対し、Picsは「指示ベースの生成」を軸とする。\n\nWorkspaceに統合されることで、スライド・文書・メールなどへのシームレスな埋め込みが可能。企業の非デザイナーでも短時間でビジュアル資料を作成できる環境を提供する。\n\n日本企業の資料作成業務において、PowerPoint/Canvaの代替または補完ツールとして導入余地が大きい。特に営業・マーケティング部門での時短効果が期待できる。",
+      "consultant_insight": "日本企業の資料作成業務効率化に即効性あり。Workspace導入済み企業なら即検証を",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "Google Blog / TechCrunch / The Verge",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "総務省「AX・新技術戦略室」新設、AI推進施策の司令塔に",
+      "summary_ja": "林芳正総務大臣が9月1日、総務省に「AX・新技術戦略室」を新設すると発表。同省のAI推進施策を一元的に取りまとめ、関係省庁との連携を担う。政府全体のAI戦略推進の加速を狙う。\n\n従来は各部署に分散していたAI関連業務を統合し、施策の迅速化と省庁間の調整機能を強化。電波・通信・放送など総務省所管分野でのAI活用推進も担う。\n\n日本のAI規制・ガイドライン・公共調達基準などの動向を把握する上で重要な窓口となる。企業のAI導入計画において、政策動向の情報源として注視すべき組織。",
+      "consultant_insight": "政府AI施策の窓口一本化。今後の規制・ガイドライン情報は同室が起点になる可能性",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/01/2000001044/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "伊藤忠商事、電通総研に最大2152億円でTOB　AI時代のIT市場上流強化へ",
+      "summary_ja": "伊藤忠商事が電通グループとの戦略提携を発表、電通総研株の約38％取得を目指すTOBを実施。投資額は最大2152億円。AI普及でITサービス業界の競争軸が上流工程へ移る中、「デジタル事業群」の上流強化を急ぐ。\n\n従来のシステム開発中心から、AI活用を前提とした業務プロセス設計・データ統合・コンサルティングへ重心が移行。伊藤忠は電通総研の上流ノウハウと自社の顧客基盤を融合させる戦略。\n\n日本の大手商社がAI時代のIT業界再編に動いた象徴的な事例。今後、他商社・SIerの動向にも影響を与える可能性。",
+      "consultant_insight": "AI時代のIT業界再編が本格化。大手商社の動きは顧客企業の戦略立案にも影響大",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12008/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "米国防総省、ChatGPT/Gemini/Grokの軍事版を導入　3モデル併用体制に",
+      "summary_ja": "米国防総省がOpenAI「ChatGPT Mil」、Google「Gemini」、SpaceXAI「Grok」の軍事カスタマイズ版を正式導入。国防分野での生成AI活用を本格化する。\n\nChatGPT Milは機密情報を学習させず、軍事用途に特化した安全性設計。複数モデルを併用することで、単一ベンダー依存リスクを回避し、用途に応じた使い分けを可能にする。\n\n企業のAI導入においても、マルチモデル戦略の重要性が高まっている。セキュリティ要件の高い業界（金融・インフラなど）での参考事例となる。",
+      "consultant_insight": "マルチモデル戦略の先行事例。セキュリティ重視の日本企業にも応用可能な設計思想",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+ / TechCrunch",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/01/2000001033/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "AIエージェント監視ツールAIR、5000万ドル調達　企業の「野良AI」対策ニーズに対応",
+      "summary_ja": "AIエージェント監視プラットフォームAIRが5000万ドル（約79億円）を調達。企業内で稼働するAIエージェントを自動検出し、使用するスキル・アドオンを継続的に検証、不正動作をブロックする。\n\n「AIが勝手にやった」が通用しない時代に向け、企業はAIエージェントの行動監視・統制が必須に。AIRは実行前の承認フロー、事後のログ記録、コンプライアンス遵守を一元管理する。\n\n日本企業でも「野良AI」問題が顕在化しつつあり、AIガバナンス体制構築の具体策として注目される。導入検証の価値あり。",
+      "consultant_insight": "AIガバナンス体制の具体策。日本企業の「野良AI」対策としてすぐ検証できるツール",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "Instagram、AI生成プロフィールに厳格化　未設定ならリーチ制限",
+      "summary_ja": "MetaがInstagramの「AIクリエイター」ラベルを「AI生成プロフィール」に改称。実在人物でないAI生成アカウントであることを明示する狙い。未設定のアカウントはおすすめ表示などのリーチを制限し、自主的な設定を促す。\n\nAIインフルエンサーへの不満が高まる中、透明性確保のための措置。企業の公式アカウントでもAI生成コンテンツを使う場合は適切な開示が求められる時代に。\n\n日本企業のSNSマーケティングにおいても、AI生成コンテンツの開示ルール整備が急務。ブランド信頼性維持のため早期対応を。",
+      "consultant_insight": "企業SNSでのAI開示ルールが事実上の義務に。日本企業も早期対応でリスク回避を",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "ITmedia AI+ / TechCrunch",
+      "url": "https://www.itmedia.co.jp/news/article/2609/01/2000001010/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "NVIDIA、MediaTekに35億ドル投資　AI協業でPC・車載チップ共同開発へ",
+      "summary_ja": "NVIDIAがMediaTekの転換社債に35億ドル（約5500億円）を投資。独自AIチップのラック統合、PC・車載向けチップの共同開発などを推進。NVIDIAは顧客の囲い込みを、MediaTekは受託設計事業の強化を図る。\n\nNVIDIAの「NVLink Fusion」をMediaTekが採用し、AI基盤の相互運用性を強化。PC・自動車市場でのAI処理能力向上を加速する。\n\n日本の製造業（自動車・電機）にとって、NVIDIAエコシステムへの依存度がさらに高まる可能性。サプライチェーン戦略の見直しが必要。",
+      "consultant_insight": "NVIDIAエコシステムの拡大。日本製造業のサプライチェーン戦略に影響大",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/01/2000001005/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "防衛省概算要求8兆8900億円、自衛隊指揮統制へのAI導入加速",
+      "summary_ja": "防衛省が令和9年度予算概算要求に過去最大の8兆8908億円を計上。自衛隊の指揮統制へのAI導入、攻撃ドローンの取得など「新しい戦い方」への対応を加速。\n\n戦闘の長期化に備え、防衛装備品製造工場の国有化と民間委託管理も推進。AIによる意思決定支援システムの構築を急ぐ。\n\n防衛産業向けAI技術の需要が拡大する見通し。民間AI技術の防衛転用ニーズも高まる可能性があり、技術流出管理の重要性が増す。",
+      "consultant_insight": "防衛AI市場の拡大。民間技術の転用可能性と輸出管理強化に要注意",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/01/2000001004/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "アルプスアルパイン、光電融合レンズ生産10倍へ　CPO向け需要急増",
+      "summary_ja": "アルプスアルパインがAIデータセンター向け光電融合分野の事業を強化。半導体パッケージ同士を光でつなぐCPO向けレンズの月産個数を、2027年春までに10倍に引き上げる。\n\n光電融合はAIデータセンターの電力効率改善・高速化の鍵技術。世界でレンズを製造できるのは2社のみで、アルプスアルパインはその1社。\n\n日本の精密加工技術がAI基盤で重要な役割を果たす好例。顧客企業のデータセンター戦略立案時、光電融合の動向把握が必須に。",
+      "consultant_insight": "日本の精密技術がAI基盤で競争優位。顧客のデータセンター戦略に光電融合を提案",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03627/082600040/"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "AI人生相談、8割が従うも幸福度は上がらず　英研究",
+      "one_liner": "AIアドバイスへの信頼は高いが実際の効果は限定的",
+      "category": "研究",
+      "url": "https://www.itmedia.co.jp/news/article/2609/01/2000000987/"
+    },
+    {
+      "title_ja": "生成AI画像が「キショい」理由を広報プロが解説",
+      "one_liner": "AI画像炎上の本質は技術的未熟さより文脈の欠如",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2609/01/2000000743/"
+    },
+    {
+      "title_ja": "三菱ケミカル、半導体向け「温めると縮む新材料」開発",
+      "one_liner": "AI時代の半導体熱問題を解決する画期的素材",
+      "category": "研究",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/01/news039.html"
+    },
+    {
+      "title_ja": "IT大手19社の増収率30％超、AI特需が牽引",
+      "one_liner": "2026年Q2、世界IT大手の売上が過去最高の伸び",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00848/00195/"
+    },
+    {
+      "title_ja": "ハーモニック、AIロボ部品売上を5年で7倍へ",
+      "one_liner": "人型ロボット量産化で波動歯車需要が急拡大",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03727/082100002/"
+    },
+    {
+      "title_ja": "Everpure、AI時代はデータ管理が競争軸とソフト強化",
+      "one_liner": "ストレージ大手がAI向けデータ統合ソフトを拡充",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11989/"
+    },
+    {
+      "title_ja": "トヨタ、E2E自動運転でレベル2とレベル4を共通化",
+      "one_liner": "2028年量産へ、AIモデル共通化で開発投資削減",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03367/082900038/"
+    },
+    {
+      "title_ja": "店舗集客AI「KUROKO AI」、AEO分析機能を実装",
+      "one_liner": "AI検索での店舗推奨状況を週次で可視化",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/431/4431402/"
+    },
+    {
+      "title_ja": "新卒AI研修9割超実施も、3人に2人が内容に課題意識",
+      "one_liner": "「AIネイティブ・パラドックス」が新たな人材育成課題に",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/431/4431368/"
+    },
+    {
+      "title_ja": "AIリーダーズ会議「中国が世界の知能工場に」と警鐘",
+      "one_liner": "日本のAI恐怖症克服が産業競争力の鍵",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03367/"
+    },
+    {
+      "title_ja": "オプト執行役員、AIエージェントでBPR推進中",
+      "one_liner": "過去の失敗を教訓に3種類のAI最上位プラン活用",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/041700482/082600019/"
+    },
+    {
+      "title_ja": "Sequoia支援Empirik、2100万ドル調達でIT障害予測",
+      "one_liner": "Cursor的アプローチでインフラ障害を事前検出",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/"
+    },
+    {
+      "title_ja": "Amazon Alexa、商品発売通知機能を追加",
+      "one_liner": "AI活用でパーソナライズされた買い物アラート",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/"
+    },
+    {
+      "title_ja": "Fambot、家族向け「AI参謀」サービス開始",
+      "one_liner": "メール・予定・学校行事を一元管理するAI秘書",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/"
+    },
+    {
+      "title_ja": "Google、動画理解AIエージェント機能をGeminiに追加",
+      "one_liner": "40秒の動画文脈を参照し自律的にタスク実行",
+      "category": "ツール",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
+    }
+  ],
+  "date": "20260902",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution"
+  ]
+}
