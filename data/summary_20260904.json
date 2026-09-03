@@ -2,39 +2,39 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "複数AIサービスで同時障害発生　ChatGPT・Claude・Grokが一斉ダウン",
-      "summary_ja": "日本時間9月4日午前0時30分、OpenAIのChatGPT、AnthropicのClaude、xAIのGrokが同時に接続障害を起こした。複数の主要AIサービスが同タイミングで停止する異例の事態が発生。一部は復旧したが、企業のAI依存リスクが浮き彫りになった。",
-      "consultant_insight": "複数ベンダー併用のBCP策定が急務。単一AIサービスへの依存は事業継続リスクとなる。",
+      "title_ja": "【速報】OpenAI GPT-6 Astra発表——サイバー分野で臨界能力到達、50％の手動修正削減を実証",
+      "summary_ja": "OpenAIが新モデル「GPT-6 Astra」を発表。サイバーセキュリティ分野で「Critical」レベルの能力を達成し、同社の安全フレームワーク上で初めて臨界点に到達した。ゲーム開発企業Playcoでは、GPT-6 Astraを使い3種類のゲームプロトタイプを制作し、手動修正を50％削減。金融書類レビュー企業Legoraは41件の文書を数分で処理し、全ての誤りを検出、従来比40％近い性能向上を達成。OpenAIは「コンピューター・ブラウザ操作の新たなフロンティア」と位置付け、「AGI時代に突入した」と表明している。",
+      "consultant_insight": "自律エージェント実用化の試金石。サイバー防御と業務自動化の両面で顧客の投資判断材料になる。",
       "importance": 5,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/"
+      "category": "ツール",
+      "source_name": "OpenAI Blog / TechCrunch / The Verge",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra"
     },
     {
       "rank": 2,
-      "title_ja": "NVIDIA、Hugging Faceを約2兆円で買収合意　オープンモデル戦略を強化",
-      "summary_ja": "NVIDIAがAI開発プラットフォームHugging Faceを129億ドル（約2兆円）で買収することに合意。300万超のモデルと1800万開発者を擁するHugging Faceの獲得で、NVIDIAはオープンウェイトモデル市場での主導権を狙う。ジェンスン・フアンCEOはオープンモデルの重要性に言及した。",
-      "consultant_insight": "企業AI戦略においてオープンモデル活用の重要性が一層高まる。独自モデル構築の選択肢が拡大。",
+      "title_ja": "【確定】NVIDIA、Hugging Faceを約2兆円で買収——300万モデル・1800万開発者の巨大エコシステムを傘下に",
+      "summary_ja": "NVIDIAがAI開発プラットフォーム「Hugging Face」を129億ドル（約2兆円）で買収することで合意。Hugging Faceは300万以上のAIモデルと1800万人の開発者を抱える世界最大級のオープンモデルハブで、買収により半導体とソフトウェアの垂直統合が加速する。ジェンスン・フアンCEOは「オープンモデルの重要性」に言及し、Metaなどが推進するオープンAI戦略との親和性を強調。買収額はNVIDIAの過去最大規模で、AI市場の覇権争いが新たな局面へ。",
+      "consultant_insight": "オープンモデル派の大型統合。顧客の開発環境選定とロックイン戦略に影響大。",
       "importance": 5,
       "category": "業界",
-      "source_name": "ITmedia AI+",
+      "source_name": "ITmedia AI+ / TechCrunch / The Verge",
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/03/2000001150/"
     },
     {
       "rank": 3,
-      "title_ja": "Meta、Muse Spark 1.3を公開　コーディング・エージェント性能を大幅強化",
-      "summary_ja": "MetaがAIモデル「Muse Spark 1.3」を発表。エージェント機能とコーディング性能を強化し、曖昧な指示への対応力や長時間作業の継続性を改善。ベンチマーク「DeepSWE」で他社フロンティアモデルを上回る成績。ザッカーバーグCEOは「最大の飛躍」と評価した。",
-      "consultant_insight": "オープンウェイトモデルの性能向上により、企業の自社環境でのAI実装コストが大幅削減可能に。",
+      "title_ja": "Meta、Muse Spark 1.3発表——コーディング・エージェント性能強化、利用料95％割引で観察データ収集",
+      "summary_ja": "Metaが最新AIモデル「Muse Spark 1.3」を公開。コーディングとエージェント機能を大幅強化し、曖昧な指示への対応や長時間作業の継続性が改善。ベンチマーク「DeepSWE」で他社フロンティアモデルを上回るスコアを記録し、ザッカーバーグCEOは「最大の飛躍」と評価。注目は、API等で提供する際に平均95％の割引を適用し、ユーザーの利用データを収集する戦略。前モデルのオープンウェイト公開も予定し、エージェント市場での地位確立を狙う。",
+      "consultant_insight": "実質無料でエージェント品質を検証可能。顧客POCの選択肢として有力候補に。",
       "importance": 5,
       "category": "ツール",
-      "source_name": "ITmedia AI+",
+      "source_name": "ITmedia AI+ / TechCrunch",
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/03/2000001101/"
     },
     {
       "rank": 4,
-      "title_ja": "Google、Gemini 3.8 Flash公開　3週間で新版、サイバー防御特化版も登場",
-      "summary_ja": "GoogleがGemini 3.7 Flashリリースからわずか3週間でGemini 3.8 Flashを公開。推論・コーディング性能を大幅向上させつつ価格は据え置き。サイバー防御に特化した「Gemini 3.8 Flash Cyber」も発表し、政府・インフラ企業向けに脆弱性発見・パッチ自動生成機能を提供する。",
-      "consultant_insight": "価格据え置きでの性能向上は既存AI投資のROI改善に直結。サイバー版は金融・インフラ企業に朗報。",
+      "title_ja": "Google、Gemini 3.8 Flash発表——推論・コーディング大幅向上、サイバー防御特化版も政府限定提供",
+      "summary_ja": "GoogleがAIモデル「Gemini 3.8 Flash」を発表。前版3.7から3週間での高速アップデートで、推論とコーディング性能を大幅に向上させながら価格は据え置き。同時に、サイバー防御に特化した「Gemini 3.8 Flash Cyber」も発表し、政府やインフラ企業など信頼できる防御側に限定提供。脆弱性発見やパッチ自動生成機能を搭載し、OpenAI Astraの臨界能力到達に対抗する姿勢を鮮明にした。3週間サイクルの高速開発体制が競争力の源泉に。",
+      "consultant_insight": "コスパ最強の選択肢。防御版は政府系案件の提案材料として有効。",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
@@ -42,159 +42,160 @@
     },
     {
       "rank": 5,
-      "title_ja": "Adobe、Slackから70種超のツールを使える「Adobe for Slack」提供開始",
-      "summary_ja": "AdobeがSlack上でPhotoshopやFireflyなど70種以上のツールを使える「Adobe for Slack」の提供を開始。Slackbot経由で指示を出し、チャットやcanvasの内容を文脈として画像や資料を制作できる。業務チャットをAI実行基盤とする動きが加速している。",
-      "consultant_insight": "既存コミュニケーションツール上でのAI統合は導入障壁を下げる。社内定着の鍵となる戦略。",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2609/03/2000001114/"
+      "title_ja": "OpenAI、Daybreak for Frontline Defenders発表——重要インフラ向けに10億ドル投資、サイバーAI・訓練・支援を提供",
+      "summary_ja": "OpenAIが「Daybreak for Frontline Defenders」プログラムを発表し、10億ドル（約1500億円）を投じて重要インフラ防衛組織へのフロンティアサイバーAIアクセス、訓練、支援を拡大。GPT-6 Astraのサイバー能力を活用し、医療・エネルギー・水道など社会基盤を守る「最前線の防御者」を支援する。従来の「攻撃側優位」を覆す試みで、公共セクターとの連携を強化。規制対応と社会的責任の両面から、AI企業の新たな競争軸が形成されつつある。",
+      "consultant_insight": "公共セクターAI案件の先行事例。インフラ・医療系顧客への提案パターンとして活用可能。",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders"
     },
     {
       "rank": 6,
-      "title_ja": "NECがAnthropicと協業強化　AI対AIのサイバー防衛で「勝ち筋」を描く",
-      "summary_ja": "NECの幹部がAI時代のセキュリティは「AI対AI」になると述べ、Anthropicなど米AI企業のフロンティアAIを活用してサイバー攻撃対策に挑む方針を表明。日本のサイバー防衛における具体的な勝ち筋を示した。同社は無差別攻撃時代の新たな防御戦略を構築している。",
-      "consultant_insight": "セキュリティ対策においてもAI活用が必須に。先進AIベンダーとの協業が差別化要因となる。",
+      "title_ja": "【全文解説】AnthropicがClaudeに「電子透かし」導入——EU AI法対応、検出精度99.99％も回避手法は残存",
+      "summary_ja": "AnthropicがEU AI法への対応として、Claude生成文章に電子透かし（C2PA互換）を導入。特定の単語パターンを埋め込み、検出精度99.99％を実現するが、文章の言い換えや翻訳で簡単に回避可能な限界も指摘される。AIユーザーの「創作物の真正性証明」と「生成物の追跡可能性」の両立を目指すが、技術的完全性には課題が残る。日経クロステックが仕組みと限界を詳細解説。今後、他社も追随する可能性が高く、AI利用のガバナンス設計に影響。",
+      "consultant_insight": "EU進出企業は必須対応。国内でも自主的な透かし導入が差別化要因に。",
       "importance": 4,
       "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2609/03/news052.html"
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12013/"
     },
     {
       "rank": 7,
-      "title_ja": "創業108年みそメーカー、Gemini利用率86％達成の「3つの工夫」",
-      "summary_ja": "長野県のみそメーカー・ハナマルキが生成AIのGemini利用率86％という高い数字を達成。70代会長も活用に参加。導入時の具体的な3つの工夫により、社員への定着を実現した。AI導入における組織的な課題解決の好事例となっている。",
-      "consultant_insight": "中小企業でも経営層の関与と具体的工夫で高い定着率を実現可能。横展開の参考事例として有効。",
+      "title_ja": "複数AIサービスで同時障害——ChatGPT・Claude・Grokが数時間ダウン、原因は共通インフラか【復旧済み】",
+      "summary_ja": "日本時間9月4日午前0時30分頃、OpenAI「ChatGPT」、Anthropic「Claude」、SpaceX AI「Grok」が同時に接続障害を発生。数時間後に復旧したが、3社が同時にダウンする異例の事態に、共通のクラウドインフラやネットワーク層の問題が疑われる。ITmedia・The Vergeが速報し、AI依存リスクが顕在化した形に。企業のBCP（事業継続計画）におけるAIサービス冗長化の重要性が再認識される。",
+      "consultant_insight": "複数AIサービスの並行契約が必須に。顧客BCP提案の論拠として活用可。",
       "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2609/03/news017.html"
+      "category": "業界",
+      "source_name": "ITmedia AI+ / The Verge",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/"
     },
     {
       "rank": 8,
-      "title_ja": "「あえてAIと声高に言うな」住友化学・LINEヤフー・ディップの全社定着戦略",
-      "summary_ja": "生成AIを個人ツールで終わらせず全社規模で活用するには何が必要か。住友化学、LINEヤフー、ディップが「あえてAIと強調しない」などの独自戦略を展開。競争優位につながる組織的AI活用の実践知見が明らかになった。",
-      "consultant_insight": "全社定着には技術導入だけでなく組織文化への配慮が不可欠。先行企業の戦略は横展開の指針に。",
-      "importance": 4,
-      "category": "実務",
+      "title_ja": "ELYZA、業務アプリAI生成で特許取得も批判噴出——「既存技術の組み合わせ」「特許濫用」との声",
+      "summary_ja": "KDDI傘下のAI開発企業ELYZAが、法人向けAIツール「ELYZA Works」で業務アプリをAIで作成する仕組みの特許を取得したと発表。しかしX（旧Twitter）上では「既存技術の組み合わせ」「特許濫用」との批判が噴出し、炎上状態に。AIによるローコード・ノーコード開発は複数社が提供しており、特許の新規性に疑問の声が上がる。ITmediaが追記対応し、特許制度とAI技術の関係が改めて注目を集める。",
+      "consultant_insight": "特許紛争リスクを顧客に事前共有すべき。類似ツール選定時の注意点として提示を。",
+      "importance": 3,
+      "category": "業界",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2609/03/news043.html"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/03/2000001144/"
     },
     {
       "rank": 9,
-      "title_ja": "オープンモデル普及で攻撃が「お手軽」に　侵入前提のAI防御策が急務",
-      "summary_ja": "AIはサイバー攻撃のほぼ全工程に浸透しつつある。特にベンダー制御が効きにくいオープンウェイトモデルは攻撃ハードルを大幅に下げる。GTIGの報告やアクセンチュアへの取材を基に、防御側が今取るべき「侵入前提」の対策を提示した。",
-      "consultant_insight": "オープンモデルの両刃性を認識し、ゼロトラスト前提のセキュリティ設計が必須となる。",
+      "title_ja": "住友化学・LINEヤフー・ディップに学ぶ「AI全社定着」の極意——「あえてAIと言わない」戦略",
+      "summary_ja": "生成AIを個人ツールで終わらせず、全社規模で定着させた3社の事例をITmedia Businessが特集。住友化学は「あえてAIと言わず」業務プロセスに溶け込ませ、LINEヤフーは経営層がAI活用を率先垂範、ディップは現場主導で小さな成功体験を積み重ねた。共通点は「AI導入」ではなく「業務改善」を前面に出し、使わない理由を消していく地道なアプローチ。競争優位につなげるには、技術先行ではなく組織変革が鍵と結論。",
+      "consultant_insight": "顧客への定着支援はツール導入でなく変革支援として提案すべき。3社の手法は提案書の引用材料に最適。",
       "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/03/2000001098/"
+      "category": "実務",
+      "source_name": "ITmedia Business",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/03/news043.html"
     },
     {
       "rank": 10,
-      "title_ja": "「社長の声」悪用で被害45億円　元警視庁が明かすAI詐欺の最新手口",
-      "summary_ja": "生成AIの進化がサイバー攻撃手口を増やしている。元警視庁職員らが2026年の最新ボイスフィッシングやランサムウェア攻撃のトレンドを解説。音声クローンを使った「社長の声」による詐欺など、組織が今すぐ取るべき備えを紹介した。",
-      "consultant_insight": "音声・映像のディープフェイク対策として、本人確認プロセスの多要素化が喫緊の課題に。",
+      "title_ja": "「AI導入したのに楽にならない」の正体——削減時間は新しいタスクと品質向上に吸収される",
+      "summary_ja": "AI導入で時間を削減したはずなのに「仕事が楽にならない」との声が続出。ITmedia NEWSが背景を分析し、削減された時間が①新しいタスクの追加、②品質基準の引き上げ、③対人業務の増加に吸収される実態を解説。AIは「時間を生む」が、その時間を何に使うかの設計がなければ、負荷は変わらないどころか増えるケースも。経営層と現場で「削減効果の使い道」を事前合意する重要性を指摘。",
+      "consultant_insight": "AI導入効果の見える化と使途設計が必須。期待値マネジメントの失敗例として顧客共有を。",
       "importance": 4,
       "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/03/news041.html"
+      "source_name": "ITmedia NEWS",
+      "url": "https://www.itmedia.co.jp/news/article/2609/03/2000000990/"
     }
   ],
   "digest": [
     {
-      "title_ja": "ELYZA、業務アプリをAIで作成する仕組みで特許取得もX上で批判の声",
-      "one_liner": "KDDI傘下ELYZAが特許取得を発表したが一部で批判も",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/03/2000001144/"
-    },
-    {
-      "title_ja": "AWS Cloud Quest 2.0、AIバーチャル顧客と対話可能に",
-      "one_liner": "3DゲームでAWSを学べるプラットフォームが進化",
+      "title_ja": "Adobe、Slack上でPhotoshop等70種以上のツールを使える「Adobe for Slack」提供開始",
+      "one_liner": "Slackbotで指示し会話内容を反映した画像・資料を生成、チャットがAI実行基盤に",
       "category": "ツール",
-      "url": "https://www.itmedia.co.jp/news/article/2609/03/2000001124/"
+      "url": "https://www.itmedia.co.jp/news/article/2609/03/2000001114/"
     },
     {
-      "title_ja": "ブシロード、AI子会社設立へ　定型業務をAIで支援",
-      "one_liner": "業務負荷・ヒューマンエラー軽減を目的に新会社",
+      "title_ja": "元警視庁が明かす「AI詐欺」の手口——社長の声を悪用し45億円被害",
+      "one_liner": "ボイスフィッシング等の最新攻撃トレンドと組織が今すぐ取るべき備えを紹介",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/03/news041.html"
+    },
+    {
+      "title_ja": "ブシロード、AI子会社設立——定型業務をAIで支援、負荷とヒューマンエラー軽減",
+      "one_liner": "人が行っていた定型プロセスをAIで代替、ゲーム・エンタメ業務の効率化狙う",
       "category": "業界",
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/03/2000001099/"
     },
     {
-      "title_ja": "AI導入したのに仕事が楽にならない理由　削減時間の行き先を解明",
-      "one_liner": "AI活用の効果が実感されない構造的課題を分析",
-      "category": "実務",
-      "url": "https://www.itmedia.co.jp/news/article/2609/03/2000000990/"
-    },
-    {
-      "title_ja": "IT大手4社、脱・人月へFDE拡充　日立は26年度内に国内1000人",
-      "one_liner": "AI活用支援のFDE獲得・育成競争が加速",
+      "title_ja": "オープンモデル普及でサイバー攻撃が「お手軽」に——防御側は侵入前提の対策を",
+      "one_liner": "ベンダー制御の効かないモデルが攻撃ハードルを下げる、GTIGとアクセンチュア分析",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/082701492/"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/03/2000001098/"
     },
     {
-      "title_ja": "日本発の秘匿AI基盤が本格始動　企業秘密を外部に出さずAI利用可能に",
-      "one_liner": "CODASがPrivacy-First AI基盤の社会実装を開始",
+      "title_ja": "ソニーセミコン、半導体設計にエージェンティックAI評価——設計期間短縮を狙う",
+      "one_liner": "SoC等のデジタル半導体設計で品質を保ちながら期間短縮に効くケースを見極め",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11980/"
+    },
+    {
+      "title_ja": "国産AI開発予算が2027年度に2.3倍の8964億円——メモリー高騰が背景",
+      "one_liner": "経産省の概算要求、前年度3873億円から大幅増も「IT狂乱物価」の足音",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03079/090300043/"
+    },
+    {
+      "title_ja": "AIディープリサーチの使い方と使いこなしのコツ——複数ソースから1つのリポートに",
+      "one_liner": "AIが情報を調べてリポート作成、自作リポートの質向上に活用可能",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02737/083000065/"
+    },
+    {
+      "title_ja": "世界モデルとは何か——フィジカルAIの環境学習モデル、未来を先読み",
+      "one_liner": "ロボティクス分野で環境を学習し未来予測、フィジカルAIの重要技術",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02915/090200030/"
+    },
+    {
+      "title_ja": "10pct.が地方旅館から観光地をつくる——人を減らさず売上・給与を増やす手法",
+      "one_liner": "AIとソフトで業務効率化、運営ノウハウと顧客データで地方リゾート再生",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/431/4431239/?rss"
+    },
+    {
+      "title_ja": "Abliteration.ai、AIガードレール除去をビジネス化——防御側に同じツールを提供",
+      "one_liner": "強力なモデルのガードレールを外しアクセス容易に、悪用と防御の両面で議論",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/"
+    },
+    {
+      "title_ja": "Google WeatherNext 3発表——AI気象モデルの最新版、天気予報配信に組み込みへ",
+      "one_liner": "深層学習で気象予測の精度向上、雨・雪予測が改善され実用化加速",
+      "category": "研究",
+      "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/"
+    },
+    {
+      "title_ja": "Thinking Machines、Accel主導で10億ドル調達か——評価額400億ドル、年間売上1億ドル超",
+      "one_liner": "高プロファイルのAIスタートアップ、売上成長を背景に大型調達の観測",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/"
+    },
+    {
+      "title_ja": "Ollie、プライバシー重視のAIアシスタントで勝負——家族特化、データ非共有を訴求",
+      "one_liner": "日常生活の詳細にアクセスするが訓練に使わず共有もしないと明言",
       "category": "ツール",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/082701487/"
+      "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/"
     },
     {
-      "title_ja": "建設業界の用語認知度調査、1位は生成AIで89％",
-      "one_liner": "土木専門誌読者への調査で生成AIが圧倒的認知",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03735/082800001/"
-    },
-    {
-      "title_ja": "理研とホンダ、多指ハンド用AI構築へ　薄型触覚デバイスも開発",
-      "one_liner": "巧緻作業可能なロボットハンドのAI開発に着手",
-      "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03727/082500004/"
-    },
-    {
-      "title_ja": "大林組、AI活用で設計初期の作業時間を67％短縮",
-      "one_liner": "法令調査・要件整理にAIエージェント試験導入",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00154/02910/"
-    },
-    {
-      "title_ja": "AIエージェントによる変革を阻む2つの壁とは",
-      "one_liner": "「人にしかできない仕事」の再定義が必要に",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00849/00198/"
-    },
-    {
-      "title_ja": "OpenAI GPT-6 Astra、Playcoがゲーム開発で手動修正50％削減",
-      "one_liner": "3つのテーマ別プロトタイプを効率的に構築",
-      "category": "実務",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra"
-    },
-    {
-      "title_ja": "Legora、GPT-6 Astraで41文書を数分でレビュー",
-      "one_liner": "財務諸表レビューで性能40％向上を実現",
-      "category": "実務",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra"
-    },
-    {
-      "title_ja": "Google WeatherNext 3、最先端AIで天気予報の精度向上",
-      "one_liner": "降雨・降雪予測の正確性を大幅改善した新モデル",
-      "category": "研究",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
-    },
-    {
-      "title_ja": "Nvidia、遊休PC連結で個人向けAIデータセンター構築ツールを無料提供",
-      "one_liner": "Personal AI Router(PAIR)で家庭内AI推論環境を実現",
+      "title_ja": "NVIDIA、無料ツール「PAIR」発表——自宅の遊休PCをつないでローカルAIデータセンター化",
+      "one_liner": "Personal AI Routerで家庭内複数PCを同期、ローカルLLM推論タスクを分散処理",
       "category": "ツール",
       "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook"
     },
     {
-      "title_ja": "Google、Gmail・Docs・Keepで音声チャット機能を展開",
-      "one_liner": "リアルタイム音声でアプリを管理可能に",
+      "title_ja": "Google、Gmail・Docs・Keepに音声アシスタント追加——リアルタイムで対話しながらアプリ管理",
+      "one_liner": "Gemini音声モードで各種Googleアプリを音声操作、チャット感覚で業務処理",
       "category": "ツール",
       "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini"
     }
   ],
   "date": "20260904",
   "failed_sources": [
-    "AI-Scholar: [Errno -3] Temporary failure in name resolution"
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
   ]
 }
