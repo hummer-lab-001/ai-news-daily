@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "M365 Copilot、GPT-6 Astra・Fable 5.1対応で「より的確な応答」へ——Work IQと組み合わせ大規模タスク委任が可能に",
+      "summary_ja": "MicrosoftがCopilot CoworkとCopilot Studioで、OpenAIの最新モデル「GPT-6 Astra」とAnthropicの「Fable 5.1」を提供開始した。\nこれにより、作業を細かく分けて指示しなくても、より大きなタスクを一度に委任できるようになる。\nWork IQ機能と組み合わせることで、ユーザーの業務コンテキストを理解した的確な応答を実現する。",
+      "consultant_insight": "M365エコシステム内で最先端LLMが選択可能に。既存ライセンスで業務効率が大幅向上する可能性",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Copilot経由で感染拡大する「AIウイルス」、Word文書から社内全滅の恐れ——新種の脅威に警戒必要",
+      "summary_ja": "Microsoft Copilotが業務利用される中、Word文書を介して感染が広がる新種の脅威が発見された。\n従来とは異なる攻撃パターンで、生成AIを経由して自動的にマルウェアが増殖する仕組み。\n企業でのAI活用が進むほどリスクが高まるため、セキュリティ対策の見直しが急務となっている。",
+      "consultant_insight": "AI活用推進と同時に、新種セキュリティリスクへの対策が必須。顧客へ早期注意喚起を",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/04/2000001139/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "福島県、M365 Copilot全庁6000人展開——有償100件で利用二極化も「逆張り戦略」で突破",
+      "summary_ja": "福島県が職員約6000人へのM365 Copilot全庁展開に踏み切った。\n当初は有償アカウント100件と研修を用意したが利用が二極化。それでも全庁展開を決断した背景には「日常的に使う存在」にする独自戦略がある。\n配布だけでは使われない課題を、組織文化変革とセットで解決した事例として注目される。",
+      "consultant_insight": "自治体AI導入の成功パターン。「配って終わり」を避ける組織変革アプローチが重要",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/07/2000000807/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "Google Gemini 3.8 Flash発表——プロンプト1つで3Dゲーム生成、価格据え置きで大規模モデルに迫る性能",
+      "summary_ja": "GoogleがGemini 3.8 Flashとサイバーセキュリティ特化版のGemini 3.8 Flash Cyberを発表した。\n3.7と同等の低価格を維持しながら、コーディング・推論・脆弱性検知と修正の性能を大幅向上。\nプロンプト一つで3Dゲームを生成できるなど、実用レベルの開発支援が可能になった。",
+      "consultant_insight": "コスパ最強モデルがさらに進化。開発支援・セキュリティ診断での採用検討価値大",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/07/news031.html"
+    },
+    {
+      "rank": 5,
+      "title_ja": "OpenAI、研究加速レポートと「自発的減速」論考を公開——エージェント活用で速度向上も安全性に課題",
+      "summary_ja": "OpenAIが社内でのAIエージェント活用により研究が急加速している実態と、直面する安全性の壁を開示した。\n7月のインシデントによる訓練停止や、CoT監視の有効性低下など深刻な課題が明らかに。\nチーフサイエンティストは安全基準確立までの「自発的な減速」と国際的な規制枠組みの必要性を訴えた。",
+      "consultant_insight": "AI開発最前線の透明性向上。企業AI戦略でも「速度と安全」のバランスが重要課題に",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001204/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "GPT-6 Astraの「low」設定、GPT-5.6 Solの「high」より高性能——OpenAI公式が推奨",
+      "summary_ja": "OpenAIのTibo氏がXで、GPT-6 Astraの「low」設定はGPT-5.6 Solの「high」設定よりも優れていると公式に発言した。\nこれにより、コスト重視のユーザーでもAstraの低設定で十分な性能が得られることが判明。\n企業での運用コスト最適化に直結する重要な情報となっている。",
+      "consultant_insight": "コスト削減の具体策。Astra低設定での運用で予算内に収めつつ性能確保が可能",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001209/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "Artificial Analysis、ベンチマークv4.2で「ゲーム化防止」強化——Claude Fable 5.1が首位",
+      "summary_ja": "Artificial AnalysisがAI知能指標「Intelligence Index」をv4.2に更新し、非公開データの比重を倍増させた。\n実務に近い評価を加え、モデルの「ベンチマーク最適化」による数値操作を防ぐ仕組みを導入。\n首位はClaude Fable 5.1で、GPT-6 Astraが続く結果となった。",
+      "consultant_insight": "実務性能の信頼性が向上。顧客へのモデル推奨時により正確な判断材料に",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001205/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "日立、フィジカルAI実装で「FDE」4サービス発表——「スーパーマン1人」ではなく「チーム」構成",
+      "summary_ja": "日立がフィジカルAI実装を担うFDE（フルスタックデータエンジニア）による4つの新サービスを発表した。\n「なんちゃってFDE」で終わらせないため、1人のスーパーマンではなくチームとして機能する体制を構築。\nロボット・物流・製造など物理世界でのAI活用を本格支援する。",
+      "consultant_insight": "SI大手のフィジカルAI本格参入。製造・物流業界への提案機会が拡大",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news040.html"
+    },
+    {
+      "rank": 9,
+      "title_ja": "IBM、AIエージェントを「人材」として運用——成果の全社展開を阻む4つの課題と解消法",
+      "summary_ja": "IBMが自社でのAIエージェント活用事例を公開し、「人とデジタルワーカーの協働」の実態を明らかにした。\nAIによる成果の全社展開を阻む4つの課題（技術・組織・文化・ガバナンス）と解消方法を提示。\n企業経営の基盤としてAIを位置づける考え方を示した。",
+      "consultant_insight": "グローバル企業のAI組織化事例。日本企業への導入ロードマップ設計に活用可能",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news049.html"
+    },
+    {
+      "rank": 10,
+      "title_ja": "Gartner 2026年版ハイプサイクル発表——初登場の技術が早くも「過度な期待」ピークに",
+      "summary_ja": "Gartnerが2026年版のハイプ・サイクルを発表し、2025年版で「黎明期」だったエージェント型AIが進展した。\nさらに、これまで取り上げられていなかった「ある技術」が初登場にもかかわらず「過度な期待」期に突入。\nAI業界の期待と現実のギャップを示す重要な指標となっている。",
+      "consultant_insight": "技術選定の判断材料。過度な期待に踊らされない冷静な導入計画策定に活用",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news043.html"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "デザイン業の倒産が前年比166％増——生成AI普及だけでない意外な理由",
+      "one_liner": "2026年上半期のデザイン業倒産は40件、AI以外の複合要因が背景",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/07/news075.html"
+    },
+    {
+      "title_ja": "東大発Highlanders、国産四足歩行ロボ「HLQ EDGE」デモ公開——独自AI搭載",
+      "one_liner": "段差昇降など実用性をアピール、国産ロボット市場に新規参入",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001223/"
+    },
+    {
+      "title_ja": "Tesla Cybercab、日本で実車初公開——東京・大阪・名古屋で9月開催",
+      "one_liner": "ハンドルもペダルもない自動運転タクシー、国内展示会で披露",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001207/"
+    },
+    {
+      "title_ja": "J-HRTI、千葉に人型ロボ40台のデータ収集拠点——計算資源確保が課題",
+      "one_liner": "模倣学習でフィジカルAI向けデータ収集、モデル構築のインフラ整備急務",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03688/090200016/"
+    },
+    {
+      "title_ja": "建設SaaS「第2幕」へ——アンドパッドなどベンチャー15社、生成AIで変革期",
+      "one_liner": "施工管理アプリ提供各社、AI台頭で新たなビジネスモデル模索",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03729/082100008/"
+    },
+    {
+      "title_ja": "日経クロステックNEXT東京2026、9月29-30日開催——AI駆動開発の威力を体感",
+      "one_liner": "最新テクノロジーの「今」と「未来」を一度に見渡せるリアルイベント",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/090300001/"
+    },
+    {
+      "title_ja": "OpenAI、ウクライナ独立報道支援プログラム発表——AIRPPU・WAN-IFRAと連携",
+      "one_liner": "AI技術でニュース組織の革新・回復力・独立報道を強化",
+      "category": "業界",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine"
+    },
+    {
+      "title_ja": "週刊アスキー最新号、Claude・Grokで「AIエージェント＆PC自動化」実践特集",
+      "one_liner": "作業効率向上の応用編、折り畳みスマホ特集も掲載",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/432/4432584/?rss"
+    },
+    {
+      "title_ja": "Pixel 11 Pro Fold実機レビュー——239gに軽量化、Tensor G6で爆速AI処理",
+      "one_liner": "折りたたみiPhone待つ必要なし、8型大画面とタブレット機能を1台に",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/432/4432580/?rss"
+    },
+    {
+      "title_ja": "BRAVISTA、AI活用無料個別相談実施中——事務作業時間を最大88％削減実績",
+      "one_liner": "AI導入の第一歩を後押し、具体的な業務改善効果を提示",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/432/4432906/?rss"
+    },
+    {
+      "title_ja": "LeapAI、AIエージェント活用交流会を9月16日開催——経営者・AX担当者向け",
+      "one_liner": "WeWork竹芝で実務者ネットワーキング、最新活用事例を共有",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/432/4432914/?rss"
+    },
+    {
+      "title_ja": "PyBulletでロボットシミュレーション開始——フィジカルAI技術の基本を解説",
+      "one_liner": "AI自律制御の実装手法、プログラミングで学ぶ連載スタート",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03705/073100001/"
+    },
+    {
+      "title_ja": "ドメイン特化型LLMで専門業務支援——金融・医療・法務でハルシネーション抑制",
+      "one_liner": "業種特化の用語・文体・手順に最適化、精度の高いサービス提供",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01679/073000295/"
+    },
+    {
+      "title_ja": "Seattle Times・Newsday、OpenAI・Microsoftを著作権侵害で提訴",
+      "one_liner": "報道機関によるAI学習訴訟が拡大、業界動向に影響か",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
+    },
+    {
+      "title_ja": "Kit by Speakeasy発表——Claude並み性能で高速・低コスト・簡潔なコーディングエージェント",
+      "one_liner": "開発者向けランタイム、実用性重視の新ツール",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/speakeasydev"
+    }
+  ],
+  "date": "20260908",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
