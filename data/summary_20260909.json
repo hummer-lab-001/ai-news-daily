@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "OpenAI「GPT-6 Astra」発表、Codexのコーディング能力が大幅進化でPC自律操作も実現",
-      "summary_ja": "OpenAIが次世代AIモデル「GPT-6 Astra」を発表。PC自律操作、コーディング、セキュリティ検証などの能力が大幅に向上し、抽象推論ベンチマークテスト「ARC-AGI-3」で99.9％のスコアを達成した。\n\nGPT-6 Astraは「私はロボットではありません」認証を全レベルクリアし、Blenderでの3Dモデリングなど実用的なタスクを自律実行。開発者の手動修正負担を大幅に削減する。\n\n有料ユーザーが連休中に利用枠を使い切るほどの人気で、OpenAIは全リセットを実施。企業の開発生産性向上に直結する機能強化として注目される。",
-      "consultant_insight": "GPT-6の実務能力向上は、開発業務の自動化範囲を大幅拡大。クライアントの開発コスト構造見直しの好機。",
+      "title_ja": "【続報】Anthropicユーザーから「トークン盗難」相次ぐ、ハッカー侵入で本人不在でも利用枠消費",
+      "summary_ja": "Claudeサブスクリプション契約者が相次いで「自分が使っていないのにトークンが消費される」と報告。先月より複数アカウントでハッカーの不正アクセスが発覚し、Anthropicが注意喚起を発表。盗難トークンは他者のプロジェクトに流用されている模様で、パスワード強化や2要素認証の徹底が急務に。",
+      "consultant_insight": "有料契約企業でも「アカウント管理の見直し」が必須—トークン盗難で予期せぬコスト発生リスクあり",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Anthropicが利用規約変更でヘビーユーザーに集団訴訟—「サブスク料金を払ったのに突然制限」との主張",
+      "summary_ja": "Anthropicがパワーユーザー優遇を公言する一方で、サブスクリプション契約者に対し予告なしに利用制限を実施したとして集団訴訟が提起された。原告は「OpenClawなど人気アプリを切断してまでヘビーユーザーを守ると言いながら、有料契約者は後回しにされた」と批判。料金体系の不透明さがAI事業の信頼を揺るがす事例に。",
+      "consultant_insight": "契約条件の明文化と利用制限の事前通知—クラウドAIサービス選定で「使い放題前提」は危険",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans"
+    },
+    {
+      "rank": 3,
+      "title_ja": "Meta、パーソナルAIエージェント「Muse」発表—メール・買い物・旅行予約を自律代行、基本機能は無料",
+      "summary_ja": "Metaが日常業務を代行するAIエージェント「Muse」を米国で提供開始。専用アプリまたはWhatsAppから操作し、メール送信・旅行予約・Webフォーム自動入力など自律実行。決済情報やログイン認証との連携も可能で、専用VM・多層防御で安全性を確保。基本機能は無料だが、ユーザーの信頼獲得が最大の課題に。",
+      "consultant_insight": "「無料＋決済連携」モデルで競合に先行—日本展開時の個人情報保護法対応が導入の鍵",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001294/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "OpenAI「GPT-6 Astra」発表—PC自律操作・コーディング大幅進化、抽象推論ベンチで99.9％達成",
+      "summary_ja": "OpenAIが次世代モデル「GPT-6 Astra」を発表。PC操作の自律化、コーディング・セキュリティ検証能力が大幅に向上し、抽象推論ベンチマークテスト「ARC-AGI-3」で99.9％のスコアを記録。ChatGPT有料ユーザーには利用枠リセットを実施し、連休中に枠を使い切ったユーザーも平日から即利用可能に。",
+      "consultant_insight": "「手動修正50％削減」の検証データを顧客提案に活用—開発チームへの導入ROIを試算しやすく",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html"
     },
     {
-      "rank": 2,
-      "title_ja": "Google「Gemini 3.8 Flash」の狙いは賢さではなく「長時間実行」と「エージェント適性」",
-      "summary_ja": "Googleが「Gemini 3.8 Flash」の一般提供を開始。長時間のコーディングや自律型エージェントを想定した新モデルで、単なる性能向上とは異なる3つの変化が明らかになった。\n\n「賢さ」より「持続実行力」を重視し、複雑タスクを最後まで完遂する設計。エージェント型AIの実用化に向けた基盤として位置づけられる。\n\nプロンプト1つで3Dゲームを生成するなど、従来の対話型AIから「自律作業型AI」へのシフトを象徴する製品として注目される。",
-      "consultant_insight": "エージェント型AI基盤の選定時、「賢さ」より「完遂力」が評価軸に。業務自動化案件の設計指針が変わる。",
-      "importance": 5,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255/"
-    },
-    {
-      "rank": 3,
-      "title_ja": "Meta「Muse Spark 1.3」推論強化で「対話の往復」削減、初回正答率向上が開発効率化の鍵に",
-      "summary_ja": "Metaが新モデル「Muse Spark 1.3」を公開。推論能力の強化により、開発時の「会話の往復」を削減することに成功した。\n\n100万トークンのコンテキストとマルチモーダル処理を継承しつつ、2種類の料金体系を提示。初回正答率の向上が、開発者の生産性向上に直結する設計となっている。\n\n対話回数削減は、トークン消費量の抑制とレスポンス時間の短縮につながり、企業の実務利用でコスト効率が大幅改善する可能性がある。",
-      "consultant_insight": "初回正答率向上は開発者体験の革新。クライアント案件でのAI選定時、対話効率を新評価軸に加えるべき。",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html"
-    },
-    {
-      "rank": 4,
-      "title_ja": "OpenAIが数学難問「ナビエ・ストークス方程式」にAI解法提示も、NYU数学者が「不正」と批判",
-      "summary_ja": "OpenAIが100万ドル懸賞金付き数学難問「ナビエ・ストークス方程式の存在と滑らかさ問題」に対しAI生成の解法を発表したが、NYU数学者が「手続き違反」と批判している。\n\n形式証明言語Leanによる証明も含まれているが、数学界の検証プロセスを経ておらず、「AIが数学の未解決問題を解決」という発表の仕方に懸念が示されている。\n\nAIによる科学研究への貢献と、従来の学術検証プロセスとの齟齬が浮き彫りになった事例として注目される。",
-      "consultant_insight": "AI研究成果の「発表方法」が新たな論点に。企業のAI活用でも、検証プロセスの透明性が信頼性の鍵。",
+      "rank": 5,
+      "title_ja": "OpenAI、ミレニアム懸賞問題「ナビエ–ストークス方程式」のAI解を発表も数学界で議論沸騰",
+      "summary_ja": "OpenAIが未解決の数学難問「ナビエ–ストークス方程式」のAI生成解をLean形式で公開したと発表。だがニューヨーク大学の数学者から「キャリアを賭けた問題なのに不透明な手法で発表された」と批判が噴出。100万ドルの賞金対象問題だけに、AI活用の透明性と学術界の信頼構築が焦点に。",
+      "consultant_insight": "学術界の「AIブラックボックス問題」が表面化—企業の研究開発でも説明可能性がリスク要因に",
       "importance": 4,
       "category": "研究",
-      "source_name": "OpenAI Blog / TechCrunch",
-      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/"
-    },
-    {
-      "rank": 5,
-      "title_ja": "日立「2026年はフィジカルAI元年」宣言、社会インフラ向けAIで売上5000億円目指す",
-      "summary_ja": "日立製作所が社会インフラ向けAIソリューション群「HMAX」を拡充し、データセンター運用やサイバー防御などの新サービスを発表。2026年を「フィジカルAI元年」と位置付けた。\n\nHMAXを売上高5000億円の事業に育てる計画で、徳永社長が講演で「フィジカルAI」について熱弁。社内外に「叱咤激励」として響いたという。\n\nミュトス利用の知見を基にした新サービスも投入し、製造・インフラ・エネルギー分野でのAI実装を加速する方針。",
-      "consultant_insight": "日本企業トップの「フィジカルAI」重視は本気。製造・インフラ業界のAI案件提案で追い風に。",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272/"
+      "source_name": "OpenAI Blog / TechCrunch AI",
+      "url": "https://openai.com/index/navier-stokes-solution"
     },
     {
       "rank": 6,
-      "title_ja": "行政機関18万人を支える生成AI基盤「源内」、わずか1～2人運用を実現した設計の核心",
-      "summary_ja": "約18万人の職員が利用する生成AI基盤「源内」で、デジタル庁はインフラ担当者1～2人体制で「高いセキュリティ」と運用効率化を両立させた。\n\n省庁ごとに環境を分ければセキュリティは上がるが、運用の手間はテナント数分膨らむという二律背反を、「一見手の込んだ仕組み」で解決。\n\n大規模組織のAI基盤運用モデルとして、民間企業も参考にできる設計思想が注目される。",
-      "consultant_insight": "公共部門の「少人数運用×大規模展開」モデルは民間にも応用可。セキュリティと効率の両立設計が鍵。",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html"
-    },
-    {
-      "rank": 7,
-      "title_ja": "Google Workspace Studio×Gemini、業務自動化の4実例公開で「仕事そのものを自動化」へ",
-      "summary_ja": "GoogleがWorkspace Studioを使った4つの業務自動化実例を公開。「AIに仕事を手伝わせる」段階から「仕事そのものを自動化する」段階への移行を示した。\n\nGeminiとの連携で、日々の定型業務を完全自動化する具体的な方法を提示。ドキュメント作成、データ集計、スケジュール調整などが対象。\n\n企業のバックオフィス業務改革に直結する実用例として、導入障壁を大幅に下げる内容となっている。",
-      "consultant_insight": "Google Workspaceユーザー企業への自動化提案の好材料。4実例は顧客説明資料にそのまま使える。",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168/"
-    },
-    {
-      "rank": 8,
-      "title_ja": "図面探し・検図の悩みをAIで支援、製造業特化の「図面×AI活用ソリューション」が登場",
-      "summary_ja": "Polaris.AIが製造業向け「図面×AI活用ソリューション」の提供を開始。自動車や重工業での開発・検証実績を業務課題に沿って体系化した。\n\n図面を探す、読む、確かめるといった日常業務をAIで支援し、設計現場の生産性を向上。従来は属人化していた図面管理業務の標準化にも貢献する。\n\n製造業のDX案件で「すぐ使える」具体的なソリューションとして、導入ハードルが低い点が特徴。",
-      "consultant_insight": "製造業クライアントへの「すぐ効果が出るAI活用」提案として最適。図面業務は課題認識が共通で刺さりやすい。",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news032.html"
-    },
-    {
-      "rank": 9,
-      "title_ja": "仏Mistral、€3B調達で評価額€21Bに——「ソブリンAI」が大型ビジネスに成長",
-      "summary_ja": "フランスのAIラボMistralが、Samsung、Scaleup Europe、PSG Equity主導のシリーズDで€3B（約5000億円）を調達。評価額は€21B（約3.5兆円）に達した。\n\n「ソブリンAI」（主権国家が自国でAIを管理・運用する思想）が、単なるスローガンから大型ビジネスに成長したことを示す象徴的な事例。\n\n欧州のAI規制対応と自国データ管理ニーズが、Mistralの急成長を後押し。日本企業のAI調達戦略にも影響を与える可能性がある。",
-      "consultant_insight": "「ソブリンAI」は欧州で実ビジネス化。日本企業も「データ主権」観点でのAI選定が今後重要に。",
-      "importance": 4,
+      "title_ja": "Mistral、€3B調達で評価額€21B到達—「欧州ソブリンAI」が本格ビジネス化、サムスン・PSGが主導",
+      "summary_ja": "フランスのAIラボMistralがシリーズDで€3B（約4800億円）を調達し、評価額€21B（約3.4兆円）に到達。Samsung・Scaleup Europe・PSG Equityが主導し、欧州の「ソブリンAI（自国管理型AI）」戦略が投資対象として本格化。米中以外の第三極として企業・政府の採用が加速する見通し。",
+      "consultant_insight": "日本企業も「データ主権」重視でMistralを選択肢に—米国依存を分散する調達戦略が有効",
+      "importance": 5,
       "category": "業界",
       "source_name": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
     },
     {
-      "rank": 10,
-      "title_ja": "リコー、動画像から汎用AIモデルを生成する「フィジカルAI技術」開発——ロボット展開を容易に",
-      "summary_ja": "リコーが動画像データから汎用性の高いAIモデルを作成し、様々なロボットへの展開を可能にする「フィジカルAI技術」を開発した。\n\n人の動作を動画で記録するだけで、複数種類のロボットに同じ作業を学習させられる点が特徴。従来は個別ロボットごとに学習が必要だった課題を解決。\n\n製造現場やサービス業でのロボット導入コストを大幅削減する可能性があり、日本企業の自動化推進に寄与する技術として注目される。",
-      "consultant_insight": "リコーのフィジカルAIは「学習データ共通化」が鍵。ロボット導入案件で汎用性がコスト削減の切り札に。",
+      "rank": 7,
+      "title_ja": "Cognition、評価額$48Bで資金調達—AIコーディング市場は「一強にならず」投資家が確信",
+      "summary_ja": "AIコーディングツール「Devin」開発のCognitionが評価額$48B（約7.2兆円）で資金調達を実施。SpaceXに買収されたCursorの事前評価額を上回る高バリュエーションで、投資家は「AIコーディング市場は一社独占にならない」との見方を強める。複数ツールが共存する競争環境が続く見通し。",
+      "consultant_insight": "複数AIコーディングツールの併用前提でチーム設計—単一製品ロックインを避ける戦略が重要",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "Google、「Gemini 3.8 Flash」一般提供開始—長時間コーディング・自律エージェント想定、価格据え置き",
+      "summary_ja": "Googleが「Gemini 3.8 Flash」の一般提供を開始。長時間コーディングや自律型エージェント用途を想定し、従来価格を維持しながら大規模モデルに迫る性能を実現。「賢さ」だけでなく「長時間稼働の安定性」を重視した設計で、業務自動化の実用性を高めた点が特徴。",
+      "consultant_insight": "夜間バッチ処理や週次レポート自動生成に最適—人手不足の定型業務をエージェントに移管",
       "importance": 4,
       "category": "ツール",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03371/"
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "日立、フィジカルAI新サービス4種を発表—データセンター運用・サイバー防御で売上5000億円目標",
+      "summary_ja": "日立製作所が社会インフラ向けAIソリューション群「HMAX」を拡充し、データセンター運用自動化やサイバー攻撃検知などの新サービスを発表。2026年を「フィジカルAI元年」と位置付け、HMAXを売上高5000億円の事業に育成する計画。社内AIプラットフォーム「ミュトス」の知見を基に外販展開を加速。",
+      "consultant_insight": "日立の「フィジカルAI」定義は製造・インフラ企業の参考に—同業他社も追随する可能性大",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "行政18万人「源内」を1～2人で運用—デジタル庁がマルチテナント設計で高セキュリティと効率化を両立",
+      "summary_ja": "約18万人の職員が利用する生成AI基盤「源内」で、デジタル庁はインフラ担当者1～2人体制を実現。省庁ごとに環境を分離してセキュリティを確保しつつ、運用工数を削減する「一見手の込んだ仕組み」を構築。政府レベルの大規模AI基盤でも少人数運用が可能なことを実証した先行事例。",
+      "consultant_insight": "大企業の全社AI基盤も「マルチテナント＋少人数運用」が現実的—設計段階で運用負荷を想定",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia Enterprise",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html"
     }
   ],
   "digest": [
     {
-      "title_ja": "Google Cloud、Accentureと大型提携でエンタープライズAI展開を加速",
-      "one_liner": "AI導入ボトルネック解消へ、前線配置エンジニアで実装支援強化",
+      "title_ja": "Google Cloud、Accentureと協業拡大—「前方展開エンジニア」でAI導入の障壁を打破",
+      "one_liner": "導入支援人材を顧客先に常駐させ、AI活用の現場課題を解消",
       "category": "業界",
       "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/"
     },
     {
-      "title_ja": "中国EV・シャオペン、人型ロボ「IRON」量産へ——2027年市場投入予定",
-      "one_liner": "量産ライン稼働、中国・海外市場に展開予定",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261/"
-    },
-    {
-      "title_ja": "中国Unitree、完全自律格闘する人型ロボのデモ動画公開",
-      "one_liner": "AIでリアルタイム未来予測、人間と格闘",
-      "category": "研究",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252/"
-    },
-    {
-      "title_ja": "ローカルLLMブーム到来、価格.comで100万円PCが注目1位に",
-      "one_liner": "モデル・ハード・ソフトの3条件が整い急成長",
-      "category": "ツール",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257/"
-    },
-    {
-      "title_ja": "Chrome、2週間ごとのアップデートに移行——AI時代のセキュリティ対応加速",
-      "one_liner": "セキュリティパッチと新機能を迅速提供",
+      "title_ja": "Chrome、更新サイクルを2週間に短縮—AI時代のセキュリティ脅威に迅速対応",
+      "one_liner": "従来4週間から半減、セキュリティパッチ適用を高速化",
       "category": "ツール",
       "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/"
     },
     {
-      "title_ja": "Google DeepMind、人間ゲノム全変異予測「AlphaGenome Atlas」発表",
-      "one_liner": "90億通りのDNA変異の分子的影響を予測",
+      "title_ja": "OpenAI、量子コンピューター実験にGPT-5.6 Sol活用—MIT研究者が自律実験・較正を実証",
+      "one_liner": "量子ビット較正を自動化、実験サイクルを大幅短縮",
       "category": "研究",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas"
+      "url": "https://openai.com/index/codex-quantum-computing-experiments"
     },
     {
-      "title_ja": "Adobe Premiere、AI生成機能を「誰でも使える」設計に刷新",
-      "one_liner": "Generative Media toolで操作簡素化",
+      "title_ja": "ChatGPT Images 2.5発表—手描きスケッチを詳細画像に変換、アイデアを即ビジュアル化",
+      "one_liner": "ラフ絵・参考写真から高精度画像を生成、制作フロー短縮",
       "category": "ツール",
-      "url": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere"
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5"
     },
     {
-      "title_ja": "OpenAI、ジャーナリズム支援拡大——教室から報道現場まで",
-      "one_liner": "ツール・研修・提携でメディア業界を支援",
-      "category": "業界",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
-    },
-    {
-      "title_ja": "OpenAI、10代の発達研究に500万ドル助成金プログラム",
-      "one_liner": "生成AIが若年層に与える影響を独立研究で検証",
+      "title_ja": "OpenAI、10代AI影響研究に$5M助成—メンタルヘルス・安全性の独立調査を支援",
+      "one_liner": "若年層への生成AI影響を第三者視点で検証",
       "category": "業界",
       "url": "https://openai.com/index/teen-development-research-grants"
     },
     {
-      "title_ja": "中国新興自動車メーカー、新AIアーキテクチャ「LBM」に注目",
-      "one_liner": "一過性か世界標準か、今後の波及を考察",
-      "category": "研究",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news009.html"
-    },
-    {
-      "title_ja": "AI創薬候補、6種の老化時計で生物学的年齢低下を示唆",
-      "one_liner": "Insilico Medicine、特発性肺線維症治療薬で検証",
-      "category": "研究",
-      "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001239/"
-    },
-    {
-      "title_ja": "「古い基幹系は経営の妨げ」——最新AI使えず刷新迫られる時代に",
-      "one_liner": "サポート期限でなくAI対応が刷新理由になる",
+      "title_ja": "OpenAI、ジャーナリズム支援を学生から現場まで拡大—教育・ツール・提携を一体推進",
+      "one_liner": "報道機関向けAIツール研修・教材提供で信頼構築",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/090402099/"
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
     },
     {
-      "title_ja": "パラメーター数抑える「Looped Transformer」、OpenAIもAstraで採用と報道",
-      "one_liner": "ループ型言語モデルで推論性能向上の研究活況",
-      "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12012/"
-    },
-    {
-      "title_ja": "鹿児島マラソン大会ポスター、「AIっぽい」指摘で事務局が声明",
-      "one_liner": "説明に不適切部分、経緯を説明",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001291/"
-    },
-    {
-      "title_ja": "製造現場の立ち疲労を軽減——アルケリス、姿勢解析AIアプリ出展",
-      "one_liner": "ファクトリーイノベーション Week [秋] 2026に出展",
+      "title_ja": "1Password、Codex導入でエンジニア生産性21％向上—厳格セキュリティ維持のまま実現",
+      "one_liner": "本番環境レベルの品質を保ちながら開発速度を加速",
       "category": "実務",
-      "url": "https://ascii.jp/elem/000/004/433/4433226/?rss"
+      "url": "https://openai.com/index/1password"
+    },
+    {
+      "title_ja": "Meta「Muse Spark 1.3」発表—推論強化で「対話の往復」削減、初回正答率を向上",
+      "one_liner": "開発時のやり取り回数を減らし、実装サイクルを短縮",
+      "category": "ツール",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html"
+    },
+    {
+      "title_ja": "AI-OCR「YomiToku Studio」無料提供—登録・送信不要でブラウザ完結、文字・表を自動データ化",
+      "one_liner": "紙文書のデジタル化を即座に実施、導入ハードルゼロ",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/432/4432500/?rss"
+    },
+    {
+      "title_ja": "Polaris.AI、製造業向け「図面×AI活用ソリューション」提供開始—図面探索・検図を支援",
+      "one_liner": "自動車・重工業で図面業務をAI化、検証実績を体系化",
+      "category": "実務",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news032.html"
+    },
+    {
+      "title_ja": "Agentic AI Foundation設立—米ビッグテック集結、AIエージェントの相互運用標準を推進",
+      "one_liner": "Linux財団主導、エージェント間連携のルール作りを加速",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/keyword/18/00002/082800326/"
+    },
+    {
+      "title_ja": "Google DeepMind、人間ゲノムの「AlphaGenome Atlas」公開—90億変異の分子効果を予測",
+      "one_liner": "遺伝子変異の影響を網羅的にマッピング、創薬・医療に貢献",
+      "category": "研究",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+    },
+    {
+      "title_ja": "Adobe、Premiereの生成AI機能を「誤操作防止」設計に改良—編集者向けインターフェース刷新",
+      "one_liner": "AI生成ツールを直感的に操作、プロの動画編集を効率化",
+      "category": "ツール",
+      "url": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere"
+    },
+    {
+      "title_ja": "小鵬汽車の人型ロボ「IRON」量産ライン稼働—2027年に中国・海外市場へ投入予定",
+      "one_liner": "「中に人がいる？」と話題のロボを2026年内に量産開始",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261/"
+    },
+    {
+      "title_ja": "Unitree、人型ロボの「完全自律格闘」デモ公開—リアルタイム未来予測で人間と対戦",
+      "one_liner": "中国ロボット企業、AIで動作予測し格闘を自律実行",
+      "category": "研究",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252/"
     }
   ],
   "date": "20260909",
