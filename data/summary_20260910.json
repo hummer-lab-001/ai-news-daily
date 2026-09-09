@@ -2,69 +2,69 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Anthropic研究者が退社し超知能開発競争を猛批判──「来年末には制御不能になる可能性」",
-      "summary_ja": "OpenAIからAnthropicに移った研究者Jacob Coxon氏がAnthropicを退社し、両社が超知能の開発競争で人々の生命を賭けの対象にしていると批判した。\n業界全体での減速や規制がない限り来年末には制御不能になると懸念を示し、安全性を軽視した急速なスケーリングを続ける現状に強い警鐘を鳴らしている。\n別の主任研究者も「AIが全人類を殺害する確率は10％以上」と発言しており、Anthropic内部でも安全性への懸念が深刻化している。",
-      "consultant_insight": "AI導入企業は「安全性より競争優先」のラボ文化を理解し、リスク管理体制の自社構築が必須に",
+      "title_ja": "Anthropic研究者2名が社内から「AIが人類滅亡させる確率10％超」と警告——安全制御不在のまま開発競争が加速",
+      "summary_ja": "Anthropicの研究幹部2人が、超知能開発への危機感を訴えて退社した研究員Jacob Coxonの主張に同意する見解を個人として投稿した。10年以内に人類が滅亡する確率を10％超と試算する声や、堅牢な安全制御手法がないまま開発競争が続いている実態を指摘している。業界全体での減速や規制がない限り来年末には制御不能になると懸念を示し、安全性を軽視した急速なスケーリングを続ける現状に強い警鐘を鳴らしている。",
+      "consultant_insight": "顧客企業のAI導入において「安全性とガバナンス体制の整備」が最優先事項であることを再認識させる重要な警告",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/10/2000001342/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Anthropic研究者が退社し超知能開発競争を猛批判——「来年末には制御不能になる可能性」と警告",
+      "summary_ja": "OpenAIからAnthropicに移った研究者Jacob Coxonが退社し、両社が超知能の開発競争で人々の生命を賭けの対象にしていると批判した。業界全体での減速や規制がない限り来年末には制御不能になると懸念を示している。安全性を軽視した急速なスケーリングを続ける現状に強い警鐘を鳴らし、AIラボ間の「減速協定」の必要性を訴えている。",
+      "consultant_insight": "AI導入プロジェクトでは「スピード優先」だけでなく「安全性とリスク管理」を経営層に説明する重要性が増している",
       "importance": 5,
       "category": "業界",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001309/"
     },
     {
-      "rank": 2,
-      "title_ja": "ChatGPT Proプラン「新規受付一時停止するかも…」GPT-6 Astraの「前例のない需要」受けて",
-      "summary_ja": "OpenAIのティボー・ソティオ氏は、新モデル「GPT-6 Astra」の需要拡大により「新規のProプラン登録を一時停止しなければならないかも」とXで述べた。\nGPT-6 Astraはサイバー分野で臨界能力に到達し、50％の手動修正削減を実証したことで企業利用が急増している。\n計算資源の逼迫により、既存ユーザーの利用制限や新規受付停止が検討されており、AIインフラの供給不足が顕在化している。",
-      "consultant_insight": "主要AIサービスの供給制約リスクを踏まえ、複数プロバイダー併用とローカルLLM検討を提案すべき",
-      "importance": 5,
+      "rank": 3,
+      "title_ja": "ChatGPT Proプラン「新規受付一時停止の可能性」——GPT-6 Astraの「前例のない需要」で供給逼迫",
+      "summary_ja": "OpenAIのティボー・ソティオ氏は、新モデル「GPT-6 Astra」の需要拡大により「新規のProプラン登録を一時停止しなければならないかも」とXで述べた。最新モデルへの需要集中により計算リソースが逼迫している状況が浮き彫りになった。企業ユーザーの利用拡大が予想以上に早く進んでいることを示唆している。",
+      "consultant_insight": "顧客にChatGPT Pro導入を提案する際は、供給制限リスクを考慮し早期契約や代替プラン準備を推奨すべき",
+      "importance": 4,
       "category": "ツール",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001322/"
     },
     {
-      "rank": 3,
-      "title_ja": "ChatGPT Images 2.5登場──特定部分の編集を強化、落書きの清書やテンプレート機能も",
-      "summary_ja": "OpenAIが「ChatGPT Images 2.5」を発表。指定部分だけを編集する精度を高め、テンプレートや手描きの下絵を使う機能も追加した。\n生成の待ち時間は従来比で最大50％短縮し、全プランに提供する。ChatGPT Sketchでは落書きから詳細な画像を生成可能に。\nビジュアルコンテンツ制作の敷居が大幅に下がり、マーケティング資料やプレゼン素材の内製化が加速する。",
-      "consultant_insight": "デザイン外注費削減と制作スピード向上を訴求、ただし著作権・ブランドガイドライン整備も並行提案",
+      "rank": 4,
+      "title_ja": "「ChatGPT Images 2.5」登場——特定部分の編集強化、落書き清書やテンプレート機能も追加",
+      "summary_ja": "OpenAIが「ChatGPT Images 2.5」を発表。指定部分だけを編集する精度を高め、テンプレートや手描きの下絵を使う機能も追加した。生成の待ち時間は従来比で最大50％短縮され、全プランに提供される。画像生成AIの実用性が大幅に向上し、業務での活用範囲が拡大する見込み。",
+      "consultant_insight": "マーケティング資料やプレゼン資料作成での活用提案が可能に。特に「部分編集」は実務で即効性がある機能",
       "importance": 4,
       "category": "ツール",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001298/"
     },
     {
-      "rank": 4,
-      "title_ja": "Type.com──Claude、Codex、チームが共有できるワークスペース",
-      "summary_ja": "Anthropic Claudeと複数のAIモデルを統合したチーム向けワークスペース「Type.com」がProduct Huntに登場。\nコーディングエージェントやチームメンバーが同一プラットフォームで協働でき、プロンプト・コンテキスト・成果物を一元管理できる。\nClaude中心の業務フローを構築する企業にとって、ナレッジ共有とガバナンス強化の実装基盤として注目される。",
-      "consultant_insight": "Claudeヘビーユーザー企業にはチーム利用基盤として提案、プロンプト資産の社内標準化を促進",
+      "rank": 5,
+      "title_ja": "OpenRouter利用量が1年で20倍超——400以上のAIモデルを1つのAPIで呼べる「AI共通API」が加速成長",
+      "summary_ja": "400以上のAIモデルを1つのAPIで呼べる中継サービス「OpenRouter」の週間トークン処理量が1年で20倍を超え、なお加速している。複数のAIモデルを柔軟に切り替えたい企業ニーズに応える形で成長しており、コスト最適化や障害時のフェイルオーバーに活用されている。仕組みと注意点を整理した実務的な記事。",
+      "consultant_insight": "複数AIベンダーを併用したい企業への提案材料に。コスト削減と柔軟性を両立する選択肢として有力",
       "importance": 4,
       "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/type-com"
-    },
-    {
-      "rank": 5,
-      "title_ja": "三井住友銀、「AIだけで電話対応完結」72％に──Oliveコールセンターで成果",
-      "summary_ja": "三井住友銀行がコールセンターで進めているAIを用いた変革の取り組みで、顧客からの電話に音声で応対する「SMBC AIオペレーター」がAIのみで問い合わせ対応が完結した比率が72％に達した。\n有人対応と同様の応答品質を確保した上での数値であり、コスト削減と顧客満足度の両立に成功している。\n金融業界で最も進んだAIコールセンター事例として、他業種への横展開が期待される。",
-      "consultant_insight": "金融機関の実証済み事例として、コールセンター改革提案の説得材料に活用可能",
-      "importance": 5,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12024/"
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/10/news011.html"
     },
     {
       "rank": 6,
-      "title_ja": "Google DeepMind、90億通りの全塩基変異の影響を予測した「AlphaGenome Atlas」学術向けに無償提供",
-      "summary_ja": "Google DeepMindは、ヒトゲノムで起こり得る約90億通り全ての一塩基変異の影響を事前予測したデータベース「AlphaGenome Atlas」を公開した。\n影響度を数値化するスコアも導入し、未解明な非コード領域の変異解析を加速させる。学術研究向けにWebから無償提供する。\n創薬・疾患研究の大幅な効率化が期待され、AI創薬企業への投資判断材料としても重要。",
-      "consultant_insight": "製薬・ヘルスケア企業には研究開発加速の材料として提案、データ活用基盤整備も併せて検討",
+      "title_ja": "「Siri AI」日本語版は10月提供——AI機能組み込んだ音声アシスタント、専用アプリも登場",
+      "summary_ja": "Appleは同社デバイスの音声アシスタント「Siri AI」の日本語版を10月に提供すると発表した。AI機能を大幅に強化した音声アシスタントが日本市場に投入されることで、企業のAI活用シーンが拡大する可能性がある。専用アプリも提供され、より高度な対話型AIサービスが利用可能になる。",
+      "consultant_insight": "iPhone活用企業への提案機会。音声ベースの業務効率化や社内ヘルプデスク代替として検討価値あり",
       "importance": 4,
-      "category": "研究",
+      "category": "ツール",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001296/"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001338/"
     },
     {
       "rank": 7,
-      "title_ja": "「全ての攻撃者は何らかの形でAIを使用」6時間で数千件の侵害事例も──Google傘下組織が報告",
-      "summary_ja": "Googleの脅威分析部門GTIGが、AIによる攻撃の高速化を報告。6時間未満で数千件の認証情報が侵害された事例も確認した。\n攻撃者は侵害した環境でAIを動かす一方、AIの開発環境自体も標的にしている。従来の防御前提が通用しない速度での攻撃が現実化。\nAI導入企業は攻撃者もAIを使う前提でのセキュリティ設計が急務となっている。",
-      "consultant_insight": "AI導入時のセキュリティ診断・対策を必須提案項目に、インシデント対応速度の見直しも促す",
+      "title_ja": "「全ての攻撃者は何らかの形でAIを使用」——6時間で数千件の侵害事例も、Google傘下組織が報告",
+      "summary_ja": "Googleの脅威分析部門GTIGが、AIによる攻撃の高速化を報告。6時間未満で数千件の認証情報が侵害された事例も確認した。攻撃者は侵害した環境でAIを動かす一方、AIの開発環境自体も標的にしている。AI活用の普及に伴いサイバー攻撃も高度化・高速化している実態が明らかになった。",
+      "consultant_insight": "顧客のAI導入時にセキュリティ対策を必須提案事項に。特にAPI鍵管理と異常検知の強化が急務",
       "importance": 5,
       "category": "業界",
       "source_name": "ITmedia AI+",
@@ -72,125 +72,125 @@
     },
     {
       "rank": 8,
-      "title_ja": "「AIエージェントはモデルだけじゃない」NVIDIAらが説くエージェント防御の勘所と共有の仕組み",
-      "summary_ja": "Linux Foundationは、エージェント型AIのセキュリティインシデントを業界で共有するためのガイドライン「SAFE」について意見募集を始めた。\nNVIDIAやCisco、CrowdStrikeなどが初期案の作成に参加している。AI自体のセキュリティだけでなく、エージェントが接続する外部システムやデータの保護も対象。\n業界横断でのインシデント共有基盤が整備されることで、AIエージェント導入のリスク低減が期待される。",
-      "consultant_insight": "エージェントAI導入企業には業界標準準拠の重要性を説明、SAFE準拠を提案要件に組み込む",
-      "importance": 4,
-      "category": "業界",
+      "title_ja": "Google DeepMind、90億通りの全塩基変異影響を予測した「AlphaGenome Atlas」を学術向け無償提供",
+      "summary_ja": "Google DeepMindは、ヒトゲノムで起こり得る約90億通り全ての一塩基変異の影響を事前予測したデータベース「AlphaGenome Atlas」を公開した。影響度を数値化するスコアも導入し、未解明な非コード領域の変異解析を加速させる。学術研究向けにWebから無償提供され、医療・創薬分野での活用が期待される。",
+      "consultant_insight": "製薬・医療系クライアントへの情報提供価値あり。ゲノム解析の高度化が創薬プロセスを加速する可能性",
+      "importance": 3,
+      "category": "研究",
       "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/09/news038.html"
+      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001296/"
     },
     {
       "rank": 9,
-      "title_ja": "求職者がAIで会社を選ぶ時代、AIの「企業評価」が採用にも影響──企業はどう対策すべき？",
-      "summary_ja": "「ChatGPT」などの生成AIに企業選びを相談する求職者が増えている。AIの回答が応募や選考辞退を左右する可能性もある。\n企業には「AIからどう見られているか」という新たな採用対策が求められている。特にネガティブ情報の拡散リスクに注意。\n採用広報のデジタル最適化だけでなく、AIが参照するWeb情報全体の管理が必要になっている。",
-      "consultant_insight": "人事部門にAI視点の採用広報診断を提案、ネガティブ情報の早期検知・対応体制構築を支援",
-      "importance": 3,
+      "title_ja": "「誰でもAIを使える時代」の功罪——業務部門の暴走、現場と統制の対立を防ぐ「覚悟」とは",
+      "summary_ja": "「AI前提の組織へ」という号令のもと、現場で多発する「業務部門の暴走」や「ITと現場の不健全な対立」について、複数の事業会社で現場のAI定着に取り組む変革実務家・西野大介氏が「信頼関係構築」のポイントを解説。誰でも手軽にAIを使えるようになったからこそ生じる課題にどう向き合うべきかを実務視点で整理している。",
+      "consultant_insight": "AI全社展開での組織間対立は避けられない課題。事前の関係構築と役割分担の明確化が成功の鍵",
+      "importance": 4,
       "category": "実務",
       "source_name": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001267/"
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/10/news012.html"
     },
     {
       "rank": 10,
-      "title_ja": "建設現場にAIロボット職人──清水建設が2030年度のヒト型ロボット実用化へ実証開始",
-      "summary_ja": "建設現場における労働力不足の解消と生産性・安全性向上のため、人工知能（AI）ロボットへの期待が高まっている。\n清水建設は、2030年度のヒト型ロボット実用化を目指し、現場での実証を開始した。建設業界の構造的な人手不足に対する根本的な解決策として注目。\nフィジカルAI市場の具体的なユースケースとして、関連企業への投資判断やビジネス機会の評価材料になる。",
-      "consultant_insight": "建設業界の深刻な人手不足に対する根本解決策として、フィジカルAI導入の具体例を提示",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/na/18/00005/090300223/"
+      "title_ja": "GENIACがロボット基盤モデル開発の採択事業者を発表——AI×ロボティクスへ活動拡大",
+      "summary_ja": "経済産業省とNEDOの下で国内の生成AI開発を推進するGENIACは、「ロボット基盤モデルの研究開発事業（多用途ロボット等）」と「データエコシステムの構築等に関する研究開発事業・第4回公募」の採択事業者を発表した。日本のAI開発がフィジカルAI・ロボティクス領域へ本格展開する動きが加速している。",
+      "consultant_insight": "製造・物流業界クライアントへの情報提供価値あり。国内AIロボット開発の動向を追うことで先行提案が可能",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/10/news053.html"
     }
   ],
   "digest": [
     {
-      "title_ja": "新SAP認定試験は「AIの利用OK」実践型の新方式で備えるべきこととは？",
-      "one_liner": "SAP認定試験が実践型に刷新、一部試験でAI利用可能に",
-      "category": "業界",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001278/"
-    },
-    {
-      "title_ja": "ローカルLLMは「無料だけれど安くない」個人と企業は何に価値を見いだすのか",
-      "one_liner": "ローカルLLMのメリット・デメリットを用途とコスト面から分析",
-      "category": "ツール",
+      "title_ja": "ローカルLLMは「無料だけれど安くない」——個人と企業が見出す価値とコスト",
+      "one_liner": "ローカルLLM導入のメリット・デメリットを用途とコスト両面から整理",
+      "category": "実務",
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/09/2000001305/"
     },
     {
-      "title_ja": "100万円のPCが注目ランキング1位に？ローカルLLMブームを生んだ「3つの条件」",
-      "one_liner": "約100万円のAIスパコンが価格.comランキング1位、ローカルLLM盛り上がりの理由を解剖",
+      "title_ja": "100万円のPCが注目ランキング1位に——ローカルLLMブームを生んだ「3つの条件」",
+      "one_liner": "価格.comで約100万円のAIスパコンが1位、ローカルLLM盛り上がりの背景を解剖",
       "category": "ツール",
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257/"
     },
     {
-      "title_ja": "Armが3つの新プロダクトを発表、モバイルとAIインフラ、フィジカルAI向け",
-      "one_liner": "モバイル・インフラ・フィジカルAI向け新ソリューションを同時発表",
-      "category": "ツール",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/09/news059.html"
-    },
-    {
-      "title_ja": "米ビッグテックが集結する「Agentic AI Foundation」、ルールづくり推進",
-      "one_liner": "AIエージェントの相互運用性標準化を推進する組織が発足",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/keyword/18/00002/082800326/"
-    },
-    {
-      "title_ja": "STマイクロ、GaNでデータセンター向け直流800V給電 8インチ製造も",
-      "one_liner": "AIデータセンター向けGaNパワー半導体製品を強化",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11982/"
-    },
-    {
-      "title_ja": "「AI PC」はNPU搭載が基本、AI処理に特化しGPUより省電力",
-      "one_liner": "NPU搭載がAI PCの基本要件、定義と特徴を解説",
-      "category": "ツール",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01842/081800117/"
-    },
-    {
-      "title_ja": "知財分析で探るフィジカルAIの商機、四肢に秀でる中国 米国は脳で圧倒",
-      "one_liner": "特許分析から見るフィジカルAI市場の国別優位性と商機",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03747/090700001/"
-    },
-    {
-      "title_ja": "社長が寝ている間に働く「AI秘書」と「AIリサーチャー」",
-      "one_liner": "TANRENで稼働中のAI秘書の「1日」を実例紹介",
+      "title_ja": "三井住友銀、AIコールセンターで72％が完全自動対応——Oliveで成果",
+      "one_liner": "音声AIオペレーターが有人同等品質で72％完結、コールセンター変革事例",
       "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03743/090100001/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12024/"
     },
     {
-      "title_ja": "Microsoft Copilot Coworkを使う、複数タスクを任せて報告書作成",
-      "one_liner": "エージェント型AIで複数アプリまたぐ業務を自動化",
-      "category": "ツール",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01787/090800228/"
+      "title_ja": "AI導入前にまず問おう——売り上げデータの意味と責任者",
+      "one_liner": "データ定義バラバラ問題への対策を3ステップで整理、AI導入の前提条件",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/022000534/090700008/"
     },
     {
-      "title_ja": "AIによるバックオフィス自動化ツール続々、ユーザーの受け入れ準備が急務に",
-      "one_liner": "AIエージェントによる業務自動化、ユーザー企業の受け入れ準備が鍵",
+      "title_ja": "「AI-Ready」な内製化への道——先進3社に見る3つのポイント",
+      "one_liner": "ENEOS・東急・ベイシアの内製開発成功事例から鍵を抽出",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/051500549/090900005/"
+    },
+    {
+      "title_ja": "トヨタCTO中嶋氏「原動力は圧倒的な失敗数」——AI時代の技術開発方針を語る",
+      "one_liner": "トヨタ副社長が開発スピード・自動運転・ロボット開発の方針を単独インタビューで明言",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/090800004/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/at/18/00146/00005/"
     },
     {
-      "title_ja": "Harden──AIコーディングエージェント向けセキュリティレイヤー",
-      "one_liner": "AIコーディングエージェントのセキュリティを強化する新ツール",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/agent-integrity-foundation-aif"
-    },
-    {
-      "title_ja": "Instinct、AIアシスタントが専用メールアドレスを取得可能に",
-      "one_liner": "AIエージェントがメール経由でアカウント作成や業務連絡を代行",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/"
-    },
-    {
-      "title_ja": "8月のAI支出が従業員一人当たりで減少──夏枯れか警告サインか？",
-      "one_liner": "トークンコスト低下とモデル低価格化で従業員当たりAI支出が減少",
+      "title_ja": "トヨタ、E2E自動運転も「ハイブリッド」——モジュラー型とガードレール組み合わせ",
+      "one_liner": "単一AIだけでなく複数モデル+ルールベース併用でE2E自動運転を内製化",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/at/18/00146/00002/"
     },
     {
-      "title_ja": "Sequoia、Cymphonyに再投資──AIエージェントが生む新たなセキュリティリスクに対応",
-      "one_liner": "AIエージェント特化型セキュリティ企業が$25M調達",
+      "title_ja": "トヨタ、全方位ロボ開発で「世界へ」——AI・ハード自社開発+米新興企業と提携",
+      "one_liner": "現場ニーズ把握とデータ活用でロボット事業育成、テスラ等との競争に対抗",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/at/18/00146/00003/"
+    },
+    {
+      "title_ja": "NVIDIAのE2E自動運転、商用解禁——「強力な基盤」は救世主となるか",
+      "one_liner": "研究開発限定だったオープンウエートAIモデルを商用利用可能に",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/at/18/00006/00914/"
+    },
+    {
+      "title_ja": "「AI社員」に5分の指示で5時間分の仕事をさせる手順",
+      "one_liner": "朝5時に完了報告が届く「秘書との部屋」運用、実践的な自動化手順を公開",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03743/090100002/"
+    },
+    {
+      "title_ja": "建設現場にAIロボット職人——清水建設、2030年度実用化目指し実証開始",
+      "one_liner": "人型ロボットで労働力不足解消・生産性向上、現場での実証が本格化",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/na/18/00005/090300223/"
+    },
+    {
+      "title_ja": "生態系調査に音声AI——奥村組と相模原市、鳴き声で生物種判別",
+      "one_liner": "収音マイク+AIで鳥類・哺乳類・両生類・昆虫を常時モニタリング",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00142/02756/"
+    },
+    {
+      "title_ja": "回答品質改善を確かめる仕組み——ゴールデンデータセットと評価ハーネス設計",
+      "one_liner": "AI回答が本当に良くなっているか自動評価する実装方法を解説",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03242/090900031/"
+    },
+    {
+      "title_ja": "パナソニック、VLMの3D能力強化——少トークンと高性能を両立する新技術",
+      "one_liner": "3次元空間の位置関係・距離認識の弱点を克服する基盤モデル技術",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/rob/18/012600001/00196/"
+    },
+    {
+      "title_ja": "ロボットAIはなぜ未来の行動をまとめて予測するのか",
+      "one_liner": "「Action Chunking」手法が模倣学習で広く使われる理由を解説",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/rob/18/00007/00103/"
     }
   ],
   "date": "20260910",
