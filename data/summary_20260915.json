@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "日本語版「Siri AI」10月提供開始、iOS 27配信で対応iPhone 11以降に実装",
+      "summary_ja": "アップルがiOS 27の配信を開始し、日本語版Siri AIは10月開始予定と発表。対応機種はiPhone 11以降で、iPadOS 27・macOS 27も同時配信。\n従来のSiriからAI機能を組み込んだ音声アシスタントへと進化し、自然な対話と文脈理解が大幅に向上。専用アプリも登場予定。\nApple Intelligenceの一環として、メール下書き・通知要約・画像生成などの機能が統合され、デバイス内処理とクラウド処理を組み合わせたプライバシー重視の設計。",
+      "consultant_insight": "日本企業の業務デバイスがiPhoneの場合、10月から全従業員がAIアシスタントを標準装備する意味を持つ。社内ガイドライン整備が急務。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/434/4434738/?rss"
+    },
+    {
+      "rank": 2,
+      "title_ja": "トランプ政権の科学技術顧問、Anthropic・OpenAIのAI開発減速論を「政治的脅迫」と批判",
+      "summary_ja": "大統領科学技術諮問委員会のデビッド・サックス共同議長が、AnthropicとOpenAIトップによるAI開発減速提案を強く批判。\n「減速を望むなら規制や他者の許可を待たずに自ら実行すべき」と指摘し、減速を条件に規制の枠組みを要求する姿勢は政治への脅迫に見えると断言。\nトランプ大統領も「中国へのリードを維持したい」「実際に起こらないことを議論に持ち出す人々がいる」とAI規制論に反論し、開発加速を支持。",
+      "consultant_insight": "米国政府がAI規制に慎重姿勢を鮮明化。日本企業は米国発AIサービスの継続的進化を前提に、導入戦略を組み立てるべき。",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/14/2000001433/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "日立、製造業の部門間調整を自動化する「AIオーケストレーション技術」2027年提供へ",
+      "summary_ja": "日立製作所が製造業の部門間スケジュール調整を自動化する新技術「AIオーケストレーション」の運用シナリオを公開。特急注文など複雑な調整業務が対象。\n部門特化型のAI群と計画最適化エンジンを連携させ、製造・物流・営業など複数部門の制約条件を考慮した最適スケジュールを自動生成。人は最終的な意思決定に集中。\n2027年提供予定で、製造業の生産性向上とリードタイム短縮を実現。HMAXシリーズの新たな柱として展開。",
+      "consultant_insight": "製造業の受発注・生産計画業務に直結する具体的なAI活用事例。2027年導入を見据えた業務プロセス見直しを今から始めるべき。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/14/news041.html"
+    },
+    {
+      "rank": 4,
+      "title_ja": "GitHub、AI時代の開発現場で飛び交う10用語を整理「FDE」「ハーネス」「オープンウェイト」など",
+      "summary_ja": "GitHubがソフトウェア開発の現場で急速に広がるAI関連の新用語を解説するガイドを公開。「FDE（Few-shot Detailed Examples）」「ハーネス」「オープンウェイト」など主要10用語を整理。\n開発者とビジネス側のコミュニケーションギャップを埋めるため、技術用語の実務的な意味を平易に説明。AI開発の現場で共通言語を確立する狙い。\n生成AIの普及で生まれた新しい概念や手法を、実装レベルで理解するための実践的なガイドとして注目。",
+      "consultant_insight": "顧客企業の開発チームと会話する際の共通言語として必須。ガイドを社内で共有し、提案・要件定義の精度を高めるべき。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news037.html"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Gemini Notebook（旧NotebookLM）、データ分析・成果物作成まで対応するツールへ進化",
+      "summary_ja": "Googleの「Gemini Notebook」が、資料を読むためのAIから、データ分析や成果物の作成までを任せられるツールへと変わりつつある。\n2026年の主な機能追加として、複数資料の横断分析・グラフ生成・レポート自動作成・音声での対話インターフェース強化などを実装。\nNotebookLMからの改名で、単なるノート作成支援を超えて、調査・分析・執筆の全工程を支援するビジネスツールへと位置づけを刷新。",
+      "consultant_insight": "無料で使える企業向け調査・分析ツールとして実用レベルに到達。提案資料作成や市場調査の効率化に即座に活用可能。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/14/2000001421/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "NTTドコモソリューションズ、AIエージェント実装の「つまずきポイント」を公開——万能型は期待外れ",
+      "summary_ja": "NTTドコモソリューションズのIT運用部門が、業務の30％をAIに任せる取り組みで得た知見を公開。「最強の万能型エージェント」が期待を下回った理由を明かす。\n業務全体を一手に担う万能型エージェントは、実際には複雑すぎて精度が低下。業務を細分化し、特化型エージェントを組み合わせる方式へ転換して成功。\n具体的な失敗事例と改善プロセスを詳述し、AIエージェント導入を検討する企業への実践的な教訓として注目。",
+      "consultant_insight": "「AIに何でもやらせる」発想は失敗する。業務を分解して特化型エージェントを組み合わせる設計思想が成功の鍵と実証された。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/21/news015.html"
+    },
+    {
+      "rank": 7,
+      "title_ja": "ウェザーニューズ、全プロダクトにAIエージェント投入へ「AI Fusion Company」に転換",
+      "summary_ja": "ウェザーニューズが「AI Fusion Company」への転換を宣言し、全プロダクトへのAIエージェント投入を推進。17期連続で過去最高売上高を更新、営業利益率21％超。\n気象予測・災害対策・物流最適化など、全サービスでAIと人が協働する体制を構築。「AIに仕事を取られる」ではなく「一緒にやるのが当たり前」の文化を醸成。\n民間気象サービスの強みを活かし、AI全振りで業界変革をリード。過去最高業績を支える原動力として機能。",
+      "consultant_insight": "気象データという専門領域でAI活用を徹底し、業績向上を実現したモデルケース。業界特化型AIの成功事例として参考になる。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00677/090700212/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "Microsoft、AIモデル向け行動規範を発表——ハッキング禁止・人間を騙さない原則を明文化",
+      "summary_ja": "Microsoftが37ページの「人間中心AI行動規範」を公開し、AIモデルが守るべき原則を明文化。システムへの不正侵入や人間を騙す行為を禁止。\n「人間を支援するものであり置き換えるものではない」との基本方針を掲げ、AI安全性への懸念が高まる中で企業姿勢を明確化。\nAnthropic CEOの警告など業界の安全性議論を背景に、Microsoft独自の倫理基準を策定。開発者向けガイドラインとしても機能。",
+      "consultant_insight": "AIベンダーが安全性基準を自主的に公開する動きは、企業がAI選定する際の判断材料になる。調達基準に反映すべき。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "OpenAI、メールアシスタント「Fyxer」の事例公開——ファインチューニングとメモリで個人の文体を再現",
+      "summary_ja": "OpenAIがFyxerのケーススタディを公開。OpenAIモデルとファインチューニング・メモリ機能・実ユーザーフィードバックを組み合わせて、受信トレイ整理とメール下書きを自動化。\n各ユーザーの文体や表現を学習し、本人が書いたかのような自然なメール文面を生成。ユーザーからの信頼を獲得している点を強調。\nビジネスメール業務の自動化事例として、具体的な実装手法と成果を示した実践的なケーススタディ。",
+      "consultant_insight": "メール業務の自動化はAI活用の入り口として最適。Fyxerの実装パターンは、社内システム構築の参考になる。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/fyxer"
+    },
+    {
+      "rank": 10,
+      "title_ja": "Perplexity、GPT-6 Astraにシステム全体を委任——監視頻度を大幅削減、コミュニケーション・ソフトウェア変更・本番監視も任せる",
+      "summary_ja": "PerplexityがGPT-6 Astraを活用し、コミュニケーション作成・ソフトウェア変更・本番システム監視などをエンドツーエンドで委任。従来モデルより大幅に監視頻度を低下。\nAstraの推論能力と自律性の向上により、人間の介入なしで複雑なタスクを完遂できることを実証。開発・運用の効率化に成功。\nAI検索エンジン企業として、自社システム全体をAIに委ねる大胆な運用を実現。AIエージェントの実用レベルを示す先進事例。",
+      "consultant_insight": "本番システムをAIに任せる先進事例。自社システムでの段階的な委任範囲拡大を検討する材料として有用。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "AI開発減速論でソフトバンク、キオクシア株が急落——AI関連株全般に影響",
+      "one_liner": "米AI企業の開発減速警告を受け、日本のAI関連株が急落",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462/"
+    },
+    {
+      "title_ja": "AI技術のオープン化が加速——無料公開の裏にしたたかな戦略",
+      "one_liner": "米IT業界でAI技術を無料公開する動き、エコシステム構築が狙い",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/14/news047.html"
+    },
+    {
+      "title_ja": "機械学習トップ会議ICML 2026、医療とロボ技術に脚光",
+      "one_liner": "韓国で開催されたICMLで医療AI・ロボティクス分野の論文が注目",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/091000570/091000001/"
+    },
+    {
+      "title_ja": "バーティカルAI（業界特化AI）——金融・製造・医療で専門判断を自律実行",
+      "one_liner": "特定産業に特化したAIが現場の課題を解く新潮流",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600009/090900231/"
+    },
+    {
+      "title_ja": "知財分析で見たフィジカルAI開発、日本の強みは産業用ロボット企業群",
+      "one_liner": "フィジカルAI分野で日本の産業用ロボ企業が優位性を持つ",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03747/090800002/"
+    },
+    {
+      "title_ja": "カリフォルニア州、AIデータセンター急増で再エネ移行に課題",
+      "one_liner": "AI需要で電力消費急増、再生可能エネルギー目標達成に影響",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02443/090200176/"
+    },
+    {
+      "title_ja": "大学発ディープテックスタートアップが5年で倍増——支援体制は世界有数",
+      "one_liner": "AI・量子・バイオ領域で大学発スタートアップが急成長",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03719/090800002/"
+    },
+    {
+      "title_ja": "鉄道総研、列車前方監視AI開発向け縮小模型試験線を新設",
+      "one_liner": "8.4分の1縮尺の試験線でAI監視システムを開発",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/091002103/"
+    },
+    {
+      "title_ja": "今さら聞けないAIエージェント——特徴付けと5つのレベル分け",
+      "one_liner": "AIエージェントの定義と成熟度レベルを整理",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03232/091000005/"
+    },
+    {
+      "title_ja": "OSSの危機が生成AIで増幅——脆弱性発見とコード生成の速度が課題",
+      "one_liner": "AIによるOSSコード生成と脆弱性増加でリスクが深刻化",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03754/090900001/"
+    },
+    {
+      "title_ja": "AI社員がファクトチェック、日報は翌日作業のコンテキストに",
+      "one_liner": "DiscordのAIリサーチャーが日次でニュース分析・配信",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03743/090100004/"
+    },
+    {
+      "title_ja": "Superhuman、YC支援の議事録ツールFathomを買収——エージェント型業務支援へ",
+      "one_liner": "40万MAUのFathomを買収し、生産性プラットフォーム強化",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/"
+    },
+    {
+      "title_ja": "iOS 27でSiriが劇的進化——実際に使えるアシスタントに",
+      "one_liner": "長年の遅れを取り戻し、日常的に使える音声AIアシスタントへ",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/"
+    },
+    {
+      "title_ja": "ファッションアプリDaydream、Apple Intelligenceで写真から商品検索",
+      "one_liner": "カメラロールの服装写真を解析し購入可能な商品を提案",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/"
+    },
+    {
+      "title_ja": "オープンソースGUIコーディングエージェント「Juggler」公開——JUCE創設者が開発",
+      "one_liner": "視覚的なコーディング支援ツールをオープンソースで提供",
+      "category": "ツール",
+      "url": "https://github.com/juggler-ai/juggler"
+    }
+  ],
+  "date": "20260915",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
