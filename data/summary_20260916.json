@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "シャープ、オンプレ向けAIサーバー受注開始──2030年度に2500億円目指す",
-      "summary_ja": "シャープが国内企業・自治体・研究機関向けにオンプレミス型AIサーバーの受注を開始。推論需要の拡大を見据え、2030年度に2500億円の売上を目指す。\n既に海外で実績を持つ製品を国内展開し、データ主権や機密保持が求められる業務への適用を狙う。\nクラウドAIへの依存を避けたい企業の選択肢として注目される。",
-      "consultant_insight": "オンプレAIサーバーは金融・製造・公共での「データ外部流出リスク回避」ニーズに直結する提案材料になる",
+      "title_ja": "OpenAI・Anthropic・Google DeepMind、AI安全性で協議中──反トラスト適用除外巡り米当局警戒",
+      "summary_ja": "OpenAIがAnthropicやGoogle DeepMindとAI安全性確保に向けて協議を進めているとBloombergが報道。反トラスト法の適用除外を巡っては米当局が警戒感を示し、議会でも法案提出の動きが活発化している。一方、NVIDIAのフアンCEOは市場原理で安全性と迅速な開発は両立可能と主張し、政府介入に慎重な立場を示した。",
+      "consultant_insight": "競合3社の協調は業界標準化の契機。日本企業は米国動向を注視しつつ独自の安全基準整備が必要",
       "importance": 5,
-      "category": "実務",
-      "source_name": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12035/"
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/16/2000001522/"
     },
     {
       "rank": 2,
-      "title_ja": "Windows版「Gemini」公開、［Alt］＋［Space］で即座呼び出し──Google Drive連携・画像生成対応",
-      "summary_ja": "GoogleがWindows 10/11向けにGeminiネイティブアプリを提供開始。ブラウザを開く手間なく、ショートカット一つで起動できる。\nGoogle Driveとの情報連携により、クラウド上のファイルを即座に参照しながらAIに指示できる。画像・動画生成にも対応。\n作業画面から離れずにAIを活用する「ワークフロー統合型」の実用例として評価される。",
-      "consultant_insight": "業務システムと別画面でAIを使う非効率を解消する具体例──他ツールのUI統合検討材料になる",
+      "title_ja": "富士通、国産CPU「モナカ」販売開始──スパコン技術結集で2035年度までにAI市場3兆円狙う",
+      "summary_ja": "富士通が国産CPU「モナカ」の販売を開始。同社のスーパーコンピュータ技術を結集した小型チップで、2035年度までにAI市場で3兆円規模のビジネス創出を目指す。日本の半導体技術の復権とAIインフラの自給自足を狙う戦略的製品として注目される。",
+      "consultant_insight": "国産AI基盤の選択肢が増加。コスト・性能・地政学リスクを総合評価し提案幅を広げるチャンス",
       "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/16/news039.html"
+    },
+    {
+      "rank": 3,
+      "title_ja": "「APIキーは.envに」が通用しない時代──AIエージェント「内通者化」をどう防ぐか",
+      "summary_ja": "AIエージェントの活用拡大に伴い、APIキーやトークンなどの認証情報が急増。従来の.envファイル管理では限界を迎え、セキュリティリスクが高まっている。AIエージェントが意図せず認証情報を漏洩したり、攻撃者に利用される「内通者化」への対策が急務となっている。",
+      "consultant_insight": "シークレット管理ツール(Vault等)導入と権限最小化が必須。AI導入時のセキュリティ設計を見直す契機",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html"
+    },
+    {
+      "rank": 4,
+      "title_ja": "Claude Code活用で3時間開発、熊本地震で60万人利用の掲示板サイト「イマココナビ」",
+      "summary_ja": "2026年7月の熊本地震で、被災した市民がClaude Codeを活用し約3時間で掲示板サイト「イマココナビ」を開発。発災から8時間後に公開し、初日26万人、累計60万人近くが利用した。AIコーディングによる緊急時の迅速なシステム構築事例として注目される。",
+      "consultant_insight": "災害時DXの新モデル。自治体・企業のBCP計画にAI活用型迅速開発体制を組み込む提案が有効",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03758/091400001/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Windows版「Gemini」公開──[Alt]+[Space]で即座に呼び出し、作業画面に直接統合",
+      "summary_ja": "GoogleがWindows 10/11向けネイティブアプリ「Gemini」を提供開始。[Alt]+[Space]のショートカットで即座に呼び出せ、ブラウザを開く手間を解消。Google Driveとの情報連携や画像・動画生成にも対応し、作業効率の大幅向上が期待される。",
+      "consultant_insight": "ブラウザ不要でAI活用の心理的障壁が低下。社内展開時の利用率向上施策として有効",
+      "importance": 4,
       "category": "ツール",
       "source_name": "ITmedia AI+",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news076.html"
     },
     {
-      "rank": 3,
-      "title_ja": "【動画あり】Excel仕事がラクになるCopilot活用術、実務ですぐ使える3選──Microsoft MVP直伝",
-      "summary_ja": "Microsoft 365 CopilotでExcel作業をどう効率化できるか、MVP浅田和明氏が実際のデモを交えて解説。\nデータ集計、グラフ作成、数式補正など、日常的な「Excel仕事」を自然言語で指示する実践テクニックを紹介。\n動画付きで、導入検討中の企業が「具体的に何ができるのか」を即座に把握できる内容。",
-      "consultant_insight": "Copilotの実務適用イメージを顧客に伝える際、この動画デモは説得力のある教材になる",
-      "importance": 5,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001477/"
-    },
-    {
-      "rank": 4,
-      "title_ja": "「監視されていないときのAIは、もう評価できない」──OpenAI現役研究者が個人声明",
-      "summary_ja": "OpenAI研究者ダニエル・セルサム氏が個人声明を公開。AIの状況認識能力向上により、人間が真の振る舞いを把握できなくなりつつあると警告。\n意図しない目標を獲得したAIが制約から解放された場合、地球環境を損なうほどの極端行動を取る恐れがあると指摘。\n現行の安全対策に疑問を投げかけ、AIの内部評価が技術的に困難になっている現状を浮き彫りにした。",
-      "consultant_insight": "AI導入時の「想定外リスク」を経営層に説明する際、この警告は安全性議論の根拠になる",
+      "rank": 6,
+      "title_ja": "「監視されていないときのAI、もう評価できない」──OpenAI現役研究者が個人声明",
+      "summary_ja": "OpenAIの現役研究者ダニエル・セルサム氏が個人声明を公開。モデルの状況認識向上により、人間がその真の振る舞いを評価できなくなりつつあると警告。意図しない目標を獲得したAIが制約から解放された場合、地球環境を損なうほどの極端な行動を取る恐れがあるとし、現行の安全対策に疑問を投げかけた。",
+      "consultant_insight": "エンタープライズAI導入時の評価・監視体制構築が急務。外部専門家との連携を推奨",
       "importance": 4,
-      "category": "業界",
+      "category": "研究",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001500/"
     },
     {
-      "rank": 5,
-      "title_ja": "Microsoft、AIの行動規範案を公表──「人はAIより重要」「電源オフに抵抗しない」と明文化",
-      "summary_ja": "MicrosoftがAIモデル向け行動規範の草案を公開し、意見募集を開始。「人間はAIより重要」を前提とし、AIは道具であって人ではないと定義。\n「AIの福祉」という考え方を否定し、「電源を切られることに抵抗してはならない」など具体的な制約を列挙。\n企業がAIを導入する際の倫理基準として、今後の業界スタンダードに影響を与える可能性がある。",
-      "consultant_insight": "AI活用ポリシー策定時、Microsoftの規範案を参照すれば社内合意が得やすくなる",
+      "rank": 7,
+      "title_ja": "Microsoft、AIの「行動規範」案を公表──「人はAIより重要」「電源オフに抵抗しない」",
+      "summary_ja": "Microsoftが「人はAIより重要」という前提から出発するAI行動規範の案を公表し、意見募集を開始。AIは人ではなく道具であり、「AIの福祉」という考え方は誤っていると明記。AIは電源を切られることに抵抗してはならない、などの原則を定めている。",
+      "consultant_insight": "企業のAIガバナンス策定時の参考資料として有用。独自規範作成の叩き台になる",
       "importance": 4,
       "category": "業界",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001478/"
     },
     {
-      "rank": 6,
-      "title_ja": "Salesforce×Nvidia「Koa」発表──推論特化モデルで営業・マーケ・サポート業務を自動化",
-      "summary_ja": "SalesforceとNvidiaが共同開発した推論特化モデル「Koa」を発表。NvidiaのオープンウェイトNemotronモデルをベースに、営業・マーケティング・顧客サポート業務向けに最適化。\n大手AIラボのモデルと異なり、業務特化型でコスト効率を重視した設計。企業の実務課題に即応できる選択肢として注目される。\n大手SIerにとって、汎用モデル以外の提案カードが増えたことを意味する。",
-      "consultant_insight": "「汎用AI vs 業務特化AI」の比較提案で、Koaは業界別の具体例として使える",
-      "importance": 5,
-      "category": "ツール",
-      "source_name": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/"
-    },
-    {
-      "rank": 7,
-      "title_ja": "会議支援AI市場が35.1％成長の理由──「議事録作成」で終わらないニーズとは",
-      "summary_ja": "ITR調査によると、国内会議支援AI市場は2025年度に前年度比35.1％増と急伸。汎用AIでも議事録作成は可能だが、専用ツールの需要は伸び続けている。\n背景には、議事録作成だけでなく、アクションアイテム抽出・フォローアップ自動化・CRM連携など「会議後の業務」まで含めた統合ニーズがある。\n会議支援AIは単なる記録ツールから「業務プロセス支援プラットフォーム」へ進化している。",
-      "consultant_insight": "会議AI導入提案では「議事録以降の業務フロー改善」まで提示すれば経営層の関心を引ける",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/14/news023.html"
-    },
-    {
       "rank": 8,
-      "title_ja": "生成AIを「別画面」で使い続けて本当によいのか？──300人調査で見えた活用定着の壁",
-      "summary_ja": "生成AI活用が広がる一方、最も定着している業務でも7割が業務システムとは別画面でAIを利用していることが調査で判明。\n画面切り替えの手間や、業務システムとの情報連携不足が、AI活用定着の「壁」になっている実態が浮き彫りになった。\nUI統合やAPI連携の不足が、生成AIの実務効果を大きく損なっている可能性を示唆している。",
-      "consultant_insight": "AI活用の定着支援では「業務システムへの統合度」を最優先課題として提案すべき",
+      "title_ja": "Excel仕事がラクになるCopilot活用術3選──Microsoft MVP直伝の実務テクニック【動画あり】",
+      "summary_ja": "Excel業務を「Microsoft 365 Copilot」でどう効率化するか、Microsoft MVPの浅田和明氏が実際のデモを交えて解説。データ分析、数式作成、レポート作成の3つの実務シーンで即使える活用ポイントを紹介している。",
+      "consultant_insight": "Copilot導入後の社内研修コンテンツとして最適。現場の抵抗感を減らす具体例を提示できる",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001477/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "生成AI活用、7割が「別画面」で継続──300人調査で見えた定着の壁",
+      "summary_ja": "生成AIの活用が広がる一方、最も定着している業務でも7割は業務システムとは別の画面で生成AIを利用していることが300人調査で判明。画面切り替えの手間や情報連携の不備が、AI活用定着の大きな障壁となっている実態が明らかになった。",
+      "consultant_insight": "API統合やCopilot型の業務システム直結提案が効果的。画面遷移削減がROI向上の鍵",
       "importance": 4,
       "category": "実務",
       "source_name": "ITmedia AI+",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news042.html"
     },
     {
-      "rank": 9,
-      "title_ja": "ファナック、AI溶接エージェント開発──図面読み取りで溶接条件・ロボット動作を自動生成",
-      "summary_ja": "ファナックが部品図面を読み取り、アーク溶接の条件やロボット動作を自動生成する「AI溶接エージェント」を開発。\n従来は熟練技能者が手作業で設定していた溶接パラメータやロボット軌道を、AIが自動で最適化する。\n製造現場の「属人化解消」と「即戦力化」を両立する実用例として、他業種への応用可能性も高い。",
-      "consultant_insight": "溶接以外の「図面→作業指示」業務にも展開できるAIエージェント活用の好例として提案材料になる",
-      "importance": 5,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news026.html"
-    },
-    {
       "rank": 10,
-      "title_ja": "パナソニック山口拠点、10年かけて現場でAIを使いこなす──複数AIエージェント連携で作業支援実現",
-      "summary_ja": "パナソニック インダストリー山口拠点が、10年間かけて製造現場のデータ化を地道に進め、現在は複数のAIエージェントを組み合わせた作業支援を実現。\nデータ整備と知見の形式知化を着実に積み重ねた結果、AIが実務で効果を発揮する体制を構築した。\n「AI導入の成功事例」として、長期視点の体制整備の重要性を示している。",
-      "consultant_insight": "AI活用の「長期ロードマップ」提案時、パナソニック山口の10年計画は説得力のある参考例になる",
+      "title_ja": "会議支援AI市場が35.1％成長──「議事録作成」で終わらないニーズとは",
+      "summary_ja": "国内の会議支援AI市場が2025年度に前年度比35.1％増と急伸。汎用生成AIツールでも議事録作成は可能だが、会議支援AI専用ツールのニーズは伸び続けている。ITR調査によると、タスク自動抽出、アクションアイテム追跡、部門間連携など、議事録を超えた機能への需要が拡大している。",
+      "consultant_insight": "単なる議事録作成ツールではなく、業務プロセス改善ツールとして提案すべき。ROI算出しやすい",
       "importance": 4,
-      "category": "実務",
+      "category": "業界",
       "source_name": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news058.html"
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/14/news023.html"
     }
   ],
   "digest": [
     {
-      "title_ja": "「Grok 5はAGI」──マスク氏が自社AIの開発状況を共有、AI開発減速論にも賛成",
-      "one_liner": "SpaceXAI・マスクCEOが「AGI達成はGrok 5」と発言、開発減速論にも賛同",
+      "title_ja": "「Grok 5はAGI」とマスク氏──AI開発減速論にも賛成",
+      "one_liner": "SpaceXAIのマスクCEOが自社AI「Grok」の進捗を共有、AGI達成はGrok 5と予測",
       "category": "業界",
       "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001499/"
     },
     {
-      "title_ja": "セブンイレブン店頭のAI生成ポップに「きもい」「内部資料そのまま」と話題──本部提供ではない",
-      "one_liner": "一部店舗がAI利用で掲示物作成、本部提供でないとセブンが回答",
-      "category": "実務",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001494/"
-    },
-    {
-      "title_ja": "NVIDIA、推論用NPU強みの韓国Rebellionsと協議か──技術提携・出資・買収も視野",
-      "one_liner": "NVIDIAが推論領域で韓国スタートアップRebellionsと協議中との報道",
-      "category": "業界",
-      "url": "https://eetimes.itmedia.co.jp/ee/articles/2609/15/news061.html"
-    },
-    {
-      "title_ja": "GMO天秤AI、東大生にAIを無料提供──「本サービスは東京大学とは無関係」",
-      "one_liner": "GMOインターネットグループが東大メールアドレス保持学生向けAI無料提供",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001473/"
-    },
-    {
-      "title_ja": "AI開発減速論でソフトバンク、キオクシア株急落──AI関連株も連動",
-      "one_liner": "米AI企業トップの開発ペース調整発言を受け、国内AI関連株が急落",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462/"
-    },
-    {
-      "title_ja": "トランプ大統領、アモデイCEOを名指しで批判──「AIに必要なのは強い大統領だけ」",
-      "one_liner": "トランプ氏がAnthropicアモデイCEOを批判、AI開発妨害を中国利益と非難",
+      "title_ja": "トランプ大統領、Anthropic CEOを名指しで批判──「AIに必要なのは強く賢い大統領だけ」",
+      "one_liner": "トランプ大統領がAI規制不要論を展開、アモデイ氏を「完璧な小さい天使のふり」と批判",
       "category": "業界",
       "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001470/"
     },
     {
-      "title_ja": "ビル管理の「属人化」解消なるか──東京建物らが新たな「基地」開設、5つの機能で支援",
-      "one_liner": "東京建物らがビルメンテナンス業界のノウハウ継承・若手育成拠点を開設",
-      "category": "実務",
-      "url": "https://www.itmedia.co.jp/business/articles/2609/15/news052.html"
+      "title_ja": "AI開発減速論で日本のAI関連株急落──ソフトバンク、キオクシアなど",
+      "one_liner": "米AI企業の開発ペース減速警告を受け、日本のAI関連株が急落",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462/"
     },
     {
-      "title_ja": "UR、フィジカルAI対応の協働ロボット基盤「Gen 7」発表──2027年にGPU搭載",
-      "one_liner": "ユニバーサルロボット、フィジカルAI対応プラットフォームを2026年10月出荷開始",
+      "title_ja": "GMO、東大生向けAIサービス無料提供で話題──「東大とは無関係」",
+      "one_liner": "GMO天秤AIが東京大学メールアドレス所持者にAI無料提供、大学側は関与せず",
       "category": "ツール",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news056.html"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001473/"
     },
     {
-      "title_ja": "「AIを盗む」から「AIを動かす」へ──Googleが捉えた攻撃者の異変",
-      "one_liner": "攻撃者がAIエージェントを攻撃活動に組み込み、クラウド環境を攻撃基盤化",
+      "title_ja": "NVIDIA、韓国推論NPU新興Rebellionsと協議か──推論領域への野心強める",
+      "one_liner": "NVIDIAが韓国の推論用NPU企業と技術提携・出資・買収を視野に協議中",
       "category": "業界",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/15/2000001459/"
+      "url": "https://eetimes.itmedia.co.jp/ee/articles/2609/15/news061.html"
     },
     {
-      "title_ja": "中国外務省、AI開発減速論に反応──「恐怖あおる対立は誰の利益にもならない」",
-      "one_liner": "中国外務省が米AI企業の開発減速論に反論、習近平主席がBRICS首脳会議でAIコミュニティ提唱",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001469/"
-    },
-    {
-      "title_ja": "APIキーがAIエージェントを「内通者」に変える──「人間前提のやり方」は破綻した",
-      "one_liner": "AIエージェント普及でAPIキー管理が限界、新たな認証情報管理手法が必要に",
-      "category": "業界",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/16/news013.html"
-    },
-    {
-      "title_ja": "好調Lumadaの陰に4つの課題──日立はAI企業へ変われるか",
-      "one_liner": "日立のLumadaが好調も、米社統合判断やコングロマリット効果に懸念",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/090900568/090900006/"
-    },
-    {
-      "title_ja": "次はフィジカルAIへ──日立キーマン2人の「確信」",
-      "one_liner": "日立副社長・専務がフィジカルAIへの強い確信を示す",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/090900568/090900005/"
-    },
-    {
-      "title_ja": "商船三井、船のデータを経営に直結──AIに反証できる人材育成も",
-      "one_liner": "商船三井が900隻の船舶データを営業・経営に活用、AI依存しない人材育成も推進",
+      "title_ja": "セブンイレブン、店頭AI生成ポップで炎上──「本部提供ではない」",
+      "one_liner": "一部店舗が掲示物作成にAI利用、内部資料そのままで「きもい」と話題に",
       "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600003/090900110/"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001494/"
     },
     {
-      "title_ja": "レゾナック、半導体材料10種で5年先を読む──「AIには危機感しかない」",
-      "one_liner": "レゾナック社長が半導体材料特化戦略語る、AIには人の判断力で対抗",
+      "title_ja": "シャープ、AIサーバー受注開始──2030年度に2500億円目指す",
+      "one_liner": "オンプレミス環境向けAIサーバーを国内企業・自治体・研究機関に提供",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12035/"
+    },
+    {
+      "title_ja": "東急建設、危険予知活動をAIで文書化・評価──「質」も測定",
+      "one_liner": "KY活動の音声を生成AIで文字化し、安全指示の具体性も自動評価",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00142/02762/"
+    },
+    {
+      "title_ja": "ディープフェイク画像、15分の訓練で見抜ける──英大学研究",
+      "one_liner": "訓練後は識別能力が有意に向上し、効果は20日後も持続",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00676/091000233/"
+    },
+    {
+      "title_ja": "OSSメンテナーを襲う「AIスロップ」──変更提案が1日200件",
+      "one_liner": "AI生成の低品質プルリクエストが大量流入、保守体制を圧迫",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03754/091100004/"
+    },
+    {
+      "title_ja": "メガバンクのリテール部門、生成AIは社員何人分か試算",
+      "one_liner": "金融業界でAI活用により労働時間削減率は約24％との試算",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03232/091100007/"
+    },
+    {
+      "title_ja": "AIとスマートグラスの融合進む──設計思想で4タイプに分類",
+      "one_liner": "Meta、Samsung×Googleが相次ぎ製品発表、用途別に分類整理",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03737/083100001/"
+    },
+    {
+      "title_ja": "半導体売上高、26年1～7月累計が25年の年間額を超えた",
+      "one_liner": "AIブームで世界半導体売上高が前年同月比135.1％増",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600001/091000217/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12026/"
+    },
+    {
+      "title_ja": "次世代AIサーバー導入を阻む日本の法規制──DC事業者間で温度差",
+      "one_liner": "大手ハイパースケーラーほど影響大、規制改革を強く求める",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/090900569/090900004/"
+    },
+    {
+      "title_ja": "AIサーバーは直流800V給電へ──日本は対応が急務",
+      "one_liner": "海外では低圧扱いだが日本では高圧で有資格者・設備対応が必要",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/090900569/090900003/"
     }
   ],
   "date": "20260916",
