@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "「Kari」：Claude・ChatGPTのサブスク機能を統合するデスクトップAIエージェントアプリをGotoAIが無償公開",
+      "summary_ja": "GotoAIが、Claude ProやChatGPT Plusのサブスク契約を活かせるデスクトップAIエージェントアプリ「Kari」を無料公開。複数のAIモデルをひとつのアプリから横断的に利用できる環境を提供することで、企業の業務効率化を後押しする。Webブラウザを開かずにローカルから直接各AIモデルを呼び出せる点が実務上の強み。",
+      "consultant_insight": "既存のClaude/ChatGPTサブスクを無駄なく活用でき、ブラウザ切り替えのロス削減に即効性。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/436/4436526/?rss"
+    },
+    {
+      "rank": 2,
+      "title_ja": "「Jev」：文章を書かないAI――元OpenAI研究者が開発、「スマートなif文」として注目",
+      "summary_ja": "米TypeSafe AIが発表したAIモデル「Jev」は、生成AIとは異なり「文章を生成しない」代わりに、複雑な条件判断や分岐処理を自動実行する「スマートなif文」的な存在として注目を集めている。従来LLMが不得意としていた決定論的なロジック処理を高速・確実に行う仕組みで、業務システムの自動化に新たな選択肢を提供。日本国内でも実務への活用可能性が議論されている。",
+      "consultant_insight": "LLMの推論負荷を下げつつ確実な判断処理を実現でき、RPA・BPM自動化の精度向上に直結。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "AI導入でつまずく中小企業に「何を・誰が・どう変えるか」を丸ごと支援するサービス",
+      "summary_ja": "生成AI導入で悩む中小企業向けに、「どの業務から着手すべきか」「誰が運用するか」「組織をどう変えるか」を一貫支援するベンダーが登場。単なるツール導入で終わらず、業務プロセスと組織設計を含めた変革支援を提供することで、中小企業が実際に成果を出せる体制構築を目指す。AI人材不足と初期投資の壁を乗り越える選択肢として期待される。",
+      "consultant_insight": "ツール選定だけでなく業務設計・人材配置まで伴走型支援で、中小企業のAI定着率を高める。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001627/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "アビームとNotionが「企業ナレッジ」起点でAIエージェント導入――AIを入れても仕事が変わらない問題に対処",
+      "summary_ja": "AIエージェント導入が進んでも、企業固有の業務を任せるには社内の分散知識や暗黙知をAIが扱える形に整備する必要がある。アビームコンサルティングとNotionは、ナレッジ管理基盤を起点に業務プロセスと組織を同時に変革するアプローチを提示。「AIを入れたが現場が使わない」「属人化が解消されない」という課題に正面から取り組む。",
+      "consultant_insight": "AIの前提となるナレッジ整備と業務設計を同時進行させ、形骸化を防ぐ実践的な戦略。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001660/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "AI人材を採用できない中小企業が専門家を「必要な時だけ」活用する支援サービス",
+      "summary_ja": "生成AIを導入しても現場で使いこなせなければ業務改善につながらない。中小企業ではAI人材不足や研修費用が壁となる中、常駐型人材を抱えるのではなく「必要な時だけ専門家を活用」する選択肢を提供するベンダーが登場。スポット契約で専門知識を補完し、社内にAIリテラシーを段階的に定着させる仕組み。",
+      "consultant_insight": "正社員採用のハードルを下げ、実運用しながら社内にノウハウを蓄積する現実的な選択肢。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001626/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "AI＋人でRPA・生成AIの「自動化しきれない穴」を埋める新BPOサービス",
+      "summary_ja": "RPAや生成AIを導入しても、例外処理・目視確認・システム更新など「最後に人がやる仕事」は残る。Generative Partnersは、こうした自動化しきれない業務をAIと人力で分担し、BPOとして丸ごと引き受けるサービスを開始。完全自動化を目指すのではなく、「AIで効率化+人で品質担保」のハイブリッド型で実務の穴を埋める。",
+      "consultant_insight": "完全自動化の幻想を捨て、AI＋人の協働で現実的なコスト削減と品質維持を両立。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001625/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "ゼットスケーラーがSOCをAIエージェント化――検知から対応まで自動化、AI攻撃に「調べて対応」では間に合わない",
+      "summary_ja": "AIによってサイバー攻撃のスピードが増す一方、企業の防御現場では人が大量のアラートを調査し対応を判断している。人手不足も重なる中、ゼットスケーラーはAIエージェントを活用し、検知から調査・対応までを自動化する新たなSOC（セキュリティオペレーションセンター）を打ち出した。攻撃者がAIを武器化する時代に、防御側も自律的に動くAIで対処する体制が必要。",
+      "consultant_insight": "攻撃スピードに人間の判断が追いつかない現実に対し、防御側もAI自動化で対抗する必然。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001661/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "沖縄県知事選をAIペルソナでシミュレーション、得票率を誤差0.1ポイントで再現",
+      "summary_ja": "沖縄県知事選の投票行動をAIペルソナによってシミュレーションしたところ、当選者の得票率を誤差0.1ポイントで再現することに成功。AIによる社会現象の予測精度が実用レベルに達しつつあることを示す事例として注目される。選挙予測だけでなく、マーケティングや政策立案への応用可能性も議論されている。",
+      "consultant_insight": "消費者行動や世論動向の予測精度向上で、マーケティング戦略の事前検証に活用可能。",
+      "importance": 3,
+      "category": "研究",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/436/4436534/?rss"
+    },
+    {
+      "rank": 9,
+      "title_ja": "Trump大統領、AI分野に「AI Force」創設を表明――「AI czar（AI皇帝）」任命も予告",
+      "summary_ja": "トランプ米大統領がTruth Socialで、新たに「AI Force」を創設し「AI czar（AI皇帝）」を任命する方針を表明。AI分野での米国の主導権確保と国家安全保障への対応を目的とするが、具体的な組織設計や予算規模は不明。AI規制を巡る国際的な議論が加速する中、米政府のAI戦略が大きく動き始めている。",
+      "consultant_insight": "米政府のAI統制強化により、日本企業の米国AI活用戦略にも規制・調達ルールの変化が波及か。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "Meta「Muse」は効果的だが「少し不気味」――Mac版でメッセージ等にアクセス可能で議論",
+      "summary_ja": "MetaのAIアシスタント「Muse」は実用性が高い一方、Mac版アプリがMessengerやメール等のアプリに直接アクセスできる仕様で「不気味」との声が出ている。作業画面に深く統合される利便性と、プライバシー懸念が同時に議論される典型例。日本企業でも社内データへのAIアクセス範囲をどう設定するかが課題となる。",
+      "consultant_insight": "便利さとプライバシーのバランス設定が企業導入の鍵。アクセス権限設計の参考事例に。",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "ScrollEd：教科書をTikTok化、動画・音声・クイズで学習体験を変える新興スタートアップ",
+      "one_liner": "教科書を縦スクロール型のInstagram風フィードに変換し、動画・音声・クイズで学習を支援",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/"
+    },
+    {
+      "title_ja": "Flock、従業員の自主退職促進プログラムを実施――買収なしでは「レイオフがほぼ確実」と報道",
+      "one_liner": "人員削減を回避するための自主退職プログラムを実施、買収が進まない場合レイオフの可能性",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/"
+    },
+    {
+      "title_ja": "エネルギーシステムへのサイバー攻撃、人的要因が最大リスク――AIより人間の脆弱性が深刻",
+      "one_liner": "高度なAI攻撃よりも、人的ミスや内部不正がエネルギーインフラへの最大の脅威と専門家指摘",
+      "category": "業界",
+      "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure"
+    },
+    {
+      "title_ja": "Minicart：ストア立ち上げ後、AIが日常業務を自動実行するECプラットフォーム",
+      "one_liner": "ECサイト運営の定型業務をAIが自動処理、店舗オーナーは商品企画に集中可能",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/minicart"
+    },
+    {
+      "title_ja": "Mycel：過去の成果物1件から未来の全ドキュメントをAIが自動下書き",
+      "one_liner": "1つの過去資料を入力するだけで、以降の類似資料をAIが自動生成する生産性ツール",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/mycel"
+    },
+    {
+      "title_ja": "Epismo OS：AIツールを乗り換えても作業内容を引き継げるプラットフォーム",
+      "one_liner": "異なるAIツール間でプロジェクトや作業履歴を保持、ベンダーロックインを回避",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/epismo"
+    },
+    {
+      "title_ja": "Context.dev Answers：調査タスクと望む返答形式（JSON）を指定すれば自動リサーチ実行",
+      "one_liner": "AIにリサーチ内容と出力形式を指示するだけで構造化データを自動収集",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/context-dev"
+    },
+    {
+      "title_ja": "BiBimba：スクリーンショットも読めるクリップボード履歴管理ツール",
+      "one_liner": "クリップボードに保存した画像内テキストもOCRで認識し、検索・再利用可能",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/bibimba"
+    },
+    {
+      "title_ja": "VoiceCap：多言語対応AIノートテイカー、会議記録を母国語で自動作成",
+      "one_liner": "会議音声を多言語で文字起こしし、参加者の母国語で議事録を自動生成",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/voicecap"
+    },
+    {
+      "title_ja": "Doneit 3.2：Siri AI対応、再設計されたDoneit Assistで生産性向上",
+      "one_liner": "タスク管理アプリDoneitがSiri AIに対応、音声操作で効率的なタスク処理を実現",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/doneit"
+    },
+    {
+      "title_ja": "Ruby UTCP：MCPのスケーラブル・セキュア代替、AIツール連携の新プロトコル",
+      "one_liner": "Model Context Protocol（MCP）よりセキュアで拡張性の高いツール連携規格",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/utcp"
+    },
+    {
+      "title_ja": "Mise：複数料理を同時完成させるタイミング最適化ミールプランナー",
+      "one_liner": "AI調理スケジューリングで、複数料理の完成タイミングを揃える食事計画ツール",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/robot-recipes"
+    },
+    {
+      "title_ja": "Bolt Forge：オープンソースモデル採用、利用枠50倍のBolt新AIエージェント",
+      "one_liner": "BoltがオープンソースAIモデルに移行し、従量課金枠を大幅拡大",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/bolt-new"
+    },
+    {
+      "title_ja": "Juggler：JUCEの開発者が作るオープンソースGUI型コーディングエージェント",
+      "one_liner": "音楽ソフト開発フレームワークJUCEの作者による、ビジュアル操作型AIコーディングツール",
+      "category": "ツール",
+      "url": "https://github.com/juggler-ai/juggler"
+    },
+    {
+      "title_ja": "Plandex：複雑タスク向けAIコーディングエンジン、Show HNで話題",
+      "one_liner": "長期・複雑なコーディングタスクをAIが段階的に処理するオープンソースツール",
+      "category": "ツール",
+      "url": "https://github.com/plandex-ai/plandex"
+    }
+  ],
+  "date": "20260921",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
