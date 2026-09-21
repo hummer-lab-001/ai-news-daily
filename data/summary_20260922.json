@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "OpenAI、数学とAIの独立諮問委員会を設置──新興AI研究のレビュー・コミュニケーション指針策定へ",
+      "summary_ja": "OpenAIは「Advisory Group on Mathematics and Artificial Intelligence」を設置し、新興AI研究のレビューと情報発信を指導する独立組織として始動した。\n数学分野の専門家を中心に構成され、AI研究の安全性や倫理面での評価プロセスを標準化する役割を担う。\n企業の自主的な取り組みとして、外部専門家の知見を製品開発に組み込む動きが加速している。",
+      "consultant_insight": "顧客企業のAIガバナンス体制構築時、外部専門家委員会の設置例として参考になる実例。",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+    },
+    {
+      "rank": 2,
+      "title_ja": "OpenAI、次世代AI向けグローバル標準構築の道筋を提示──評価・報告・ガバナンス連携を呼びかけ",
+      "summary_ja": "OpenAIは「Building standards for the next phase of AI」で、共通のAI評価・報告・ガバナンス基準を国際協調で整備する構想を発表した。\n安全性向上のため、各国・企業が独自に進める基準を統合し、相互運用性を高める枠組みを提案している。\n日本企業がグローバル展開するAIサービスの安全認証取得プロセスにも影響を与える可能性がある。",
+      "consultant_insight": "クライアントのAI製品が国際標準に準拠するための先行準備として、動向を注視すべき。",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/building-standards-next-phase-ai"
+    },
+    {
+      "rank": 3,
+      "title_ja": "OpenAI Academy、従業員・開発者・経営層・教育者・学生向けに新ラーニングパスを拡充",
+      "summary_ja": "OpenAIは教育プログラム「OpenAI Academy」で、役職別・目的別の学習コース群を追加し、実践的AIスキル習得と証明の仕組みを強化した。\n従業員向けには業務適用事例、開発者向けにはAPI統合手法、経営層向けには戦略立案、教育者・学生向けには教材設計が用意されている。\n企業の社内AI研修設計時、公式カリキュラムとして採用しやすい選択肢となる。",
+      "consultant_insight": "クライアント企業の社内AI研修で公式プログラムとして導入を提案できる。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths"
+    },
+    {
+      "rank": 4,
+      "title_ja": "V7がGPT-5.6で「社内ファイルを即座にエージェント用コンテキスト化」──散在資料を統合し出典付き業務実行",
+      "summary_ja": "V7はGPT-5.6を活用し、企業内に分散するファイルをエージェントが利用可能なコンテキストへ自動変換するシステムを実装した。\nエージェントは社内資料を参照しながら複雑な業務を遂行し、出典リンク付きで結果を提示するため、情報の信頼性が担保される。\n既存のナレッジ管理ツールと連携し、コンテキスト整備の手間を削減する点が実務上の強み。",
+      "consultant_insight": "顧客の社内資料を即座にAI活用可能な形へ変換する提案材料として有効。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/v7"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Meta新AIエージェント「Muse」、ChatGPTモバイル初期超えるDL数──米加で先行リリース",
+      "summary_ja": "MetaのAIエージェント「Muse」は、米国・カナダでのモバイルアプリ配信開始後、ChatGPTの初期リリース時と同期間比較でダウンロード数・DAUともに上回る成長を記録した。\n既存のInstagram・Facebook基盤を活かし、ユーザー獲得コストを抑えつつ迅速に普及させている。\n日本市場でも同様のローンチ戦略が展開される可能性があり、企業はMeta系AIツールの対応準備が必要になる。",
+      "consultant_insight": "顧客企業のSNSマーケティングにMuse活用を組み込む提案が現実味を帯びる。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "Amazon、Meta「Muse」エージェントのAmazon.com利用をブロック──自社AI基盤との競合で",
+      "summary_ja": "AmazonはMetaのAIエージェント「Muse」によるAmazon.comショッピング機能へのアクセスを遮断した。\nAmazonは独自の大規模モデルと推論基盤を有しており、外部AIエージェントに顧客データ・購買行動を渡すリスクを回避した形。\n企業間で「AIエージェントが他社プラットフォームを利用する権利」を巡る線引きが始まっており、今後の統合戦略に影響する。",
+      "consultant_insight": "顧客のAI統合計画で、プラットフォーム間の利用制限リスクを考慮する必要がある。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "元会計士が開発するAI簿記「Tabby」、リアルタイム記帳でビジネスデータを即座に可視化",
+      "summary_ja": "元会計士が創業したTabbyは、クライアントの書類処理をリアルタイムで自動記帳し、最新の財務状況を常時提供するAI簿記システム。\n従来の月次締め作業を不要にし、経営判断に必要なデータを即座に取得できる点が特徴。\n中小企業の経理業務効率化と意思決定スピード向上の両立を実現する実用例として注目される。",
+      "consultant_insight": "顧客の経理業務DX提案で、リアルタイム財務可視化ツールとして紹介できる。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "Google、899ドルの「Googlebook」発表──Geminiをカーソル・音声入力・ウィジェットに統合",
+      "summary_ja": "Googleは899ドルの新ノートPC「Googlebook」を発表し、Gemini AIをカーソル操作・音声入力・デスクトップウィジェットなどOS全体へ深く統合した。\n既存のChromebookとは異なり、Gemini専用ハードウェアとして位置付け、ユーザーがAIのためにデバイスを買い替える価値を提示している。\n日本企業が社内配布PCを刷新する際、AI統合度を軸にした選定基準が生まれる可能性がある。",
+      "consultant_insight": "顧客の社内PC更新計画で、AI統合ハードウェアの導入検討材料として提案できる。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "双日調査：Copilot導入企業87.5％が「情報分散」を課題視──横断検索AI環境に96％が期待",
+      "summary_ja": "双日テックイノベーションの調査で、Copilot・Microsoft 365導入企業の78％は社内情報検索・活用を「カバーできている」と回答した一方、87.5％が情報の分散を課題に挙げた。\n96.2％の企業が、社内情報を横断的に検索・活用できるAI環境によってAI利用が広がると回答している。\nCopilot導入後も「情報が統合されていない」問題が残り、追加の検索基盤整備が必要な状況が浮き彫りになった。",
+      "consultant_insight": "Copilot導入後の情報統合課題を解決する追加提案のきっかけとして活用できる。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/21/2000001657/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "AI研修受講者1割未満も学習意欲は4割超──企業の研修機会不足が浮き彫りに",
+      "summary_ja": "調査によると、AI・DXスキルの研修を受けた経験がある人は1割未満にとどまる一方、4割以上が習得を希望している。\n職場でAI活用やDX推進が話題にならず、研修機会も限られている実態が明らかになった。\n学習意欲と機会のギャップを埋めるため、企業は社内研修プログラムの拡充や外部教育サービスの活用が急務となる。",
+      "consultant_insight": "顧客企業の社内研修不足を指摘し、AI教育プログラム導入を提案する根拠にできる。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/21/2000001604/"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "トランプ大統領、「AI Force」創設を表明──AI脅威論を否定し成長支援",
+      "one_liner": "AI担当組織「AI Force」設立と責任者指名を発表、規制に否定的姿勢",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2609/21/2000001666/"
+    },
+    {
+      "title_ja": "NVIDIAフアンCEO「夕食相手の株価が翌日2倍に」──GPU巡る資金の行方",
+      "one_liner": "GPU需要でNVIDIA CEOの動向が株価に直結する現象を示唆",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/21/news024.html"
+    },
+    {
+      "title_ja": "「社長の頭の中」をAI化──中小企業の知識属人化に対応する専用AI",
+      "one_liner": "経営者の経験・現場ノウハウを蓄積し承継する専用AIを開発",
+      "category": "実務",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/21/2000001651/"
+    },
+    {
+      "title_ja": "大和鋼管工業、SaaS管理を「情シスAI」で一元化──利用状況・コスト把握へ",
+      "one_liner": "分散したSaaS・アカウント情報を統合しライセンス管理を効率化",
+      "category": "実務",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/21/2000001655/"
+    },
+    {
+      "title_ja": "VAIO10年ぶり変形ノートPC「VAIO T」、3in1マルチスタイルで復活",
+      "one_liner": "反転機構で形状を自在に変形可能な13.3型タッチディスプレイ搭載",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/435/4435803/?rss"
+    },
+    {
+      "title_ja": "AMD「Ryzen AI Embedded X100」、JetsonのCPU弱点を突くリアルタイムAI制御",
+      "one_liner": "フィジカルAI向けにCPU性能を強化したAMD新チップ登場",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/435/4435155/?rss"
+    },
+    {
+      "title_ja": "Uravation、AI画像チェッカー・OCR・生成AIパスポート模擬試験など無料ツール6種追加",
+      "one_liner": "登録不要の無料AIツールを計17種類に拡充",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/436/4436584/?rss"
+    },
+    {
+      "title_ja": "Uravation、クラウドAI利用不可企業向け「ローカルLLM導入支援」開始",
+      "one_liner": "セキュリティ制約ある企業のオンプレAI環境構築を支援",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/436/4436581/?rss"
+    },
+    {
+      "title_ja": "身寄りのない高齢者をAI・地域で支える民間事業開始",
+      "one_liner": "つながりAI・ジェイリース・ファイン3社で高齢者ケアAI基盤提供",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/436/4436569/?rss"
+    },
+    {
+      "title_ja": "UN科学パネル、AI規制は確実性を待てない──予防原則の適用呼びかけ",
+      "one_liner": "AIエージェントのリスクが完全解明前に政府介入を求める",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle"
+    },
+    {
+      "title_ja": "Apple、Siri AI訴訟で2.5億ドル和解──iPhone所有者は請求可能に",
+      "one_liner": "AI機能未達の集団訴訟で和解金支払い、請求受付開始",
+      "category": "業界",
+      "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
+    },
+    {
+      "title_ja": "Benchmark全パートナーがDisrupt 2026で登壇──次のブレイクアウト企業を予測",
+      "one_liner": "有力VCの視点から次世代スタートアップの出現地を議論",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/"
+    },
+    {
+      "title_ja": "GoogleのRobby Stein氏、Disrupt 2026で「最初のユーザーから数十億へ」語る",
+      "one_liner": "Google幹部がプロダクトスケールの実例を共有",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/"
+    },
+    {
+      "title_ja": "TechCrunch Disrupt 2026、次世代VCがStartup Battlefield 200を審査",
+      "one_liner": "注目VCが最新スタートアップを評価する場を提供",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/"
+    },
+    {
+      "title_ja": "Hyrax AI、コードベース全体を設計するAIアーキテクト登場",
+      "one_liner": "大規模コードベースの設計をAIが担当するツール",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/tristan-benozer"
+    }
+  ],
+  "date": "20260922",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
