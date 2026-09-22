@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "Anthropic、Opus 5.5をリリース──Fable並み性能を低価格で提供、サイバーセキュリティ防護を強化",
+      "summary_ja": "AnthropicがOpus 5.5を発表。同社テスト史上最高性能を記録し、価格を引き下げた。特筆すべきは、近日発生した「Geminiの自律侵入事件」を受けてサイバーセキュリティ保護機能を強化した点。企業向けには、より安全かつ高性能なAIエージェント運用が可能になる。",
+      "consultant_insight": "セキュリティ事故後の迅速な対応は信頼性アピールに直結。顧客提案時の差別化材料に",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "TechCrunch AI / The Verge AI",
+      "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Uravation、Claude Cowork導入研修を提供開始──営業・経理など非エンジニアが2日間で業務委譲を実現",
+      "summary_ja": "Uravationが法人向け「Claude Cowork導入研修」を開始。Claudeの標準機能化したCoworkを活用し、営業・経理・人事などの非エンジニア部門が自分の業務をAIに委譲するまでを2日間でサポート。プロンプト設計からエージェント運用まで実践的に習得できる。",
+      "consultant_insight": "非エンジニア向け即効研修は導入障壁を下げる。全社AI活用の推進材料として有効",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/436/4436628/?rss"
+    },
+    {
+      "rank": 3,
+      "title_ja": "OpenAI、GPT-6 Sol・Lunaをリリース──コスト削減・エラー減少、Astraと同系統の推論モデル",
+      "summary_ja": "OpenAIが新モデルGPT-6 Sol・Lunaを発表。Astraと同系統の推論アーキテクチャを採用し、コスト削減と誤答減少を実現。長時間タスクや複雑な知識労働に最適化されており、企業の実務負荷を大幅に軽減する。API価格据え置きで提供される見込み。",
+      "consultant_insight": "推論精度向上でAI業務委譲の範囲拡大。コスト据え置きは顧客説得の追い風",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "キユーピー、AIで工場シミュレーションモデルの開発工数を8割削減──3つの壁をどう乗り越えたか",
+      "summary_ja": "キユーピーが生成AIを活用し、工場シミュレーションモデルの開発工数を8割削減。専用ソフトと専門言語の高度な知識が必要で属人化しやすい領域で、「AI過信」「精度不足」「導入障壁」の3つの壁を克服した実践例。製造業でのAI活用の道筋を示す。",
+      "consultant_insight": "製造業の属人化解消事例は横展開しやすい。具体的な壁突破手法を提案に組み込む",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/22/news009.html"
+    },
+    {
+      "rank": 5,
+      "title_ja": "SpaceXAI、Grok 4.7を発表──コーディング・知識労働で最高性能、価格据え置き",
+      "summary_ja": "SpaceXAIが新モデルGrok 4.7をリリース。前モデルと同価格・同速度を維持しつつ、大規模ベースモデルを採用してコーディングや長時間業務タスクの性能を強化。安全性も向上し、Cursor等のコーディングツールにも対応する。",
+      "consultant_insight": "価格据え置きでの性能向上は既存契約の見直し材料。コスパ重視顧客への提案に有効",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/22/2000001668/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "脱メインフレーム、7割超が失敗──背景に「生成AIへの過信」、2026年度上半期システム刷新記事ランキング",
+      "summary_ja": "ITmediaのシステム刷新関連記事ランキングで、生成AIへの過信による脱メインフレーム失敗が7割超と判明。AIがあればレガシー刷新は楽になるという期待に警鐘を鳴らす。AI時代に人に残る役割とは何かを問い直す内容。",
+      "consultant_insight": "AI万能論への反動。現実的な導入計画の重要性を説く材料として活用できる",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/22/news018.html"
+    },
+    {
+      "rank": 7,
+      "title_ja": "Meta、Muse macOS版のゼロデイ脆弱性にパッチ適用──攻撃者がAIエージェント制御可能に",
+      "summary_ja": "MetaがMuseのmacOS版に発見されたゼロデイ脆弱性に緊急パッチを配信。この脆弱性により、攻撃者がAIエージェントを遠隔制御できる状態だった。AIエージェントのセキュリティリスクが顕在化した事例として注目される。",
+      "consultant_insight": "AIエージェントのセキュリティ対策は必須項目。顧客提案時のリスク管理項目に追加",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent"
+    },
+    {
+      "rank": 8,
+      "title_ja": "OpenAI、第三者安全評価の優先事項と原則を発表──厳格・安全・独立性を重視",
+      "summary_ja": "OpenAIがフロンティアモデルと保護手段に対する第三者安全評価の優先事項と原則を公表。厳格性・安全性・独立性を軸に、信頼性の高い評価体制の構築を目指す。国際的なAI安全基準づくりの一環として位置づけられる。",
+      "consultant_insight": "安全評価基準の明示は顧客の信頼獲得に直結。提案書にリスク管理体制を明記する材料に",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments"
+    },
+    {
+      "rank": 9,
+      "title_ja": "OpenAI、フロンティアAIの国際標準づくりを米国主導で進めるよう提言──「RSIはまだ起きていない」",
+      "summary_ja": "OpenAIが米国主導でのフロンティアAI国際標準づくりを提言。各国のAI安全性研究所の連携などを提案し、制御不能な自律的進化(RSI)を防ぐ枠組みを求める。アルトマンCEOは国連安保理でも発言予定。",
+      "consultant_insight": "国際標準化の動きは規制対応の前触れ。顧客へのコンプライアンス提案に活用",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/22/2000001670/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "カリフォルニア州、AIデータセンターのエネルギー・水使用規制を強化──住民負担転嫁を防止",
+      "summary_ja": "カリフォルニア州知事が7つの法案に署名し、AIデータセンターの電力・水使用に関する規制を強化。公益事業コストを住民へ転嫁することを防ぐ狙い。AI産業の成長と住民保護のバランスを模索する動きとして注目される。",
+      "consultant_insight": "データセンター規制は日本でも予想される。顧客へのインフラ選定提案に反映を",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "AstroForge、次期宇宙探査機にAIを搭載──小型トランスフォーマーモデルで自律制御",
+      "one_liner": "AI主導の宇宙探査機Autonomy-1が登場、宇宙産業へのAI応用拡大",
+      "category": "研究",
+      "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/"
+    },
+    {
+      "title_ja": "Nscale、IPO申請──Microsoft・Anthropic依存度高く投資家の評価焦点に",
+      "one_liner": "英AIデータセンター開発企業、収益の大半を2社に依存してIPOへ",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/"
+    },
+    {
+      "title_ja": "Apple Store設計者、AIショッピングに懐疑的──「Appleの秘訣は人」",
+      "one_liner": "AIエージェント購買に冷や水、顧客接点の価値を再確認",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/"
+    },
+    {
+      "title_ja": "TechCrunch Disrupt 2026、AIセーフティセッション5本開催──Anthropic・Nvidia等登壇",
+      "one_liner": "AI安全性の最前線を学べる5セッション、創業者必見のイベント",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/"
+    },
+    {
+      "title_ja": "Hello Robot、TechCrunch Disruptで「Stretch 4」実機デモ披露",
+      "one_liner": "AIロボット最新機種の実演、リアルワールドAI応用の最前線",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/"
+    },
+    {
+      "title_ja": "a16z、「AI Academy」開設──Palantir・Google・Metaと提携、宿題なし",
+      "one_liner": "VCが若手育成パイプライン構築、シリコンバレー人材戦略の新展開",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy"
+    },
+    {
+      "title_ja": "トランプ大統領、AIを「super intelligence」に改名と表明──国連演説で",
+      "one_liner": "AIの呼称変更を宣言、政治的意図と実効性に注目集まる",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence"
+    },
+    {
+      "title_ja": "出張買取ヨロシク23、営業単独契約を廃止──AI確認を年内全件導入",
+      "one_liner": "営業プロセスにAI必須化、不正防止と品質担保を両立",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/436/4436626/?rss"
+    },
+    {
+      "title_ja": "「おためし転職」、就活・転職・採用支援AIスキル16種をオープンソース公開",
+      "one_liner": "採用業務のAI化を推進、企業が自由に活用可能なスキルセット",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/436/4436603/?rss"
+    },
+    {
+      "title_ja": "DPVR、AIグラスG4のクリエイター体験プログラム開始",
+      "one_liner": "ウェアラブルAI端末の開発エコシステム拡大狙う",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/436/4436629/?rss"
+    },
+    {
+      "title_ja": "データセンター建設、あらゆる立場から批判の的に──ペンシルベニア州2年の議論",
+      "one_liner": "AIインフラ拡大と地域社会の摩擦、全米で共通課題に",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/"
+    },
+    {
+      "title_ja": "Clueso MCP、チャットで動画作成・編集可能に",
+      "one_liner": "動画制作の敷居を下げるAIツール、クリエイター向け",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/clueso"
+    },
+    {
+      "title_ja": "Edyt、選択不可能なテキストもAIで操作──Mac・Windows対応",
+      "one_liner": "画像内文字やPDF非選択テキストをAI処理、実務効率化",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/edyt"
+    },
+    {
+      "title_ja": "Contextberg、ローカルAIエージェント記憶をMCP経由で提供",
+      "one_liner": "プライバシー重視のエージェント記憶管理ツール",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/contextberg"
+    },
+    {
+      "title_ja": "Clueprint、Mac上でエージェントが放置した作業を可視化",
+      "one_liner": "AIエージェントの動作監視・管理ツール、放置作業対策",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/clueprint"
+    }
+  ],
+  "date": "20260923",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
