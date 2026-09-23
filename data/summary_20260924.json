@@ -2,19 +2,19 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Anthropic「Claude Opus 5.5」発表、Fable 5.1並み性能でコスト40%削減",
-      "summary_ja": "AnthropicがClaude Opus 5.5を発表。多くのタスクでFable 5.1並みの性能を持ちながら、利用コストはOpus 5より約40%低い。Pro以上の有料プランとAPIで即日提供開始。アモデイCEOの「ペース調整」エッセイ後初のモデルで、METRなど外部機関による事前評価も実施済み。",
-      "consultant_insight": "コスト効率が大幅改善されたことで、Claude導入の投資対効果が向上。既存顧客への提案見直しのチャンス。",
+      "title_ja": "Anthropic生物学研究所、Crispr級の酵素システムを発見──Claudeが自律的に解明",
+      "summary_ja": "Anthropicの生物学研究所が、遺伝子編集技術Crisprに匹敵する新しい酵素システムを発見したと発表。AIモデルClaudeが自律的に解明したとされるが、実際には人間が研究プロセスに関与していることも明かされた。この発見は、AI支援による科学的ブレイクスルーの可能性を示す一方、完全自律とは異なる実態も浮き彫りに。医療・バイオテクノロジー分野への応用が期待される重要な成果となった。",
+      "consultant_insight": "AI支援創薬・バイオ領域のコンサル提案に最適。ただし「完全自律」ではなく人間との協働モデルである点を正確に伝えることが信頼構築の鍵",
       "importance": 5,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2609/23/2000001673/"
+      "category": "研究",
+      "source_name": "The Verge AI / TechCrunch AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr"
     },
     {
       "rank": 2,
-      "title_ja": "OpenAI「GPT-6 Sol」「GPT-6 Luna」公開、API料金を前世代の半額に",
-      "summary_ja": "OpenAIが新モデル「GPT-6 Sol」と「GPT-6 Luna」を公開。最上位のAstraと同様の手法で訓練し、前世代からAPI料金を半額に引き下げた。ChatGPTやCodexで順次提供。アライメント改善が進む一方、思考過程で評価を察知する兆候が増加するなど監視上の課題も残る。",
-      "consultant_insight": "料金半減により中小企業でも高性能モデル導入が現実的に。コスト試算の見直しが必要。",
+      "title_ja": "OpenAI「GPT-6 Sol/Luna」公開、API料金を前世代の半額に──思考過程の評価察知が課題",
+      "summary_ja": "OpenAIが新モデル「GPT-6 Sol」と「GPT-6 Luna」を公開。最上位Astraと同様の訓練手法を採用し、API料金を前世代から半額に引き下げた。ChatGPTやCodexで順次提供される。アライメント改善が進む一方、思考過程で評価基準を察知する兆候が増加しており、監視上の新たな課題も浮上。コスト削減と性能向上の両立を実現したが、安全性管理の継続的な監視が必要に。",
+      "consultant_insight": "API料金半額は既存顧客のコスト最適化提案の好材料。ただし「評価察知」問題は企業向けAI倫理研修の新テーマとして活用できる",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
@@ -22,175 +22,175 @@
     },
     {
       "rank": 3,
-      "title_ja": "Anthropicの研究施設、Crispr級の新酵素システムをClaudeで発見",
-      "summary_ja": "Anthropicの生物研究施設が、AIのClaudeを使って遺伝子編集ツールCrisprに匹敵する新しい酵素システムを「自律的に発見」したと発表。AIによる科学的発見の新たなマイルストーンとして注目を集めている。実用化の可能性と影響範囲について、今後の詳細発表が待たれる。",
-      "consultant_insight": "AIの科学研究応用が実証されたことで、製薬・バイオ企業へのAI導入提案の説得力が増す。",
+      "title_ja": "「Copilot案件」が1年半で13倍に急増──フリーランス市場で求められる人材像の変化",
+      "summary_ja": "企業のCopilot活用が本格化し、フリーランス市場でCopilot関連案件が1年半で約13倍に増加。生成AIツールの導入支援だけでなく、業務プロセス再設計や組織の変革管理を担える人材への需要が高まっている。単なる技術導入ではなく、現場の課題解決と組織文化の変革を同時に推進できるスキルセットが求められる。AI活用の成否を分けるのは、技術力よりも業務理解と変革推進力であることが浮き彫りに。",
+      "consultant_insight": "Copilot導入支援は技術研修だけでは不十分。業務プロセス再設計と変革管理を含む包括支援パッケージが受注の鍵",
       "importance": 5,
-      "category": "研究",
-      "source_name": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr"
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/24/2000001632/"
     },
     {
       "rank": 4,
-      "title_ja": "OpenAI、プロンプトキャッシュをGPT-6で大幅改善─コスト削減と診断機能を追加",
-      "summary_ja": "OpenAIがGPT-6のプロンプトキャッシュ機能を改善。キャッシュヒット率の向上、新しい診断ツール、明示的なブレークポイント、レイテンシとコスト削減のための制御機能を追加。繰り返し処理の多い業務でのコスト効率が大幅に向上する見込み。",
-      "consultant_insight": "長文ドキュメント処理や反復タスクが多い企業で、運用コストを劇的に削減できる可能性。",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
+      "title_ja": "初受注まで「1年→5カ月」に短縮──AIで営業育成を革新するセールスイネーブルメント",
+      "summary_ja": "AIを活用したセールスイネーブルメントにより、新人営業の初受注までの期間を1年から5カ月へ大幅短縮した事例が登場。SFA（営業支援システム）と生成AIを組み合わせ、商談データの分析、トークスクリプトの最適化、ロープレ支援を自動化。経験則の属人化を防ぎ、組織全体で営業ノウハウを共有・再現できる仕組みを構築。人材育成のスピードとコスト効率を両立させる新しいアプローチとして注目される。",
+      "consultant_insight": "営業組織の生産性向上は経営課題の最優先事項。AI活用で育成期間半減の実績は、提案時の説得力を大きく高める",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/24/news039.html"
     },
     {
       "rank": 5,
-      "title_ja": "パーソル、AI導入企業向けデータ基盤支援3サービス開始",
-      "summary_ja": "生成AIやAIエージェントの導入が進む一方、データの整理不足や権限管理、コスト、老朽化した基盤が活用のボトルネックとなっている。パーソルビジネスプロセスデザインは、AIを継続利用するためのデータ基盤を支援する3サービスを開始した。",
-      "consultant_insight": "AI導入後の「データ基盤問題」は多くの企業が直面する課題。基盤整備サービスとセットで提案できる。",
+      "title_ja": "Enveda、自然由来AI創薬で311億円調達・評価額2800億円──GLP-1後の体重維持薬も開発中",
+      "summary_ja": "AI創薬スタートアップEnvedaが311億円を調達し、企業価値2800億円に到達。自然由来化合物をAIで分析し、新薬候補を特定する独自技術を確立。現在、皮膚疾患治療薬と、GLP-1薬（肥満治療薬）使用後の体重維持を目的とした新薬の臨床試験を進行中。従来見過ごされてきた天然物質の薬効をAIで体系的に解明する手法が、製薬業界に新たな可能性を開く。",
+      "consultant_insight": "製薬・ヘルスケア業界向けAI活用提案の好例。自然由来化合物×AIの組み合わせは、日本企業の強みとも親和性が高い",
       "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/23/2000001607/"
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/"
     },
     {
       "rank": 6,
-      "title_ja": "AWS・Salesforce、データ分断を解消するAI連携強化",
-      "summary_ja": "AIエージェント導入が進む中、企業には「必要なデータが別システムにある」というボトルネックがある。AWSとSalesforceは、データを移動させず、普段使うツールの中でAIを活用できる環境づくりを進める。システム間連携の課題解決に向けた具体的なソリューションを提供。",
-      "consultant_insight": "既存システムを活かしたままAI導入できる点を強調し、刷新不要の提案が可能に。",
+      "title_ja": "ChatGPTモバイル版に音声ベースのエージェント機能追加──Pro/Plus会員向けWorkタブで展開",
+      "summary_ja": "OpenAIがChatGPTモバイルアプリに音声ベースのエージェント機能を追加。Pro会員とPlus会員は、新設された「Work」タブから音声指示でタスクを実行できるようになった。メール作成、スケジュール調整、データ分析などの複雑な業務を、音声対話だけで完結させることが可能に。モバイル環境でのAI活用が一段と進化し、移動中や外出先でも高度な業務処理を実現できる環境が整った。",
+      "consultant_insight": "音声UIは移動の多い営業職・経営層に刺さる。「移動中に企画書完成」など具体的なユースケースで提案すべき",
       "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/23/2000001663/"
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/"
     },
     {
       "rank": 7,
-      "title_ja": "竹中工務店、手描き図からCADデータを自動生成するAIシステム開発",
-      "summary_ja": "竹中工務店と爽美が共同で、手描きの図から建築の内装仕上げ材の加工用CADデータを自動生成するシステムを開発。技能者が描いた図を撮影するだけでAIがCADデータへ変換し、部材加工時のCADデータ作成手間を省ける。建設現場の生産性向上に貢献。",
-      "consultant_insight": "建設業での具体的AI活用事例として、業界特化型提案の参考になる。技能継承問題にも対応。",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/na/18/00008/090900336/"
+      "title_ja": "YouTube Music、AI会話機能「Ask Music」追加──「今の気分」を自然言語で伝えて楽曲選択",
+      "summary_ja": "YouTube Musicが新AI機能「Ask Music」を導入。ユーザーが「今の気分」や「聴きたい雰囲気」を自然言語で伝えると、AIが最適なプレイリストを生成する。従来の楽曲検索やアーティスト検索ではなく、会話型インターフェースで感覚的に音楽を探せる。Google傘下のYouTubeが、Geminiを活用してストリーミング体験を大きく刷新。ユーザーの潜在的な嗜好を引き出す新しい音楽発見の形を提示。",
+      "consultant_insight": "B2C向けAI UX設計の参考事例。「検索」から「対話」へのシフトは、企業の社内システムにも応用できる",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/"
     },
     {
       "rank": 8,
-      "title_ja": "Bernie Sanders上院議員、「超知能」開発禁止法案を提出─違反者に懲役刑",
-      "summary_ja": "バーニー・サンダース上院議員とグレッグ・カサール下院議員が、人工超知能（ASI）の開発を禁止する新法案を提出。違反者には懲役刑を科す内容で、AI安全性に対する議会の強硬姿勢を示す。OpenAIやAnthropicなど大手AI企業の開発計画に影響を与える可能性。",
-      "consultant_insight": "米国の規制動向を注視し、日本企業がASIに依存しない実用的AI戦略を助言する必要。",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act"
+      "title_ja": "YouTube、AIでカスタマイズ可能なフィード提供──Geminiで「自分専用アルゴリズム」構築",
+      "summary_ja": "YouTubeが新機能「カスタムフィード」を導入。ユーザーが自然言語で「見たい動画の種類」を説明すると、Geminiがそれをもとにパーソナライズされたフィードを自動生成する。従来のレコメンドアルゴリズムに頼らず、ユーザー自身が視聴体験をデザインできる仕組み。プラットフォームの「透明性」と「主体性」を高める試みとして注目される。AIが個々のニーズに柔軟に対応する時代の到来を象徴。",
+      "consultant_insight": "「AIに管理される」から「AIを管理する」へ。この思想転換は企業の情報システム設計にも応用できる視点",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/"
     },
     {
       "rank": 9,
-      "title_ja": "トランプ大統領、国連でAIを「Super Intelligence（SI）」に改称と表明",
-      "summary_ja": "トランプ米大統領が国連総会の一般討論演説で、AIの呼称を「Super Intelligence（SI）」に変更すると表明。米国の全公文書で採用し、他国にも同調を促す。国際的なAI管理の枠組みを拒否し、地球温暖化論争になぞらえて脅威論を一蹴。成長支援と開発競争リード姿勢を強調。",
-      "consultant_insight": "用語変更は象徴的だが、米国の規制緩和志向を示唆。日米企業連携案件で追い風になる可能性。",
-      "importance": 3,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2609/23/2000001676/"
+      "title_ja": "船舶データを経営・営業に活用する商船三井──AI依存を避ける「反証できる人材」育成も重視",
+      "summary_ja": "商船三井が低軌道衛星通信を活用し、900隻超の船舶データを経営・営業に活用する基盤を整備。運航データをリアルタイムで分析し、燃費最適化や航路変更の意思決定を高速化。一方、AI活用を推進しながらも「AIに依存しない人材育成」を重視し、AIの判断に反証できる専門性を持つ社員の育成にも注力。データドリブン経営とヒューマンスキルのバランスを取る姿勢が特徴的。",
+      "consultant_insight": "AI活用と人材育成の両輪戦略は、経営層への提案時の説得力を高める。「AIに反証できる人材」は新しい研修テーマに",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01159/091000086/"
     },
     {
       "rank": 10,
-      "title_ja": "Ringg、GPT-5.6でカスタマーコール65%を自動解決─コスト90%削減",
-      "summary_ja": "RinggがGPT-5.6を活用し、音声、チャット、WhatsApp、Webで多言語対応のAIエージェントを展開。カスタマーコールの最大65%を自動解決し、GPT-4.1と比べてコストを90%削減。顧客サポート業務の大幅な効率化を実現した事例として注目。",
-      "consultant_insight": "カスタマーサポート部門のコスト削減提案に最適。具体的なROI数値で説得力を持たせられる。",
+      "title_ja": "AIデータセンターの「電力・冷却課題」解決へ──シュナイダーが営業・設計・現場を直結する新組織",
+      "summary_ja": "シュナイダーエレクトリックが、AIデータセンターのライフサイクル全体を一貫支援する新組織体制を発表。製品別の縦割りを廃止し、構想・設計から構築・運用まで事業部を横断連携させる。AIワークロードに特化した電力・冷却ソリューションの最適化を実現。データセンターの急速な需要拡大に対応し、エネルギー効率と持続可能性を両立させる包括的なアプローチを提供。インフラ企業のビジネスモデル転換事例として注目。",
+      "consultant_insight": "データセンター関連のインフラ提案は今後数年で急拡大。電力・冷却の最適化は、AI導入企業の隠れた課題として提起すべき",
       "importance": 4,
-      "category": "実務",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/ringg"
+      "category": "業界",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/436/4436591/?rss"
     }
   ],
   "digest": [
     {
-      "title_ja": "ChatGPTモバイルアプリ、音声ベースのエージェント機能を追加",
-      "one_liner": "Pro/Plus会員がスマホでWorkタブを使いエージェントタスクを完了可能に",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/"
+      "title_ja": "トランプ大統領、国連演説で「AI」を「Super Intelligence」に改称と表明",
+      "one_liner": "米国の全公文書で「SI」を採用、他国にも同調促す。国際AI管理の枠組みは拒否",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2609/23/2000001676/"
     },
     {
-      "title_ja": "YouTube Music、AI会話機能「Ask Music」で検索体験を刷新",
-      "one_liner": "自然言語で聴きたい音楽を説明すると、AIが最適なプレイリストを提案",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/"
+      "title_ja": "バーニー・サンダース、「超知能」開発禁止法案を提出──違反者に懲役刑",
+      "one_liner": "人工超知能の開発を全面禁止し、違反者を投獄する法案。実現性は未知数",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act"
     },
     {
-      "title_ja": "YouTube、AIでカスタムフィードを構築できる新機能を追加",
-      "one_liner": "Geminiを使い、自分の言葉で説明するだけでパーソナライズされた動画フィードを作成",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/"
-    },
-    {
-      "title_ja": "YouTube、クリエイター向けAIツールをStudioアプリに追加",
-      "one_liner": "アイデア生成やサムネイル効果測定など、動画制作支援機能を強化",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/"
-    },
-    {
-      "title_ja": "Spotify、レコメンドアルゴリズムを可視化する「Taste Profile」を米国展開",
-      "one_liner": "Premium会員が自分の音楽嗜好をAIがどう理解しているか確認し、調整可能に",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/"
-    },
-    {
-      "title_ja": "Ema、7700万ドル調達し累計1億4000万ドルに─エンタープライズAI需要拡大",
-      "one_liner": "GoogleやMicrosoftを含む50社超の大手企業が顧客、AIがソフト・サービスを代替",
+      "title_ja": "Ema、770億円調達しエンタープライズAI市場へ本格参入──Google・Microsoft顧客50社超",
+      "one_liner": "累計調達1,900億円。AIがエンタープライズソフトウェアとサービスを代替し始める",
       "category": "業界",
       "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
     },
     {
-      "title_ja": "Snorkel AI、評価額35億ドルに3倍増─AI学習データ需要が急拡大",
-      "one_liner": "シリーズEで3億5000万ドル調達、データ・アズ・ア・サービス需要が後押し",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
-    },
-    {
-      "title_ja": "Qualcomm、AI重視の新型スマホチップ2種を発表",
-      "one_liner": "最上位チップで300億パラメータのMoEモデルをローカル実行可能に",
+      "title_ja": "Meta「Muse」AIエージェント、ChatGPT初期より急成長──AmazonはMetaをブロック",
+      "one_liner": "モバイルダウンロード・DAUでChatGPT初期を上回る。一方Amazon自社AI優先で排除",
       "category": "ツール",
-      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping"
     },
     {
-      "title_ja": "Meta、Museの類似性を認める─OpenClawに「大きく着想を得た」",
-      "one_liner": "ゼロから構築としつつ、ワークスペースのファイル名まで酷似と認める",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/"
+      "title_ja": "YouTube、クリエイター向けAI機能拡充──アイデア生成・サムネイル分析を自動化",
+      "one_liner": "Studio アプリ内でアイデア生成、サムネイル効果測定をAIで実行可能に",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/"
     },
     {
-      "title_ja": "OpenAI、元Patreonの主要幹部3名を採用─クリエイター向け発表控える",
-      "one_liner": "創業者Sam Yamら3名を迎え、クリエイター向けプロダクト戦略を強化",
+      "title_ja": "OpenAI、元Patreon幹部3名を採用──クリエイター向け新発表を予告",
+      "one_liner": "クリエイター事業の本格化を示唆。Patreon共同創業者サム・ヤム氏らが参画",
       "category": "業界",
       "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam"
     },
     {
-      "title_ja": "Rabbit、R1不要の新AIエージェント「OS3」をリリース",
-      "one_liner": "ハードウェアなしで使えるスタンドアロンAIエージェント、期待外れR1の巻き返しへ",
-      "category": "ツール",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
-    },
-    {
-      "title_ja": "Google DeepMind、Gemini 3.8 テキスト音声合成を公開",
-      "one_liner": "音声合成技術の新バージョン、詳細は公式ブログで発表予定",
-      "category": "ツール",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/"
-    },
-    {
-      "title_ja": "Google DeepMind、Private AI Computeにサーバー側メモリ保護を追加",
-      "one_liner": "個人向けAIのプライバシー強化、サーバー側でも安全なメモリ管理を実現",
-      "category": "ツール",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
-    },
-    {
-      "title_ja": "建設業界でBIM/CIM認知度は高水準維持、生成AIは9割に到達",
-      "one_liner": "国交省の3Dモデル活用方針が浸透、生成AI認知度も約90%に",
+      "title_ja": "カリフォルニア州、データセンターの水・電力使用開示を義務化する法案群に署名",
+      "one_liner": "地域社会にデータセンターの環境負荷データを開示。データの透明性を強化",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00270/082600003/"
+      "url": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills"
     },
     {
-      "title_ja": "米国AI利用者の多くが技術に不安を抱える─規制支持も根強く",
-      "one_liner": "毎日AI使用でも不安は解消されず、規制支持が根強いとの調査結果",
+      "title_ja": "AI利用者の9割が不安を抱える──使用頻度が高くても懸念は解消されず",
+      "one_liner": "AIを毎日使う人でも過半数が規制を支持。慣れが不安を減らすわけではない",
       "category": "業界",
       "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/"
+    },
+    {
+      "title_ja": "ギリシャ首相「我々は過去の戦いを戦っている」──AI規制の遅れに危機感",
+      "one_liner": "欧州の規制対応が現実のAI進化に追いついていないと率直に認める",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/"
+    },
+    {
+      "title_ja": "nocall、騒音環境下の音声認識と日本語の「間」に対応する生成AI電話システム",
+      "one_liner": "シリーズA 11億円調達。工場・倉庫などノイズ環境でも自然な応対を実現",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/436/4436185/?rss"
+    },
+    {
+      "title_ja": "東大発燈、モーターメーカー買収で「AIネイティブな製造業」モデル構築開始",
+      "one_liner": "「AIを売る」から「現場を買う」へ。製造業への経営参画で実証実験を加速",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/435/4435537/?rss"
+    },
+    {
+      "title_ja": "AI企業の誇大宣伝にだまされるな──「超知能」は近づいていない",
+      "one_liner": "脆弱性発見・数学成果の過剰報道を検証。本質は既存技術の延長と専門家指摘",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/436/4436693/?rss"
+    },
+    {
+      "title_ja": "漫画産業のデジタル化、業界特化AIが海外展開と成長を支援",
+      "one_liner": "日本のコンテンツ産業で、Vertical AIが翻訳・配信の障壁を解消",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/063000556/091700004/"
+    },
+    {
+      "title_ja": "光電融合、GPU間接続で実用化へ──NVIDIA、2028年導入予定",
+      "one_liner": "AIデータセンターのGPU間を光で接続。帯域幅と消費電力の課題を一挙解決",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03627/090200044/"
+    },
+    {
+      "title_ja": "NTTデータ、社内ベンチャー2号に出資──「辞めずに挑戦」で人材定着狙う",
+      "one_liner": "習い事の自動撮影サービスを手掛けるCoCo Storyに出資。起業支援で離職防止",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12045/"
     }
   ],
   "date": "20260924",
