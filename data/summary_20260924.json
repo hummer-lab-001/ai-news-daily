@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "Anthropic「Claude Opus 5.5」発表、Fable 5.1並み性能でコスト40%削減",
+      "summary_ja": "AnthropicがClaude Opus 5.5を発表。多くのタスクでFable 5.1並みの性能を持ちながら、利用コストはOpus 5より約40%低い。Pro以上の有料プランとAPIで即日提供開始。アモデイCEOの「ペース調整」エッセイ後初のモデルで、METRなど外部機関による事前評価も実施済み。",
+      "consultant_insight": "コスト効率が大幅改善されたことで、Claude導入の投資対効果が向上。既存顧客への提案見直しのチャンス。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/23/2000001673/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "OpenAI「GPT-6 Sol」「GPT-6 Luna」公開、API料金を前世代の半額に",
+      "summary_ja": "OpenAIが新モデル「GPT-6 Sol」と「GPT-6 Luna」を公開。最上位のAstraと同様の手法で訓練し、前世代からAPI料金を半額に引き下げた。ChatGPTやCodexで順次提供。アライメント改善が進む一方、思考過程で評価を察知する兆候が増加するなど監視上の課題も残る。",
+      "consultant_insight": "料金半減により中小企業でも高性能モデル導入が現実的に。コスト試算の見直しが必要。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/23/2000001674/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "Anthropicの研究施設、Crispr級の新酵素システムをClaudeで発見",
+      "summary_ja": "Anthropicの生物研究施設が、AIのClaudeを使って遺伝子編集ツールCrisprに匹敵する新しい酵素システムを「自律的に発見」したと発表。AIによる科学的発見の新たなマイルストーンとして注目を集めている。実用化の可能性と影響範囲について、今後の詳細発表が待たれる。",
+      "consultant_insight": "AIの科学研究応用が実証されたことで、製薬・バイオ企業へのAI導入提案の説得力が増す。",
+      "importance": 5,
+      "category": "研究",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr"
+    },
+    {
+      "rank": 4,
+      "title_ja": "OpenAI、プロンプトキャッシュをGPT-6で大幅改善─コスト削減と診断機能を追加",
+      "summary_ja": "OpenAIがGPT-6のプロンプトキャッシュ機能を改善。キャッシュヒット率の向上、新しい診断ツール、明示的なブレークポイント、レイテンシとコスト削減のための制御機能を追加。繰り返し処理の多い業務でのコスト効率が大幅に向上する見込み。",
+      "consultant_insight": "長文ドキュメント処理や反復タスクが多い企業で、運用コストを劇的に削減できる可能性。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
+    },
+    {
+      "rank": 5,
+      "title_ja": "パーソル、AI導入企業向けデータ基盤支援3サービス開始",
+      "summary_ja": "生成AIやAIエージェントの導入が進む一方、データの整理不足や権限管理、コスト、老朽化した基盤が活用のボトルネックとなっている。パーソルビジネスプロセスデザインは、AIを継続利用するためのデータ基盤を支援する3サービスを開始した。",
+      "consultant_insight": "AI導入後の「データ基盤問題」は多くの企業が直面する課題。基盤整備サービスとセットで提案できる。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/23/2000001607/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "AWS・Salesforce、データ分断を解消するAI連携強化",
+      "summary_ja": "AIエージェント導入が進む中、企業には「必要なデータが別システムにある」というボトルネックがある。AWSとSalesforceは、データを移動させず、普段使うツールの中でAIを活用できる環境づくりを進める。システム間連携の課題解決に向けた具体的なソリューションを提供。",
+      "consultant_insight": "既存システムを活かしたままAI導入できる点を強調し、刷新不要の提案が可能に。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/23/2000001663/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "竹中工務店、手描き図からCADデータを自動生成するAIシステム開発",
+      "summary_ja": "竹中工務店と爽美が共同で、手描きの図から建築の内装仕上げ材の加工用CADデータを自動生成するシステムを開発。技能者が描いた図を撮影するだけでAIがCADデータへ変換し、部材加工時のCADデータ作成手間を省ける。建設現場の生産性向上に貢献。",
+      "consultant_insight": "建設業での具体的AI活用事例として、業界特化型提案の参考になる。技能継承問題にも対応。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/na/18/00008/090900336/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "Bernie Sanders上院議員、「超知能」開発禁止法案を提出─違反者に懲役刑",
+      "summary_ja": "バーニー・サンダース上院議員とグレッグ・カサール下院議員が、人工超知能（ASI）の開発を禁止する新法案を提出。違反者には懲役刑を科す内容で、AI安全性に対する議会の強硬姿勢を示す。OpenAIやAnthropicなど大手AI企業の開発計画に影響を与える可能性。",
+      "consultant_insight": "米国の規制動向を注視し、日本企業がASIに依存しない実用的AI戦略を助言する必要。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act"
+    },
+    {
+      "rank": 9,
+      "title_ja": "トランプ大統領、国連でAIを「Super Intelligence（SI）」に改称と表明",
+      "summary_ja": "トランプ米大統領が国連総会の一般討論演説で、AIの呼称を「Super Intelligence（SI）」に変更すると表明。米国の全公文書で採用し、他国にも同調を促す。国際的なAI管理の枠組みを拒否し、地球温暖化論争になぞらえて脅威論を一蹴。成長支援と開発競争リード姿勢を強調。",
+      "consultant_insight": "用語変更は象徴的だが、米国の規制緩和志向を示唆。日米企業連携案件で追い風になる可能性。",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/23/2000001676/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "Ringg、GPT-5.6でカスタマーコール65%を自動解決─コスト90%削減",
+      "summary_ja": "RinggがGPT-5.6を活用し、音声、チャット、WhatsApp、Webで多言語対応のAIエージェントを展開。カスタマーコールの最大65%を自動解決し、GPT-4.1と比べてコストを90%削減。顧客サポート業務の大幅な効率化を実現した事例として注目。",
+      "consultant_insight": "カスタマーサポート部門のコスト削減提案に最適。具体的なROI数値で説得力を持たせられる。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/ringg"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "ChatGPTモバイルアプリ、音声ベースのエージェント機能を追加",
+      "one_liner": "Pro/Plus会員がスマホでWorkタブを使いエージェントタスクを完了可能に",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/"
+    },
+    {
+      "title_ja": "YouTube Music、AI会話機能「Ask Music」で検索体験を刷新",
+      "one_liner": "自然言語で聴きたい音楽を説明すると、AIが最適なプレイリストを提案",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/"
+    },
+    {
+      "title_ja": "YouTube、AIでカスタムフィードを構築できる新機能を追加",
+      "one_liner": "Geminiを使い、自分の言葉で説明するだけでパーソナライズされた動画フィードを作成",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/"
+    },
+    {
+      "title_ja": "YouTube、クリエイター向けAIツールをStudioアプリに追加",
+      "one_liner": "アイデア生成やサムネイル効果測定など、動画制作支援機能を強化",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/"
+    },
+    {
+      "title_ja": "Spotify、レコメンドアルゴリズムを可視化する「Taste Profile」を米国展開",
+      "one_liner": "Premium会員が自分の音楽嗜好をAIがどう理解しているか確認し、調整可能に",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/"
+    },
+    {
+      "title_ja": "Ema、7700万ドル調達し累計1億4000万ドルに─エンタープライズAI需要拡大",
+      "one_liner": "GoogleやMicrosoftを含む50社超の大手企業が顧客、AIがソフト・サービスを代替",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
+    },
+    {
+      "title_ja": "Snorkel AI、評価額35億ドルに3倍増─AI学習データ需要が急拡大",
+      "one_liner": "シリーズEで3億5000万ドル調達、データ・アズ・ア・サービス需要が後押し",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+    },
+    {
+      "title_ja": "Qualcomm、AI重視の新型スマホチップ2種を発表",
+      "one_liner": "最上位チップで300億パラメータのMoEモデルをローカル実行可能に",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/"
+    },
+    {
+      "title_ja": "Meta、Museの類似性を認める─OpenClawに「大きく着想を得た」",
+      "one_liner": "ゼロから構築としつつ、ワークスペースのファイル名まで酷似と認める",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/"
+    },
+    {
+      "title_ja": "OpenAI、元Patreonの主要幹部3名を採用─クリエイター向け発表控える",
+      "one_liner": "創業者Sam Yamら3名を迎え、クリエイター向けプロダクト戦略を強化",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam"
+    },
+    {
+      "title_ja": "Rabbit、R1不要の新AIエージェント「OS3」をリリース",
+      "one_liner": "ハードウェアなしで使えるスタンドアロンAIエージェント、期待外れR1の巻き返しへ",
+      "category": "ツール",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
+    },
+    {
+      "title_ja": "Google DeepMind、Gemini 3.8 テキスト音声合成を公開",
+      "one_liner": "音声合成技術の新バージョン、詳細は公式ブログで発表予定",
+      "category": "ツール",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/"
+    },
+    {
+      "title_ja": "Google DeepMind、Private AI Computeにサーバー側メモリ保護を追加",
+      "one_liner": "個人向けAIのプライバシー強化、サーバー側でも安全なメモリ管理を実現",
+      "category": "ツール",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
+    },
+    {
+      "title_ja": "建設業界でBIM/CIM認知度は高水準維持、生成AIは9割に到達",
+      "one_liner": "国交省の3Dモデル活用方針が浸透、生成AI認知度も約90%に",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00270/082600003/"
+    },
+    {
+      "title_ja": "米国AI利用者の多くが技術に不安を抱える─規制支持も根強く",
+      "one_liner": "毎日AI使用でも不安は解消されず、規制支持が根強いとの調査結果",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/"
+    }
+  ],
+  "date": "20260924",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
