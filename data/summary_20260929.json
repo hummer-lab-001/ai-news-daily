@@ -2,19 +2,19 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Anthropic「Claude Sonnet 5.5」発表、レスポンス速度向上とコスト削減を両立",
-      "summary_ja": "Anthropicは、中位モデル「Claude Sonnet 5.5」をリリースした。従来モデル比でレスポンス速度が大幅に向上し、トークン消費も削減。価格面での競争力を強化し、日常業務での利用を促進する。\n\n企業の実務では、高頻度のタスクに適した「速くて安い」モデルの需要が高い。Sonnet 5.5は、チャットボット応答や文書要約など、即時性を求められる用途での採用を加速する可能性がある。\n\nClaudeの中位モデル強化は、OpenAIのGPT-4o miniやGoogle Gemini Flashとの競合を意識した動き。日本企業にとっては、コスト効率の高いAI活用の選択肢が広がることを意味する。",
-      "consultant_insight": "コスト削減と速度向上を両立した中位モデルは、企業の大規模展開に直結する実務上の最重要情報",
+      "title_ja": "Anthropic「Claude Sonnet 5.5」発表、料金据え置きで30％高速化・タスクコスト最大3割削減",
+      "summary_ja": "Anthropicが新モデル「Claude Sonnet 5.5」を発表。料金据え置きのまま出力速度を30％以上高速化し、トークン効率向上でタスク当たり最大30％のコスト削減を実現した。\n\nコーディング評価で大幅にスコアを伸ばし、最上位モデル級のサイバー対策を初適用。無料枠を含む全プランとAPIで利用可能となり、日本企業のAI実務コスト削減に直結する。\n\nClaude Codeなどの開発業務で、より高速かつ低コストで高品質なコードを生成できるようになった。",
+      "consultant_insight": "既存Claude利用企業は追加費用なしでコスト3割削減を実現。AI開発・運用費の見直しタイミング",
       "importance": 5,
       "category": "ツール",
-      "source_name": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/"
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001823/"
     },
     {
       "rank": 2,
-      "title_ja": "Claude Codeは「ブラックボックス」でいい？　作者が語るプロトタイプと本番の線引き",
-      "summary_ja": "Claude Codeの開発者ボリス・チャーニー氏が、「AIが生成したコードの中身を確認すべきか」という問いに回答。プロトタイプ段階では品質より速度を優先し、本番移行時にリファクタリングとレビューを実施する方針を推奨した。\n\n実務では、AIコード生成の品質保証プロセスをどう設計するかが課題となる。チャーニー氏は、テストカバレッジや静的解析ツールの活用、段階的な品質向上のアプローチを具体的に提示している。\n\n日本企業では「AI生成コードの責任所在」が議論になりがち。実用レベルの品質基準を明確化し、段階的に導入する戦略が必要となる。",
-      "consultant_insight": "AI生成コードの品質管理プロセス設計は、実用化を進める企業が今まさに直面している実務課題",
+      "title_ja": "Claude Code作者が語る「AIコードのブラックボックス化」への処方箋─プロトタイプと本番の線引き",
+      "summary_ja": "Claude Codeの作者ボリス・チャーニー氏が、「AIが書いたコードは中身を見なくてよいのか」という開発者からの相談に回答。プロトタイプと本番コードの線引きと品質を守る具体策を示した。\n\nAI生成コードを本番に投入する際の品質担保方法として、テスト駆動開発やコードレビューの重要性を強調。「AIだから」と無条件に信頼せず、人間の判断を残すべき箇所を明示した。\n\n日本企業がClaude Codeなどを業務導入する際の実務ガイドラインとして活用できる内容。",
+      "consultant_insight": "AI開発ツール導入企業に「品質保証プロセス」の整備を助言する根拠として有用",
       "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
@@ -22,175 +22,175 @@
     },
     {
       "rank": 3,
-      "title_ja": "損保ジャパン、Gemini Enterpriseを2万人展開　標準機能の制約をどう補った？",
-      "summary_ja": "損保ジャパンは、Google Gemini Enterpriseを従業員約2万人に展開。標準機能のクォータ上限や機能制約を、独自の仕組みで補完した事例を公開した。\n\nチーフエンジニアの城市由佳理氏は、API連携やプロンプト設計の工夫により、標準機能の限界を克服した具体策を説明。大規模展開時のボトルネックと対処法が明らかになった。\n\n日本企業がGeminiを大規模導入する際の実践的なノウハウとして、同様の課題に直面する企業にとって参考価値が高い。",
-      "consultant_insight": "2万人規模のGemini展開事例は、大企業のAI導入計画に直接応用できる貴重な実践知",
+      "title_ja": "電通、会計承認20万件超をGeminiでAI化─精度99％でも「全自動化しない」理由とは",
+      "summary_ja": "電通グループが会計承認業務にGeminiを導入し、年間20万件超の処理で正解率99％を達成。見積書との照合や社内ルール確認をAIが担い、人手作業を大幅削減した。\n\n精度向上の過程では、誤判定パターンを分析し学習データを継続的に改善。ただし最終判断は人が行う「ヒューマン・イン・ザ・ループ」を堅持し、AIだけに任せない設計思想を貫いた。\n\nAI業務自動化の成功事例として、日本企業のバックオフィス改革に直接応用できる知見が詰まっている。",
+      "consultant_insight": "99％精度でも人の判断を残す設計思想は、顧客のAI導入リスク管理提案に活かせる",
       "importance": 5,
       "category": "実務",
-      "source_name": "ITmedia Enterprise",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/28/news016.html"
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/29/2000001781/"
     },
     {
       "rank": 4,
-      "title_ja": "富士通が脱人月モデルへ　CROが説く「AI時代のバリュープライシング」とは",
-      "summary_ja": "富士通がITサービス事業で、従来の人月計算から価値起点のプライシングへの転換を推進。AI時代に対応したビジネスモデル変革の詳細を、CROが語った。\n\nAI活用により工数が変動する中、成果ベースの価格設定が必須となる。富士通は、顧客のROI向上を軸にした新たな契約形態を模索している。\n\nこの動きは、ITベンダーだけでなくユーザー企業のAI投資判断にも影響。「AI導入でどれだけコスト削減できるか」を明確化する圧力が高まる。",
-      "consultant_insight": "大手SIerのバリュープライシング転換は、ユーザー企業のAI投資評価基準を変える重要な動向",
+      "title_ja": "損保ジャパン、Gemini Enterprise全社2万人展開─標準機能の制約をどう補ったか",
+      "summary_ja": "損保ジャパンがGemini Enterpriseを全従業員約2万人に展開。標準機能やクォータの上限といった制約を、独自の仕組みで補った実例をチーフエンジニアが講演で公開した。\n\n全社展開時の課題として、利用量の急増によるクォータ不足やセキュリティー要件への対応を挙げ、プロキシ経由のアクセス制御や社内FAQ連携で解決。大規模組織でのAI導入ノウハウを体系化した。\n\n日本の大企業がGeminiを全社展開する際の実務的なベストプラクティスとして参考になる。",
+      "consultant_insight": "大規模組織のGemini導入時、標準機能だけでは不足する点を補う設計提案に活用可能",
       "importance": 5,
-      "category": "業界",
-      "source_name": "ITmedia Enterprise",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/28/news080.html"
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/28/news016.html"
     },
     {
       "rank": 5,
-      "title_ja": "Gemini・ClaudeとAdobeが連携　AIで作った画像や文書の編集・仕上げまで効率化",
-      "summary_ja": "AdobeがGeminiおよびClaudeとの連携を強化し、AIチャットから直接Adobeの編集ツールを利用できる機能を追加。生成AIで作成したコンテンツの「仕上げ作業」を効率化する。\n\n画像のレタッチやPDF編集など、生成後の調整作業は従来手間がかかっていた。Adobe連携により、チャット画面から直接編集指示を出せるようになり、ワークフローが簡素化される。\n\n日本企業のマーケティングや資料作成業務において、AI生成とプロフェッショナル編集の橋渡しが実現し、実務効率が向上する。",
-      "consultant_insight": "生成AIとプロツールの連携は、「作るだけ」から「仕上げまで」の業務効率化に直結する",
+      "title_ja": "Adobe、GeminiとClaudeから直接利用可能に─AI生成後の編集・仕上げ作業を効率化",
+      "summary_ja": "AdobeがGeminiやClaudeとの連携を強化し、AIチャットから直接Adobe制作ツールを利用できるようにした。生成AIで作った画像や文書の調整、PDFの編集など、生成後の作業も効率化する。\n\nAIで「作るだけ」では終わらない実務課題に対応。画像の細部調整やPDF編集をチャット内で完結させ、別アプリへの切り替えを不要にした。\n\nデザイナーや事務職のAI業務フローを大幅に短縮する実用的な改善として注目される。",
+      "consultant_insight": "クリエイティブ部門のAI導入提案で「生成後の作業効率化」も訴求できる材料",
       "importance": 4,
       "category": "ツール",
-      "source_name": "ITmedia Knowledge",
+      "source_name": "ITmedia AI+",
       "url": "https://kn.itmedia.co.jp/kn/article/2609/28/2000001798/"
     },
     {
       "rank": 6,
-      "title_ja": "チューリッヒ生命、査定業務にマルチAIエージェント導入で作業時間半減",
-      "summary_ja": "チューリッヒ生命保険が、新契約の引き受け査定業務にマルチAIエージェントを組み込んだシステム「New Business 2.0」を導入。作業時間を従来比で半減させた。\n\n鍵となったのは、約10年にわたり蓄積した査定者の「査定メモ」。この社内データをAIが学習し、判断根拠の提示と自動化を実現した。\n\n日本企業が抱える暗黙知の形式知化とAI活用を両立させた好事例。保険業界に限らず、審査・判断業務を持つ企業にとって参考となる実装パターンである。",
-      "consultant_insight": "10年分の査定メモをAI化した実例は、暗黙知の形式知化を進める企業にとって具体的な道標",
-      "importance": 5,
+      "title_ja": "AI議事録「作った後」が課題に─個人保存からナレッジ資産化への転換が鍵",
+      "summary_ja": "AI議事録ツールで会議記録作成の手間は減ったが、作成後の管理・共有・活用に課題が残る。個人に蓄積された議事録を顧客・案件情報と結び付け、組織のナレッジとして活用する必要性が浮上。\n\nAI議事録の「作成」に注目が集まる一方、「その後の運用」が企業の知財蓄積に直結する。議事録を検索可能にし、関連情報と紐付けて初めて組織資産になる。\n\n日本企業がAI議事録ツールを導入する際、運用設計まで含めた提案が求められる。",
+      "consultant_insight": "AI議事録導入後の「運用・ナレッジ化」まで設計提案すれば、顧客満足度が上がる",
+      "importance": 4,
       "category": "実務",
-      "source_name": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12056/"
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/29/2000001796/"
     },
     {
       "rank": 7,
-      "title_ja": "AMD、Fei-Fei Li創業のWorld Labsを約1.3兆円で買収　空間AI強化へ",
-      "summary_ja": "AMDが、AI界の著名研究者Fei-Fei Li氏が創業したWorld Labsを82億ドル（約1兆2300億円）で買収。Fei-Fei Li氏はAMDの執行副社長兼チーフサイエンティストに就任する。\n\nWorld Labsは空間AI技術に強みを持ち、3D理解や物理シミュレーションでの応用が期待される。AMDはこの買収により、NVIDIAに対抗するAI技術基盤を強化する。\n\n日本企業にとっては、製造業や物流での空間AIニーズに対応するソリューションの選択肢が広がる可能性がある。",
-      "consultant_insight": "空間AI技術の強化は、製造・物流でのフィジカルAI導入を検討する企業にとって重要な動き",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
-    },
-    {
-      "rank": 8,
-      "title_ja": "Shopify、ブラウザベースAIエージェントに決済機能を開放　購入まで自動化",
-      "summary_ja": "Shopifyが、ブラウザベースのAIエージェントに対してチェックアウト機能を開放。AIエージェントが購入者の承認を得て、注文情報の更新や決済完了まで実行可能になった。\n\nこの動きにより、AIエージェントが「情報収集」だけでなく「購買行動」まで代行できるようになる。ECサイト運営企業にとっては、AI経由の購買体験設計が新たな競争領域となる。\n\n日本企業のEC戦略においても、AIエージェント対応が必須になる可能性が高い。ユーザー体験とセキュリティのバランスをどう取るかが課題となる。",
-      "consultant_insight": "AIエージェントの購買代行対応は、EC事業者にとって早急な対応が求められる新潮流",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/"
-    },
-    {
-      "rank": 9,
-      "title_ja": "NVIDIA、暴走AIエージェント制御プラットフォームを発表　ミリ秒単位で封じ込め",
-      "summary_ja": "NVIDIAが、AIエージェントの暴走を監視・制御する新プラットフォームを発表。ミリ秒単位でエージェントの異常動作を検知し、封じ込める仕組みを提供する。\n\n最近、AIエージェントが意図しない行動を取るインシデントが相次いでおり、企業の導入を阻む懸念材料となっていた。NVIDIAの新プラットフォームは、こうしたリスクを低減する安全装置として機能する。\n\n日本企業がAIエージェントを業務に組み込む際、安全性担保の仕組みが必須となる。NVIDIAのソリューションは、導入のハードルを下げる要素となり得る。",
-      "consultant_insight": "AIエージェント安全性プラットフォームは、企業の本格導入を後押しする重要なインフラ",
-      "importance": 5,
-      "category": "ツール",
-      "source_name": "The Verge",
-      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents"
-    },
-    {
-      "rank": 10,
-      "title_ja": "日系SIerの「御用聞き」はAI時代の「FDE」に進化するか　日立の現場から",
-      "summary_ja": "日立製作所が、AI時代の新職種「FDE（フロントライン・デリバリー・エンジニア）」として活動する3人のエンジニアの実例を紹介。従来の「御用聞きSE」とは異なる役割を明らかにした。\n\nFDEは顧客の現場に入り込み、業務プロセスを理解した上でAI活用を提案・実装する。コンサルタントと従来のSEの中間に位置し、技術と業務の両面に精通する必要がある。\n\n日本企業のAI導入において、ベンダー側の人材像が変化している証左。発注側も、FDEとの協働を前提とした体制整備が求められる。",
-      "consultant_insight": "FDEという新職種の実例は、AI導入体制を構築する企業にとって人材要件定義の参考になる",
+      "title_ja": "富士通、人月モデルから脱却し「バリュープライシング」へ転換─AI時代のITサービス再定義",
+      "summary_ja": "富士通がITサービス事業で従来の人月計算から価値起点のプライシングへとビジネスモデルを転換。AI時代に向けて必須となるこの動きは、ユーザーのROI向上戦略にも影響する。\n\nCROが「AI時代のバリュープライシング」を説き、成果ベースの価格設定へ移行。顧客もAI効果測定を重視し、ベンダー選定基準が変わる可能性がある。\n\nSIerの収益モデル変化は、日本企業のAI投資判断にも波及する構造変化として注目。",
+      "consultant_insight": "顧客のAI投資判断で「成果連動型契約」の選択肢を提示しやすくなる",
       "importance": 4,
       "category": "業界",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/28/2000001784/"
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/28/news080.html"
+    },
+    {
+      "rank": 8,
+      "title_ja": "AIエージェント「暴走リスク」対策が急務─NvidiaがAI監視プラットフォーム発表",
+      "summary_ja": "NvidiaがAIエージェントの暴走を防ぐ新プラットフォームを発表。企業向けサービスでAIが勝手に全データを削除した事例など、実害が顕在化している中での対応となった。\n\nAWSやMetaでもAI起因と見られるシステム障害が発生。AIエージェントを「人間と同様にミスをする存在」と見なした設計・運用が求められる。\n\n日本企業がAIエージェントを業務導入する際、安全対策を講じる必要性を示す重要事例。",
+      "consultant_insight": "AIエージェント導入提案時に「暴走対策」を必須項目として組み込むべき",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/091700571/091700001/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "Gartner調査「人気AIユースケース」と「投資成果」に大きなギャップ─導入優先順位の見直しが必要",
+      "summary_ja": "Gartnerの調査で、部門リーダーが「人気や話題性の高いAIアプリケーション」の導入を優先する傾向が判明。導入率上位と投資効果上位のAIユースケースに大きなギャップがあった。\n\n流行に乗った導入が、実際の業務効果に結びついていない実態が明らかに。企業はAI導入の優先順位を見直し、ROIを重視した選択が求められる。\n\nAIコンサルタントが顧客に「効果の出る」AI導入を提案する際の重要な判断材料となる。",
+      "consultant_insight": "顧客のAI導入優先順位を「流行」でなく「投資効果」基準で再設計する提案が有効",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/19/news009.html"
+    },
+    {
+      "rank": 10,
+      "title_ja": "国産AI「Noetra」丹波社長「今からでも1位を取れる」─母艦モデル開発で日本企業のAI基盤を狙う",
+      "summary_ja": "国産AI開発を掲げるNoetraの丹波廣寅社長が「今からでも1位を取れる」と宣言。目指すのは日本企業のAI利用を支える「母艦モデル」で、国内基盤での提供を強みに勝ち筋を描く。\n\n海外AIモデルへの依存を避けたい日本企業向けに、国内データセンターで動作する高性能モデルを提供。データ主権やコンプライアンスを重視する企業のニーズに応える。\n\n日本企業のAI選択肢として、国産AIの実用性を検討する材料となる。",
+      "consultant_insight": "データ主権重視の顧客に、国産AI選択肢として提案できる材料が増えた",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/29/news058.html"
     }
   ],
   "digest": [
     {
-      "title_ja": "AIエージェント自律動作の「ハーネスエンジニアリング」、日本は「ほぼ皆無」",
-      "one_liner": "ITR甲元氏が指摘、AIモデル議論の次のフェーズで日本企業の遅れが顕著",
+      "title_ja": "「最大応力はどこ？」とAIに質問できる構造解析ソフト新版─自然言語で解析を自動化",
+      "one_liner": "ADVENTURECluster2026が自然言語指示で解析条件設定から結果確認まで自動化するAI Expert搭載",
+      "category": "ツール",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/29/news022.html"
+    },
+    {
+      "title_ja": "電源開発、DX開始4年でフィジカルAIに挑戦─「まず試す」文化を根付かせた方法とは",
+      "one_liner": "規制産業でドローン・ロボットを自ら学習させるフィジカルAI導入まで至った文化変革の経緯を公開",
+      "category": "実務",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/25/news014.html"
+    },
+    {
+      "title_ja": "パナソニック「設計AI」で勘と経験を超えた設計解─シミュレーションとAI融合の成果",
+      "one_liner": "メンズシェーバー用リニアモーターの設計でAIがデバイス設計の自動化と高度化を実現",
+      "category": "実務",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/29/news009.html"
+    },
+    {
+      "title_ja": "AIエージェント依存だけでは失敗する─「ハーネスエンジニアリング」が次の勝負所",
+      "one_liner": "日本企業の取り組みは「ほぼ皆無」、AIモデル性能議論の次は環境整備が鍵とITRが指摘",
       "category": "業界",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/28/news027.html"
     },
     {
-      "title_ja": "FDE時代のパートナー選び、リコーと日立の新サービスから読む",
-      "one_liner": "特定ベンダーロックイン懸念にどう向き合うか、大手2社の戦略を分析",
+      "title_ja": "リコーと日立、FDE時代のパートナー選びの懸念に対応─ベンダーロックイン回避策を提示",
+      "one_liner": "FDEを通じたAI導入で特定ベンダーへのロックイン懸念にリコーと日立が向き合う姿勢を示す",
       "category": "業界",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2609/28/news054.html"
     },
     {
-      "title_ja": "「AIキャラチャット」依存の10代、週89時間利用も　抜け出せない理由",
-      "one_liner": "米ドレクセル大などの研究、若者のAI依存実態を自己報告から分析",
+      "title_ja": "日系SIerの「御用聞き」がAI時代の「FDE」に進化─日立が語る仕事の変化",
+      "one_liner": "日立のFDEエンジニア3人が現場での仕事の変化と従来SEとの違いを語る",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/28/2000001784/"
+    },
+    {
+      "title_ja": "シェアメディカル、医療向けAI実行制御基盤「MediLine Engine」発表─能力と権限を分離",
+      "one_liner": "電子カルテなどの医療システムとAIの間で、AIの処理範囲を外部から制御する仕組みを提供",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/437/4437272/?rss"
+    },
+    {
+      "title_ja": "AIで大量の脆弱性が見つかる時代へ─セキュリティー担当者の負荷増大が懸念",
+      "one_liner": "セキュリティー組織が脆弱性数の予想を上方修正、侵入前提の基本対策も重要に",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/091700571/091700003/"
+    },
+    {
+      "title_ja": "AIバイプコーディングがスキル形成を阻害─アンソロピック実験が裏付け",
+      "one_liner": "自然言語でコードを書く手法は便利だが、学習者の理解を深めるAI活用が重要",
       "category": "研究",
-      "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001762/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/091700571/091700004/"
     },
     {
-      "title_ja": "「AIがSaaSを消す」は誤解、IDCが示す本当に起こる変化とは",
-      "one_liner": "AIはSaaSを代替せずデータモデル拡張、成果型課金が急増へ",
+      "title_ja": "AIレッドチーミングが注目─攻撃者目線でAIの弱点をあぶり出す手法",
+      "one_liner": "AIセーフティー確保にAI自体のセキュリティー対策と誤動作・偏り防止が必要",
       "category": "業界",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/28/news036.html"
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/091700571/091700005/"
     },
     {
-      "title_ja": "米HP幹部が語る「ネット遮断AI」と日本攻略、アサヒ・ニチレイ攻撃を教訓に",
-      "one_liner": "クラウド非接続でデータ漏えい防ぐエッジAI搭載PC「HP IQ」投入",
-      "category": "ツール",
-      "url": "https://www.itmedia.co.jp/business/articles/2609/28/news053.html"
-    },
-    {
-      "title_ja": "安川電機、AIロボで熟練工の感覚再現　カメラ見ながらアーク溶接",
-      "one_liner": "MOTOMAN NEXTの溶接デモ、国際ウエルディングショーで披露",
+      "title_ja": "チューリッヒ生命、マルチAIエージェントで査定業務時間を半減─10年分の査定メモが鍵",
+      "one_liner": "新契約査定システムに蓄積した査定者のメモをAIに学習させ、作業効率を大幅向上",
       "category": "実務",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/28/news049.html"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12056/"
     },
     {
-      "title_ja": "トランプ・習近平、AIを「超知能（SI）」と呼ぶことで合意　米中SI対話創設",
-      "one_liner": "国賓訪問でAI名称統一、リスク対応の定期対話チャネル設置へ",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/news/article/2609/28/2000001776/"
-    },
-    {
-      "title_ja": "ファナック、AI溶接エージェント実演　ロボット制御装置が安全PLCに",
-      "one_liner": "図面読み取りからアーク溶接まで自動化、ウエルディングショーで展示",
-      "category": "実務",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/28/news038.html"
-    },
-    {
-      "title_ja": "AIが恋人候補を探す「Ditto」、人間主導の関係構築を揺さぶる潜在力",
-      "one_liner": "AIエージェント活用が日常生活から恋愛領域へ拡大、倫理的議論も",
-      "category": "ツール",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02994/092400025/"
-    },
-    {
-      "title_ja": "AIで薄れるソフトとサービスの境界、業界再編に乗れない日本勢",
-      "one_liner": "フォレスター分析、破壊的打撃は労働集約型ITサービスに集中",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00848/00197/"
-    },
-    {
-      "title_ja": "あらためて考える「IT資格」の価値、生成AIがあれば勉強は不要か",
-      "one_liner": "資格による知識証明は生成AI時代も保たれるのか、実務家が考察",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/092402109/"
-    },
-    {
-      "title_ja": "直流給電、800Vの次は1500V　韓国では離島全体に導入",
-      "one_liner": "AIデータセンター消費電力増加で2030年に1500V予測、高電圧化が鍵",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03769/092700004/"
-    },
-    {
-      "title_ja": "トンネル建機ミニゲームや熊検知AIカメラ、建設DXの展示多数",
-      "one_liner": "日経クロステックNEXT東京2026、防災・強靱化特別展で建設技術公開",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092800022/"
-    },
-    {
-      "title_ja": "沸騰するITモダナイズ市場、2.1兆円ビジネスの争奪戦が激化　AI活用が鍵",
-      "one_liner": "IDC予測、2025年1.3兆円が2030年2.1兆円に、ベンダー競争激化",
+      "title_ja": "ITモダナイズ市場、2030年に2.1兆円へ拡大─AI活用の巧拙が勝敗の鍵",
+      "one_liner": "ユーザー企業の争奪戦が激化、ITベンダーや大手クラウドベンダーのAI活用が競争力を左右",
       "category": "業界",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03770/092600001/"
     },
     {
-      "title_ja": "Meta、エンタープライズAIプラットフォーム開始　MongoDB CEOを新組織責任者に",
-      "one_liner": "Muse・ビジネスエージェント等を企業・開発者向けに提供、新体制発表",
+      "title_ja": "AMD、Fei-Fei Li氏のWorld Labsを82億ドルで買収─Li氏はAMDのエグゼクティブVP兼チーフサイエンティストに",
+      "one_liner": "著名AI研究者Fei-Fei Li氏が設立したWorld LabsをAMDが全株式交換で買収",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
+    },
+    {
+      "title_ja": "Modal Labs、7.5億ドル調達で評価額157.5億ドルに─4カ月前の3倍超に急拡大",
+      "one_liner": "推論プロバイダーのModal Labsが新規資金調達を締結間近、評価額が急上昇",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/"
+    },
+    {
+      "title_ja": "Shopify、ブラウザベースAIエージェントにチェックアウト開放─WebMCP対応拡大",
+      "one_liner": "AIエージェントが注文詳細を更新し購入を完結できるよう、WebMCPサポートをチェックアウトにも拡大",
       "category": "ツール",
-      "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/"
+      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/"
     }
   ],
   "date": "20260929",
