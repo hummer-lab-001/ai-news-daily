@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "野村不動産HD、経理DXで年間9000時間創出─「まずその業務なくせない？」の引き算思考が成功の鍵",
+      "summary_ja": "野村不動産HDは経理DXで年間9000時間を創出した。成功の要因は「DXを進める前の一呼吸」にある。業務を自動化する前に「その業務は本当に必要か」を問い直し、不要な業務を削減した上でDXを実施。AI活用自体を目的化せず、具体的な成果に結び付ける「引き算」の考え方が鍵だった。",
+      "consultant_insight": "AI導入前の業務棚卸しと不要業務削減が、投資対効果を最大化する王道アプローチ",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/30/news089.html"
+    },
+    {
+      "rank": 2,
+      "title_ja": "大企業の過半数が「非エンジニアのAI開発」を実施─全社に広がったコードの品質検証が課題に",
+      "summary_ja": "大企業の過半数が非エンジニアによるAI開発を実施している。全社に行き渡ったAI生成コードは、誰がどう検証するかが課題となっている。調査からは、大企業のIT部門が品質チェックの他に求める施策が浮かび上がった。非エンジニアの開発拡大は生産性向上の一方で、品質管理の新たな仕組みを必要としている。",
+      "consultant_insight": "現場の生成AI活用拡大は避けられず、IT部門は「事後検証体制」の整備が急務",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/29/news097.html"
+    },
+    {
+      "rank": 3,
+      "title_ja": "Google、AIエージェントコンテストから見えた「勝てる設計」4つのパターン─「マルチエージェント」を名乗るだけの作品が続出",
+      "summary_ja": "Googleは、AIエージェント開発コンテストの上位作に見られる4つの設計パターンを公開した。応募の多くが「マルチエージェントシステム」を掲げていたが、実態は単一のモデルがプロンプトをつなげているだけのものもあった。真に効果的な設計パターンとは何かが明らかになり、企業のAIエージェント開発の指針となる。",
+      "consultant_insight": "「マルチエージェント」の定義があいまいな現状、実装前にアーキテクチャの本質を見極める必要がある",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news048.html"
+    },
+    {
+      "rank": 4,
+      "title_ja": "トランプ大統領、政府内で「AI」を「超知能（SI）」と呼び替える大統領令に署名─IT首脳らと昼食会",
+      "summary_ja": "トランプ大統領はIT首脳らと昼食会を開き、行政機関で「人工知能（AI）」に代わり「超知能（SI）」の呼称使用を命じる大統領令に署名した。主要各社は自主的安全合意「White House Accord on Super Intelligence」に署名。米連邦政府の行政窓口サイトも「America.gov」に変更され、AIの呼称変更が政府全体で進行している。",
+      "consultant_insight": "米政府のAI政策が「超知能」視点にシフト、日本企業も安全性・倫理面の対応強化が必要に",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001871/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "「AIは魔法の杖ではなく子ども」─ずる賢く育つのを阻止する3つのポイント",
+      "summary_ja": "AIも子どもと同じで、適切な学習を繰り返して初めて育つ。筆者が学生時代に携わった脳科学の実験を手掛かりに、AIを育てる条件と、IT負債の分析をAIに任せることの危うさ、AI向けデータセンター投資の落とし穴を論じる。AIは「魔法の杖」ではなく、適切な教育と環境が必要な「子ども」のような存在だ。",
+      "consultant_insight": "AIの育成には継続的な学習環境と適切な評価が不可欠、短期的な成果期待は禁物",
+      "importance": 3,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/30/news017.html"
+    },
+    {
+      "rank": 6,
+      "title_ja": "国土交通省、インフラ分野のAI実装方針を発表─「AIが進んでも判断は人」と廣瀬技監",
+      "summary_ja": "国土交通省の技監・廣瀬昌由氏が「日経クロステックNEXT 東京 2026」で基調講演。令和8年熊本地震への対応や、インフラ分野のAI実装に向けた方針を語った。AIの活用は進めるが、最終判断は人が行うという基本姿勢を強調。建設分野におけるAI活用の3つの柱を示し、インフラ老朽化や災害対応への適用を進める。",
+      "consultant_insight": "公共インフラでのAI導入は「最終判断は人」が大前提、民間企業も同様の原則を検討すべき",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/093000044/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "日清食品HD成田CIO「AIの進化が速すぎる、学び続ける姿勢を組織カルチャーに」─CIO/CDO大賞",
+      "summary_ja": "日清食品HDの成田敏博CIOは「AI技術の進化は速すぎる。最新の技術で何ができるのかについて常に学び続ける姿勢を組織のカルチャーとして深く根付かせることが重要」と語った。AI活用で成果を上げ続けるには、技術の進化に追従できる組織文化の醸成が不可欠。学習文化がAI投資の成否を分ける鍵となる。",
+      "consultant_insight": "AI技術の進化速度に組織が追従するには、継続学習を「文化」に昇華させる仕組みが必須",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900040/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "日清・荏原・セゾンのDXリーダーが議論「ROIよりAI活用文化の醸成が重要」",
+      "summary_ja": "日経BPが主催するイベントで、日清・荏原・セゾンのDXリーダー3氏がパネルディスカッションを実施。AI活用において、短期的なROIよりも組織全体にAI活用文化を醸成することが重要だと議論した。現場の課題と打開策について、実務経験に基づく知見を共有し、AI投資の成功要因を探った。",
+      "consultant_insight": "先行企業はROI追求より「文化醸成」を優先、短期的な成果期待はAI導入の足かせに",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900037/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "AIの年間予算が半年弱で枯渇─企業を襲う「トークン爆発」の実態",
+      "summary_ja": "「1年分の予算を5カ月半で使い切る」「月の半ばで利用枠が底を突く」。生成AIの利用拡大に伴い、トークンの消費が当初想定を超えて膨らむ「トークン爆発」の状態となる企業が相次いでいる。定額料金で契約するAIサービスでも、クレジットの利用枠が枯渇するケースが出ている。予算管理の見直しが急務となっている。",
+      "consultant_insight": "AI利用拡大で予算管理が破綻する企業が続出、初期段階から使用量モニタリングが必須",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03773/092800005/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "エージェンティックコマース、究極は「AI対AI」の決済自動化へ─ビザやストライプが基盤構築",
+      "summary_ja": "エージェンティックコマースの次なるステップは決済の自動化だ。米ビザや米ストライプなど決済大手が基盤作りを進める。さらにその先の「AI対AI」を見据えた動きも出てきた。AIエージェント同士が商品を売買する時代に向け、決済インフラの整備が加速している。日本企業もこの動きを注視する必要がある。",
+      "consultant_insight": "AIエージェント間取引の基盤整備が進行中、決済・認証の仕組みを今から検討すべき",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/092400572/092400003/"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "LINEヤフー、AIでEC成約率を1.5倍に─商品提案エージェント",
+      "one_liner": "情報収集・比較検討をAIが支援、実用化で成果",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/092400572/092400002/"
+    },
+    {
+      "title_ja": "Anthropic元研究者、AI安全管理の不備を指摘─「自己改善型超知能」開発競争を批判",
+      "one_liner": "安全対策が追いつくまで開発速度を落とすべきと訴え",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/040900481/092400038/"
+    },
+    {
+      "title_ja": "AIでソフト業とサービス業が融合へ─日本勢は再編の蚊帳の外",
+      "one_liner": "ITサービスが破壊的打撃を受けると米調査会社",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600008/092400229/"
+    },
+    {
+      "title_ja": "富士通・IBM・日立、AI駆動モダナイズを加速─大規模SI知見生かす",
+      "one_liner": "メインフレーム事業者がAI時代の成長戦略を模索",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03770/092600002/"
+    },
+    {
+      "title_ja": "NTTデータ、AI駆動で支援物資管理システム─佐川急便と連携",
+      "one_liner": "熊本地震の被災自治体に導入、入出庫・在庫を管理",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12059/"
+    },
+    {
+      "title_ja": "「1モデルで多様なタスク」米新興やPFN岡野原氏が語るフィジカルAI最新事情",
+      "one_liner": "フィジカルAI性能が急速に進化、汎用性が向上",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900028/"
+    },
+    {
+      "title_ja": "理研・松岡氏「日本の研究活動にAIを生かす重要性」を指摘",
+      "one_liner": "AI研究基盤の構築へ、日本の研究に付加価値を",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900029/"
+    },
+    {
+      "title_ja": "オムロン、NVIDIAと半導体実装検査技術を強化─AIエージェントで効率化",
+      "one_liner": "デジタルツインやAI活用、不良予測や原因究明へ",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00105/00054/"
+    },
+    {
+      "title_ja": "AI新興ジールス、準国産ヒューマノイド量産へ─「転ばない」を重視",
+      "one_liner": "人手不足の日本を主戦場に、ヒューマノイド事業を開始",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00012/00402/"
+    },
+    {
+      "title_ja": "中国にもAI脅威論、軸は「政権の安全」─米中会談は危機管理一致も深まらず",
+      "one_liner": "習近平氏「AI競争と協力の余地」、国際管理で温度差",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12062/"
+    },
+    {
+      "title_ja": "OpenAI、モデル蒸留キャンペーンを妨害─保護された推論抽出を阻止",
+      "one_liner": "敵対的蒸留への防御を強化、新たな対策を発表",
+      "category": "業界",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+    },
+    {
+      "title_ja": "OpenAI、米中小企業向けAIトレーニングを拡大─SBDCと提携",
+      "one_liner": "小規模事業者のAI活用を支援、実地訓練と報告書公開",
+      "category": "業界",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+    },
+    {
+      "title_ja": "ElevenLabs、評価額220億ドルに倍増─音声AI新興が3億ドル調達",
+      "one_liner": "従業員向けテンダーオファー、WellingtonとT. Rowe Price主導",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/"
+    },
+    {
+      "title_ja": "Reddit、AIボット対策でRSSフィード廃止─公開API終了",
+      "one_liner": "ユーザー生成コンテンツへのアクセス制限を強化",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
+    },
+    {
+      "title_ja": "コンシューマーAIの厳しい経済性─フロンティアラボが慎重姿勢",
+      "one_liner": "技術は十分でも収益化が課題、各社が警戒",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/"
+    }
+  ],
+  "date": "20261001",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
