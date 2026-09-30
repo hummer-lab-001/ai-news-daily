@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "野村不動産HD、経理DXで年間9000時間創出─「まずその業務なくせない？」の引き算思考が成功の鍵",
-      "summary_ja": "野村不動産HDは経理DXで年間9000時間を創出した。成功の要因は「DXを進める前の一呼吸」にある。業務を自動化する前に「その業務は本当に必要か」を問い直し、不要な業務を削減した上でDXを実施。AI活用自体を目的化せず、具体的な成果に結び付ける「引き算」の考え方が鍵だった。",
-      "consultant_insight": "AI導入前の業務棚卸しと不要業務削減が、投資対効果を最大化する王道アプローチ",
+      "title_ja": "Google「Gemini 4 Argon」発表、出力上限100万トークン対応　信頼できるサイバー防御組織に先行提供",
+      "summary_ja": "Googleは次世代フロンティアモデル「Gemini 4 Argon」を発表した。最大出力100万トークンに対応し、長時間に及ぶ業務処理や自律的なサイバー脆弱性修正に強みを持つ。\n安全対策を強化した上で、まずは信頼できるサイバー防御組織に先行提供し、有料APIなどで順次拡大する方針。\nGemini 4では名称を「Pro」ではなく「Argon」とし、複雑なワークフローでフロンティア性能を発揮すると説明している。",
+      "consultant_insight": "100万トークン出力は長大な業務文書の一括生成に有効。顧客への提案は段階的提供戦略の活用を。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+, The Verge AI, Google DeepMind",
+      "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001912/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "日立とファナックがフィジカルAI協業　エッジAI×産業ロボで2027年度からグローバル展開へ",
+      "summary_ja": "日立製作所とファナックはフィジカルAI実装の共同事業化に向けた戦略的パートナーシップを締結した。\n日立のAI技術とファナックの産業用ロボットを組み合わせたフィジカルAIの共同実証と共同展開を推進する。\n共同実証で得られたフィジカルAIの実装・運用ノウハウを生かして、2027年度からグローバル展開を目指す。",
+      "consultant_insight": "製造業の現場AI活用で日本企業が先行する好機。顧客への導入提案は実証段階から参画を推奨。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/01/news031.html"
+    },
+    {
+      "rank": 3,
+      "title_ja": "富士ソフト「デジタルスレッドとAIで動かす」スマート工場事業で10％成長狙う",
+      "summary_ja": "富士ソフトは経営体制「富士ソフト Gen.2」に基づく、製造業向けスマート工場事業戦略を発表した。\n既存設備を生かし、データをデジタルスレッドで統合しフィジカルAIで現場を動かす4つのオファリングを展開する。\n同事業で10％以上の成長を目指し、製造業DXの実務支援を強化する。",
+      "consultant_insight": "既存設備活用型DXは顧客の投資ハードルを下げる。デジタルスレッド構築支援が差別化の鍵。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/01/news034.html"
+    },
+    {
+      "rank": 4,
+      "title_ja": "Rails作者DHH「Pencils Down、もう手でコードは書かない」それでもソフトウェア開発の未来は明るい理由",
+      "summary_ja": "Ruby on Railsの作者DHHがRails World 2026の基調講演で、37signalsでは手書きコードをやめたと宣言した。\n一方で「ソフトウェア開発の未来は明るい」とも言い、手書きが例外になった現場で開発者は何をするのかを語った。\n講演では、AI生成コードの品質管理や開発者の役割変化について具体的な見解が示された。",
+      "consultant_insight": "「コードを書かない開発」の実例として顧客に紹介可能。開発者のスキル転換支援が重要に。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/01/news010.html"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Anthropic、EU AI法対応で「Claude」出力文に電子透かし導入　国立情報学研究所らが仕組みと限界を解説",
+      "summary_ja": "米AnthropicはEUのAI法への対応として、生成AI「Claude」が出力する文章に電子透かしを導入する。\nAI利用の有無が作り手以外にも分かるなら、利用者への影響は大きい。\n国立情報学研究所の越前功教授と日立製作所の永塚光一研究員の見立てを交え、仕組みと限界を整理した記事が公開された。",
+      "consultant_insight": "EU規制対応の先行事例として顧客に共有。透かし技術の限界理解が企業のAI利用方針策定に必須。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/092401505/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "野村不動産HD「まず、その業務なくせない？」経理DXで年間9000時間を生み出した引き算の考え方",
+      "summary_ja": "DXやAI活用自体が目的となり、具体的な成果になかなか結び付かない企業は少なくない。\n野村不動産ホールディングスの経理DXを取材すると、DXを進める前の「一呼吸」に、成功の要因があることが見えてきた。\n業務の棚卸しと不要業務の削減を先行させることで、AI活用の効果を最大化した事例として注目される。",
+      "consultant_insight": "「引き算DX」の好例。顧客への提案は業務削減の優先順位付けから始めるべき。",
       "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/business/articles/2609/30/news089.html"
     },
     {
-      "rank": 2,
-      "title_ja": "大企業の過半数が「非エンジニアのAI開発」を実施─全社に広がったコードの品質検証が課題に",
-      "summary_ja": "大企業の過半数が非エンジニアによるAI開発を実施している。全社に行き渡ったAI生成コードは、誰がどう検証するかが課題となっている。調査からは、大企業のIT部門が品質チェックの他に求める施策が浮かび上がった。非エンジニアの開発拡大は生産性向上の一方で、品質管理の新たな仕組みを必要としている。",
-      "consultant_insight": "現場の生成AI活用拡大は避けられず、IT部門は「事後検証体制」の整備が急務",
-      "importance": 5,
-      "category": "実務",
+      "rank": 7,
+      "title_ja": "大企業の過半数が「非エンジニアによる開発を実施」　全社に行き渡ったコード、検証できているのか？",
+      "summary_ja": "非エンジニアによるAI開発は、大企業ほど広がっている──調査結果が明らかになった。\n全社に行き渡ったAI生成コードは、誰がどう検証しているのか。\n調査からは、大企業のIT部門が品質チェックの他に求める施策が浮かび上がり、ガバナンス体制の整備が急務であることが示された。",
+      "consultant_insight": "AI生成コードのガバナンス整備を提案の柱に。品質チェック体制構築支援が新規商機。",
+      "importance": 4,
+      "category": "業界",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2609/29/news097.html"
     },
     {
-      "rank": 3,
-      "title_ja": "Google、AIエージェントコンテストから見えた「勝てる設計」4つのパターン─「マルチエージェント」を名乗るだけの作品が続出",
-      "summary_ja": "Googleは、AIエージェント開発コンテストの上位作に見られる4つの設計パターンを公開した。応募の多くが「マルチエージェントシステム」を掲げていたが、実態は単一のモデルがプロンプトをつなげているだけのものもあった。真に効果的な設計パターンとは何かが明らかになり、企業のAIエージェント開発の指針となる。",
-      "consultant_insight": "「マルチエージェント」の定義があいまいな現状、実装前にアーキテクチャの本質を見極める必要がある",
+      "rank": 8,
+      "title_ja": "「マルチエージェント」を名乗るだけの作品が続出　Googleが数千の応募から見つけた勝てる設計4パターン",
+      "summary_ja": "Googleは、AIエージェント開発コンテストの上位作に見られる4つの設計パターンを公開した。\n応募の多くが「マルチエージェントシステム」を掲げていたが、実態は単一のモデルがプロンプトをつなげているだけのものもあった。\n実効性のあるマルチエージェント設計の要件が明確化され、企業のエージェント開発指針として活用できる。",
+      "consultant_insight": "Googleの設計パターンを顧客のエージェント開発標準に。見かけ倒しの実装を見抜く視点が重要。",
       "importance": 4,
-      "category": "ツール",
+      "category": "実務",
       "source_name": "ITmedia AI+",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news048.html"
     },
     {
-      "rank": 4,
-      "title_ja": "トランプ大統領、政府内で「AI」を「超知能（SI）」と呼び替える大統領令に署名─IT首脳らと昼食会",
-      "summary_ja": "トランプ大統領はIT首脳らと昼食会を開き、行政機関で「人工知能（AI）」に代わり「超知能（SI）」の呼称使用を命じる大統領令に署名した。主要各社は自主的安全合意「White House Accord on Super Intelligence」に署名。米連邦政府の行政窓口サイトも「America.gov」に変更され、AIの呼称変更が政府全体で進行している。",
-      "consultant_insight": "米政府のAI政策が「超知能」視点にシフト、日本企業も安全性・倫理面の対応強化が必要に",
-      "importance": 4,
+      "rank": 9,
+      "title_ja": "トランプ大統領、政府内で「AI」を「SI（超知能）」と呼び替える大統領令に署名　IT首脳らと昼食会で",
+      "summary_ja": "トランプ大統領はIT首脳らと昼食会を開き、行政機関で「人工知能（AI）」に代わり「超知能（SI）」の呼称使用を命じる大統領令に署名した。\n主要各社は自主的安全合意「White House Accord on Super Intelligence」に署名した。\n米連邦政府は行政窓口サイト「America.gov」を「America.si」に変更する方針も示された。",
+      "consultant_insight": "米国の規制動向として顧客に共有。呼称変更は実質的影響なしも、安全合意の内容精査が必要。",
+      "importance": 3,
       "category": "業界",
-      "source_name": "ITmedia AI+",
+      "source_name": "ITmedia AI+, The Verge AI",
       "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001871/"
     },
     {
-      "rank": 5,
-      "title_ja": "「AIは魔法の杖ではなく子ども」─ずる賢く育つのを阻止する3つのポイント",
-      "summary_ja": "AIも子どもと同じで、適切な学習を繰り返して初めて育つ。筆者が学生時代に携わった脳科学の実験を手掛かりに、AIを育てる条件と、IT負債の分析をAIに任せることの危うさ、AI向けデータセンター投資の落とし穴を論じる。AIは「魔法の杖」ではなく、適切な教育と環境が必要な「子ども」のような存在だ。",
-      "consultant_insight": "AIの育成には継続的な学習環境と適切な評価が不可欠、短期的な成果期待は禁物",
-      "importance": 3,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/30/news017.html"
-    },
-    {
-      "rank": 6,
-      "title_ja": "国土交通省、インフラ分野のAI実装方針を発表─「AIが進んでも判断は人」と廣瀬技監",
-      "summary_ja": "国土交通省の技監・廣瀬昌由氏が「日経クロステックNEXT 東京 2026」で基調講演。令和8年熊本地震への対応や、インフラ分野のAI実装に向けた方針を語った。AIの活用は進めるが、最終判断は人が行うという基本姿勢を強調。建設分野におけるAI活用の3つの柱を示し、インフラ老朽化や災害対応への適用を進める。",
-      "consultant_insight": "公共インフラでのAI導入は「最終判断は人」が大前提、民間企業も同様の原則を検討すべき",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/093000044/"
-    },
-    {
-      "rank": 7,
-      "title_ja": "日清食品HD成田CIO「AIの進化が速すぎる、学び続ける姿勢を組織カルチャーに」─CIO/CDO大賞",
-      "summary_ja": "日清食品HDの成田敏博CIOは「AI技術の進化は速すぎる。最新の技術で何ができるのかについて常に学び続ける姿勢を組織のカルチャーとして深く根付かせることが重要」と語った。AI活用で成果を上げ続けるには、技術の進化に追従できる組織文化の醸成が不可欠。学習文化がAI投資の成否を分ける鍵となる。",
-      "consultant_insight": "AI技術の進化速度に組織が追従するには、継続学習を「文化」に昇華させる仕組みが必須",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900040/"
-    },
-    {
-      "rank": 8,
-      "title_ja": "日清・荏原・セゾンのDXリーダーが議論「ROIよりAI活用文化の醸成が重要」",
-      "summary_ja": "日経BPが主催するイベントで、日清・荏原・セゾンのDXリーダー3氏がパネルディスカッションを実施。AI活用において、短期的なROIよりも組織全体にAI活用文化を醸成することが重要だと議論した。現場の課題と打開策について、実務経験に基づく知見を共有し、AI投資の成功要因を探った。",
-      "consultant_insight": "先行企業はROI追求より「文化醸成」を優先、短期的な成果期待はAI導入の足かせに",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900037/"
-    },
-    {
-      "rank": 9,
-      "title_ja": "AIの年間予算が半年弱で枯渇─企業を襲う「トークン爆発」の実態",
-      "summary_ja": "「1年分の予算を5カ月半で使い切る」「月の半ばで利用枠が底を突く」。生成AIの利用拡大に伴い、トークンの消費が当初想定を超えて膨らむ「トークン爆発」の状態となる企業が相次いでいる。定額料金で契約するAIサービスでも、クレジットの利用枠が枯渇するケースが出ている。予算管理の見直しが急務となっている。",
-      "consultant_insight": "AI利用拡大で予算管理が破綻する企業が続出、初期段階から使用量モニタリングが必須",
+      "rank": 10,
+      "title_ja": "AIのトークンコスト激増から9割削減へ　コスパを高める5カ条",
+      "summary_ja": "AIの進化により、トークンコストは企業にとって経営課題になりつつある。\n先行して対策を進める企業の取り組みには共通点があり、5つの観点から削減施策が整理された。\nプロンプト最適化、モデル選択、キャッシュ活用、バッチ処理、出力制御の5つが、トークンコスト最適化の鍵となる。",
+      "consultant_insight": "コスト削減の具体策として顧客に提示可能。トークン消費の可視化とモニタリング体制構築を提案。",
       "importance": 5,
       "category": "実務",
       "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03773/092800005/"
-    },
-    {
-      "rank": 10,
-      "title_ja": "エージェンティックコマース、究極は「AI対AI」の決済自動化へ─ビザやストライプが基盤構築",
-      "summary_ja": "エージェンティックコマースの次なるステップは決済の自動化だ。米ビザや米ストライプなど決済大手が基盤作りを進める。さらにその先の「AI対AI」を見据えた動きも出てきた。AIエージェント同士が商品を売買する時代に向け、決済インフラの整備が加速している。日本企業もこの動きを注視する必要がある。",
-      "consultant_insight": "AIエージェント間取引の基盤整備が進行中、決済・認証の仕組みを今から検討すべき",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/092400572/092400003/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03773/092800003/"
     }
   ],
   "digest": [
     {
-      "title_ja": "LINEヤフー、AIでEC成約率を1.5倍に─商品提案エージェント",
-      "one_liner": "情報収集・比較検討をAIが支援、実用化で成果",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/092400572/092400002/"
-    },
-    {
-      "title_ja": "Anthropic元研究者、AI安全管理の不備を指摘─「自己改善型超知能」開発競争を批判",
-      "one_liner": "安全対策が追いつくまで開発速度を落とすべきと訴え",
+      "title_ja": "シャープがAIサーバー受注開始、2030年度に売上高2500億円目指す",
+      "one_liner": "国内向け推論需要を狙いオンプレミス環境への導入を推進",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/040900481/092400038/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/092401500/"
     },
     {
-      "title_ja": "AIでソフト業とサービス業が融合へ─日本勢は再編の蚊帳の外",
-      "one_liner": "ITサービスが破壊的打撃を受けると米調査会社",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600008/092400229/"
-    },
-    {
-      "title_ja": "富士通・IBM・日立、AI駆動モダナイズを加速─大規模SI知見生かす",
-      "one_liner": "メインフレーム事業者がAI時代の成長戦略を模索",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03770/092600002/"
-    },
-    {
-      "title_ja": "NTTデータ、AI駆動で支援物資管理システム─佐川急便と連携",
-      "one_liner": "熊本地震の被災自治体に導入、入出庫・在庫を管理",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12059/"
-    },
-    {
-      "title_ja": "「1モデルで多様なタスク」米新興やPFN岡野原氏が語るフィジカルAI最新事情",
-      "one_liner": "フィジカルAI性能が急速に進化、汎用性が向上",
-      "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900028/"
-    },
-    {
-      "title_ja": "理研・松岡氏「日本の研究活動にAIを生かす重要性」を指摘",
-      "one_liner": "AI研究基盤の構築へ、日本の研究に付加価値を",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900029/"
-    },
-    {
-      "title_ja": "オムロン、NVIDIAと半導体実装検査技術を強化─AIエージェントで効率化",
-      "one_liner": "デジタルツインやAI活用、不良予測や原因究明へ",
+      "title_ja": "日立、社会基盤事業「HMAX」拡充　DC運用やサイバー防御など追加",
+      "one_liner": "データセンター運用支援とサイバー攻撃対策サービスを新たに投入",
       "category": "ツール",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00105/00054/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/092401501/"
     },
     {
-      "title_ja": "AI新興ジールス、準国産ヒューマノイド量産へ─「転ばない」を重視",
-      "one_liner": "人手不足の日本を主戦場に、ヒューマノイド事業を開始",
+      "title_ja": "生成AI活用「効果あり」が62.4％の高率、研究開発で成果実感　独自調査",
+      "one_liner": "製造業での生成AI活用調査、83.6％が取り組み開始済み",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00012/00402/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03241/091800010/"
     },
     {
-      "title_ja": "中国にもAI脅威論、軸は「政権の安全」─米中会談は危機管理一致も深まらず",
-      "one_liner": "習近平氏「AI競争と協力の余地」、国際管理で温度差",
+      "title_ja": "NTTデータ・NRI・アクセンチュアが「COBOLのピュアJava化」で競う",
+      "one_liner": "AI駆動モダナイズの現実解を各社が模索中",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12062/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03770/092600003/"
     },
     {
-      "title_ja": "OpenAI、モデル蒸留キャンペーンを妨害─保護された推論抽出を阻止",
-      "one_liner": "敵対的蒸留への防御を強化、新たな対策を発表",
+      "title_ja": "国土交通省「AIが進んでも判断は人」廣瀬技監が語るAI活用3つの柱",
+      "one_liner": "インフラ分野のAI実装方針と熊本地震対応を語る",
       "category": "業界",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/093000044/"
     },
     {
-      "title_ja": "OpenAI、米中小企業向けAIトレーニングを拡大─SBDCと提携",
-      "one_liner": "小規模事業者のAI活用を支援、実地訓練と報告書公開",
+      "title_ja": "日清食品HD成田CIO「AI技術の進化は速すぎる。学び続ける姿勢が重要」",
+      "one_liner": "最新技術を常に学ぶ組織カルチャーの重要性を強調",
       "category": "業界",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900040/"
     },
     {
-      "title_ja": "ElevenLabs、評価額220億ドルに倍増─音声AI新興が3億ドル調達",
-      "one_liner": "従業員向けテンダーオファー、WellingtonとT. Rowe Price主導",
+      "title_ja": "日清・荏原・セゾンのDXリーダーが議論「ROIよりAI活用文化の醸成」",
+      "one_liner": "現場の課題と打開策をDXリーダー3氏が徹底討論",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/092900037/"
+    },
+    {
+      "title_ja": "Lattice、ポスト量子暗号対応のFPGA　AIエージェントで設計支援",
+      "one_liner": "CNSA 2.0準拠のPQC対応FPGA新製品を発表",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12057/"
+    },
+    {
+      "title_ja": "樹脂で人型ロボ部品を網羅、イグスCEO「5年で売上高倍増」鍵はフィジカルAI",
+      "one_liner": "軽量・静音・潤滑剤不要の駆動部品で存在感増す",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03634/091700010/"
+    },
+    {
+      "title_ja": "鹿島、長大な鉄筋籠の配筋検査時間を約7割削減　移動式カメラとAI活用",
+      "one_liner": "ステレオカメラとAIで鉄筋本数・間隔・径を確認",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00142/02773/"
+    },
+    {
+      "title_ja": "Microsoftは6000人のFDEで自己変革　かさむAI投資、法人深掘りで収益化",
+      "one_liner": "フィールドデータエンジニアを顧客先に配置し法人市場を深掘り",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03744/091500003/"
+    },
+    {
+      "title_ja": "AIエージェントは賢さだけでは動かない、役割分担と情報設計",
+      "one_liner": "役割分担と必要情報の整備方法を解説",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03242/093000032/"
+    },
+    {
+      "title_ja": "ElevenLabs、評価額220億ドルに倍増　音声AI大手が3億ドル調達",
+      "one_liner": "WellingtonとT. Rowe Priceが共同主導の従業員向け株式公開買付",
       "category": "業界",
       "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/"
     },
     {
-      "title_ja": "Reddit、AIボット対策でRSSフィード廃止─公開API終了",
+      "title_ja": "Reddit、AIボット対策でRSSフィード廃止・公開API終了を発表",
       "one_liner": "ユーザー生成コンテンツへのアクセス制限を強化",
       "category": "業界",
       "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
     },
     {
-      "title_ja": "コンシューマーAIの厳しい経済性─フロンティアラボが慎重姿勢",
-      "one_liner": "技術は十分でも収益化が課題、各社が警戒",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/"
+      "title_ja": "DoorDash、AIエージェントでテキスト注文機能を開始",
+      "one_liner": "Uber EatsやGrubhubに対抗し食品注文の利便性向上",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/"
     }
   ],
   "date": "20261001",
