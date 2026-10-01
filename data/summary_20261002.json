@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "HENNGEが人間従業員ゼロの「HENNGE AI」設立　取締役2人以外は全てAIエージェント",
+      "summary_ja": "セキュリティサービス企業HENNGEが、AI活用におけるガバナンス・コスト管理を支援する新会社「HENNGE AI」を設立。人間の従業員は取締役2人のみで、実務は全て自律的なAIエージェントが担当する。\n\nAI活用の管理・運用という「AI時代の基盤業務」を、AIエージェント自身が実行する実験的な試みとして注目される。\n\n企業のAI導入における課題解決を、人件費を極限まで削減した新しいサービス形態で提供する狙い。",
+      "consultant_insight": "AIガバナンス支援をAI自身が担う「メタAI活用」モデル。日本企業のAI運用コスト削減の参考事例に",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/01/2000001936/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "千葉市に総額2.3兆円のAIデータセンター建設　JERA・Dell・RHAELMの日本最大規模DC計画",
+      "summary_ja": "発電大手JERA、Dell Technologies、RHAELMが、千葉市に日本最大規模の「AIデータセンター」を建設すると発表。総投資額は2.3兆円以上に達する。\n\nAI需要の急増に対応するため、エネルギー・IT・インフラの3社が連携した「ドリームチーム」体制で臨む。\n\n国内のAI計算基盤整備における大型投資案件として、今後の日本のAI産業競争力を左右する可能性がある。",
+      "consultant_insight": "国内最大規模のAI基盤投資。オンプレミス需要も見据えた企業顧客への提案材料として重要",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/01/news082.html"
+    },
+    {
+      "rank": 3,
+      "title_ja": "OpenAI、中国Moonshot AI関係者による推論過程の組織的「蒸留」攻撃を阻止",
+      "summary_ja": "OpenAIは、モデルの推論過程を組織的に抜き出す「敵対的蒸留」を特定し阻止したと発表。中国のAI企業Moonshot AI（「Kimi」開発元）の関係者が関与したと分析。\n\n暗号化された推論データを悪用する新たな手口に対し、アカウント停止や推論保護の強化を実施。業界や政府機関と脅威情報を共有する。\n\nAIモデルの知的財産保護と、国際的なAI技術競争の新局面を示す事例として注目される。",
+      "consultant_insight": "AI資産保護の重要性を示す事例。自社AIの推論過程保護策の見直しを顧客に提案すべき",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001929/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "AWS「Kiro」エージェント、システムプロンプト陳腐化を防ぐ継続評価の仕組みを公開",
+      "summary_ja": "AWSは、AIコーディングエージェント「Kiro」のシステムプロンプトを継続的に評価する仕組みを公開。社内の実利用データをLLMに採点させ、プロンプト変更の効果を比較する手法。\n\nAIエージェント運用における「プロンプトの品質維持」という課題に対する実践的な解決策として注目される。\n\nシステムプロンプトの定期的な見直しと効果測定が、長期的なAIエージェント運用の鍵となることを示す。",
+      "consultant_insight": "AIエージェント運用の「保守」ノウハウ。顧客のプロンプト管理体制構築に活用できる",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/01/news029.html"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Autodesk、Fusion等にAI機能追加　設計作業の自動化や既存資産の再利用を支援",
+      "summary_ja": "Autodeskは「Autodesk University 2026」で、「Fusion」「Inventor」「Vault」およびPLMに関する新たなAI機能を発表。部品の編集や組み立て、製造工程の自動化に加え、既存の設計資産の再利用を支援する。\n\n製造業の設計業務において、AIによる効率化と既存知識の活用を両立させる取り組み。\n\nCAD/PLM領域でのAI活用が、単なる自動化から「過去資産の価値再発見」へと進化していることを示す。",
+      "consultant_insight": "製造業向けに、既存設計資産のAI活用による効率化を提案する際の具体例として有効",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/01/news015.html"
+    },
+    {
+      "rank": 6,
+      "title_ja": "AI主権が「切実な経営課題」に　モデル禁輸問題が示した「選択肢を持つこと」の重要性",
+      "summary_ja": "AIの活用が進むほど、企業は外部サービスやインフラへの依存を深める。データやモデルへのコントロールを保ち、自らの意思で選択できる状態を守る「AI主権」が経営課題として浮上。\n\nモデルの禁輸措置などの事例から、外部依存リスクの現実性が明らかになった。\n\n「選択肢を持つこと」が、AI時代の企業戦略における重要な要素となっている。",
+      "consultant_insight": "AI戦略立案時に「主権」の観点を組み込む重要性を顧客に説く材料として活用できる",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/01/2000001909/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "「FDEは常駐SEのすげ替えか」人月商売の死と大手SIerの打開策",
+      "summary_ja": "高性能AIの登場で「人月商売の死」が叫ばれる中、大手SIerが「FDE（フューチャー・デリバリー・エンジニアリング）」の実装に注力。一部では「常駐SEの言い換えに過ぎない」との指摘も。\n\nAIエージェント開発需要の取り込みと、人月型ビジネスモデルからの脱却が課題となっている。\n\nSIer各社は、FDE型のシステム開発の普及と定着による新たなビジネスモデル構築を目指す。",
+      "consultant_insight": "SIerのビジネスモデル転換期。顧客へのシステム開発委託方針見直しの提案材料に",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/01/news040.html"
+    },
+    {
+      "rank": 8,
+      "title_ja": "「AIを使えば早くできるでしょ」非エンジニアの勘違いがエンジニアを困らせる背景",
+      "summary_ja": "AIは万能ではないのに、非エンジニアから「AIがあればもっと早くできる」と期待されてしまう認識のずれが問題に。エンジニアを悩ませる背景を調査から探る。\n\nAIの能力と限界についての理解不足が、プロジェクト計画や期待値設定を歪める要因となっている。\n\n組織全体でAIリテラシーを向上させる必要性が浮き彫りになっている。",
+      "consultant_insight": "AI導入時の社内教育・期待値調整の重要性を説く際の具体例として活用できる",
+      "importance": 3,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/01/news021.html"
+    },
+    {
+      "rank": 9,
+      "title_ja": "シャープ、AIサーバー受注開始　2030年度に売上高2500億円目指す",
+      "summary_ja": "シャープは、国内向けに生成AIの学習や推論に使うAIサーバーの受注を開始。特に推論需要を見据え、企業や自治体、研究機関などを対象にオンプレミス環境への導入を狙う。\n\n2030年度に同事業で売上高2500億円を目指す目標を掲げる。\n\nAI基盤の国産化・オンプレミス需要に対応する国内ベンダーの動きとして注目される。",
+      "consultant_insight": "国産AIインフラの選択肢として、オンプレミス志向の顧客に提案可能な材料",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/092401500/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "キオクシア、高速NANDでDRAM代替　AI向け「CXLメモリー」サンプル出荷開始",
+      "summary_ja": "キオクシアは、AIデータセンターのメモリー容量を拡張する「CXLメモリー」のサンプル出荷を開始。動作速度を上げたNANDで、短期記憶を担うDRAMの一部代替を狙う。\n\nAIワークロードにおけるメモリーボトルネック解消に向けた新たな選択肢として注目される。\n\nコスト効率とパフォーマンスのバランスを取る新しいメモリー階層の構築が進む。",
+      "consultant_insight": "AI基盤のコスト最適化提案に活用できる新技術。大規模AI運用顧客への情報提供に有効",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12040/"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "NTTデータグループ・日立がFDEで攻勢、AI需要巡る覇権争い",
+      "one_liner": "大手SIerがAIエージェント開発需要取り込みでFDE型開発を強化、人月脱却を目指す",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03744/092500006/"
+    },
+    {
+      "title_ja": "AWS・Microsoft・GoogleがレガシーモダナイズにAI活用",
+      "one_liner": "クラウド3社がモダナイゼーション支援でAI活用を進めるも、注力点と手法は異なる",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03770/092600004/"
+    },
+    {
+      "title_ja": "三菱マテとセブン銀行IT幹部、自社の強みを生かすAI適用を語る",
+      "one_liner": "DX推進の勘所として、企業固有の強みに合わせたAI適用の重要性を強調",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03745/100100048/"
+    },
+    {
+      "title_ja": "人工知能は実践的な助言ができるか、2本の注目論文を紹介",
+      "one_liner": "AIに経営判断を求めると回答にバイアスがあることを示す研究など2論文",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02915/093000031/"
+    },
+    {
+      "title_ja": "動画の内容理解にAI活用、長尺の概要を短時間で把握",
+      "one_liner": "長時間動画をAIで要約し全体像を把握後、重点部分を確認する効率的手法",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02737/092600067/"
+    },
+    {
+      "title_ja": "トランプ政権、AI安全性対策は「企業任せ」で日本への影響は",
+      "one_liner": "米大統領がAI大手6社と協定署名、規制は企業任せで法制化は将来課題に",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03079/100100045/"
+    },
+    {
+      "title_ja": "Figure、引退ロボットを溶鉱炉に沈める動画公開",
+      "one_liner": "シュワルツェネッガー氏の提案で、人型ロボットの「引退セレモニー」動画を制作",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/01/2000001922/"
+    },
+    {
+      "title_ja": "OpenAI、ChatGPTに「バーチャル試着」機能追加",
+      "one_liner": "自分の写真を使って衣服やアクセサリーを仮想的に試着できる新機能",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
+    },
+    {
+      "title_ja": "Shopify、AI対話で店舗構築できる「Canvas」発表",
+      "one_liner": "AIエージェント「Sidekick」と対話しながらオンラインストアを作成可能に",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/"
+    },
+    {
+      "title_ja": "Airbnb CEO「AIエージェントには独自OSが必要」",
+      "one_liner": "ブライアン・チェスキー氏、AI活用とエージェント対応の将来像を語る",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/"
+    },
+    {
+      "title_ja": "Photon、メッセージング経由AIエージェント開発で450万ドル調達",
+      "one_liner": "iMessage、SMS等でAIエージェントを動かす基盤を提供、モバイルアプリの葬式も開催",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/"
+    },
+    {
+      "title_ja": "Flow Engineering、ハードウェア設計AI企業が7.5億ドル評価で資金調達",
+      "one_liner": "Valor、Atreides、Sequoiaが支援、Roelof Bothaも参画",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/"
+    },
+    {
+      "title_ja": "Google、Gemini Liveに「Guided Vision」機能追加",
+      "one_liner": "カメラで映した対象をリアルタイムで音声説明、細かい文字も読み取り可能",
+      "category": "ツール",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
+    },
+    {
+      "title_ja": "判事、GoogleのAI Overviewsめぐる反トラスト訴訟を却下",
+      "one_liner": "CheggとPenskeが提起した訴訟、連邦判事が棄却",
+      "category": "業界",
+      "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
+    },
+    {
+      "title_ja": "Satlyt、衛星上でAI実行する企業が800万ドル調達",
+      "one_liner": "元GoogleとSpaceXのPMが創業、衛星コンピューティングのAndroid目指す",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/"
+    }
+  ],
+  "date": "20261002",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
