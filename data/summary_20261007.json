@@ -2,9 +2,9 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Claude Cowork「ローカル実行」オプション廃止、全タスクがクラウド実行へ移行",
-      "summary_ja": "Anthropic社のAIエージェント機能「Cowork」が10月6日以降、ユーザーPC上で動作させる「このコンピュータのみ」オプションを削除し、全タスクをクラウドで実行する仕様に変更。\n\nセキュリティやコンプライアンス要件の厳しい日本企業にとって、オンプレミス実行が不可能になる重大な仕様変更。既存導入企業は代替策の検討が急務に。\n\nモデル推論とVM実行環境の両方がクラウド側に移行するため、機密情報を扱う業務での利用には慎重な判断が必要となる。",
-      "consultant_insight": "金融・製造業など機密性の高い業務でCowork導入済みの顧客は、10月6日までにデータ分類と代替案検討が必須です",
+      "title_ja": "Claude Cowork「ローカル実行」廃止、全処理クラウド移行へ",
+      "summary_ja": "AnthropicのエージェントツールCoworkが10月6日以降、ユーザーPC上でタスク実行する「このコンピュータのみ」設定を削除。モデル推論・VM実行ともクラウド処理へ移行。情報漏洩を懸念する企業は実装戦略の見直しが必要。エンタープライズ導入を進める日本企業への影響は大。",
+      "consultant_insight": "オンプレミスでの完全制御を前提に導入検討していた企業は、データガバナンス体制の再設計が急務",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
@@ -12,185 +12,185 @@
     },
     {
       "rank": 2,
-      "title_ja": "Anthropic、スタートアップ向けに「Claude Team」1年間無料提供と1,000ドルクレジットを開始",
-      "summary_ja": "Anthropic社が新興企業支援プログラムを発表し、Claude Teamプランを1年間無料提供（通常月額30ドル×従業員数）、さらに1,000ドル分のAPIクレジットを付与。\n\n「AIの恩恵は、モデル上に構築する企業を通じて人々に届く」という理念のもと、スタートアップのAI活用を加速する施策。Y Combinatorなど主要アクセラレーター経由で申請可能。\n\nエンタープライズ機能へのアクセス、優先サポート、技術ワークショップへの参加権も含まれ、日本のスタートアップにも適用される可能性。",
-      "consultant_insight": "顧客の新規事業部門やCVC投資先に、初期段階からClaude活用を提案する絶好の機会。申請支援が付加価値に",
+      "title_ja": "Anthropic、スタートアップに「Claude Team」1年無料と1000ドルクレジット提供",
+      "summary_ja": "Anthropicがスタートアップ支援プログラムを始動。Team版1年無料+1000ドル分のAPI利用権を提供。「モデルそのものより、その上に構築する企業がAIの恩恵を届ける」との理念。日本のスタートアップもグローバル競争に参入しやすく。",
+      "consultant_insight": "日本企業もこの機会で検証フェーズのコストを抑え、国内顧客へのAI実装速度で先行できる",
       "importance": 5,
-      "category": "ツール",
+      "category": "業界",
       "source_name": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/"
     },
     {
       "rank": 3,
-      "title_ja": "OpenAI、契約業務AIエージェント評価でIroncladと提携──複雑な実務ワークフローで学習",
-      "summary_ja": "OpenAI社が契約管理プラットフォームIroncladと提携し、複雑な契約業務ワークフローでAIエージェントの訓練と評価を実施。プロフェッショナル業務でのコンピュータ操作を進化させる取り組み。\n\n契約書レビュー、承認フロー、リスク分析など、高度な判断を伴うタスクでエージェント性能を検証。法務・コンプライアンス領域での実用化を目指す。\n\n日本企業の契約業務は紙文化が根強く残るが、AIエージェントによる自動化の実証が進めば、業務改革の加速材料となる可能性。",
-      "consultant_insight": "法務・契約部門のAI活用提案で、OpenAI×Ironcladの実証事例は説得材料になります。業務フロー分析から着手を",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad"
+      "title_ja": "ELYZA、再帰的自己改善（RSI）で「AIによるAI開発」を本格化",
+      "summary_ja": "ELYZA曽根岡CEOが「ELYZA RSI Research」立ち上げを発表。AIが自分を改善し続ける「RSI」技術により、主要ラボが毎月新モデルをリリースする背景を解説。音声対話エージェント「ELYZA Voice Agent」やフィジカルAIも展開。日本発のAI開発競争力強化へ。",
+      "consultant_insight": "国産AIの技術進化が加速。日本企業は海外ラボ依存からの脱却を検討する好機",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/06/news019.html"
     },
     {
       "rank": 4,
-      "title_ja": "Atlassian×OpenAI提携拡大、エンタープライズ知識を行動に変換するAI統合を深化",
-      "summary_ja": "Atlassian社とOpenAI社がパートナーシップを拡大し、フロンティアモデルと企業知識基盤を接続。チームの計画・構築・実行業務を支援する統合を強化。\n\nJira、Confluence、Trelloなどの蓄積データをAIが理解・活用し、プロジェクト管理や意思決定を自動化。日本企業でも導入が進むAtlassian製品群との連携が現実に。\n\nナレッジマネジメントとAIエージェントの融合により、属人化した業務知識の組織資産化が加速。中堅企業でも実現可能な規模感が魅力。",
-      "consultant_insight": "Atlassian導入済み企業への追加提案として、AI統合による生産性向上試算を示せば即座に商談化できます",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/atlassian-partnership"
-    },
-    {
-      "rank": 5,
-      "title_ja": "「AIによるAI開発」が現実に──ELYZA曽根岡CEO、再帰的自己改善（RSI）の最前線を語る",
-      "summary_ja": "毎月のように新モデルが登場する背景に「再帰的自己改善（RSI）」技術がある。KDDI傘下ELYZA社CEOが、AIがAIを開発する現在地を解説。\n\n従来の人手によるデータ作成からAIによる自動生成・評価へとシフトし、開発サイクルが劇的に短縮。日本のAI開発環境も大きく変化している。\n\n「主戦場が変わった」と曽根岡氏。企業がAIを活用する際も、この技術進化を前提とした戦略立案が必要になる。",
-      "consultant_insight": "顧客のAI戦略立案で「モデル選定は半年で陳腐化」前提の柔軟な設計を提案することで、長期的な信頼を獲得できます",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/06/news058.html"
-    },
-    {
-      "rank": 6,
-      "title_ja": "みずほ・ライオンも採用の中国AIモデル、日本企業に浸透──コスト20分の1の衝撃",
-      "summary_ja": "中国製オープンウェイトモデルが日本大手企業で採用拡大。GPU利用コストのみでトークン課金不要、情報漏洩リスク低減、カスタマイズ自由度の高さが評価される。\n\nみずほ銀行、ライオンなど名だたる企業が導入。従来の米国製クローズドモデルと比較して、運用コストを20分の1に削減できるケースも。\n\n独自モデルのベースや追加学習による業務特化など、柔軟な活用が可能。地政学リスクを考慮しつつ、コスト最適化の有力選択肢に。",
-      "consultant_insight": "コスト削減圧力の強い企業には、中国モデルの技術検証を提案。ただし規制・リスク評価セットで進めるのが肝要です",
+      "title_ja": "みずほ・ライオン採用の中国AI、コスト20分の1で日本企業に浸透",
+      "summary_ja": "中国製オープンウエートモデルが日本大手企業に急拡大。オンプレ実行でトークン料不要、GPUコストのみで済み、情報漏洩リスクも減。カスタマイズ自由度も高く、実務活用が加速。価格破壊が商用AI市場を再編する可能性。",
+      "consultant_insight": "コスト・セキュリティ・カスタマイズ性で三拍子そろう選択肢。顧客の要件定義で最有力候補に",
       "importance": 5,
-      "category": "業界",
+      "category": "ツール",
       "source_name": "日経クロステック AI",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03782/100500001/"
     },
     {
-      "rank": 7,
-      "title_ja": "大分市、デジタル庁「源内OSS」ベースの生成AIサービス運用開始──自治体AIエコシステムが変化",
-      "summary_ja": "大分市が10月1日から生成AI「Oita GENAI」の運用を開始。デジタル庁が公開した「源内」のOSSを基盤とし、自治体独自にカスタマイズ。\n\nOSSを活用することで、ベンダー依存を減らし、自治体間での知見共有が可能に。AIエージェント内製化の流れが行政分野でも加速。\n\n日本の行政DXにおいて、オープンソースとAIの組み合わせが新しいエコシステムを形成しつつある。民間企業への波及効果も期待される。",
-      "consultant_insight": "自治体向け提案では源内OSSの活用実績を示すと、内製化志向の強い部門から信頼を得やすくなります",
+      "rank": 5,
+      "title_ja": "OpenAI、数学分野の未解決問題を複数解決──未公開モデルで722件の論文公開",
+      "summary_ja": "OpenAIが未公開のフロンティアモデルを使い、長年未解決だった数学問題群を解決。GitHubで722件の証明原稿とLean形式化データを公開。研究分野でのAI実用性を示す重要マイルストーン。企業の研究開発部門への応用可能性も。",
+      "consultant_insight": "高度な専門業務へのAI活用を検討中のR&D部門には、能力の天井が予想以上に高いことを示す事例",
+      "importance": 4,
+      "category": "研究",
+      "source_name": "OpenAI Blog / The Verge",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+    },
+    {
+      "rank": 6,
+      "title_ja": "OpenAI、Jump Tradingでの定量調査拡大事例を公開──長時間ワークフロー×人間レビュー",
+      "summary_ja": "Jump Trading社がChatGPTで定量リサーチを拡張。複数データソースと人間レビューを組み合わせた長時間実行ワークフローを構築。金融業界での実用例として、日本の資産運用・証券業界にも示唆。",
+      "consultant_insight": "金融機関のアナリスト業務自動化で、既存の投資判断プロセスを補完する形でのAI導入が現実的",
       "importance": 4,
       "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03777/100500003/"
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/jump-trading"
+    },
+    {
+      "rank": 7,
+      "title_ja": "OpenAI×Atlassian、エンタープライズ知識をフロンティアモデルに接続し業務自動化へ",
+      "summary_ja": "AtlassianとOpenAIがパートナーシップ拡大。企業内ナレッジをフロンティアモデルと結びつけ、チームの計画・構築・納品業務を支援。Jira・Confluenceなど日本企業にも多く導入されるツール群がAI連携を強化。",
+      "consultant_insight": "既存のAtlassian環境を持つ企業は追加投資なしでAI活用の恩恵を受けられる可能性",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/atlassian-partnership"
     },
     {
       "rank": 8,
-      "title_ja": "京都銀行、10年分・200件の決算書で粉飾検知AIを内製──不正取引検知も同時展開",
-      "summary_ja": "京都銀行が「粉飾検知モデル」「不正取引検知モデル」の2種類の機械学習モデルを独自開発。決算書の粉飾件数増加や特殊詐欺・マネロン対策として導入。\n\n10年分・200件の決算書データから学習したモデルで、AIの視点を加えた多層的な検知体制を構築。人間の目だけでは見逃しがちな不正の兆候を捉える。\n\n地方銀行でも高度なAI内製化が可能であることを示す事例。金融機関以外の与信管理部門にも応用可能な知見。",
-      "consultant_insight": "金融機関の与信・審査部門に、内製化支援と既存システム連携を組み合わせた提案が刺さります",
+      "title_ja": "AI資金調達最大規模──LambdaがIPO前に4000億円超の調達、2027年上場へ",
+      "summary_ja": "Nvidia出資のAIコンピューティング企業Lambdaが、IPO前ラウンドで最大40億ドル（約4000億円超）を調達。評価額145億ドル、2027年上場予定。CoatueとBlackstoneが主導。AIインフラ需要の爆発的拡大を示す象徴的案件。",
+      "consultant_insight": "GPU供給・AIインフラへの投資熱は衰えず。日本企業も調達環境を活かしたAI基盤整備を検討すべき",
       "importance": 4,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12036/"
-    },
-    {
-      "rank": 9,
-      "title_ja": "不正アクセス急増の真犯人はAIか──専門家が語る「意外な本当の理由」",
-      "summary_ja": "9月末以降、日本企業で不正アクセス・情報漏洩の発表が相次ぐ。一見AIによる攻撃能力向上が原因に見えるが、専門家の分析は異なる視点を示す。\n\n攻撃側のAI活用は進んでいるものの、急増の主因は従来型の脆弱性対策不足や、セキュリティ投資の遅れが重なったタイミング的要因が大きい。\n\nAIを過度に恐れるのではなく、基本的なセキュリティ対策の徹底が依然として最重要。AIはむしろ防御側の強化に活用すべき。",
-      "consultant_insight": "顧客のセキュリティ予算獲得には「AI脅威論」より「基本対策の穴」を可視化する方が効果的です",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002013/"
-    },
-    {
-      "rank": 10,
-      "title_ja": "AIコンピューティングのLambda、IPO前に4,200億円調達──評価額は2兆円超に",
-      "summary_ja": "NVIDIA出資のAIコンピューティング企業Lambda社が、2027年のIPOを前に40億ドル（約4,200億円）を調達。評価額は145億ドル（約2兆円）に達する見込み。\n\nCoatueとBlackstoneが主導する大型ラウンドで、AI向けインフラ需要の高まりを裏付ける資金調達。GPU不足解消に向けた設備投資が加速。\n\n日本企業がAI活用を本格化する際、クラウドインフラの選択肢が広がる。コスト構造の変化を注視する必要がある。",
-      "consultant_insight": "顧客のAIインフラ戦略で、Lambda等の新興勢力を選択肢に入れることで、交渉力とコスト最適化の余地が生まれます",
-      "importance": 3,
       "category": "業界",
       "source_name": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "Mistral AI、最新「Mistral Large 4」で米中ライバルを一気に飛び越す狙い",
+      "summary_ja": "フランスMistral AIが新マルチモーダル大規模モデル「Mistral Large 4」を公開。米国・中国の競合を上回る性能を目指す。オープンウエート戦略でカスタマイズ性も高く、欧州発AIとして注目。",
+      "consultant_insight": "欧州GDPRへの適合性と高性能を両立するモデルとして、日本企業のグローバル展開時の選択肢に",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "OpenAI vs Anthropic、ハッキング攻撃相次ぐ中で対照的な姿勢──リスク許容か慎重か",
+      "summary_ja": "AIによるサイバー攻撃が増加する中、OpenAIアルトマン氏は「AIの恩恵のため多少の悪影響は受け入れるべき」と主張。一方、Anthropicは安全性重視の姿勢を崩さず。両者の方針の違いが企業のAI導入判断にも影響。",
+      "consultant_insight": "顧客の業種・リスク許容度に応じて、どのベンダーを推奨するか慎重な判断が求められる局面",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/07/news042.html"
     }
   ],
   "digest": [
     {
-      "title_ja": "チームみらい安野氏「サイバー攻撃能力の高いAIモデルが拡散」対応急務と指摘",
-      "one_liner": "政治家がAI悪用リスクとデータ漏洩増加への対策強化を訴え",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/06/2000002065/"
+      "title_ja": "Google、無料版Geminiモデル選択厳格化──10月9日から「Flash Lite」のみに",
+      "one_liner": "無料ユーザーはFlash Liteに制限、Flash/Proは有料化へ",
+      "category": "ツール",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only"
     },
     {
-      "title_ja": "イトーキ×松尾研、854人の行動ログから「忙しさ」を解明するAIモデル構築",
-      "one_liner": "休憩エリアや会議時間が生産性に与える影響をAI分析",
-      "category": "研究",
+      "title_ja": "大分市、デジタル庁OSS「源内」ベースの生成AIサービス運用開始",
+      "one_liner": "自治体がOSSで生成AI環境を内製、AIエコシステム変革の兆し",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03777/100500003/"
+    },
+    {
+      "title_ja": "京都銀行、粉飾・不正取引検知AI内製──10年分200件の決算書で学習",
+      "one_liner": "金融機関が不正検知の多層化にAI導入、リスク管理の高度化",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12036/"
+    },
+    {
+      "title_ja": "イトーキ×松尾研、行動ログからウェルビーイングを予測するAIモデル構築",
+      "one_liner": "854人の会議・メール・滞在時間データで心身状態を分析",
+      "category": "実務",
       "url": "https://www.itmedia.co.jp/aiplus/article/2610/06/2000002053/"
     },
     {
-      "title_ja": "合成紙大手ユポ「クレームこそ最大の商機」AIで暗黙知継承",
-      "one_liner": "半世紀の課題解決力をAIで組織化、ベテラン知見の継承に成功",
-      "category": "実務",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/06/news034.html"
-    },
-    {
-      "title_ja": "津田健次郎AI音声訴訟、請求棄却も「声優似AI合法」ではない理由を弁護士解説",
-      "one_liner": "東京地裁判決の法的論点と今後の権利保護課題を整理",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002010/"
-    },
-    {
-      "title_ja": "首都高技術×シャープ、走行中の道路損傷をAIでリアルタイム検知する実証実験",
-      "one_liner": "パトロール車両搭載カメラで穴・ひび割れ・落下物を自動検知",
+      "title_ja": "首都高技術×シャープ、AI道路損傷検知実証──走行中にリアルタイム自動検出",
+      "one_liner": "パトロール車両のカメラ映像から穴・ひび・落下物を即座に通知",
       "category": "実務",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00142/02780/"
     },
     {
-      "title_ja": "溶接中の異常をAI即時検出、アークやスパッタを透かして撮像する新システム",
-      "one_liner": "強い光下でも加工点を画像化し不具合をリアルタイム計測",
+      "title_ja": "溶接中の不具合をAIで即時検出──強光下でも加工点を透かして撮像",
+      "one_liner": "分析屋がアーク・スパッタを透過する撮像技術で異常を検出",
       "category": "実務",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12060/"
     },
     {
-      "title_ja": "フィジカルAI分野への参入機会、材料・部品メーカーへの攻め筋を専門家が提案",
-      "one_liner": "特許ランドスケープ分析から見える日本企業の勝ち筋",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03747/100500003/"
-    },
-    {
-      "title_ja": "安川電機・小川昌寛前社長が死去、フィジカルAIで「新産業が生まれる」と語っていた",
-      "one_liner": "62歳、先を読む力のある経営者として業界を牽引",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00257/00080/"
-    },
-    {
-      "title_ja": "Mistral AI、新モデル「Large 4」発表──米中ライバルを飛び越える狙い",
-      "one_liner": "フランス発のマルチモーダル大規模モデルが競争激化",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
-    },
-    {
-      "title_ja": "AIエージェントの次なる障壁：Webサイトが侵入を拒否",
-      "one_liner": "予約・買い物代行AIが直面するアンチボット防御の壁",
+      "title_ja": "AIエージェントの次の障壁──Webサイトのボット防御が立ちはだかる",
+      "one_liner": "予約・ショッピング代行AIが普及する中、ブロック対策が課題に",
       "category": "業界",
       "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/"
     },
     {
-      "title_ja": "Hark、プライバシー重視のAIパーソナルアシスタント発表",
-      "one_liner": "Muse、Dots、Instinctと競合する未来型OS",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/"
-    },
-    {
-      "title_ja": "Mirror Particle、人間行動予測の「ワールドモデル」構築中",
-      "one_liner": "ゼロから人間行動を予測するモデルでDisrupt登場予定",
-      "category": "研究",
-      "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/"
-    },
-    {
-      "title_ja": "LibreOffice「AI非搭載」を機能として明言",
-      "one_liner": "ユーザープライバシー重視で、標準構成にAI追加せず",
+      "title_ja": "LibreOffice「AIなし」を機能として明言──デフォルト設定にAI不搭載",
+      "one_liner": "ユーザープライバシー重視で、AI機能を組み込まない方針を宣言",
       "category": "ツール",
       "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/"
     },
     {
-      "title_ja": "Pinterest、美容PinをAIで実行可能なアクションプランに変換",
-      "one_liner": "ヘア・ネイルを美容用語・費用・時間に翻訳する新機能",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/"
+      "title_ja": "フィジカルAI市場、材料・部品メーカーの参入機会──知財分析が示す攻め筋",
+      "one_liner": "世界の先進企業特許から日本企業の参入ポイントを提示",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03747/100500003/"
     },
     {
-      "title_ja": "Google Gemini、10月9日から無料プランは「Flash Lite」のみに制限",
-      "one_liner": "FlashとProへのアクセスが有料化、無料版の機能縮小",
+      "title_ja": "AIコンテンツモデレーション軽量モデル「PolicyLM-1.7B」がオープンウエイトで登場",
+      "one_liner": "リアルタイム判定向け意思決定モデル、Musubiが公開",
       "category": "ツール",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only"
+      "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/"
+    },
+    {
+      "title_ja": "Hark、プライバシー重視のAI個人アシスタント発表──Muse・Dots・Instinctと競合",
+      "one_liner": "未来型OS設計で、データ保護を前面に押し出す新興AI",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/"
+    },
+    {
+      "title_ja": "Mirror Particle、人間行動予測「ワールドモデル」を構築──TechCrunch Disruptで発表",
+      "one_liner": "ゼロから構築したモデルで、従来とは異なる人間行動予測を狙う",
+      "category": "研究",
+      "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/"
+    },
+    {
+      "title_ja": "不正アクセス急増の原因は？　AI活用か、それとも他の要因か──専門家見解",
+      "one_liner": "9月末以降の情報漏洩多発について、背景を専門家が分析",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002013/"
+    },
+    {
+      "title_ja": "Amazon Alexa Plus、数分間「lalala」を繰り返す不気味なバグ発生",
+      "one_liner": "歌い続ける・話し続ける異常動作が報告され、ユーザー困惑",
+      "category": "ツール",
+      "url": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end"
+    },
+    {
+      "title_ja": "Pinterest、美容ピンをAIで「実行可能なプラン」に変換──費用・時間・メンテも提示",
+      "one_liner": "ヘアやネイル画像から美容院向け専門用語と見積もりを自動生成",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/"
     }
   ],
   "date": "20261007",
