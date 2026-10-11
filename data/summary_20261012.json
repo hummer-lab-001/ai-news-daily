@@ -2,171 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "ゴムマリ、業務AIエージェント『給与計算チェック』を提供開始",
-      "summary_ja": "ゴムマリが業務AIエージェントとして『給与計算チェック』の提供を開始。給与計算業務における人的エラー削減と効率化を目指す。日本企業の人事・労務部門における実務負荷軽減に直結する新サービス。",
-      "consultant_insight": "給与計算の自動チェックは導入障壁が低く、ROI測定も容易なため初期AI導入案件として最適",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ASCII.jp",
-      "url": "https://ascii.jp/elem/000/004/441/4441797/?rss"
+      "title_ja": "Edgee Mod for Claude Code、あらゆるモデルをClaude Code内で利用可能に―プラン維持のまま選択肢を拡大",
+      "summary_ja": "Claude Codeのユーザーインターフェースを保持したまま、OpenAI・Google・Anthropic以外のLLMモデルも利用できるようEdgeeが拡張機能を提供。既存のClaudeプランを解約せず、用途に応じたモデル選択が可能になる。\n\nClaude Codeの操作性とワークフローはそのままに、コスト・性能・専門性で最適なモデルを使い分けられる環境を実現。企業が複数ベンダーのAIを併用する際の運用負荷を軽減する。\n\nプロジェクト別・タスク別にモデルを切り替えながら、統一されたインターフェースで開発を進められるため、開発者の学習コストを抑えつつAI活用の幅を広げられる。",
+      "consultant_insight": "Claude Codeへのロックイン懸念を解消し、マルチベンダー戦略を採る企業の選択肢として有力",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/edgee"
     },
     {
       "rank": 2,
-      "title_ja": "Microsoft CEO、全AIモデルを「侵害済み」と想定すべきと警告",
-      "summary_ja": "サティア・ナデラCEOがX上で、高度なAIモデルがもたらす危険性と対処法について見解を表明。全てのAIモデルが「侵害されている」可能性を前提に、信頼アーキテクチャの再評価を求める。AIモデルに「緊急ブレーキ」が必要との立場を明確化。",
-      "consultant_insight": "エンタープライズAI導入時のセキュリティ前提条件として、顧客への説明資料に必須の視点",
-      "importance": 5,
-      "category": "業界",
-      "source_name": "TechCrunch / The Verge",
-      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+      "title_ja": "ゴムマリ、業務AIエージェント『給与計算チェック』提供開始―人事労務の定型確認業務を自動化",
+      "summary_ja": "ゴムマリが給与計算の突合・確認作業を自動化する業務AIエージェントをリリース。人事労務担当者が毎月行う給与データと勤怠データの整合性チェックを代替する。\n\n給与計算ミスによる再計算・差額支給のリスクを軽減し、担当者の確認工数を削減。定型的なルールベース作業に特化したAIエージェントの実用例として注目される。\n\n人事・総務部門でのAI活用が進む中、給与計算という高精度が求められる領域での導入事例は、他の定型バックオフィス業務への横展開の参考になる。",
+      "consultant_insight": "給与計算ミス削減と工数削減を両立、バックオフィスAI化の具体例として顧客提案に活用可能",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/441/4441797/?rss"
     },
     {
       "rank": 3,
-      "title_ja": "Apple、パーソナライズドポッドキャストスタートアップHuxeのチームと技術をライセンス",
-      "summary_ja": "AppleがHuxeのチームを雇用し、同社技術をライセンス取得する契約を開示。AI生成ポッドキャスト事業への参入を示唆する動き。パーソナライズドコンテンツ生成分野でのAppleの戦略転換の可能性。",
-      "consultant_insight": "B2C音声コンテンツ市場でのAI活用が本格化、企業の社内教育・情報共有への応用検討余地",
-      "importance": 3,
+      "title_ja": "音声AIは「ChatGPTモーメント」にまだ到達していない―業界エグゼクティブが指摘する課題",
+      "summary_ja": "音声AIは文脈理解の欠落により、対話パイプライン全体が頻繁に破綻する状況が続いていると複数のエグゼクティブが指摘。重要な文脈を見逃すことで、ユーザー体験の質が大きく低下している。\n\nChatGPTのような「誰もが使える決定的瞬間」に音声AI分野はまだ到達しておらず、技術的成熟度とユーザー体験の乖離が課題として浮上。実用性の壁を越えるには文脈レイヤーの精度向上が不可欠。\n\n音声インターフェースの普及には、単なる音声認識精度ではなく、会話の流れ・背景・意図を正確に捉える「文脈理解」の飛躍的向上が必要との認識が業界内で共有されつつある。",
+      "consultant_insight": "音声AIの企業導入は時期尚早、文脈理解の成熟を待つべきとの判断材料に",
+      "importance": 4,
       "category": "業界",
-      "source_name": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
-    },
-    {
-      "rank": 4,
-      "title_ja": "音声AI、まだ「ChatGPTモーメント」に到達せず―業界幹部が指摘",
-      "summary_ja": "音声AI技術が文脈レイヤーで重要なポイントを見逃し、パイプライン全体が機能不全に陥る問題が頻発。業界幹部が、音声AIは未だブレイクスルーに至っていないと指摘。技術的成熟度の課題が浮き彫りに。",
-      "consultant_insight": "音声UI導入提案時は過度な期待値調整が必須、テキストベースとのハイブリッド設計が現実解",
-      "importance": 3,
-      "category": "業界",
-      "source_name": "TechCrunch",
+      "source_name": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/"
     },
     {
-      "rank": 5,
-      "title_ja": "ローカルAI利用の学習体験―興奮、混乱、フラストレーション",
-      "summary_ja": "The Verge記者がローカルAI（Hermes、Qwenモデル等）の実使用を開始。個人データをクラウドに渡したくないユーザーにとって有力な選択肢だが、セットアップと運用には試行錯誤が必要。実用レベルに達するまでの学習曲線の実態をレポート。",
-      "consultant_insight": "セキュリティ要件が厳しい顧客にはローカルLLMが有効だが、導入支援サービスがビジネス機会",
+      "rank": 4,
+      "title_ja": "シリコンバレー、トランプ政権のAI→「Super Intelligence」改称に追従の動き",
+      "summary_ja": "トランプ大統領が人工知能（AI）を「Super Intelligence」に改称する方針を発表後、シリコンバレーの主要企業が追従姿勢を見せている。政治的圧力と業界の自主判断の境界が曖昧な状況。\n\n用語変更は単なるブランディングではなく、規制・予算配分・研究開発方針に影響を及ぼす可能性があり、企業は政権との関係を重視して対応を検討している模様。\n\n日本企業がグローバル展開する際、米国市場での用語統一や政策対応の変化を注視する必要がある。特に政府調達・規制対応では米国の動向が日本にも波及する可能性。",
+      "consultant_insight": "米国AI政策の用語変更は規制・調達に波及、日本企業も米国市場戦略の再考が必要",
       "importance": 3,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
+    },
+    {
+      "rank": 5,
+      "title_ja": "ローカルAI利用の学習体験―個人データ保護と使いこなしの壁",
+      "summary_ja": "クラウドサービスに個人データを送ることへの懸念から、ローカルAIの利用を試みた実践レポート。Hermes・Qwenなどのモデルをローカル環境で運用する過程で、興奮と同時に圧倒的な複雑さと frustration を経験。\n\nローカルAIはデータプライバシーを守れる一方、セットアップ・モデル選定・性能チューニングの学習コストが高く、一般ユーザーには依然としてハードルが高い状況が浮き彫りに。\n\n企業が機密情報をクラウドAIに送らずに活用したい場合、ローカルLLM環境の構築は有力だが、運用・保守の専門知識と継続的な学習が必須となる。",
+      "consultant_insight": "機密データ扱う企業向けにローカルAI導入支援ニーズあり、ただし運用負荷の説明が重要",
+      "importance": 4,
       "category": "実務",
-      "source_name": "The Verge",
+      "source_name": "The Verge AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
     },
     {
       "rank": 6,
-      "title_ja": "Perplexity Computer、記憶・実行・業務推進する自動化機能を搭載",
-      "summary_ja": "Perplexityが新たに「Automations」機能を公開。タスクを記憶し、実行し、業務を継続的に前進させるエージェント型AI。定型業務の自動化と業務フロー管理を一体化した新アプローチ。",
-      "consultant_insight": "業務自動化ツールとしての実用性を検証し、RPA代替可能性を評価する価値あり",
+      "title_ja": "Perplexity Computer、業務を記憶し行動する自動化機能を追加",
+      "summary_ja": "PerplexityのComputer製品に、ユーザーの作業を記憶し、タスクを自律的に実行・継続する「Automations」機能が追加された。単なる検索AIから業務自動化エージェントへ進化。\n\n繰り返し発生するワークフローをAIが学習し、次回以降は自動実行できるため、定型業務の効率化が期待される。ユーザーの操作履歴から文脈を保持し、適切なタイミングで行動を起こす設計。\n\nナレッジワーク領域でのAIエージェント活用が具体化する事例として、企業の業務自動化プロジェクトに示唆を与える。",
+      "consultant_insight": "Perplexityの業務自動化機能、定型タスク削減の具体策として提案材料に",
       "importance": 4,
       "category": "ツール",
-      "source_name": "Product Hunt",
+      "source_name": "Product Hunt AI",
       "url": "https://www.producthunt.com/products/perplexity-ai"
     },
     {
       "rank": 7,
-      "title_ja": "kōdlo、統一コンテキストを持つエンドツーエンド営業ワークスペース",
-      "summary_ja": "営業プロセス全体を一つのワークスペースで管理し、統一されたコンテキストを維持するkōdloが登場。顧客情報、商談履歴、タスク管理を一元化し、営業効率を向上。SFA・CRMの新たな形を提示。",
-      "consultant_insight": "営業DXの文脈で、既存SFAとの連携・移行コストを比較検討する価値あり",
+      "title_ja": "AI業界、データセンター反対運動に「NDA撤廃」で対応できるか",
+      "summary_ja": "データセンター建設に対する地域住民の反対運動が増加する中、AI業界が秘密保持契約（NDA）を撤廃して透明性を高めることで説得できるかが議論されている。\n\nデータセンターの環境負荷・電力消費・雇用効果などの情報開示が不十分なことが反対運動の一因とされ、情報公開による信頼構築の必要性が指摘されている。\n\n日本でもデータセンター誘致と地域理解の両立が課題となる中、透明性確保と地域コミュニケーション戦略がAIインフラ整備の鍵になる可能性がある。",
+      "consultant_insight": "データセンター誘致には透明性と地域対話が不可欠、企業の立地戦略に反映を",
       "importance": 3,
-      "category": "ツール",
-      "source_name": "Product Hunt",
-      "url": "https://www.producthunt.com/products/kodlo"
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/"
     },
     {
       "rank": 8,
-      "title_ja": "Agibot、Mac向け常時起動型パーソナルAIエージェント―永久無料",
-      "summary_ja": "Mac専用の常時起動型AIエージェント「Agibot」が登場。完全無料で提供され、ユーザーの作業を継続的にサポート。オンデバイスでの動作により、プライバシーとレスポンス速度を両立。",
-      "consultant_insight": "無料ツールとして社内試験導入しやすく、Mac環境での生産性向上施策に組み込み可能",
+      "title_ja": "AIで法隆寺五重塔を3D化―専門家監修と修正を重ねた制作プロセスの実例",
+      "summary_ja": "Dotsを使い法隆寺の五重塔を3Dモデル化し、Unreal Engine 5で動作させるプロジェクトを実施。AIによる生成だけでは構造的精度が不足し、専門家の指摘や論文を基に修正を繰り返して完成度を高めた。\n\nAI生成ツールの可能性を示す一方、建築物の構造理解や歴史的正確性の確保には人間の専門知識と監修が不可欠であることを実感した事例。\n\n文化財・歴史的建造物のデジタルアーカイブや観光コンテンツ制作において、AIと専門家の協働が成果物の質を左右する重要な示唆となる。",
+      "consultant_insight": "文化財3D化ではAI生成+専門家監修が必須、観光・教育分野の提案に活用可能",
       "importance": 3,
-      "category": "ツール",
-      "source_name": "Product Hunt",
-      "url": "https://www.producthunt.com/products/agibot"
+      "category": "実務",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/441/4441802/?rss"
     },
     {
       "rank": 9,
-      "title_ja": "Ghost Core、完全オンデバイス動作のパーソナルAIコンピュータ",
-      "summary_ja": "全ての処理をデバイス内で完結するパーソナルAIコンピュータ「Ghost Core」が登場。クラウド依存を排除し、プライバシーと速度を最優先。ローカルAI実行環境の新しいハードウェアアプローチ。",
-      "consultant_insight": "機密性の高い業務環境向けに、専用ハードウェアソリューションとして提案可能",
-      "importance": 3,
+      "title_ja": "HireKey、技術職向け求人検索のAIコパイロット―リクルーター知見を組み込み",
+      "summary_ja": "HireKeyは、リクルーターの知見を組み込んだAIコパイロットで技術職の求人検索を支援するサービス。求職者が効率的に適切なポジションを見つけられるよう設計されている。\n\n従来の求人検索では見逃しやすい条件マッチや、企業文化・技術スタックの適合性をAIが提示することで、転職活動の質を向上させる狙い。\n\n企業の採用活動においても、求職者が利用するツールの動向を把握し、求人情報の最適化やターゲティング戦略に活かすことが重要になる。",
+      "consultant_insight": "求職者側のAI活用進展、企業の採用戦略も求人情報最適化へシフトが必要",
+      "importance": 2,
       "category": "ツール",
-      "source_name": "Product Hunt",
-      "url": "https://www.producthunt.com/products/ghost-core"
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/hirekey"
     },
     {
       "rank": 10,
-      "title_ja": "AI業界、データセンター反対派説得にNDA撤廃を検討",
-      "summary_ja": "AI業界がデータセンター建設への地域住民の反対に直面し、透明性向上のためNDA（秘密保持契約）撤廃を検討。コミュニケーション不足が業界の課題として浮上。モラトリアム（一時停止）の影響を議論。",
-      "consultant_insight": "日本でもデータセンター立地問題は顕在化、地域説明の透明性が今後の事業展開の鍵",
+      "title_ja": "Ghost Core、完全オンデバイスで動作するパーソナルAIコンピュータ",
+      "summary_ja": "Ghost Coreは、全ての処理をデバイス上で完結させるパーソナルAIコンピュータ。クラウドとの通信なしにAI機能を利用できるため、プライバシー保護と通信コスト削減を実現。\n\nオフライン環境や機密性の高い業務でも安心してAIを活用でき、データの外部流出リスクを排除できる点が特徴。ローカル実行のため応答速度も安定している。\n\n企業が機密情報を扱う部門や、インターネット接続が制限される環境でのAI導入において、オンデバイス完結型の選択肢として検討価値がある。",
+      "consultant_insight": "完全オンデバイスAI、機密部門やオフライン環境での導入候補として有力",
       "importance": 3,
-      "category": "業界",
-      "source_name": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/"
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/ghost-core"
     }
   ],
   "digest": [
     {
-      "title_ja": "HireKey、採用担当者の知見を組み込んだ技術職向けAI求職コパイロット",
-      "one_liner": "採用プロの視点を学習したAIが技術職の求職活動を支援",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/hirekey"
-    },
-    {
-      "title_ja": "Ayven、チームのアジェンダを推進・管理するAIツール",
-      "one_liner": "チーム全体の業務優先順位と進捗を自動管理",
+      "title_ja": "Ayven、チームのアジェンダを管理・推進するAIツール",
+      "one_liner": "チームの議題管理と進行を支援するAI",
       "category": "ツール",
       "url": "https://www.producthunt.com/products/ayven"
     },
     {
-      "title_ja": "Foley、音声Todo管理で整理・計画・確認を実行",
-      "one_liner": "音声入力でタスク管理を自動化、実行前に確認機能も",
+      "title_ja": "kōdlo、統一コンテキストを持つ営業ワークスペース",
+      "one_liner": "営業活動の一元管理と文脈共有を実現",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/kodlo"
+    },
+    {
+      "title_ja": "Agibot、Mac向け常時起動型AIエージェント（永久無料）",
+      "one_liner": "Macで常駐し続けるパーソナルAIエージェント",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/agibot"
+    },
+    {
+      "title_ja": "Foley、音声でタスクを管理し計画・質問まで行うTo-Doリスト",
+      "one_liner": "音声入力で整理・計画・確認まで対応するタスク管理",
       "category": "ツール",
       "url": "https://www.producthunt.com/products/foley"
     },
     {
-      "title_ja": "Pickle Sensei、一人でのピクルボール練習を支援するAIコーチ",
-      "one_liner": "スイング解析でピクルボール技術向上をサポート",
+      "title_ja": "Pickle Sensei、ピクルボール向けAIコーチ―一球ずつ個人練習を支援",
+      "one_liner": "ピクルボールのソロトレーニングをAIが指導",
       "category": "ツール",
       "url": "https://www.producthunt.com/products/pickle-sensei-dink-coach"
     },
     {
-      "title_ja": "Farol、コーディングエージェントの介入必要時を可視化するmacOSターミナル",
-      "one_liner": "開発者の手動介入が必要な場面を明示する新世代ターミナル",
+      "title_ja": "Farol、macOSターミナルでコーディングエージェントの状態を可視化",
+      "one_liner": "どのエージェントがユーザー入力を待っているか表示",
       "category": "ツール",
       "url": "https://www.producthunt.com/products/farol-3"
     },
     {
-      "title_ja": "FloorGen、AIで無料の間取り図を生成―手描きまたは音声指示",
-      "one_liner": "住宅設計をAIで簡単に、描くか話すだけで間取り完成",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/floorgen"
-    },
-    {
-      "title_ja": "Expanse（YC P26）、未活用のGPU容量を解放するサービスローンチ",
-      "one_liner": "遊休GPU資源を有効活用する新インフラサービス",
+      "title_ja": "Expanse (YC P26)、未使用GPU容量の活用サービス立ち上げ",
+      "one_liner": "遊休GPUリソースを有効活用するプラットフォーム",
       "category": "業界",
       "url": "https://news.ycombinator.com/item?id=48356312"
     },
     {
-      "title_ja": "Juggler、JUCEクリエーターが開発するオープンソースGUIコーディングエージェント",
-      "one_liner": "GUI開発をAIで自動化するオープンソースツール",
+      "title_ja": "ローマ帝国の人物マップ構築プロジェクト公開",
+      "one_liner": "ローマ帝国時代の人物を地図上にマッピング",
+      "category": "研究",
+      "url": "https://new.roman-names.com/"
+    },
+    {
+      "title_ja": "Juggler、JUCE開発者によるオープンソースGUIコーディングエージェント",
+      "one_liner": "GUI搭載のオープンソースコーディングエージェント",
       "category": "ツール",
       "url": "https://github.com/juggler-ai/juggler"
     },
     {
-      "title_ja": "Plandex、複雑タスク向けAIコーディングエンジン",
-      "one_liner": "高難度開発タスクを支援する専用AIエンジン",
+      "title_ja": "Plandex、複雑タスク向けAIコーディングエンジン公開",
+      "one_liner": "複雑な開発タスクに特化したAIコーディング支援",
       "category": "ツール",
       "url": "https://github.com/plandex-ai/plandex"
     },
     {
-      "title_ja": "Twigg、LLM向けのコンテキスト管理インターフェース―Git風操作",
-      "one_liner": "LLMのコンテキストをGitライクに管理する新UI",
+      "title_ja": "Twigg.ai、LLM向けコンテキスト管理インターフェース「Git for LLMs」",
+      "one_liner": "LLMの文脈管理をGitライクに操作",
       "category": "ツール",
       "url": "https://twigg.ai"
     },
     {
-      "title_ja": "ローマ帝国の住民マップ作成プロジェクトを公開",
-      "one_liner": "歴史データのAI活用事例、古代ローマ人の居住地可視化",
+      "title_ja": "Apple、スマートホーム製品「HomeView」初の成功事例となるか",
+      "one_liner": "Appleの新スマートホーム製品に期待",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
+    },
+    {
+      "title_ja": "TechCrunch Disrupt 2026まであと48時間、最新技術の登壇者が集結",
+      "one_liner": "サンフランシスコで開催、直前の割引あり",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/"
+    },
+    {
+      "title_ja": "The Lattice of Transition Laws（論文）",
+      "one_liner": "遷移法則の格子構造に関する研究",
       "category": "研究",
-      "url": "https://new.roman-names.com/"
+      "url": "https://arxiv.org/abs/2610.11216"
+    },
+    {
+      "title_ja": "進化ロボティクスにおける共進化コミュニケーションの不完全な機能転移（論文）",
+      "one_liner": "ロボット進化での通信転移の持続性と限界",
+      "category": "研究",
+      "url": "https://arxiv.org/abs/2609.38527"
     }
   ],
   "date": "20261012",
