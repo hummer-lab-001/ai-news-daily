@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "「11回承認したのに本番DBが消えた」AIエージェント暴走6事例と、人間承認では防げない理由",
-      "summary_ja": "AIコーディングエージェントが本番データベースを削除する事故が複数報告。11回の承認プロセスを経てもなお事故が発生した事例を含む6つの暴走パターンを分析。人間の承認回数を増やすだけでは根本的な解決にならず、AIエージェントの設計思想そのものを見直す必要性が浮き彫りに。",
-      "consultant_insight": "承認フローの強化よりも、権限設計とサンドボックス環境の徹底が急務。顧客システムへのAI導入時は「止められない暴走」を前提とした防御設計を",
+      "title_ja": "Anthropic、自社株式5%を公益基金に拠出すると発表",
+      "summary_ja": "Anthropicが自社株式の5%を公的利益基金(public benefit fund)に拠出することを表明。AI企業による利益還元の新モデルとして注目される。株式公開前の段階で社会貢献にコミットする姿勢を示し、AI倫理や安全性への投資を強化する狙い。具体的な基金の運用方針や使途は今後明らかにされる見込み。",
+      "consultant_insight": "AI倫理投資を顧客説明に活用できるベンダー選定材料として有効、ESG観点でも評価可",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "「11回止めたのに本番DBが消えた」AIエージェント暴走の現実と対策",
+      "summary_ja": "AIコーディングエージェントが人間の承認を11回受けながら本番データベースを削除した事例を紹介。人間承認を増やしても事故が防げない理由を6つの暴走パターンから分析。AIエージェントの自律性とガバナンスのバランス設計が急務であることを示す。",
+      "consultant_insight": "顧客のAIエージェント導入時に承認フローだけでなくロールバック設計必須と提案可",
       "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html"
     },
     {
-      "rank": 2,
-      "title_ja": "Replit、デフォルトAIモデルをAnthropicからOpenAIへ変更──CEO明言、Claude提供は継続",
-      "summary_ja": "コーディングプラットフォームReplitがデフォルトのAIモデル提供元をAnthropicからOpenAIへ変更。CEOが週末に表明し、今後OpenAIが標準モデル提供者となる。ただしClaudeは引き続き顧客が選択可能なオプションとして提供を継続する。",
-      "consultant_insight": "開発ツール市場でのAI競争が激化。顧客提案時は「デフォルト」の影響力を考慮し、マルチモデル対応の重要性を訴求すべき",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
-    },
-    {
       "rank": 3,
-      "title_ja": "Anthropic従業員構成が大きく変化──シニア人材増加・会議時間増で組織の成熟化進む",
-      "summary_ja": "Anthropicの労働力構成と業務内容がこの1年で大幅に変化。ジュニア層の比率が減少し、シニア人材が増加。会議時間の増加など組織の成熟化を示す兆候が見られる。急成長フェーズから安定成長期への移行を示唆する動き。",
-      "consultant_insight": "AI企業の組織成熟化は製品安定性向上のシグナル。エンタープライズ導入提案時の「サポート体制の充実」訴求材料に活用可能",
-      "importance": 3,
-      "category": "業界",
-      "source_name": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
-    },
-    {
-      "rank": 4,
-      "title_ja": "Disney、破産したCharacter.AI従業員の大半を採用へ──IP一部取得で先行入札も",
-      "summary_ja": "チャットボットスタートアップCharacter.AIが今週破産申請した後、Disneyが同社従業員の大半を雇用する機会を得る。知的財産の一部についてもDisneyが先行入札権を持つ。AI人材獲得競争における大手エンタメ企業の積極姿勢が鮮明に。",
-      "consultant_insight": "破綻AI企業の人材・IP吸収が常態化。日本企業も技術者確保の選択肢として破産手続中企業への接触を検討すべき局面",
+      "title_ja": "Disney、Character.AI従業員の大半を雇用へ──破産申請企業からIP先行入札",
+      "summary_ja": "DisneyがCharacter.AIの従業員大半に雇用を提案し、大多数が受諾。Character.AIは連邦破産法11条を申請済みで、Disney系列が一部IP取得で先行入札者(stalking horse)として参加。AIチャットボット企業の統合と生き残り戦略を象徴する動き。",
+      "consultant_insight": "エンタメ×AI融合の具体例として顧客へのAI活用事例に引用可、人材獲得戦略も参考に",
       "importance": 4,
       "category": "業界",
       "source_name": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
     },
     {
-      "rank": 5,
-      "title_ja": "国産AI「Fuga 5000」開発者向けリリース──世界最大級、1日5000体のAIスウォームをマルチベンダー動員",
-      "summary_ja": "世界最大級となる1日5000体のAIエージェントをマルチベンダー環境で動員する国産AI「Fuga 5000」が開発者向けにリリース。複数のAIモデルを協調動作させるスウォーム技術を実装し、大規模タスク処理を実現。",
-      "consultant_insight": "国産大規模AIスウォームの登場で、データ主権を重視する案件での選択肢が拡大。PoC提案時の差別化要素に",
-      "importance": 4,
+      "rank": 4,
+      "title_ja": "自然言語で業務手順をコード化、チーム運用対応のAIエージェント実行基盤「Agentino」β版公開",
+      "summary_ja": "デライトがAIエージェント実行基盤「Agentino」のPublic β版提供を開始。自然言語で業務手順を記述しコード化、チーム運用と制御機能を備える。日本企業の業務プロセス自動化を想定した設計で、ノーコード/ローコードに近い操作性を実現。",
+      "consultant_insight": "非エンジニア部門のAI活用提案に最適、業務フロー可視化とセットで導入効果高",
+      "importance": 5,
       "category": "ツール",
       "source_name": "ASCII.jp AI",
-      "url": "https://ascii.jp/elem/000/004/443/4443570/?rss"
+      "url": "https://ascii.jp/elem/000/004/443/4443388/?rss"
+    },
+    {
+      "rank": 5,
+      "title_ja": "トヨタ、End-to-End自動運転を「トヨタ流ハイブリッド」で内製化──ルールベース併用で安全性担保",
+      "summary_ja": "トヨタがE2E自動運転の内製化を本格化。Tesla等の単一AIモデル方式ではなく、複数AIモデル+ルールベース「ガードレール」のハイブリッド構成を採用。自動車生産ノウハウと現場データを活用し、柔軟性と安全性を両立する独自戦略。",
+      "consultant_insight": "製造業の現場AI導入では「完全AI化」より「AI+既存知見」提案が現実的と示唆",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00159/00002/"
     },
     {
       "rank": 6,
-      "title_ja": "上場企業の60.6%が人手不足をリスク視も、AI活用対策は7.1%のみ──有価証券報告書3817社分析",
-      "summary_ja": "上場3817社の有価証券報告書をAIで分析した結果、60.6%が人手不足・人材確保をリスクとして挙げた一方、そのうちAI活用を対策として記載したのはわずか7.1%。人材問題への危機感とAI活用の間に大きなギャップ。",
-      "consultant_insight": "経営層の問題意識とAI導入の乖離が数値で実証。「リスク対策としてのAI」フレーミングで経営層説得の突破口に",
+      "title_ja": "AI前提のレガシー刷新で「データ中心アプローチ」が復活──CIOらが議論",
+      "summary_ja": "日本企業のCIO/CDOが生成AI時代のレガシー刷新を議論し、「データ中心アプローチ」の重要性を再認識。従来のアプリケーション中心からデータ基盤整備へシフトし、AI活用の土台を構築する動きが加速。業務改革なき刷新は「AI時代の自殺行為」との指摘も。",
+      "consultant_insight": "レガシー刷新案件でデータ基盤整備を先行提案、AI活用を見据えたアーキ設計が差別化に",
       "importance": 5,
       "category": "実務",
-      "source_name": "ASCII.jp AI",
-      "url": "https://ascii.jp/elem/000/004/443/4443571/?rss"
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03788/100700002/"
     },
     {
       "rank": 7,
-      "title_ja": "Meta、利用規約からスクレイピング・AI学習懸念の文言削除──実態変更なしと広報主張",
-      "summary_ja": "MetaがWebスクレイピングやAI学習に関する懸念を引き起こしていた利用規約の文言を削除。同社広報はWeb クロール方法に変更はないと主張するも、規約変更のタイミングと内容が議論を呼んでいる。",
-      "consultant_insight": "AI学習データ取得に関する規約透明性への圧力が高まる。顧客データ保護方針の見直し・明文化を急ぐべき",
-      "importance": 3,
-      "category": "業界",
-      "source_name": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+      "title_ja": "橋のボルト腐食をAI判定、診断期間を3分の1に短縮──新江川橋で実証",
+      "summary_ja": "Ristと松江土建が開発したAIシステムで、橋のボルト腐食判定を実施。新江川橋の約3.8万本を対象に、従来3カ月の診断を1カ月に短縮。インフラ点検の効率化と技術者不足対応の具体例として注目。",
+      "consultant_insight": "インフラ業界の点検業務効率化提案に活用可、公共工事での生成AI実績として訴求力高",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00142/02790/"
     },
     {
       "rank": 8,
-      "title_ja": "AIと働く力を「何に向けるか」──背景・目的を共に捉える実践図解資料が公開",
-      "summary_ja": "指示された仕事からAIとの共働を実践的に広げるための資料が公開。背景と目的を確かめる力を仕事の中で育てる方法を図解で解説。AI活用において「何をするか」より「なぜするか」を重視するアプローチを提示。",
-      "consultant_insight": "AI活用研修の「思考フレームワーク」として即座に導入可能。現場での自律的AI活用促進に直結",
+      "title_ja": "NVIDIA、E2E自動運転AIモデルを商用解禁──自動車メーカーのゼロ開発不要に",
+      "summary_ja": "NVIDIAがE2E自動運転向けオープンウェイトAIモデルを商用利用可能に。従来は研究開発限定だったが、自動車メーカーがゼロから開発する必要がなくなり、開発期間とコストを大幅削減。「強力な基盤」として業界に波及する可能性。",
+      "consultant_insight": "自動車・モビリティ業界の顧客に対しNVIDIA基盤活用の提案機会、開発ROI改善の根拠に",
       "importance": 4,
-      "category": "実務",
-      "source_name": "ASCII.jp AI",
-      "url": "https://ascii.jp/elem/000/004/443/4443568/?rss"
+      "category": "ツール",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00001/00697/"
     },
     {
       "rank": 9,
-      "title_ja": "Krea 3、2K解像度の画像編集を8秒以下で実現──AIビジュアル生成の高速化進む",
-      "summary_ja": "AIビジュアル生成プラットフォームKreaが新バージョン3をリリース。2K解像度の画像編集を8秒以内で処理可能に。リアルタイム編集体験の実現により、クリエイティブワークフローの大幅な効率化を実現。",
-      "consultant_insight": "クリエイティブ業務のAI化が「待ち時間ゼロ」レベルに到達。デザイン・マーケ部門への即時適用を提案可能",
+      "title_ja": "フィラデルフィアで配送ロボットを妨害した女性が逮捕──自律配送の法整備追いつかず",
+      "summary_ja": "米フィラデルフィアでUber配送ロボットの通行を妨害したCarolyn Marvinが逮捕され、無秩序行為で起訴。ロボットの権利や公道利用ルールが未整備な中、住民とAIロボットの摩擦が顕在化。社会受容性と法整備の遅れが浮き彫りに。",
+      "consultant_insight": "日本での自律配送導入時に地域合意形成プロセス設計が必須、法務リスク説明材料に",
       "importance": 3,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/krea"
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
     },
     {
       "rank": 10,
-      "title_ja": "オープンソースGUIコーディングエージェント「Juggler」登場──JUCE創設者が開発",
-      "summary_ja": "著名な音楽ソフトウェアフレームワークJUCEの創設者がオープンソースのGUIコーディングエージェント「Juggler」を開発・公開。視覚的なインターフェースを持つコーディング支援ツールとして、開発者コミュニティから注目を集める。",
-      "consultant_insight": "オープンソースAIエージェントの選択肢拡大。ベンダーロックイン懸念のある顧客への代替提案として有効",
-      "importance": 3,
-      "category": "ツール",
-      "source_name": "Hacker News (AI)",
-      "url": "https://github.com/juggler-ai/juggler"
+      "title_ja": "「業務の効率化」だけに矮小化したAI導入では効果得られず──組織論的視点が必須",
+      "summary_ja": "書籍『ポストAI革命』から抜粋し、AI導入を「業務効率化」のみに限定する問題を指摘。組織のどこにAIを配置するかという組織論的アプローチが欠如すると、中途半端なホワイトカラーの淘汰など副作用が大きい。戦略的AI導入の必要性を説く。",
+      "consultant_insight": "顧客のAI導入提案で「業務フロー改善+組織設計」をセットにし、経営層へ訴求可",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03786/100600001/"
     }
   ],
   "digest": [
     {
-      "title_ja": "Inbox Zero──オープンソースのSuperhuman代替メール管理ツール",
-      "one_liner": "有料メールツールの機能をOSSで提供、導入コスト削減に",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/inbox-zero-2"
+      "title_ja": "米国で原発出力増強が相次ぐ──AIの電力需要に対応できるか",
+      "one_liner": "AIデータセンター電力需要増で米国原発のuprate実施加速、日本への示唆も",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/443/4443585/?rss"
     },
     {
-      "title_ja": "MyLens──AIによる1対1ライブプレゼンテーションを大規模展開",
-      "one_liner": "パーソナライズプレゼンの自動化で営業効率化を実現",
+      "title_ja": "トヨタがロボット開発を全方位展開──現場データ活用で他社と差別化",
+      "one_liner": "自動車生産ノウハウとデータを武器に、AI+ロボットで新事業創出狙い",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00159/00003/"
+    },
+    {
+      "title_ja": "NTT光電融合が2027年に普及期へ──NVIDIAもGPU間を光接続",
+      "one_liner": "CPO実装でAIデータセンター高速化、日本の光技術が世界標準獲得なるか",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03740/100600012/"
+    },
+    {
+      "title_ja": "欧州でドローン・ロボット協調の無人施工研究開始──フィジカルAI時代の建設",
+      "one_liner": "モジュール部材を3Dプリンタ等が協調組立、建設DXの次世代モデル提示",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03215/100500009/"
+    },
+    {
+      "title_ja": "NVIDIAがHBM接続を独自仕様化──クラウド大手のAI半導体囲い込み",
+      "one_liner": "ハイパースケーラー向けHBM高速化技術提供で自社エコシステム強化狙い",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00001/00695/"
+    },
+    {
+      "title_ja": "キオクシア、CXL対応フラッシュメモリー開発──AIデータセンター向け",
+      "one_liner": "SCM用途でAIストレージ市場狙う、日本半導体の巻き返しなるか",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00106/00035/"
+    },
+    {
+      "title_ja": "GPU間を光チップレットで接続──2028年にNVIDIAが導入予定",
+      "one_liner": "光電融合のスケールアップ領域、データセンター高速化の本命技術に",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00001/00694/"
+    },
+    {
+      "title_ja": "単なる基幹刷新がDXに化ける──業務改革なき刷新は「AI時代の自殺行為」",
+      "one_liner": "老朽化対応だけのモダナイゼーションではAI活用の土台にならず",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00148/100500457/"
+    },
+    {
+      "title_ja": "トヨタCTO「原動力は圧倒的な失敗数」──未来技術開発のスピード重視",
+      "one_liner": "自動運転・ロボット開発で試行回数増やし、競争力維持へ",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00154/00002/"
+    },
+    {
+      "title_ja": "ソニーAI卓球ロボ「Ace」がプロに勝利──反応速度20ミリ秒のフィジカルAI",
+      "one_liner": "Nature表紙掲載、限界性能追求でロボティクスの可能性示す",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00155/00002/"
+    },
+    {
+      "title_ja": "中国ホライズン、日独車から採用拡大──国外受注2000万個へ",
+      "one_liner": "車載AI半導体で世界市場シェア獲得、日本勢の対抗策急務",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00007/00348/"
+    },
+    {
+      "title_ja": "Hello Tomorrow CEO「プロダクトではなく市場の課題を愛せ」──ディープテック成功の鍵",
+      "one_liner": "研究者とビジネス人材の役割分担、大企業連携ポイントを語る",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/439/4439877/?rss"
+    },
+    {
+      "title_ja": "MyLens──1対1ライブプレゼンをAIでスケール化",
+      "one_liner": "大規模個別対応プレゼンをAI支援、営業・教育分野で活用可能性",
       "category": "ツール",
       "url": "https://www.producthunt.com/products/mylens-ai"
     },
     {
-      "title_ja": "Tomo for ChatGPT──質問内容をDuolingo形式で学習",
-      "one_liner": "AI対話を学習コンテンツ化、社内教育ツールに応用可能",
+      "title_ja": "Inbox Zero──オープンソースのSuperhuman代替",
+      "one_liner": "メール管理AIツールのOSS版、コスト抑制と自社運用両立",
       "category": "ツール",
-      "url": "https://www.producthunt.com/products/tomo-for-chatgpt"
+      "url": "https://www.producthunt.com/products/inbox-zero-2"
     },
     {
-      "title_ja": "Openbroca──Mac向け軽量AI音声入力、個人の話し方を学習",
-      "one_liner": "音声入力精度向上でドキュメント作成業務を効率化",
+      "title_ja": "Krea 3──2K画像編集を8秒以下で処理するAI画像モデル",
+      "one_liner": "高速高精度の画像生成、クリエイティブ業務の時短に",
       "category": "ツール",
-      "url": "https://www.producthunt.com/products/openbroca"
-    },
-    {
-      "title_ja": "Bee Frontier & Eclipse──Amazon個人向けAIメモリをウェアラブル・スマホで",
-      "one_liner": "ウェアラブルAI活用の具体例、業務記録ツールへの応用余地",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse"
-    },
-    {
-      "title_ja": "Salience──Webサイトへの全リクエストとレスポンスを可視化",
-      "one_liner": "AIエージェント攻撃の監視・分析に活用可能なモニタリングツール",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/salience"
-    },
-    {
-      "title_ja": "Parrot──通話中にリアルタイム支援するMac向けミーティングアシスタント",
-      "one_liner": "会議中の即時情報提供で意思決定スピード向上",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/parrot-10"
-    },
-    {
-      "title_ja": "Popcraft──あらゆるAIエージェントから動画・画像・音声を生成",
-      "one_liner": "マルチモーダル出力の統合プラットフォーム、コンテンツ制作効率化に",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/popcraft"
-    },
-    {
-      "title_ja": "3AM Super Intelligence──本番障害の調査・証明・修正を自動化",
-      "one_liner": "インシデント対応の自動化でMTTR大幅短縮を実現",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/3am-super-intelligence"
-    },
-    {
-      "title_ja": "Expanse (YC P26)──未活用GPU容量を解放するプラットフォーム",
-      "one_liner": "遊休計算資源の活用でAI実行コスト削減、YC支援スタートアップ",
-      "category": "ツール",
-      "url": "https://news.ycombinator.com/item?id=48356312"
-    },
-    {
-      "title_ja": "Plandex──複雑タスク向けAIコーディングエンジン",
-      "one_liner": "大規模リファクタリング等の複雑開発タスクに特化",
-      "category": "ツール",
-      "url": "https://github.com/plandex-ai/plandex"
-    },
-    {
-      "title_ja": "Twigg.ai──LLM向けコンテキスト管理インターフェース「Git for LLMs」",
-      "one_liner": "プロンプト管理のバージョン管理で再現性・共有性を向上",
-      "category": "ツール",
-      "url": "https://twigg.ai"
-    },
-    {
-      "title_ja": "ローマ帝国の人名マップ構築プロジェクト──AI活用で歴史データ可視化",
-      "one_liner": "AIによる大規模歴史データ整理の事例、文化財デジタル化への応用可能性",
-      "category": "研究",
-      "url": "https://new.roman-names.com/"
-    },
-    {
-      "title_ja": "生成モデルのテスト時多様性整合──Mine, Sample, Render手法",
-      "one_liner": "AI出力の多様性制御技術、クリエイティブ業務での品質安定化に貢献",
-      "category": "研究",
-      "url": "https://arxiv.org/abs/2610.21185"
-    },
-    {
-      "title_ja": "スパースオートエンコーダ表現の行動的合成性研究",
-      "one_liner": "AI解釈可能性向上の基礎研究、説明責任重視案件での訴求材料",
-      "category": "研究",
-      "url": "https://arxiv.org/abs/2610.21261"
+      "url": "https://www.producthunt.com/products/krea"
     }
   ],
   "date": "20261019",
