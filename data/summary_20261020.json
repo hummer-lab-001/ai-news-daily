@@ -2,89 +2,89 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Anthropic、社内でAIエージェント稼働が人間の6倍に──技術系初級職採用27%→9%へ激減",
-      "summary_ja": "Anthropicが社内雇用変化と一般市民とのAI予測格差に関する調査を公開。AI稼働時間が人間を上回り、技術系初級職採用比率が27%から9%に急減した。\n\nAnthropic従業員の75%が自身の業務自動化を予測する一方、米労働者全体では28%にとどまり、大きな認識格差が明らかになった。\n\n自動化と失業率上昇を直接結びつける見方は示されなかったが、実際の社内データが示す急激な雇用構造変化は、AI時代の人材戦略再考を迫る重要な先行事例となる。",
-      "consultant_insight": "AI導入企業の人材構成変化を定量データで示した貴重な事例。顧客のAI導入計画に人材ポートフォリオ見直しを組み込む根拠になる。",
+      "title_ja": "Anthropic、株式5%を公益目的基金に拠出　企業価値上昇に応じて追加拡大",
+      "summary_ja": "Anthropicは自社株式の5%を新設の「Anthropic Public Benefit Fund」(完全子会社LLC)に拠出すると発表。企業価値の上昇に応じて追加拠出も行う。雇用への影響対策や直接分配など、大規模かつ柔軟な公益活動に充てる方針。AI業界で先駆的な社会還元モデルを構築。",
+      "consultant_insight": "AI企業のESG戦略として参考になる。日本企業も技術投資と社会貢献の両立モデルを検討すべき局面。",
       "importance": 5,
       "category": "業界",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002353/"
+      "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002359/"
     },
     {
       "rank": 2,
-      "title_ja": "中国DeepSeek、V4.1-Flash新版でGPT-6 Astra超えを主張──MITライセンスでオープン化",
-      "summary_ja": "中国DeepSeekが「DeepSeek-V4.1-Flash-1017」を公開。コーディングエージェント性能評価の一部でGPT-6 Astra超えをうたう。\n\n実行時間と出力量も削減したとし、重みはMITライセンスで提供される。オープンモデルの競争力がさらに向上。\n\n日本企業にとって、商用利用可能な高性能オープンモデルの選択肢が広がり、クローズドモデル依存からの脱却機会となる。",
-      "consultant_insight": "コスト効率重視の顧客へ、GPT-4級性能をオープンで実現可能と提案できる材料。ライセンスの商用自由度も訴求点。",
-      "importance": 4,
+      "title_ja": "中国DeepSeek、V4.1-Flash新版を公開　一部でGPT-6 Astra超えを主張",
+      "summary_ja": "DeepSeekが「DeepSeek-V4.1-Flash-1017」をMITライセンスで公開。コーディングエージェント性能評価の一部でGPT-6 Astra超えを主張し、実行時間と出力量も削減。ただし米国土安全保障省が連邦民間機関での同社製品排除命令を発令済み。",
+      "consultant_insight": "技術は進化するが調達リスクが顕在化。日本企業は代替選択肢の準備と性能比較を並行すべき。",
+      "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2610/19/2000002357/"
     },
     {
       "rank": 3,
-      "title_ja": "NECと足立区、生成AI定着に「逆算型データ整備」が鍵──言い訳文化からの脱却事例",
-      "summary_ja": "NECと東京都足立区が生成AIを実業務に定着させる事例を公開。明確な目的設定とデータの整備・統合が不可欠と強調。\n\nAIエージェントによるデータ分析・施策立案の実践を通じ、統合的なAI基盤を活用した持続的な業務変革の要点を提示した。\n\n「言い訳文化」から脱却し、データを逆算で整備する姿勢が成功の鍵。日本企業の多くが抱えるデータ断絶問題への実践的な解決策となる。",
-      "consultant_insight": "AI導入失敗の多くはデータ整備の後回しが原因。この事例を用いて、データファースト設計の重要性を顧客に説得できる。",
+      "title_ja": "米国土安全保障省、DeepSeek製品を連邦民間機関から排除　第三者実装も対象",
+      "summary_ja": "米DHSが中国DeepSeekの製品・関連サービスを連邦民間機関の調達とITシステムから排除する命令を官報公示。自社製だけでなく同社の実装を用いた第三者製品も対象。連邦調達サプライチェーン安全法に基づく措置で、勧告と証拠を検討の上で発令。",
+      "consultant_insight": "米国の調達排除は日本企業のグローバル展開にも影響。サプライチェーン全体の棚卸しが急務。",
       "importance": 5,
-      "category": "実務",
+      "category": "業界",
       "source_name": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2610/19/2000002342/"
+      "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002405/"
     },
     {
       "rank": 4,
-      "title_ja": "世田谷区、AI活用で2900時間削減も「確認・修正負担」増加──新たな課題への対応策",
-      "summary_ja": "世田谷区が生成AIを活用し、業務時間2900時間の削減に成功。一方、AIによる生成物に対する確認と修正の負担が増えている。\n\nAI導入による効率化と品質管理のトレードオフが明確化し、新たな運用課題として浮上した。\n\n自治体レベルでの実践データは、日本企業が同様の導入検討をする際の参考値として活用でき、期待値調整にも役立つ。",
-      "consultant_insight": "AI導入効果を「時間削減」だけで語る危険性を示す好例。品質管理プロセス再設計とセットで提案すべき。",
-      "importance": 4,
+      "title_ja": "江戸川区、AI活用で年3万5000時間削減　「配って終わり」を防ぐ実践知",
+      "summary_ja": "江戸川区が約5年のAI活用で年3万5000時間の業務削減に成功。導入初期から活用事例を蓄積し「ツールを配って終わり」にさせない仕組みを構築。研修・事例共有・継続的なフォローアップが鍵。世田谷区は2900時間削減も「確認・修正負担」の新たな課題に直面。",
+      "consultant_insight": "自治体の5年間の試行錯誤は民間にも適用可能。導入後の運用設計こそがROI最大化の分岐点。",
+      "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/19/news064.html"
+      "url": "https://www.itmedia.co.jp/business/articles/2610/20/news011.html"
     },
     {
       "rank": 5,
-      "title_ja": "NTTテクノクロス「AI-PMO」構想──AIエージェント業務管理にプロジェクト管理手法を応用",
-      "summary_ja": "NTTテクノクロスが人間とAIエージェントの協働マネジメントに、プロジェクト管理手法を適用する「AI-PMO」構想を提示。\n\nAIエージェントの成果管理や目標達成プロセスを、従来のPM手法で担えないかという問題提起を行った。\n\n日本企業が得意とするプロジェクト管理の知見を、AI時代の業務管理に転用できる可能性を示唆する重要なコンセプト。",
-      "consultant_insight": "AI導入の「その後の管理」に悩む顧客へ、既存PMノウハウ活用という現実的な解を提示できる。",
+      "title_ja": "政府18万人が使う生成AI「源内」、コスト抑制の工夫を公開",
+      "summary_ja": "デジタル庁が全府省庁職員約18万人に提供する生成AI「源内」の運用詳細が明らかに。情報の機密性確保と税金運用のコスト感を両立させる仕組みを構築。利用状況のモニタリングと段階的な機能拡張で最適化を図る。",
+      "consultant_insight": "大規模組織のAI導入でコストと機密性を両立する設計は民間企業にも参考になる。段階展開が鍵。",
       "importance": 4,
       "category": "実務",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/19/news068.html"
+      "url": "https://www.itmedia.co.jp/business/articles/2610/20/news012.html"
     },
     {
       "rank": 6,
-      "title_ja": "AIプロジェクト炎上を回避する「採点システム」──熟練PMの知見をAIで継承",
-      "summary_ja": "プロジェクトの遅延や仕様変更、不具合多発などの炎上リスクを、熟練PMの知見を集めたAIが採点・評価するシステムが登場。\n\nQCD順守から価値創出へのシフトを支援し、経験の浅いPMでも炎上を未然に防げる仕組みを提供する。\n\n日本企業のベテラン不足問題と、AIによる暗黙知の形式知化を同時に解決する実践例として注目される。",
-      "consultant_insight": "属人化したPMスキルの組織資産化に悩む顧客へ、AI活用による知見継承の具体策として提案可能。",
+      "title_ja": "OpenAI、低リソース言語のコーディング性能向上　COBOL・SQLite等に注力",
+      "summary_ja": "OpenAIがChatGPTの低リソースプログラミング言語対応を強化。COBOL移行・SQLite・ソフトウェアエンジニアリング向けの新評価指標を導入。レガシーシステムのモダナイゼーションを支援する技術開発を加速。",
+      "consultant_insight": "COBOL対応はレガシー刷新案件の提案材料に。移行コスト削減とリスク低減を両立できる可能性。",
       "importance": 4,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/101402125/"
+      "category": "ツール",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/low-resource-programming-languages"
     },
     {
       "rank": 7,
-      "title_ja": "土木技術者がプログラミング未経験から生成AIでアプリ自作──半年で11個開発",
-      "summary_ja": "広島市の鴻治組で、プログラミング未経験の土木技術者が生成AIを活用してWebアプリを自作。半年で計11個を開発した。\n\n現場管理や書類作成などの業務効率化アプリを、専門的なプログラミング知識なしで実現。生成AIが開発の民主化を加速させた実例。\n\n日本の建設業界における人手不足と技術継承の課題に、現場主導のAI活用で対応する先進事例として評価できる。",
-      "consultant_insight": "非エンジニアの現場社員によるアプリ開発成功例。ノーコード・ローコード提案のさらに先を行く事例として活用できる。",
-      "importance": 5,
+      "title_ja": "Microsoft、AIエージェントを「内部脅威」と位置付け　フロンティアモデル信頼性に警告",
+      "summary_ja": "Microsoftが企業向けにAIエージェントを内部脅威として管理すべきと警告。OpenAIやAnthropic等のラボが制御しないシステムでは「フロンティアモデルを信頼できない」と明言。エージェントの行動監視と権限制限を推奨。",
+      "consultant_insight": "AIエージェント導入時のガバナンス設計が必須に。ゼロトラストの考え方をAIにも適用すべき。",
+      "importance": 4,
       "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00272/100800004/"
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
     },
     {
       "rank": 8,
-      "title_ja": "ガートナー2026年ハイプサイクル──RAG・SREが幻滅期、過度な期待のピークに5項目",
-      "summary_ja": "ガートナーが2026年の日本におけるクラウドとAIのハイプサイクルを発表。Newオンプレミス、RAG、SREが幻滅期に入った。\n\n一方で、過度な期待のピークに立つ5項目が示され、今後の技術投資判断の材料となる。\n\nRAGの幻滅期入りは、実装難易度の高さと期待とのギャップを示唆。日本企業の技術選定に冷静な視点を提供する重要な指標。",
-      "consultant_insight": "RAG導入提案の際、幻滅期入りを前提に現実的な効果範囲を設定する必要性を顧客に伝える根拠になる。",
+      "title_ja": "倉庫向けAI「Fulfillment Flow」、6つのエージェント連携で部分最適を解消",
+      "summary_ja": "IFS Softeonが倉庫向けAI新機能「Fulfillment Flow」を発表。6つの現場特化型AIエージェントが連携し「部分最適のしわ寄せ」を解消。システム統合せず既存環境に柔軟対応する独自戦略で、保守的な日本の現場にも適合。導入2500時間の壁を突破。",
+      "consultant_insight": "既存システムを活かしつつAI効果を得られる実装モデル。製造・物流業の即戦力提案に。",
       "importance": 4,
-      "category": "業界",
+      "category": "実務",
       "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news029.html"
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/20/news044.html"
     },
     {
       "rank": 9,
-      "title_ja": "Amazon、NvidiaのPyTorch独占崩す新ツール「TorchNeuron」発表──代替チップへの移行促進",
-      "summary_ja": "AmazonがNvidiaの支配するPyTorchエコシステムに対抗する開発ツール「TorchNeuron」を発表。\n\nAI開発の大半で使われるPyTorchアプリを、Nvidia以外のチップでも動作させやすくすることで、開発者の選択肢を広げる。\n\nクラウド大手による独自チップ推進の動きが加速し、日本企業のインフラコスト削減の選択肢が増える可能性がある。",
-      "consultant_insight": "GPUコスト高騰に悩む顧客へ、AWS独自チップ活用によるコスト削減提案の材料として使える。",
+      "title_ja": "Amazon、PyTorch向け新開発ツール「TorchNeuron」でNVIDIA依存脱却狙い",
+      "summary_ja": "AmazonがPyTorch向け開発ツール「TorchNeuron」を発表。NVIDIAチップ以外でもAIアプリ開発を容易にし、AWS独自チップ「Trainium」へのシフトを促進。PyTorchエコシステムでのNVIDIA独占に挑戦。",
+      "consultant_insight": "クラウドベンダーのチップ戦略が多様化。コスト最適化の選択肢として顧客に提示できる。",
       "importance": 4,
       "category": "ツール",
       "source_name": "TechCrunch AI",
@@ -92,105 +92,105 @@
     },
     {
       "rank": 10,
-      "title_ja": "国交省、建設分野フィジカルAI重点8分野を選定──産官学コンソーシアムを11月設立",
-      "summary_ja": "国土交通省が建設分野にフィジカルAIを導入するため、産官学が連携するコンソーシアムを2026年11月に設立すると明らかにした。\n\n重点8分野を選定し、具体的な目標や開発方針などを議論する。建設業界のDX推進に国が本格的に関与。\n\n日本の建設業界における人手不足と生産性向上の課題に対し、国主導でAI活用の方向性を示す重要な政策転換点となる。",
-      "consultant_insight": "建設業界の顧客に対し、国の方針に沿ったAI導入提案が可能に。補助金・助成金活用の機会も見込める。",
+      "title_ja": "データセンター×発電設備の一体開発がトレンドに　日立・東京ガス、JERAが参入",
+      "summary_ja": "日立製作所・東京ガスなど4社が九州でデータセンターと電源設備を一体開発。JERA も千葉で発電所一体型データセンターを建設中。AI需要増に伴う電力問題を立地段階で解決する動きが加速。",
+      "consultant_insight": "AIインフラのボトルネックが電力から立地選定へ。企業のデータセンター戦略再考を促すべき。",
       "importance": 4,
       "category": "業界",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00005/100901055/"
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/20/news051.html"
     }
   ],
   "digest": [
     {
-      "title_ja": "中国AIスタートアップ「六小虎」、収益化圧力高まり戦略分岐",
-      "one_liner": "米中AI競争激化の中、中国スタートアップ6社の収益化への道筋が分かれる",
+      "title_ja": "自動運転Turing、GPU以外の高速チップでテスラ超え狙う開発加速",
+      "one_liner": "「GPUを増やすだけでは開発スピード上がらず」の課題を独自チップで解決",
+      "category": "研究",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/20/news017.html"
+    },
+    {
+      "title_ja": "トレンドマイクロCEO、100億円規模のセキュリティ緊急支援策を発表",
+      "one_liner": "「日本を愛している。見過ごせない」相次ぐ事案に危機感",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03479/100600010/"
+      "url": "https://www.itmedia.co.jp/business/articles/2610/20/news041.html"
     },
     {
-      "title_ja": "経営層へのAI導入「AI拡張経営」実践法──意思決定プロセスにAI組込み",
-      "one_liner": "経営者がAI能力を正しく認識し、意思決定に組み込む3段階アプローチ",
+      "title_ja": "高性能AIのゼロデイ攻撃にどう備える？　サイバー防御の鍵「ハーネス」",
+      "one_liner": "未知脆弱性の発見から攻撃実行までを自律化するAI攻撃への4つの対策",
       "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03786/100600002/"
+      "url": "https://kn.itmedia.co.jp/kn/article/2610/20/2000002396/"
     },
     {
-      "title_ja": "四足歩行ロボットが吊り足場内を自律歩行──東大発ベンチャーとオリエンタル白石",
-      "one_liner": "AIで障害物認識、橋梁工事の吊り足場内を安全に自律移動",
+      "title_ja": "NTTテクノクロス、AIエージェント業務管理を「AI-PMO」で構想",
+      "one_liner": "人間とAIの協働成果をプロジェクト管理手法でマネジメント",
       "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00142/02792/"
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/19/news068.html"
     },
     {
-      "title_ja": "施工計画書のたたき台を10分で作成──生成AIで暗黙知を若手に継承",
-      "one_liner": "熟練技術者の暗黙知を見える化し、誰でも活用可能に",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00272/100800002/"
+      "title_ja": "国交省、建設分野のフィジカルAI導入で産官学コンソーシアム設立へ",
+      "one_liner": "2026年11月にも設立、重点8分野を選定済み",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00005/100901055/"
     },
     {
-      "title_ja": "事前学習不要の生成AIで現場監視──KY活動も会話から記録・評価",
-      "one_liner": "施工現場の安全管理にAI導入、危険予知活動の形骸化も防止",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00272/100800003/"
-    },
-    {
-      "title_ja": "音声AIで鳴き声から生物多様性を調査──奥村組と相模原市が実証",
-      "one_liner": "収音マイクとAIで生息生物を判別、生物多様性を定量モニタリング",
+      "title_ja": "奥村組、音声AIで生物多様性を調査　鳴き声から生息種を判別",
+      "one_liner": "相模原市「木もれびの森」で実証、常時モニタリングで定量把握",
       "category": "実務",
       "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00006/100900480/"
     },
     {
-      "title_ja": "現場管理に役立つ生成AI活用4選──特記仕様書解読や安全教育を省力化",
-      "one_liner": "施工計画前の身近な業務省力化から始めるAI活用の実践例",
+      "title_ja": "鴻治組、プログラミング未経験の土木技術者が生成AIでWebアプリ自作",
+      "one_liner": "半年で11個の業務効率化アプリを開発、現場管理を変革",
       "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00272/100800005/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00272/100800004/"
     },
     {
-      "title_ja": "AIコーディングツールOpenCodeがハッキング被害──ユーザーのAIアカウントに不正請求",
-      "one_liner": "オープンソースAI開発ツールがハッカーの標的に、セキュリティ課題浮き彫り",
+      "title_ja": "中国AIスタートアップ「六小虎」、収益化圧力で戦略分岐",
+      "one_liner": "米中AI競争の主要議題化で、6社の収益モデル構築が急務に",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03479/100600010/"
+    },
+    {
+      "title_ja": "四足歩行ロボットが吊り足場内を自律歩行、オリエンタル白石と燈が開発",
+      "one_liner": "AIで障害物や段差をリアルタイム認識、橋梁工事の監視業務に活用",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00142/02792/"
+    },
+    {
+      "title_ja": "CoreWeave債務問題がAI業界全体に波及、株価急落の影響広がる",
+      "one_liner": "社債価格の急落で不安が関連株へ、ただしAIブームへの影響は限定的",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12100/"
+    },
+    {
+      "title_ja": "AIコーディングツール「OpenCode」がハッキング被害、ユーザーアカウントに不正課金",
+      "one_liner": "ClaudeやCursorの代替として人気も、オンラインプラットフォームに侵入",
       "category": "業界",
       "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
     },
     {
-      "title_ja": "AIコンパニオンTolan、3000万ドル調達──25万人のアクティブユーザー獲得",
-      "one_liner": "人生のナビゲートを支援するAIコンパニオンアプリが資金調達",
+      "title_ja": "AIコンパニオンアプリTolan、3000万ドル調達　25万人超のアクティブユーザー獲得",
+      "one_liner": "ライフナビゲーション支援で成長、個人向けAI市場が拡大",
       "category": "業界",
       "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
     },
     {
-      "title_ja": "ReplicaのKuyda氏、12年前のアイデアをWabiで実現──パーソナルAIアシスタント",
-      "one_liner": "Disrupt登壇から12年、個人向けAIアシスタントの構想が結実",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
-    },
-    {
-      "title_ja": "Tenstorrent、62億ドル評価額でオープンAIチップ拡大──15億ドル調達",
-      "one_liner": "Nvidia対抗のオープンウェイトAIチップ企業が独立路線堅持",
+      "title_ja": "Tenstorrent、62億ドル評価額で15億ドル調達　独立路線を維持",
+      "one_liner": "NVIDIA対抗のオープンウェイトAIチップを展開、買収提案を退け資金調達",
       "category": "業界",
       "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
     },
     {
-      "title_ja": "スマートTVをAIで「ダム化」──広告・追跡・重いUIから解放",
-      "one_liner": "ユーザーがAIエージェントでスマートTV機能を無効化、制御を取り戻す動き",
-      "category": "実務",
-      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/"
-    },
-    {
-      "title_ja": "Nvidia、エンタープライズとPC向けオープンモデル発表──エージェント実行に対応",
-      "one_liner": "企業データセンターとPC上で動作するエージェント対応モデルを提供",
+      "title_ja": "NVIDIA、エンタープライズ・PC向けオープンモデル発表　エージェント実行を支援",
+      "one_liner": "自社データセンターでのオープンモデル運用トレンドに対応",
       "category": "ツール",
       "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
     },
     {
-      "title_ja": "Laplace Intelligence、ロボット・自動運転をAIエージェントでテスト",
-      "one_liner": "実環境投入前にシミュレーションでロボットのストレステスト実施",
+      "title_ja": "Laplace Intelligence、ロボット・自動運転車をAIエージェントで実世界前にストレステスト",
+      "one_liner": "ミシガン大発スタートアップ、インタラクティブシミュレーションで安全性検証",
       "category": "研究",
       "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/"
-    },
-    {
-      "title_ja": "Meta、AIエージェントの信頼性向上に「シンオーケストレータ」採用",
-      "one_liner": "ルーターの役割を減らし、エージェントの効率性と精度を改善",
-      "category": "研究",
-      "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/"
     }
   ],
   "date": "20261020",
