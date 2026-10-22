@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "Anthropic「Claude Duet」発表　常時稼働エージェントがOpus 5.5ベースで設計、Pro／Maxプランで提供開始",
+      "summary_ja": "Anthropicが常時稼働型エージェント「Claude Duet」のリサーチプレビューを公開。Claude Opus 5.5をベースとし、タスクの優先度判断やスケジューリングに優れた設計となっている。Pro／Maxプランのユーザーを対象にウェイトリスト経由で提供され、プロアクティブな業務支援を実現する。",
+      "consultant_insight": "Claudeのエージェント化が本格始動。業務の自動化・委任領域が拡大し、企業のAI戦略を再考する契機に。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002490/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Anthropic、Claudeでソフトウェアのアタックサーフェスを洗い出し・縮小する研究を公開　OpenSSHの修正にも貢献",
+      "summary_ja": "AnthropicがAIモデル「Claude」でソフトウェアの攻撃対象領域を分析・縮小する研究結果を発表。オープンソース25件を分析し、設定矛盾など493件の問題を特定した。特にOpenSSHでは認証前に到達可能なコードを約5分の1削減し、最新版に対策が反映されている。手法は脆弱性検出サービスに応用予定。",
+      "consultant_insight": "セキュリティ監査にAIを活用する実例が登場。製造業のOSSセキュリティ対策にも応用可能。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002498/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "Anthropic「物理AI版MCP」を米量子QuEraが実証、エラーの復旧成功率99％",
+      "summary_ja": "AnthropicがAIエージェント接続の共通規格「MCP」に続き、物理システム向け「MHS（Model Hardware Standard）」を発表。米量子コンピューティング企業QuEraが実証実験を実施し、エラー復旧成功率99％を達成。MCPが誕生から2年で開発現場に浸透した実績を踏まえ、ハードウェア連携の標準化に着手。",
+      "consultant_insight": "ソフトウェアからハードウェアへ。AIエージェントの適用範囲が製造現場・実験装置へ拡大する布石。",
+      "importance": 5,
+      "category": "研究",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/101502126/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "OpenAI、AIで発見したPHPの脆弱性を公表　緊急メンテの夜までの一部始終",
+      "summary_ja": "10月21日夜に多数の企業が実施した「緊急メンテナンス」の原因であるPHPの脆弱性をOpenAIのAIモデルが発見。8月に検出後、OpenAIが即応チームを招集し、PHP開発チームと連携して対策を実施した。「今後数カ月で同様の発見が急増」と予告し、AI主導の脆弱性発見時代の到来を示唆。",
+      "consultant_insight": "AIが脆弱性を先回り発見する時代に。セキュリティ体制の抜本的な見直しが急務。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/22/news053.html"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Google CloudにOpenAIの「Astra」含む主要モデルが追加　「主要3社のクローズドモデル使える唯一のハイパースケーラー」に",
+      "summary_ja": "Google CloudのModel GardenにOpenAIの「GPT-6 Astra」「GPT-6.1 Sol」「GPT-6 Luna」が追加され、Anthropic、Google、OpenAIの主要クローズドモデルをすべて提供する唯一のクラウド事業者となった。企業のマルチモデル戦略に対応する環境が整備された形。",
+      "consultant_insight": "マルチモデル前提の企業AI戦略が加速。クラウド選定の重要な判断材料に。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002487/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "Uber、全3万人の従業員にChatGPT Workを展開　企業全体でのAI活用を本格化",
+      "summary_ja": "Uberが全従業員約3万人にChatGPT Workを導入。リサーチ、データ分析、プレゼンテーション作成など複雑な業務をAIで支援する。OpenAIとの提携により、パイロット版から全社展開へと踏み切り、エンタープライズエージェントの本格活用時代を象徴する事例に。",
+      "consultant_insight": "全社AI展開の成功事例として参考価値大。導入プロセスとガバナンス設計が鍵。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+    },
+    {
+      "rank": 7,
+      "title_ja": "AIエージェントによるWebサイト攻撃を観測　「長い目で見れば防御側が有利」の理由とは",
+      "summary_ja": "ビットフォレストがAIエージェントによるWebサイト攻撃を観測。同社のWAF開発責任者は「AIは新しい攻撃ジャンルを生んでいない」と分析し、守る側のAI活用の本命は「パターン学習と異常検知の高度化」と語る。防御側が有利な理由として、守備範囲の限定性と学習データの蓄積優位性を挙げた。",
+      "consultant_insight": "攻撃側AIより守備側AIが有利。セキュリティ投資の優先順位を再考する契機に。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002521/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "チームみらい安野氏、AI悪用のサイバー攻撃受けデジ庁に緊急提言へ　電力・水道・医療停止を想定すべき",
+      "summary_ja": "チームみらいの党首、安野貴博氏がAIを使ったサイバー攻撃に「一刻も早く対策を講じるべき」と警鐘を鳴らし、デジタル庁に緊急提言する方針を表明。電力、水道、医療などの重要インフラ停止を伴う被害を想定すべきと訴え、国家レベルでのAI攻撃対策の必要性を強調した。",
+      "consultant_insight": "政治の場にもAI脅威論が浮上。企業のBCP策定にAI攻撃シナリオの組み込みが必須に。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002518/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "クレーム対応ばかりでオペレーターが辞めていく　カスハラ義務化時代にAIはどう現場を守る？",
+      "summary_ja": "簡単な問い合わせをAIに任せた結果、現場に難解なクレームだけが残りオペレーターが疲弊する逆転現象が発生。世界大手Genesysのアジア太平洋営業責任者が、業務支援AIによる現場防衛術を解説。カスハラ対策義務化を控え、「65％は人間と話したい」顧客ニーズとの両立が課題に。",
+      "consultant_insight": "AI導入の副作用を可視化。コンタクトセンターのAI戦略は「負荷の移転」ではなく「全体最適」で設計を。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/22/news033.html"
+    },
+    {
+      "rank": 10,
+      "title_ja": "AIカメラで「最後の砦は人」を脱却、レンゴーとキリンビールの工場安全DX",
+      "summary_ja": "レンゴーとキリンビールが「ファクトリーイノベーションWeeK2026秋」で工場の安全対策を発表。AIやIoT、ウェアラブル機器を活用し、従来の「人による監視」から「システムによる予防」へと転換。両社の事例は、製造現場でのAI活用による安全性向上の具体的なロードマップを示した。",
+      "consultant_insight": "製造業の安全DXにAIが本格導入。現場の抵抗を超える「見える化」の工夫が参考に。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news017.html"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "手のひらサイズの「宇宙AIデータセンター」、JAXA後押しの国内新興が実現目指す",
+      "one_liner": "宇宙でデータ処理し軽量化して地上に下ろす小型AIシステムを開発中。南極・高山での利用も視野。",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002510/"
+    },
+    {
+      "title_ja": "漢検運営が「AIで生成」画像で漢字ミス→謝罪　「これを出そうって神経が分からない」の声も",
+      "one_liner": "日本漢字能力検定協会がAI生成画像の誤字を謝罪。AI品質管理の重要性を再認識。",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002494/"
+    },
+    {
+      "title_ja": "AIで「ゴジラになって」街破壊　富士通が体験型展示　「体操の採点システム」活用",
+      "one_liner": "富士通がCEATEC 2026で公開。体操採点AIを応用したゴジラ体験型展示。",
+      "category": "ツール",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002364/"
+    },
+    {
+      "title_ja": "なぜルネサスはTSMCに勝てなかったのか　「電子立国ニッポン」当時を知る日立のキーマンが語る",
+      "one_liner": "業績好調なTSMCと対照的に、日本半導体の衰退の理由を日立のキーマンが分析。",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/22/news021.html"
+    },
+    {
+      "title_ja": "SynopsysとAnsysの技術統合が切り開く、AI時代の新たな設計／解析プロセス",
+      "one_liner": "半導体からシステム全体までを対象とした設計／解析環境の進化をAnsysが発表。",
+      "category": "ツール",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news029.html"
+    },
+    {
+      "title_ja": "なぜ上場を捨ててまでAIに賭けたのか？　カオナビが非公開化して進める「脱・勘と経験の人事」",
+      "one_liner": "カオナビが株式非公開化し、5年間をAIと人事データの融合に投資。2030年の再上場を目指す。",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/22/news032.html"
+    },
+    {
+      "title_ja": "旧世代NVIDIAを循環利用、クラウド接続の「自社専用AI基盤」を1GPUから提供",
+      "one_liner": "エクストリームーDら3社が中古GPU活用のAIインフラサービス開始。最短即日、定額利用可能。",
+      "category": "ツール",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news039.html"
+    },
+    {
+      "title_ja": "三菱電機、ヒューマノイドと工作機械が連携して加工　JIMTOF2026でデモ",
+      "one_liner": "フィジカルAI経由でヒューマノイドロボットとCNC工作機械が連携する加工システムを開発。",
+      "category": "実務",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/21/news073.html"
+    },
+    {
+      "title_ja": "SamuraiAX、社員一人ひとりの「代理ボット」が質問に下書きを作る機能を提供",
+      "one_liner": "「Samurai App」で社員の代理ボットが同僚の質問に答えの下書きを作成。本人が確認して返信。",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/445/4445095/?rss"
+    },
+    {
+      "title_ja": "半導体メモリーの27年、市場拡大続き競争激化　中国2社が台風の目",
+      "one_liner": "AIサーバー向け需要拡大でメモリー市場は拡大。中国2社の台頭で競争激化。",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03740/100800014/"
+    },
+    {
+      "title_ja": "「経営」と「業務」が連動しないAI導入における3つの失敗パターン",
+      "one_liner": "経営層と業務層の両輪を同時に回すことがAI時代の組織変革の出発点。",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03786/100700004/"
+    },
+    {
+      "title_ja": "大阪メトロがAIオンデマンドバス配車を拡大、内製転換で挑む採算の壁",
+      "one_liner": "社会実験の期限を1年延長。複数人乗車（相乗り）が採算性の鍵を握る。",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12107/"
+    },
+    {
+      "title_ja": "データ主権を確保する「ソブリンAI」、海外依存のリスク低減へ",
+      "one_liner": "国や企業が自国・自社のデータや技術基盤で自立的に開発・運用するAIシステムに注目。",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/keyword/18/00002/101400329/"
+    },
+    {
+      "title_ja": "AIがこれだけ使われているのに「誰も本当に理解していない」深層学習",
+      "one_liner": "「現時点で誰も深層学習を本当に理解してはいない」と書かれた書籍を紹介。",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00166/102000210/"
+    },
+    {
+      "title_ja": "人が命じてAIが操作、新型SaaSは見た目も中身も使い勝手も一新",
+      "one_liner": "AIエージェント向けに最適化した新製品や新機能を急ぎ提供する各社の戦略を分析。",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03802/101900002/"
+    }
+  ],
+  "date": "20261023",
+  "failed_sources": [
+    "AI-Scholar: ",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
