@@ -2,9 +2,9 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Anthropic「Claude Duet」発表　常時稼働エージェントがOpus 5.5ベースで設計、Pro／Maxプランで提供開始",
-      "summary_ja": "Anthropicが常時稼働型エージェント「Claude Duet」のリサーチプレビューを公開。Claude Opus 5.5をベースとし、タスクの優先度判断やスケジューリングに優れた設計となっている。Pro／Maxプランのユーザーを対象にウェイトリスト経由で提供され、プロアクティブな業務支援を実現する。",
-      "consultant_insight": "Claudeのエージェント化が本格始動。業務の自動化・委任領域が拡大し、企業のAI戦略を再考する契機に。",
+      "title_ja": "Anthropic、Claude Duet（常時稼働型エージェント）を発表──Opus 5.5ベースで優先度判断に優れる",
+      "summary_ja": "AnthropicはClaude Opus 5.5をベースにした常時稼働型エージェント「Claude Duet」のリサーチプレビューを公開。タスク優先度の判断力に優れ、Pro／Maxプランで提供される。従来の対話型AIからエージェント型への転換を象徴する製品だ。\n\nClaude Coworkのクラウド型への仕様変更と合わせて、Anthropicはエージェント領域での製品ポートフォリオを急速に拡充している。企業の業務自動化ニーズに対応する戦略が鮮明になった。\n\n他社エージェント製品（ChatGPT Work等）との競争が激化する中、Claudeの強みである推論力・判断力を前面に押し出した差別化戦略と言える。",
+      "consultant_insight": "企業導入時は「タスク優先度の判断基準」を明確化し、人間による承認フローを設計することが重要。",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
@@ -12,190 +12,190 @@
     },
     {
       "rank": 2,
-      "title_ja": "Anthropic、Claudeでソフトウェアのアタックサーフェスを洗い出し・縮小する研究を公開　OpenSSHの修正にも貢献",
-      "summary_ja": "AnthropicがAIモデル「Claude」でソフトウェアの攻撃対象領域を分析・縮小する研究結果を発表。オープンソース25件を分析し、設定矛盾など493件の問題を特定した。特にOpenSSHでは認証前に到達可能なコードを約5分の1削減し、最新版に対策が反映されている。手法は脆弱性検出サービスに応用予定。",
-      "consultant_insight": "セキュリティ監査にAIを活用する実例が登場。製造業のOSSセキュリティ対策にも応用可能。",
+      "title_ja": "Anthropic、Claudeでソフトウェアの攻撃対象領域を洗い出し・縮小する研究を公開──OpenSSH改善にも貢献",
+      "summary_ja": "AnthropicはClaudeを使ってソフトウェアの攻撃対象領域（アタックサーフェス）を分析・縮小する研究成果を公開。オープンソース25件を分析し493件の問題を特定した。\n\nOpenSSHでは認証前に到達可能なコードを約5分の1に削減し、最新版に対策が反映された。セキュリティ分野でのAI活用の具体例として注目される。\n\n今後、脆弱性検出サービス「OS」への組み込みも予定されており、セキュリティ業務へのAI導入の実用性が高まっている。",
+      "consultant_insight": "自社システムの脆弱性診断にAIを活用する際のベストプラクティスとして参考になる。",
       "importance": 5,
-      "category": "実務",
+      "category": "研究",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002498/"
     },
     {
       "rank": 3,
-      "title_ja": "Anthropic「物理AI版MCP」を米量子QuEraが実証、エラーの復旧成功率99％",
-      "summary_ja": "AnthropicがAIエージェント接続の共通規格「MCP」に続き、物理システム向け「MHS（Model Hardware Standard）」を発表。米量子コンピューティング企業QuEraが実証実験を実施し、エラー復旧成功率99％を達成。MCPが誕生から2年で開発現場に浸透した実績を踏まえ、ハードウェア連携の標準化に着手。",
-      "consultant_insight": "ソフトウェアからハードウェアへ。AIエージェントの適用範囲が製造現場・実験装置へ拡大する布石。",
-      "importance": 5,
-      "category": "研究",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/101502126/"
+      "title_ja": "OpenAI、新規300億ドル調達を検討──評価額1.25兆ドルでIPO前の最終大型調達か",
+      "summary_ja": "OpenAIが評価額1.25兆ドル（約187.5兆円）で300億ドルの資金調達を検討中と報道された。実現すれば史上最高評価額の非上場企業となる。\n\nIPOに向けた最終的な大型調達と見られ、AI基盤モデル開発とコンピュートインフラへの投資が目的と推測される。競合他社との開発競争が激化する中、資金力がAI業界の勢力図を左右する構図が鮮明だ。\n\n日本企業にとっては、OpenAI製品の価格戦略や提供体制への影響を注視する必要がある。",
+      "consultant_insight": "OpenAI製品への依存度が高い顧客には、複数ベンダー併用の検討を助言すべき局面。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
     },
     {
       "rank": 4,
-      "title_ja": "OpenAI、AIで発見したPHPの脆弱性を公表　緊急メンテの夜までの一部始終",
-      "summary_ja": "10月21日夜に多数の企業が実施した「緊急メンテナンス」の原因であるPHPの脆弱性をOpenAIのAIモデルが発見。8月に検出後、OpenAIが即応チームを招集し、PHP開発チームと連携して対策を実施した。「今後数カ月で同様の発見が急増」と予告し、AI主導の脆弱性発見時代の到来を示唆。",
-      "consultant_insight": "AIが脆弱性を先回り発見する時代に。セキュリティ体制の抜本的な見直しが急務。",
+      "title_ja": "OpenAI、意思決定特化型「Decisions API」を発表──高速・低コストで業務判断を自動化",
+      "summary_ja": "OpenAIは新たに「Decisions API」を発表。高速・低コスト・高精度な意思決定に特化したAPIで、あらゆるアプリケーションに組み込める。\n\nAnthropicのJev競合製品と位置づけられ、ディシジョンモデル市場での競争が激化している。業務システムにおける「判断の自動化」ニーズに対応する製品だ。\n\n従来の生成AIが「作成」に強みを持つのに対し、意思決定モデルは「選択・判断」に特化することで差別化を図る。",
+      "consultant_insight": "承認フロー・ルーティング・リソース配分等の意思決定業務に即導入可能。ROI試算を。",
       "importance": 5,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/22/news053.html"
+      "category": "ツール",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/decisions-api"
     },
     {
       "rank": 5,
-      "title_ja": "Google CloudにOpenAIの「Astra」含む主要モデルが追加　「主要3社のクローズドモデル使える唯一のハイパースケーラー」に",
-      "summary_ja": "Google CloudのModel GardenにOpenAIの「GPT-6 Astra」「GPT-6.1 Sol」「GPT-6 Luna」が追加され、Anthropic、Google、OpenAIの主要クローズドモデルをすべて提供する唯一のクラウド事業者となった。企業のマルチモデル戦略に対応する環境が整備された形。",
-      "consultant_insight": "マルチモデル前提の企業AI戦略が加速。クラウド選定の重要な判断材料に。",
-      "importance": 5,
+      "title_ja": "Google Cloud、OpenAIモデル（Astra/Sol/Luna）を追加──主要3社モデル提供の唯一のハイパースケーラーに",
+      "summary_ja": "Google CloudのModel GardenにOpenAIの「GPT-6 Astra」「GPT-6.1 Sol」「GPT-6 Luna」が追加された。これによりGoogle Cloudは主要3社（Google/OpenAI/Anthropic）のクローズドモデルを提供する唯一のハイパースケーラーとなった。\n\nマルチクラウド戦略を取る企業にとって、Model Gardenは複数ベンダーのモデルを統合管理できる利点がある。\n\nOpenAIとGoogleの競争関係が複雑化する中、顧客獲得では協業する戦略が興味深い。",
+      "consultant_insight": "GCP利用企業には、既存インフラ内でOpenAIモデルを試せる選択肢として提案可能。",
+      "importance": 4,
       "category": "ツール",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002487/"
     },
     {
       "rank": 6,
-      "title_ja": "Uber、全3万人の従業員にChatGPT Workを展開　企業全体でのAI活用を本格化",
-      "summary_ja": "Uberが全従業員約3万人にChatGPT Workを導入。リサーチ、データ分析、プレゼンテーション作成など複雑な業務をAIで支援する。OpenAIとの提携により、パイロット版から全社展開へと踏み切り、エンタープライズエージェントの本格活用時代を象徴する事例に。",
-      "consultant_insight": "全社AI展開の成功事例として参考価値大。導入プロセスとガバナンス設計が鍵。",
-      "importance": 5,
+      "title_ja": "大田区、年1000時間の問い合わせをAI電話で削減する実証実験──「間違いが許されない」行政の課題と突破口",
+      "summary_ja": "大田区はスタートアップと協業し、AI電話自動応答サービスの実証実験を実施。年間約1000時間の電話対応削減を目指す。\n\n「間違いが許されない」行政現場でのAI活用における難所と、初年度の取り組みから見えた突破口が明らかになった。正確性担保と業務効率化の両立が鍵。\n\n自治体のAI導入事例として、民間企業のコンタクトセンター改革にも応用可能なナレッジが蓄積されつつある。",
+      "consultant_insight": "コンタクトセンターAI導入時の「正確性検証プロセス」設計の参考事例として有用。",
+      "importance": 4,
       "category": "実務",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2610/23/2000002529/"
     },
     {
       "rank": 7,
-      "title_ja": "AIエージェントによるWebサイト攻撃を観測　「長い目で見れば防御側が有利」の理由とは",
-      "summary_ja": "ビットフォレストがAIエージェントによるWebサイト攻撃を観測。同社のWAF開発責任者は「AIは新しい攻撃ジャンルを生んでいない」と分析し、守る側のAI活用の本命は「パターン学習と異常検知の高度化」と語る。防御側が有利な理由として、守備範囲の限定性と学習データの蓄積優位性を挙げた。",
-      "consultant_insight": "攻撃側AIより守備側AIが有利。セキュリティ投資の優先順位を再考する契機に。",
+      "title_ja": "Uber、全3万人の社員にChatGPT Workを展開──研究・データ分析・プレゼン作成を支援",
+      "summary_ja": "Uberは全社員3万人超にChatGPT Workを展開すると発表。従来の小規模パイロット版から全社展開へと拡大した。\n\n研究・データ分析・プレゼン作成・複雑業務の完遂を支援する目的で、エンタープライズエージェントの全社導入事例として注目される。\n\nOpenAIにとっても大型顧客獲得の成功例となり、企業向けエージェント市場での競争力を示す結果だ。",
+      "consultant_insight": "全社AI導入の段階的アプローチ（パイロット→全社展開）のベストプラクティスとして参考に。",
       "importance": 4,
       "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002521/"
+      "source_name": "OpenAI Blog / TechCrunch AI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout"
     },
     {
       "rank": 8,
-      "title_ja": "チームみらい安野氏、AI悪用のサイバー攻撃受けデジ庁に緊急提言へ　電力・水道・医療停止を想定すべき",
-      "summary_ja": "チームみらいの党首、安野貴博氏がAIを使ったサイバー攻撃に「一刻も早く対策を講じるべき」と警鐘を鳴らし、デジタル庁に緊急提言する方針を表明。電力、水道、医療などの重要インフラ停止を伴う被害を想定すべきと訴え、国家レベルでのAI攻撃対策の必要性を強調した。",
-      "consultant_insight": "政治の場にもAI脅威論が浮上。企業のBCP策定にAI攻撃シナリオの組み込みが必須に。",
+      "title_ja": "1Password、AIエージェントがパスワードを見ずにログインできる新機能を発表──秘密情報保護を実現",
+      "summary_ja": "1PasswordはAIエージェントがユーザーに代わってログインできる新機能を発表。エージェントはパスワード等の秘密情報を見ることなくアカウントにアクセスできる。\n\nAIエージェント時代のセキュリティ課題「エージェントに認証情報をどう渡すか」への解決策として注目される。\n\nエージェントの普及に伴い、認証・セキュリティの仕組みも進化が求められている実例だ。",
+      "consultant_insight": "AIエージェント導入時のセキュリティ設計において、認証情報管理の新アプローチとして提案可能。",
       "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002518/"
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
     },
     {
       "rank": 9,
-      "title_ja": "クレーム対応ばかりでオペレーターが辞めていく　カスハラ義務化時代にAIはどう現場を守る？",
-      "summary_ja": "簡単な問い合わせをAIに任せた結果、現場に難解なクレームだけが残りオペレーターが疲弊する逆転現象が発生。世界大手Genesysのアジア太平洋営業責任者が、業務支援AIによる現場防衛術を解説。カスハラ対策義務化を控え、「65％は人間と話したい」顧客ニーズとの両立が課題に。",
-      "consultant_insight": "AI導入の副作用を可視化。コンタクトセンターのAI戦略は「負荷の移転」ではなく「全体最適」で設計を。",
-      "importance": 4,
-      "category": "実務",
+      "title_ja": "PHP2Shell脆弱性、公表4日前に悪用の試み──Amazon「対応期限を時間単位で管理すべき」と警告",
+      "summary_ja": "Amazonの脅威調査チームは、PHPの緊急脆弱性「PHP2Shell」を公表4日前にハニーポットで検知。公開後は悪用が急拡大した。\n\nAIによる攻撃コード作成の加速を指摘し、対応期限を時間単位で管理する必要性や、公表前への調査遡及など、前提の見直しを呼び掛けた。\n\nAI時代のセキュリティ対応では「公表後すぐ対応」では遅く、ゼロデイ対策の高度化が急務となっている。",
+      "consultant_insight": "脆弱性対応SLAの見直しと、AIによる攻撃予測システムの導入検討を顧客に提案すべき。",
+      "importance": 5,
+      "category": "業界",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/22/news033.html"
+      "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002530/"
     },
     {
       "rank": 10,
-      "title_ja": "AIカメラで「最後の砦は人」を脱却、レンゴーとキリンビールの工場安全DX",
-      "summary_ja": "レンゴーとキリンビールが「ファクトリーイノベーションWeeK2026秋」で工場の安全対策を発表。AIやIoT、ウェアラブル機器を活用し、従来の「人による監視」から「システムによる予防」へと転換。両社の事例は、製造現場でのAI活用による安全性向上の具体的なロードマップを示した。",
-      "consultant_insight": "製造業の安全DXにAIが本格導入。現場の抵抗を超える「見える化」の工夫が参考に。",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news017.html"
+      "title_ja": "AIで通信トラフィックが激変、モバイル網に大規模構造転換が迫る──携帯各社とベンダーが備え急ぐ",
+      "summary_ja": "AIの利用拡大でモバイル通信のトラフィックが劇的に変化すると予測され、携帯電話会社と通信機器ベンダーがAI時代に向けた備えを急いでいる。\n\n従来の「ダウンロード中心」から「双方向・リアルタイム通信」へのシフトや、エッジコンピューティングの重要性増大が見込まれる。\n\n通信インフラ自体がAI前提の設計に転換する必要があり、5G/6Gの進化方向にも影響を与える構造変化だ。",
+      "consultant_insight": "通信業界のクライアントには、AIトラフィック増加を見越したインフラ投資計画の見直しを助言。",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00745/102100277/"
     }
   ],
   "digest": [
     {
-      "title_ja": "手のひらサイズの「宇宙AIデータセンター」、JAXA後押しの国内新興が実現目指す",
-      "one_liner": "宇宙でデータ処理し軽量化して地上に下ろす小型AIシステムを開発中。南極・高山での利用も視野。",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002510/"
+      "title_ja": "Microsoft AI、医師を上回る診断精度を主張──「医療超知能」目指す",
+      "one_liner": "MicrosoftのAI診断システムが困難症例で一般医を上回る成績",
+      "category": "研究",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
     },
     {
-      "title_ja": "漢検運営が「AIで生成」画像で漢字ミス→謝罪　「これを出そうって神経が分からない」の声も",
-      "one_liner": "日本漢字能力検定協会がAI生成画像の誤字を謝罪。AI品質管理の重要性を再認識。",
+      "title_ja": "Canva、初の自社画像生成モデルを全ユーザーに提供開始",
+      "one_liner": "低コスト・高カスタマイズ性能を特徴とする独自画像生成AI",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+    },
+    {
+      "title_ja": "DeepSeek、150億ドル調達と報道──米国規制直後の大型資金調達",
+      "one_liner": "中国最大級の資金調達ラウンド、米国排除命令の数日後",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+    },
+    {
+      "title_ja": "中国ハッカー、ConnectWise侵入で数千社を監視──AIエージェント悪用",
+      "one_liner": "AIエージェントで自動化された大規模サイバー攻撃を確認",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
+    },
+    {
+      "title_ja": "Spotify、AIエージェント時代に「選ばれる音楽サービス」目指す",
+      "one_liner": "エージェントが音楽サービスを選ぶ時代への戦略を説明",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/"
+    },
+    {
+      "title_ja": "Nirva、音声認識ペンダントで3300万ドル調達──年内出荷予定",
+      "one_liner": "ユーザーの声だけを聞き分けるAIペンダント型デバイス",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/"
+    },
+    {
+      "title_ja": "アクセンチュア、新職種RDE育成現場を公開──AI時代の価値発揮を目指す",
+      "one_liner": "Reinvention Deployed Engineerの育成プログラムを取材",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03520/102100024/"
+    },
+    {
+      "title_ja": "三菱電機、ヒューマノイドと工作機械をAI連係──2030年実用化",
+      "one_liner": "フィジカルAIで人型ロボと工作機械が協働加工",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03435/"
+    },
+    {
+      "title_ja": "ローカルLLM専用機候補、Mac miniとAMD機を検討──ベンダー依存脱却",
+      "one_liner": "料金・利用形態の一方的変更リスク回避でローカルLLMに注目",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00682/102100219/"
+    },
+    {
+      "title_ja": "SaaSはAIエージェント向けに転生──データ不足・高コストに注意",
+      "one_liner": "人間操作前提からエージェント向けへの転換が進む",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03802/101900003/"
+    },
+    {
+      "title_ja": "AI進化の代償は「セキュリティコスト爆発」──警戒必要",
+      "one_liner": "AI活用拡大に伴うセキュリティ負担の規模感が明確に",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00692/102200201/"
+    },
+    {
+      "title_ja": "漢検運営、AI生成画像で漢字ミス→謝罪──「神経が分からない」の声",
+      "one_liner": "公式アカウントがAI生成画像の誤字を見逃し炎上",
       "category": "業界",
       "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002494/"
     },
     {
-      "title_ja": "AIで「ゴジラになって」街破壊　富士通が体験型展示　「体操の採点システム」活用",
-      "one_liner": "富士通がCEATEC 2026で公開。体操採点AIを応用したゴジラ体験型展示。",
-      "category": "ツール",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002364/"
-    },
-    {
-      "title_ja": "なぜルネサスはTSMCに勝てなかったのか　「電子立国ニッポン」当時を知る日立のキーマンが語る",
-      "one_liner": "業績好調なTSMCと対照的に、日本半導体の衰退の理由を日立のキーマンが分析。",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/22/news021.html"
-    },
-    {
-      "title_ja": "SynopsysとAnsysの技術統合が切り開く、AI時代の新たな設計／解析プロセス",
-      "one_liner": "半導体からシステム全体までを対象とした設計／解析環境の進化をAnsysが発表。",
-      "category": "ツール",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news029.html"
-    },
-    {
-      "title_ja": "なぜ上場を捨ててまでAIに賭けたのか？　カオナビが非公開化して進める「脱・勘と経験の人事」",
-      "one_liner": "カオナビが株式非公開化し、5年間をAIと人事データの融合に投資。2030年の再上場を目指す。",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/22/news032.html"
-    },
-    {
-      "title_ja": "旧世代NVIDIAを循環利用、クラウド接続の「自社専用AI基盤」を1GPUから提供",
-      "one_liner": "エクストリームーDら3社が中古GPU活用のAIインフラサービス開始。最短即日、定額利用可能。",
-      "category": "ツール",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news039.html"
-    },
-    {
-      "title_ja": "三菱電機、ヒューマノイドと工作機械が連携して加工　JIMTOF2026でデモ",
-      "one_liner": "フィジカルAI経由でヒューマノイドロボットとCNC工作機械が連携する加工システムを開発。",
-      "category": "実務",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/21/news073.html"
-    },
-    {
-      "title_ja": "SamuraiAX、社員一人ひとりの「代理ボット」が質問に下書きを作る機能を提供",
-      "one_liner": "「Samurai App」で社員の代理ボットが同僚の質問に答えの下書きを作成。本人が確認して返信。",
-      "category": "ツール",
-      "url": "https://ascii.jp/elem/000/004/445/4445095/?rss"
-    },
-    {
-      "title_ja": "半導体メモリーの27年、市場拡大続き競争激化　中国2社が台風の目",
-      "one_liner": "AIサーバー向け需要拡大でメモリー市場は拡大。中国2社の台頭で競争激化。",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03740/100800014/"
-    },
-    {
-      "title_ja": "「経営」と「業務」が連動しないAI導入における3つの失敗パターン",
-      "one_liner": "経営層と業務層の両輪を同時に回すことがAI時代の組織変革の出発点。",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03786/100700004/"
-    },
-    {
-      "title_ja": "大阪メトロがAIオンデマンドバス配車を拡大、内製転換で挑む採算の壁",
-      "one_liner": "社会実験の期限を1年延長。複数人乗車（相乗り）が採算性の鍵を握る。",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12107/"
-    },
-    {
-      "title_ja": "データ主権を確保する「ソブリンAI」、海外依存のリスク低減へ",
-      "one_liner": "国や企業が自国・自社のデータや技術基盤で自立的に開発・運用するAIシステムに注目。",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/keyword/18/00002/101400329/"
-    },
-    {
-      "title_ja": "AIがこれだけ使われているのに「誰も本当に理解していない」深層学習",
-      "one_liner": "「現時点で誰も深層学習を本当に理解してはいない」と書かれた書籍を紹介。",
+      "title_ja": "手のひらサイズの宇宙AIデータセンター開発──JAXA後押し",
+      "one_liner": "宇宙でデータ処理し軽量化して地上送信、南極等でも利用視野",
       "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00166/102000210/"
+      "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002510/"
     },
     {
-      "title_ja": "人が命じてAIが操作、新型SaaSは見た目も中身も使い勝手も一新",
-      "one_liner": "AIエージェント向けに最適化した新製品や新機能を急ぎ提供する各社の戦略を分析。",
-      "category": "ツール",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03802/101900002/"
+      "title_ja": "WebセキュリティでAI活用、本命は防御側──専門家が解説",
+      "one_liner": "AIは新攻撃ジャンルを生んでおらず、長期的には防御有利",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002521/"
+    },
+    {
+      "title_ja": "チームみらい、AI悪用サイバー攻撃でデジ庁に緊急提言へ",
+      "one_liner": "電力・水道・医療停止を伴う被害想定すべきと警鐘",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002518/"
     }
   ],
   "date": "20261023",
   "failed_sources": [
-    "AI-Scholar: ",
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
     "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
   ]
 }
