@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "中小企業のSNS・ブログ運用を自動化するWellSkate AI",
+      "summary_ja": "中小企業向けにSNSやブログの運用を自動化するAIサービス「WellSkate AI」の活用例が紹介された。\n人手不足に悩む中小企業でも、AIを活用してコンテンツ生成・投稿管理を効率化できる具体的な導入事例が示されている。\n専門知識不要で始められる点が、リソースの限られた中小企業にとって大きなメリットとなる。",
+      "consultant_insight": "中小企業クライアントへのマーケティング支援提案に即活用できる具体例として有用",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/445/4445522/?rss"
+    },
+    {
+      "rank": 2,
+      "title_ja": "ゴムマリ、苦情・VoC・クレームのAIデータベース化サービス開始",
+      "summary_ja": "ゴムマリの専門業務AI-BPOが、苦情・顧客の声（VoC）・クレームをAIでデータベース化するサービスの提供を開始した。\n非構造化された顧客フィードバックを自動分類・分析し、業務改善に活用できる形に変換する。\nコンタクトセンターやカスタマーサポート部門での業務効率化と品質向上が期待できる。",
+      "consultant_insight": "カスタマーサポート改革案件で提案できる即戦力ソリューション、ROI試算が重要",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/445/4445515/?rss"
+    },
+    {
+      "rank": 3,
+      "title_ja": "Apollo経済学者「AIは大半の企業に財務的リターンゼロ」と警告",
+      "summary_ja": "投資会社Apolloのエコノミストが、大規模なAI投資にもかかわらず、大半の米国企業でAIによる財務的リターンがゼロだと指摘した。\n膨大な投資とメディアの注目にもかかわらず、実際のビジネス成果に結びついていない現状が浮き彫りになっている。\nAI導入の目的設定と効果測定の重要性が改めて問われる内容となっている。",
+      "consultant_insight": "クライアントのAI投資判断で「投資対効果の厳密な事前評価」の重要性を説く根拠に",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "1Password、AIエージェントがパスワードを見ずにログインする新機能",
+      "summary_ja": "パスワード管理サービス1Passwordが、AIエージェントが実際のパスワードを参照せずにログイン処理を実行できる新機能「1Password for Agents」を発表した。\nセキュリティとAI活用の両立を実現し、エージェントにパスワードを直接渡さずに認証作業を自動化できる。\n企業のAIエージェント導入における重要なセキュリティ課題に対する実用的な解決策となる。",
+      "consultant_insight": "AIエージェント導入時のセキュリティ懸念を解消する提案材料として活用可能",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/1password"
+    },
+    {
+      "rank": 5,
+      "title_ja": "ペンシルベニア州、AI生成広告への表示義務を法制化",
+      "summary_ja": "ペンシルベニア州知事が「AI虚偽広告防止法」に署名し、AI生成広告への表示義務を法制化した。\nAIで生成されたコンテンツを使用する広告には明確な開示が求められるようになる。\n消費者保護とAI活用の透明性確保に向けた米国内での先進的な取り組みとなる。",
+      "consultant_insight": "日本でも近い将来同様の規制が予想され、クライアントの広告戦略見直しに先手を",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+    },
+    {
+      "rank": 6,
+      "title_ja": "Llama Windows：Windows向けローカルAIサーバー統合ソリューション",
+      "summary_ja": "Windows環境で動作するすべてのアプリケーションに対して単一のローカルAIサーバーを提供する「Llama Windows」がリリースされた。\nクラウドAIに依存せず、ローカル環境でのAI機能統合を実現し、データプライバシーとコスト削減を両立できる。\n企業の機密情報を扱う業務での活用やオフライン環境での利用が期待される。",
+      "consultant_insight": "データ主権重視の日本企業に対し、クラウド依存を減らす選択肢として提案価値あり",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/llama-windows"
+    },
+    {
+      "rank": 7,
+      "title_ja": "AgentGrid.io：人間とAIエージェントの共有ワークスペース",
+      "summary_ja": "人間とAIエージェントが同じ作業空間で協働できる「AgentGrid.io」が登場した。\nチームメンバーとAIエージェントがシームレスに連携し、タスクを共有・分担できる環境を提供する。\n従来の「人間VSエージェント」ではなく「人間+エージェント」の協働モデルを実現する新しいアプローチとなる。",
+      "consultant_insight": "AIエージェント活用の次フェーズ「人間との協働」モデル提案に使える事例",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/agentgrid-io"
+    },
+    {
+      "rank": 8,
+      "title_ja": "Context Engine：AIエージェントとチームで共有する統合メモリシステム",
+      "summary_ja": "AIエージェントと人間チームメンバーが共有できる統一メモリシステム「Context Engine」がリリースされた。\nプロジェクトの文脈や知識をAIと人間が共通のメモリとして利用でき、一貫性のある協働作業を実現する。\n複数のAIエージェントを運用する際の文脈管理の課題を解決する実用的なツールとなる。",
+      "consultant_insight": "複数エージェント運用時の「記憶の統一」課題への解決策として提案材料に",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/context-engine-2"
+    },
+    {
+      "rank": 9,
+      "title_ja": "Reddit r/opensource、AI・非英語話者等を一律禁止",
+      "summary_ja": "Redditの人気コミュニティr/opensourceが、AIを使ったプロジェクト、非英語話者などを一律で禁止する新ルールを発表した。\nオープンソースコミュニティ内でAI技術への警戒感が高まっている現状を象徴する動きとなっている。\n技術コミュニティにおけるAI受容の複雑さと多様性を示す事例となった。",
+      "consultant_insight": "AIツール導入時の組織内抵抗を想定し、コミュニケーション戦略の重要性を説く材料",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+    },
+    {
+      "rank": 10,
+      "title_ja": "GoogleのAI検索変更がオンライン出版業界に大打撃",
+      "summary_ja": "GoogleがAI機能を統合した検索結果の変更により、オンライン出版業界が大きな影響を受けている。\nAI生成の要約が検索結果上部に表示されることで、元記事へのトラフィックが大幅に減少している。\nコンテンツ作成者のビジネスモデルとAI時代の情報エコシステムのあり方が問われている。",
+      "consultant_insight": "コンテンツビジネスのクライアントに「AI時代の流入経路多角化」を提案する根拠",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "sideOS.ai：ローカルAIによる文字起こし・会議・バックグラウンドタスク処理",
+      "one_liner": "デスクトップ環境でローカル動作するAIアシスタント",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/sideos-ai"
+    },
+    {
+      "title_ja": "Moli by Lexmount：エージェント・ハーネス向け高速ヘッドレスブラウザ",
+      "one_liner": "AIエージェントに最適化された高速ブラウザエンジン",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/lexmount-browser"
+    },
+    {
+      "title_ja": "Yourcast 2.0：Telegram内でAI要約とタイムスタンプジャンプ機能",
+      "one_liner": "Telegram上で動画コンテンツをAI要約・タップでジャンプ",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/yourcast"
+    },
+    {
+      "title_ja": "Specsight：AI活用チーム向けプロダクト観測ツール",
+      "one_liner": "高速開発チームのためのプロダクト監視・分析ツール",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/specsight"
+    },
+    {
+      "title_ja": "Dots Phone：OpenAI Dots向け電話発信プラグイン",
+      "one_liner": "OpenAIエージェントから電話をかけられる拡張機能",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/dots-phone"
+    },
+    {
+      "title_ja": "Basedash：SlackやEmailへの自動CSV定期配信機能",
+      "one_liner": "一度設定すれば定期的に最新CSVをSlack/Email配信",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/basedash"
+    },
+    {
+      "title_ja": "注目のAIウェアラブル製品まとめ：Muse Charm、Bee、Friend等",
+      "one_liner": "最新AIウェアラブルガジェットの総まとめ記事",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
+    },
+    {
+      "title_ja": "AI墓場：失敗・終了したAIプロジェクト・スタートアップ一覧",
+      "one_liner": "AppleのSiri遅延、OpenAIアプリ失敗等の事例集",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    },
+    {
+      "title_ja": "BBC Blue Planet III、AI時代に「不完全な映像」を残す選択",
+      "one_liner": "真正性を示すため完璧すぎない撮影を意図的に採用",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+    },
+    {
+      "title_ja": "Juggler：JUCEクリエイターによるオープンソースGUIコーディングエージェント",
+      "one_liner": "著名開発者が作った視覚的コーディング支援ツール",
+      "category": "ツール",
+      "url": "https://github.com/juggler-ai/juggler"
+    },
+    {
+      "title_ja": "Plandex：複雑タスク向けAIコーディングエンジン",
+      "one_liner": "大規模・複雑なコーディング作業を支援するAI",
+      "category": "ツール",
+      "url": "https://github.com/plandex-ai/plandex"
+    },
+    {
+      "title_ja": "Twigg.ai：LLM向けGit風コンテキスト管理インターフェース",
+      "one_liner": "プロンプトの文脈をバージョン管理する新ツール",
+      "category": "ツール",
+      "url": "https://twigg.ai"
+    },
+    {
+      "title_ja": "Expanse (YC P26)：無駄なGPU容量を解放するサービス",
+      "one_liner": "遊休GPU活用でコスト削減を実現",
+      "category": "ツール",
+      "url": "https://news.ycombinator.com/item?id=48356312"
+    },
+    {
+      "title_ja": "TARSphere：長期ロボット具現化エージェント向けフルスタックフレームワーク",
+      "one_liner": "進化する物理・社会環境でのロボット運用基盤研究",
+      "category": "研究",
+      "url": "https://arxiv.org/abs/2610.30043"
+    },
+    {
+      "title_ja": "LLM-Attacker：分散LLMシステムのプライバシー評価統合レッドチームフレームワーク",
+      "one_liner": "分散型LLM環境のセキュリティ検証手法を提案",
+      "category": "研究",
+      "url": "https://arxiv.org/abs/2610.22722"
+    }
+  ],
+  "date": "20261026",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
