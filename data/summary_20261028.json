@@ -2,9 +2,9 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Anthropic IPO目論見書が明かす「AIは人類存亡リスク」「コードの9割をClaude製」の実態",
-      "summary_ja": "米AnthropicがIPO目論見書（Form S-1）を米SECに提出。社内コードの9割超をAIが書き、AI利用コストが人件費を上回る状況を開示。AI開発が人類に及ぼすリスクや、データセンター電力確保競争など、AI企業経営の実情を異例なほど詳細に記載した内容が注目を集めている。",
-      "consultant_insight": "顧客企業のAI投資判断に重要な参考資料。「コストバランスの逆転」は今後の組織設計に直結する洞察。",
+      "title_ja": "Anthropic IPO目論見書、「AIは人類の存亡リスク」「コードの9割はClaude製」と明記──規格外の透明性が示す覚悟",
+      "summary_ja": "AnthropicがIPO目論見書（Form S-1）を米SECに提出。社内コードの9割超をAIが生成、AI利用コストが人件費を上回る実態を開示。さらに「AIが人類にもたらし得る存亡リスク」まで言及し、従来のテック企業IPOとは一線を画す透明性を示した。安全性重視の姿勢を投資家に明示する狙いがある。",
+      "consultant_insight": "AI活用の「リスク開示」が投資判断の前提になる時代の到来。日本企業も同様の説明責任を問われる可能性がある。",
       "importance": 5,
       "category": "業界",
       "source_name": "ITmedia AI+",
@@ -12,185 +12,185 @@
     },
     {
       "rank": 2,
-      "title_ja": "Anthropicの特異なIPO構造、ウォール街の圧力を回避する「精緻な設計」",
-      "summary_ja": "Anthropicが公開市場の資金を活用しながら、投資家の短期的利益圧力に屈しない独自のガバナンス構造を構築。安全性研究への継続投資を守るため、特殊な株主構造・議決権設計を採用。AI開発とビジネス成長のバランスを取る新しい企業形態として注目される。",
-      "consultant_insight": "AI企業の社会的責任と収益性の両立手法として、顧客企業のガバナンス設計にも応用可能な示唆。",
+      "title_ja": "Anthropic IPO申請、複雑なガバナンス構造が明らかに──「誰が意思決定を握るのか」投資家の懸念材料に",
+      "summary_ja": "AnthropicのIPO申請書類で、特異なガバナンス構造が開示された。安全性重視のミッション維持と投資家利益のバランスをどう取るのか、複雑な統治体制が明らかに。The Vergeは「ウォール街の圧力を遠ざける精巧な計画」と評価する一方、実効性への疑問も浮上している。",
+      "consultant_insight": "企業統治の透明性はAI時代の投資判断で重視される。日本企業のAI戦略でも説明責任の設計が鍵になる。",
       "importance": 5,
       "category": "業界",
-      "source_name": "The Verge AI",
+      "source_name": "The Verge AI / TechCrunch AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
     },
     {
       "rank": 3,
-      "title_ja": "OpenAI、Oracle業務アプリをChatGPTに統合──ERPデータへのAIアクセスが現実に",
-      "summary_ja": "OpenAIとOracleがパートナーシップを拡大し、Oracle業務アプリケーション（ERP、財務、給与など）をChatGPTから直接操作可能に。AIエージェントが企業の基幹システムにアクセスし、元帳処理や給与計算などを自動実行する時代の到来を示唆する重要な発表。",
-      "consultant_insight": "ERPとAIの直接統合は顧客の「AIの業務適用」相談で具体例として使える。基幹系AI化の先行事例。",
-      "importance": 5,
-      "category": "実務",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+      "title_ja": "Google DeepMind「Genie 4」発表──音声・会話をリアルタイム生成、Geminiと連携する対話型仮想世界",
+      "summary_ja": "Google DeepMindが対話型仮想世界をリアルタイム生成する「Genie 4」を発表。映像品質・物理演算が向上し、環境音や会話音声の同時生成に対応。人物の自然な動作やテキストによる環境操作が可能に。まずは研究プレビューとして提供し、順次「Google AI Ultra」加入者へ展開予定。持続時間は前世代の2倍の2分間に延長された。",
+      "consultant_insight": "顧客体験のシミュレーションやトレーニング環境の自動生成など、業務活用の幅が広がる可能性がある。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+ / TechCrunch AI / The Verge AI",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002648/"
     },
     {
       "rank": 4,
-      "title_ja": "HIS、AIエージェント×ロボで法人出張見積もり月100時間削減──試行錯誤の実務ノウハウを開示",
-      "summary_ja": "HISが法人出張の見積もり業務にAIエージェントとロボットを導入し、月100時間の削減を達成。2023年からAI活用を試行し精度が出ず苦戦していたが、最新AIエージェント技術の活用で突破口を開いた。導入プロセスと技術選定の経緯が詳細に語られ、実務者にとって貴重な参考事例。",
-      "consultant_insight": "「AI導入で失敗→最新技術で再挑戦」のリアルな流れは、顧客へのAI導入提案時の説得材料になる。",
+      "title_ja": "OpenAI「GPT-6.1 Terra」発表──コスト10分の1で高速コンピュータ使用を実現、Astraと一部同等性能",
+      "summary_ja": "OpenAIがコスパ重視の新モデル「GPT-6.1 Terra」を発表。最上位の「GPT-6 Astra」と一部同等の性能を、10分の1のコストで実現するとうたう。高速なコンピュータ使用能力を広く提供し、AIエージェントの民主化を狙う。価格と性能のバランスを重視する企業には朗報となる。",
+      "consultant_insight": "中堅企業でもエージェント導入のハードルが下がる。コスト試算を見直し、適用範囲を拡大できる可能性がある。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+ / Product Hunt AI",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/27/2000002611/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "日本取引所、取引システムの運用監視にAI導入──精度97％達成、ハルシネーション対策も実装",
+      "summary_ja": "日本取引所グループ（JPX）と日立が、金融市場の取引システム運用監視業務にAIを本格適用。システム複雑化に伴う障害対応の属人化を解消し、精度97％を実現。ミッションクリティカルな領域でのハルシネーション対策として、AIの判断根拠を可視化し、人による最終確認を組み込んだ。",
+      "consultant_insight": "高信頼性が求められる業務でのAI活用モデルとして参考になる。リスク管理の具体策を顧客に提案できる事例。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2610/28/2000002621/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "HIS、AIエージェントで法人出張見積もりを自動化──月100時間削減、精度向上の転機は何か",
+      "summary_ja": "HISが法人出張の見積もり業務にAIエージェントとロボットを導入し、月100時間の削減を実現。2023年からAIによる効率化を試みるも精度不足で苦戦していたが、最新のAI技術と業務フローの再設計で目標精度を達成。見積もりから予約までの一連の流れを自動化した。",
+      "consultant_insight": "業務フロー再設計とAI技術の組み合わせが成功の鍵。顧客にも「AI単体ではなくプロセス改革」を提案すべき。",
       "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2610/26/news033.html"
     },
     {
-      "rank": 5,
-      "title_ja": "「GPT-6.1 Terra」登場、Astra性能を10分の1コストで実現──コスパ重視の新選択肢",
-      "summary_ja": "OpenAIがコストパフォーマンス重視の新モデル「GPT-6.1 Terra」を発表。最上位の「GPT-6 Astra」の一部機能と同等の性能を、10分の1のコストで提供すると発表。企業の大規模AI活用においてコスト最適化の新たな選択肢として注目される。",
-      "consultant_insight": "コスト試算の前提が変わる重要情報。顧客のAI導入ROI計算を即座に見直すべき。",
-      "importance": 5,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/27/2000002611/"
-    },
-    {
-      "rank": 6,
-      "title_ja": "京都府庁7000人、「Copilotだけに頼らない」AI戦略の理由──対話型AI導入の限界を認識",
-      "summary_ja": "京都府庁が職員約7000～8000人の業務効率化に向け、対話型AIだけでは現場の業務負担を解消できないと判断。複数AI・RPAツールを組み合わせた独自戦略を採用。行政機関における実践的なAI活用の課題と解決策が明らかに。",
-      "consultant_insight": "「単一AIツールへの過信」の危険性を示す好例。顧客への多層的AI導入提案の論拠として有効。",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2610/27/2000002599/"
-    },
-    {
       "rank": 7,
-      "title_ja": "AIで「月○○時間削減」の罠──浮いた時間はどこへ消えたのか？",
-      "summary_ja": "AI導入による「月数千時間削減」の成果報告が相次ぐ中、人件費削減には結びつかない現実が浮き彫りに。削減された時間が他業務に吸収され、組織全体の生産性向上が見えにくい問題を指摘。AI効果測定の新たな視点を提示する記事。",
-      "consultant_insight": "顧客への効果報告で「時間削減」だけでは不十分。ビジネス成果との紐付け方法を提案すべき。",
-      "importance": 4,
+      "title_ja": "AI開発の「外注」、失敗するケースの共通点──絶対に手放してはいけないものとは",
+      "summary_ja": "AI開発を外注したが委託先の試験では90点なのに社内では使い物にならない──こんな失敗事例が続出。原因は「評価基準の設計」と「業務知識の共有」を丸投げしたこと。失敗しないAI導入には、企画・評価・改善のサイクルを自社で回す体制が不可欠。外注すべき範囲と自社で保持すべき範囲の見極めが重要。",
+      "consultant_insight": "「AI開発は外注できるが、AI活用の責任は外注できない」と顧客に伝えるべき。体制設計支援が付加価値になる。",
+      "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/27/news016.html"
+      "url": "https://www.itmedia.co.jp/business/articles/2610/28/news011.html"
     },
     {
       "rank": 8,
-      "title_ja": "大企業の7割がAI投資増額も、コスト把握は3割未満──サイボウズ調査で明らかな管理の壁",
-      "summary_ja": "サイボウズ調査で、今後3年間でAI投資を増やす大企業が7割に達する一方、AIコストを全社で把握できている企業は3割に満たないことが判明。AI投資拡大期における「コスト可視化」の課題が鮮明に。",
-      "consultant_insight": "AIコスト管理の仕組み構築は喫緊の提案テーマ。「投資判断の前提が崩れる」リスクを訴求できる。",
+      "title_ja": "OpenAI、OracleアプリをChatGPTに統合──業務データ連携の新たな標準モデルが始動",
+      "summary_ja": "OpenAIとOracleがパートナーシップを拡大し、Oracle製ビジネスアプリケーションとAIエージェントをChatGPTに統合。ERPや財務、人事などの業務データに直接アクセスできる環境を提供。Oracle側も新サービスでOpenAIモデルを活用する双方向連携が始まる。既存システムとAIの融合が加速する。",
+      "consultant_insight": "既存ERP資産を活かしたAI導入が現実的に。Oracle環境を持つ顧客には具体的な提案ができる状況になった。",
       "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/26/news032.html"
+      "category": "ツール",
+      "source_name": "OpenAI Blog / 日経クロステック AI",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt"
     },
     {
       "rank": 9,
-      "title_ja": "スピアフィッシング攻撃、AIで個人特化メール生成するとクリック率2.7倍に──7000人実験で実証",
-      "summary_ja": "ドイツ・ベルリン工科大学が7000人以上を対象に実施した研究で、AIが生成するスピアフィッシングメールのクリック率が従来手法の約2.7倍に達することが判明。メールアドレスから個人情報を検索し、受信者専用の文面を自動生成する手法の有効性が実証された。",
-      "consultant_insight": "顧客のセキュリティリスク評価を即座に見直すべき重要情報。AI活用のダークサイドとして警戒必須。",
+      "title_ja": "OpenAI「Daybreak」でCheck Pointが脆弱性研究を加速──インテリジェンスから保護策まで自動化",
+      "summary_ja": "OpenAIの「Daybreak」を活用し、Check Pointがセキュリティ研究の効率を大幅に向上。脆弱性インテリジェンスから新しい保護策の開発までをAIが支援し、アナリストの作業時間を大幅削減。セキュリティ企業でのAI活用が研究開発の速度を変える実例となった。",
+      "consultant_insight": "セキュリティ領域でのAI活用は待ったなし。顧客の脅威対応体制をAIで強化する提案が有効になる。",
       "importance": 4,
-      "category": "研究",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002550/"
+      "category": "実務",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/check-point-daybreak"
     },
     {
       "rank": 10,
-      "title_ja": "Google Genie 4、音声対応と物理精度を向上──2分間の一貫性維持でシミュレーション実用化へ",
-      "summary_ja": "GoogleがGenie 4世界モデルを発表。音声追加、リアルタイム操作、物理法則の精度向上、2分間の一貫性維持（Genie 3の2倍）を実現。よりリアルな世界シミュレーションが可能になり、ゲーム開発・研修シミュレーション等への実用化が現実味を帯びる。",
-      "consultant_insight": "シミュレーション領域での業務活用提案に使える新材料。製造・物流の研修用途で具体提案可能に。",
+      "title_ja": "OpenAI、数学・物理・計算機科学で3つのブレイクスルー発表──学術界との連携を強化",
+      "summary_ja": "OpenAIがKakeya予想、量子色力学、指数時間仮説に関する3つの科学的成果を公開。学術界との連携強化を発表し、研究者向けに新しい協力方法を提示。AIが純粋な科学研究の進展を加速させる事例として注目される。一方で「成果の門番になっている」との批判も研究者から上がる。",
+      "consultant_insight": "科学的発見の加速は長期的にビジネス革新を生む。顧客のR&D部門へのAI導入提案の根拠になる。",
       "importance": 4,
-      "category": "ツール",
-      "source_name": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+      "category": "研究",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
     }
   ],
   "digest": [
     {
-      "title_ja": "「若手はAI使うな」施策、1年後の結果は？新人教育とAI活用の両立模索",
-      "one_liner": "AI禁止で新人教育した企業の1年後を追跡、基礎力育成との両立課題を検証",
+      "title_ja": "AIデータセンター、工場跡地・廃校・洋上・宇宙まで──ユニークな立地戦略の狙い",
+      "one_liner": "電力確保と冷却効率を重視した多様な立地選択が進行中",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/28/news039.html"
+    },
+    {
+      "title_ja": "「若手はAI使うな」は老害か？　新人教育でAI禁止した企業の1年後",
+      "one_liner": "基礎教育後にAI解禁、思考力と効率を両立する育成モデルの成果報告",
       "category": "実務",
       "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002585/"
     },
     {
-      "title_ja": "三菱電機、工作機械×AIで人手不足・技能伝承の解決へ──JIMTOF2026で披露",
-      "one_liner": "加工現場の自律化ソリューション、人手不足と技能継承の同時解決狙う",
+      "title_ja": "メアド検索→AI生成フィッシングメールでクリック率2.7倍──7000人実験で判明",
+      "one_liner": "AIが個人情報を収集して生成するスピアフィッシングの有効性を実証",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002550/"
+    },
+    {
+      "title_ja": "ガリバー、不成約客をAIが「追客」──成約率1ポイント超上昇、60億円増収へ",
+      "one_liner": "AI活用で全社135億円投資、顧客接点から基幹システムまで抜本改革",
       "category": "実務",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/27/news041.html"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03801/101900003/"
     },
     {
-      "title_ja": "NTT川添氏、IOWN実装で「ソブリンAI」の基盤構築へ──遅延なきネットワークが鍵",
-      "one_liner": "光通信IOWNが実用段階に、日欧連携で米中対抗のAI主権確立を狙う",
+      "title_ja": "テスラ最大の競合NVIDIAに車メーカー殺到──E2E自動運転の基盤争い",
+      "one_liner": "Alpamayoを無償公開、世界の完成車メーカーとエコシステム形成を狙う",
       "category": "業界",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/27/news024.html"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03800/101900004/"
     },
     {
-      "title_ja": "FDE（フルスタック・デリバリー・エンジニア）の実像──AI時代の花形職種、「スーパーマン」ではない",
-      "one_liner": "脱・人月モデルで注目のFDE、過度な期待と実態のギャップを検証",
+      "title_ja": "情報漏洩事件の背後にAIエージェント「ARTEX」──サイバー攻撃に悪用相次ぐ",
+      "one_liner": "国内で相次ぐ情報漏洩、AIエージェントの悪用実態が判明",
       "category": "業界",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/27/news013.html"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00676/102300236/"
     },
     {
-      "title_ja": "Oracleが25種類のAIエージェント投入、ERP基盤での存在感強化狙う",
-      "one_liner": "元帳処理・給与計算など実務特化AIエージェント、Anthropicとの競争激化",
+      "title_ja": "台頭する「ネオクラウド」──AI処理特化の新興企業が市場を席巻",
+      "one_liner": "CoreWeave、Crusoeなど、生成AI処理に特化したクラウドが急成長",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/041800013/101900108/"
+    },
+    {
+      "title_ja": "生成AIがOSS保守を圧迫──AIスロップがレビューを妨害、供給網攻撃のリスクも",
+      "one_liner": "AI生成の低品質な変更提案が増加、OSSコミュニティの負担が深刻化",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/102100578/102100003/"
+    },
+    {
+      "title_ja": "AIロボットの第三極狙うドイツ、部品量産化と国際安全規格策定を主導",
+      "one_liner": "自動車産業の強みを活かし、日本と異なるアプローチで開発加速",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03727/101500007/"
+    },
+    {
+      "title_ja": "現場の危険示唆やKY活動の記録・評価、生成AIが安全管理をサポート",
+      "one_liner": "建設現場で技術者の目と知見をAIが補完、安全対策の質向上",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03804/101900003/"
+    },
+    {
+      "title_ja": "AIエージェント導入時に見極める「ワークフローで十分な業務」とは",
+      "one_liner": "予測可能で監査しやすい定型業務はワークフローが向く",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03762/091500003/"
+    },
+    {
+      "title_ja": "Oracle、25種類の「提案できる」AIエージェント投入──ERP基盤で存在感維持へ",
+      "one_liner": "元帳処理や給与計算を担うAIエージェント、業務用AI競争が激化",
       "category": "ツール",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12130/"
     },
     {
-      "title_ja": "ウェザーニューズ、「AI Fusion Company」宣言──17期連続最高売上、営業利益率21%超の好調",
-      "one_liner": "全プロダクトにAIエージェント投入、人とAIの融合型気象プロフェッショナル目指す",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600001/102000220/"
-    },
-    {
-      "title_ja": "三井住友銀行、財務知識をAIに「移植」──専門性を活かしたサービス高付加価値化へ",
-      "one_liner": "SMBCグループのAIトランスフォーメーション推進部、金融専門性とAIの融合を加速",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/041700482/102000021/"
-    },
-    {
-      "title_ja": "施工計画書を生成AIで10分作成、熟練技術者の暗黙知も継承──建設業の実務革新",
-      "one_liner": "業務効率化だけでなく技術継承にも注目、見える化で誰でも活用可能に",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03804/101900002/"
-    },
-    {
-      "title_ja": "AIエージェント導入の「自律度」設計が鍵──どこで人が介入するかの判断基準",
-      "one_liner": "完全自動と人間確認のバランス、業務特性に応じた自律度設計の重要性",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03762/091500002/"
-    },
-    {
-      "title_ja": "AIリスキリング成功の鍵は「全体最適」視点──AI推進部門の役割再定義",
-      "one_liner": "ライセンス配布後の利用率低迷、KPI見直しで解決する実践アプローチ",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03798/102100002/"
-    },
-    {
-      "title_ja": "テスラ「サイバーキャブ」100km試乗レポート──人間と見分けがつかない自然な運転",
-      "one_liner": "ハンドル・ペダルなしロボタクシー、E2E自動運転の世界最先端を体験",
-      "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03800/102200005/"
-    },
-    {
-      "title_ja": "AIロボット市場、米中対立の隙間に日独の商機──部品技術で第三極狙う",
-      "one_liner": "米国の中国製ロボット規制と中国の部品輸出規制、日本の自動車部品技術が活路",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03727/101300006/"
-    },
-    {
-      "title_ja": "Opera、ブラウザ内でAIをローカル実行する新標準「WebAI」を提案",
-      "one_liner": "プライバシー保護とオフライン動作を実現、多様なAIモデルに対応",
+      "title_ja": "エージェント開発でAIとの役割が逆転──人は「スキル」で知識を補う時代に",
+      "one_liner": "Claude Codeの動作時間3.3倍、人の割り込みは68％減",
       "category": "ツール",
-      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03799/101500001/"
     },
     {
-      "title_ja": "Apple、Pages・Keynote・NumbersにAIチャットボット追加──生産性アプリ強化",
-      "one_liner": "独自AIモデル搭載、iWork全体でAIアシスタント機能を展開",
-      "category": "ツール",
-      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
-    },
-    {
-      "title_ja": "データセンター建設反対、米国で党派超え拡大──2026年中間選挙の争点に",
-      "one_liner": "急速なサーバー施設建設に地域住民が反発、環境・電力問題で政治化",
+      "title_ja": "DMG森精機社長「受注状況は驚くほど良い」──AI・データ活用は大前提に",
+      "one_liner": "工作機械の空前の好況、今後の技術開発の方向性を語る",
       "category": "業界",
-      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03352/102700029/"
+    },
+    {
+      "title_ja": "Firefox、AI活用の「Smart Window」でフォーム自動入力とWebページ監視機能追加",
+      "one_liner": "Mozilla、AI支援のブラウジング体験を強化",
+      "category": "ツール",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
     }
   ],
   "date": "20261028",
