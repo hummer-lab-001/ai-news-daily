@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "Anthropic、創薬事業に参入──社員1人のAI創薬企業を買収、小児難病の治療薬研究を自社で推進",
+      "summary_ja": "AnthropicはClaudeを活用して創薬研究を進めてきた1人企業を買収し、小児の希少な筋ジストロフィーなどを対象に自社で創薬活動を開始した。外部11の研究機関と連携し実験を推進してきた実績を継承する。AI企業が製薬分野に直接参入する異例の動きで、Claude活用の新しい可能性を示す。",
+      "consultant_insight": "Claudeの応用範囲拡大と、AI企業自身による業界変革の実例として顧客に紹介できる",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002661/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Anthropic、企業向けAI支出の可視化ツールを発表──IPO前にコスト管理の透明性を強化",
+      "summary_ja": "AnthropicはIPO申請を前に、企業がAIモデル利用でどれだけコストを消費しているかを可視化するツールを発表した。フロンティアラボとしては異例の透明性開示で、企業がAI投資対効果を正確に測定できるよう支援する。Claude利用企業のコスト最適化を促進し、実務導入の加速を狙う。",
+      "consultant_insight": "AI予算管理の実務課題を解決する具体策として、コスト最適化提案時に活用できる",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "PFN、国産フラグシップモデル「PLaMo 3.1 Prime」発表──オンプレでDeep Research対応、API無料プランも開始",
+      "summary_ja": "Preferred Networksが国産生成AI基盤モデル「PLaMo 3.1 Prime」を発表。オンプレミスでも使える「Deep Research」を搭載し、ハルシネーションも抑制したという。API無料プランで試用可能で、日本企業のデータ主権確保と実務導入を後押しする。",
+      "consultant_insight": "データ主権を重視する日本企業へのオンプレAI導入提案の選択肢として有力",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002652/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "パナソニックグループ、社員約33万人分の個人情報が禁止中の外部AIにアップロード──「禁止」だけでは防げない実態が露呈",
+      "summary_ja": "パナソニックグループで、利用を禁止している外部生成AIサービスに従業員や元従業員とその家族約33万人分の個人情報がアップロードされた。同社は「二次利用されない」と説明するが、禁止だけでは実効性がないガバナンスの限界を露呈した形だ。",
+      "consultant_insight": "AIガバナンスの実効性確保には禁止に加えて技術的制御と教育が必須であることを示す事例",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/28/news060.html"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Notion AI、クレジット制への移行は「改悪」か？──コスト最適化のカギは「クリーンなコンテキスト」",
+      "summary_ja": "Notion AIが毎月付与されるクレジットを消費する仕組みに移行。開発責任者シール・イェホシュア氏は「クリーンなコンテキストほど安くなる」と説明し、コスト抑制の実践法を明かした。不要な情報を含まない整理されたコンテキスト設計が、利用コスト削減の鍵となる。",
+      "consultant_insight": "プロンプト設計とコンテキスト管理の最適化が、AI利用コスト削減の実務ポイントであることを顧客に伝えられる",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002666/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "セキュリティ企業が警告「ダウンロードフォルダでAIエージェントを使わないで」──悪意のAGENTS.mdでマルウェア感染リスク",
+      "summary_ja": "イスラエルのセキュリティ企業によれば、悪意のある「AGENTS.md」が仕込まれたダウンロードフォルダでコーディングエージェントを起動すると、エージェントがマルウェアをインストールしたりアカウント乗っ取りを支援する恐れがある。AIエージェント時代の新たなセキュリティリスクとして注目される。",
+      "consultant_insight": "AIエージェント導入時のセキュリティ対策に「実行フォルダの分離」を組み込むべき",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002671/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "Discord、公開サーバの会話をGoogle検索の対象に──プライバシーへの懸念噴出、日本は初期設定でオン",
+      "summary_ja": "Discordは公開サーバーの会話をWeb検索の対象にすると発表。11月中旬からAI要約を公開し、12月中旬から投稿本文も検索可能にする。情報検索性向上が狙いだが、プライバシーやAI学習への利用懸念も噴出。日本は初期設定でオンとなるため、除外には設定変更が必要だ。",
+      "consultant_insight": "社内コミュニケーションツールの情報管理ポリシー見直しが急務であることを顧客に提起できる",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002656/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "NVIDIAとAMD、MetaとのAI分野提携拡大──AIエージェント「Muse」の開発・運用で協力、合計40億ドル出資",
+      "summary_ja": "NVIDIAとAMDがMetaとのAI分野における戦略的提携拡大をそれぞれ発表。AIエージェント「Muse」の開発・運用支援や次世代インフラ構築で協力し、NVIDIAが30億ドル、AMDが10億ドルを出資。Metaは自社チップ開発と外部調達の両輪でインフラを強化する。",
+      "consultant_insight": "AIインフラの多様化戦略として、顧客にマルチベンダー調達の重要性を提案できる",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002651/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "AI音声詐欺電話、6人に1人が応じる可能性──ハーバード大とMetaが4100人で検証、だまされやすい手口を特定",
+      "summary_ja": "米ハーバード大学やMetaの研究者らが、AIによる詐欺電話でどれだけ騙されるかを4100人で調査した研究を発表。約16.7%（6人に1人）が応じる可能性があることが判明し、だまされやすい手口のパターンも特定された。AI音声技術の悪用リスクが実証された形だ。",
+      "consultant_insight": "顧客向けセキュリティ教育に、AI音声詐欺への警戒を組み込むべき時期に来ている",
+      "importance": 4,
+      "category": "研究",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002612/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "ChromeのAI自動入力、Gmailから航空券・注文情報を取得して自動記入──許可制で利便性向上",
+      "summary_ja": "Chromeの強化版自動入力機能が、ユーザーの許可を得てGmailから航空券確認、追跡情報、注文詳細などを取得し、フォームへ自動記入できるようになった。昨年の改善で氏名・パスポート番号・メールアドレスなどに対応していたが、さらに実用性が高まった。",
+      "consultant_insight": "業務効率化ツールとしてのブラウザAI活用を、顧客に具体例で示せる",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "Oracle CloudがGoogle TPU導入へ──2027年に提供開始",
+      "one_liner": "Oracle Cloudが2027年にGoogle TPUを導入、AIインフラの選択肢を拡大",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002681/"
+    },
+    {
+      "title_ja": "リコー、360度カメラ映像から高精細3Dモデル生成──東電PGの建物保全業務に導入",
+      "one_liner": "独自の位置推定技術とAIで欠損の少ない3Dモデルを半日程度で生成",
+      "category": "実務",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/28/news009.html"
+    },
+    {
+      "title_ja": "AIデータセンターの立地戦略──工場跡地、廃校、洋上、宇宙まで検討",
+      "one_liner": "国内でAIデータセンター建設が相次ぎ、ユニークな立地戦略が注目される",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/28/news039.html"
+    },
+    {
+      "title_ja": "「AI開発の外注」で失敗するケース──絶対に手放してはいけないものとは",
+      "one_liner": "委託先で90点でも社内で使えない問題の解決法と外注の是非を整理",
+      "category": "実務",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/28/news011.html"
+    },
+    {
+      "title_ja": "Amazon、日本で生成AI「Alexa+」を解禁──空気を読む対話機能を搭載",
+      "one_liner": "早期アクセス開始、スマートクロック「Echo Time」も同時発表",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/446/4446675/?rss"
+    },
+    {
+      "title_ja": "地方建設会社の土木技術者、生成AIで11個のWebアプリを自作──事務作業を8割削減",
+      "one_liner": "広島市の鴻治組、プログラミング未経験の技術者が半年で業務効率化アプリを開発",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03804/101900004/"
+    },
+    {
+      "title_ja": "AIエージェント導入のカギ、「誰に何を任せるか」のプレーヤー整理が重要",
+      "one_liner": "基盤提供事業者・実装会社・コンサル・社内担当の役割分担が成否を分ける",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03762/091500004/"
+    },
+    {
+      "title_ja": "「仕事をしなくてもよい」人が登場、AIで失業する人と二極化進む",
+      "one_liner": "業務ノウハウのありなしで「仕事を奪われる人」と「不要になる人」が二極化",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00849/00202/"
+    },
+    {
+      "title_ja": "AIエージェント、3つの「ループ」で進化──成果物の評価基準づくりが鍵",
+      "one_liner": "OpenAIのエージェントが競技プログラミング世界大会でトップ圧倒、改善ループが奏功",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03799/102100003/"
+    },
+    {
+      "title_ja": "アリババの医療AI、CT画像から146種の病症を識別──専門医レベルの精度",
+      "one_liner": "浙江大学医学院と共同開発、汎用医療画像AIとして初の専門医レベル達成",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02653/102600087/"
+    },
+    {
+      "title_ja": "インドのパーソナルAI、見知らぬ着信に代理応答──電話に目を付けた秀逸さ",
+      "one_liner": "Equal AIが利用者に代わって電話の一次対応をするAIアシスタントを提供",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02994/102600026/"
+    },
+    {
+      "title_ja": "ガリバー、「勘と経験と度胸」の値付けをAIで──商品政策業務を改革",
+      "one_liner": "IDOMが在庫設計や値付けなど経験依存のMD業務をAIで変革",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03801/101900004/"
+    },
+    {
+      "title_ja": "精度は満たしたのに使われないAIナレッジ──KPIを決めて実装し直そう",
+      "one_liner": "撤退・見直し基準と計測データを事前に決めてサービス化を判断する方法を解説",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03242/102800034/"
+    },
+    {
+      "title_ja": "OpenAI、「企業の未来」を考察──AIはどう組織図に入るか",
+      "one_liner": "AIが組織の下・横・間でどう機能するかを考察したOpenAIの論考",
+      "category": "業界",
+      "url": "https://openai.com/index/the-future-of-the-firm"
+    },
+    {
+      "title_ja": "法務特化型Legora、OpenAIモデルとCodexで契約分析を加速",
+      "one_liner": "法務業務のエージェントOS構築、契約分析の拡大と高付加価値業務への集中を実現",
+      "category": "実務",
+      "url": "https://openai.com/index/legora"
+    }
+  ],
+  "date": "20261029",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
