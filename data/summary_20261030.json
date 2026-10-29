@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "ChatGPT Pro・Businessに月500ドル分のAPI利用枠を追加──開発者のプロトタイプ開発を加速",
-      "summary_ja": "OpenAIがChatGPTのProおよびBusinessプランに、月最大500ドル分（約7万9000円）のAPI利用枠を追加すると発表した。\n従来のサブスクリプション型プランに開発者向けの実装機能が統合され、企業のPoC開発がよりスムーズになる見込みだ。\nAPI単体契約より割安になるケースもあり、中小企業のAI活用の初期投資を抑える効果が期待される。",
-      "consultant_insight": "顧客企業の「試作フェーズ」予算削減に直結。APIとUI双方使える環境提案がしやすくなる。",
+      "title_ja": "OpenAI、Model Spec改訂版を公開──健全な判断・人間の意図への忠実性など5つの中核価値を定義",
+      "summary_ja": "OpenAIは、AIシステムのふるまいを定める指針「Model Spec」の更新版を発表。健全な判断(sound judgment)、人間の主体性(human agency)、人間の意図への忠実性(faithfulness to human intent)など5つの中核価値を明示した。より高度なAIを安全かつ有益に使うための設計指針として位置づける。\n\nOpenAIはAIモデルの倫理的設計指針を体系化し、AI開発における価値判断の透明性を向上。日本企業がAI導入時に押さえるべき「倫理・安全性の共通言語」として機能する可能性が高い。\n\n日本企業の生成AI導入プロジェクトでも、「どこまでAIに判断を委ねるか」の線引きが課題。Model Specの価値定義は、社内ガバナンス整備の参考資料として活用できる。",
+      "consultant_insight": "AI導入の倫理指針を明文化するベストプラクティス。顧客の社内ガバナンス整備に援用可能。",
       "importance": 5,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/29/2000002728/"
-    },
-    {
-      "rank": 2,
-      "title_ja": "製造業向け「AIネイティブ化診断」登場──将来のAI役割から逆算、価値創出の仕組みを再設計",
-      "summary_ja": "AI活用を個人タスク効率化にとどめず、価値創出の仕組みをAI中心に再設計する「AIネイティブ企業」が現れ始めた。\n製造業向けに、将来のAIの役割から「逆算」して各社の道筋を描く診断サービスが登場し、DX推進室がロードマップ策定に活用できる。\n技術的PoC先行ではなく、業務プロセス全体の再設計が前提となるため、経営層の関与が必須になる。",
-      "consultant_insight": "「AI導入」から「AI中心の業務設計」へ提案をシフトする好材料。経営層との対話がカギ。",
-      "importance": 5,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/29/news011.html"
-    },
-    {
-      "rank": 3,
-      "title_ja": "京都銀行、粉飾・不正取引検知AIを内製──10年分の決算書と行員知見で精度97％達成",
-      "summary_ja": "京都銀行が「粉飾検知モデル」「不正取引検知モデル」の2種類の機械学習モデルを内製開発した。\n10年分の決算書データと行員の知見を基に精度97％を達成し、特殊詐欺やマネーロンダリングの検知を強化・多層化している。\nハルシネーション対策も実装し、従来の人的チェックを補完する形でリスク管理の実効性を高めた。",
-      "consultant_insight": "金融業の「内製AI開発」成功例。他業種でも社内知見の構造化が勝負の分かれ目になる。",
-      "importance": 5,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/102201518/"
-    },
-    {
-      "rank": 4,
-      "title_ja": "OpenAI、更新版「Model Spec」公開──より高度なAI判断を導く5つの核心価値を明示",
-      "summary_ja": "OpenAIが、AIモデルの判断指針となる「Model Spec」の更新版を公開し、5つの核心価値（健全な判断、人間の主体性、人間の意図への忠実さなど）を明示した。\nAIの自律性が高まる中、開発者や企業が「AIにどう判断させるか」の設計指針として活用できる公式フレームワークとなる。\n規制対応や社内ガバナンス構築の参考資料としても有用で、AI導入企業の「説明責任」強化を支援する。",
-      "consultant_insight": "顧客企業のAIガバナンス策定時、OpenAI公式指針として提示できる。説得力が増す。",
-      "importance": 4,
       "category": "業界",
       "source_name": "OpenAI Blog",
       "url": "https://openai.com/index/updated-model-spec"
     },
     {
-      "rank": 5,
-      "title_ja": "OpenAI、フロンティアモデルの「ミスアリグメント検知」手法を公開──エスカレーション前に介入",
-      "summary_ja": "OpenAIが、フロンティアモデルのミスアリグメント（意図しない挙動）や無許可のエージェント行動を検知する多層監視手法を公表した。\nインシデントがエスカレーションする前に対応者が介入できる仕組みで、企業のAI運用リスク管理の参考となる。\n大規模AI導入企業は、同様の監視フレームワークを社内構築する際のベストプラクティスとして活用できる。",
-      "consultant_insight": "AIリスク管理の「お手本」提示。顧客の運用設計に安心材料として提案可能。",
-      "importance": 4,
+      "rank": 2,
+      "title_ja": "OpenAI、フロンティアモデルの「不整合検知」手法を公開──多層モニタリングで事故前に介入",
+      "summary_ja": "OpenAIは、先進AIモデル(frontier model)がユーザーの意図に反する動作をしたり、無許可のエージェント行動を取るケースを検知する多層モニタリング手法を公開。事故がエスカレートする前に対応チームが介入できる仕組みを構築した。\n\nフロンティアモデルの不整合を検知する技術は、AIエージェントの社会実装において必須。日本企業が高度AIを業務導入する際の「リスク監視の青写真」として示唆に富む。\n\n日本企業でも「AIエージェントの暴走をどう防ぐか」が課題。OpenAIの多層監視手法は、社内運用ガイドラインを設計する際の参考資料になる。",
+      "consultant_insight": "AIエージェント暴走リスクへの対策モデル。顧客の運用監視設計に活かせる。",
+      "importance": 5,
       "category": "業界",
       "source_name": "OpenAI Blog",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
     },
     {
-      "rank": 6,
-      "title_ja": "OpenAI×Ropes & Gray、M&A案件の「デューデリジェンスAI」を共同開発中",
-      "summary_ja": "大手法律事務所Ropes & GrayがOpenAIと協力し、M&A取引のデューデリジェンス業務向けAIを開発中。\n弁護士がグループ化された文書・サマリー・レポートを確認した上で顧客に助言する仕組みで、最終判断は人間が担保する設計だ。\n法務業界におけるAI活用の実例として、他業種のドキュメントレビュー自動化にも応用できる示唆が得られる。",
-      "consultant_insight": "法務AIの「人間最終判断」設計が好例。顧客の契約審査業務にも援用できる。",
-      "importance": 4,
+      "rank": 3,
+      "title_ja": "パナソニックHD、AIは「組織能力の増幅器」──新CAIO榊原氏が語る人とAIの共進化戦略",
+      "summary_ja": "パナソニックHDは2026年4月、執行役員の榊原彰氏をグループCAIO（最高AI責任者）に任命。榊原氏は取材で「AIは組織能力の増幅器」と述べ、人とAIが相互に進化する共進化戦略を描く。グループ全体でのAI活用の全体像を説明した。\n\n日本の大手製造業がCAIO設置で本格的なAI推進体制を整備。AIを「組織能力の増幅器」と定義する姿勢は、AI活用の本質をついており、他社にも参考になる視点だ。\n\n日本企業は「AI活用の理念」があいまいなまま導入が先行しがち。パナソニックの「共進化」という明確なビジョンは、顧客へのAI戦略提案に活用できる。",
+      "consultant_insight": "大手製造業のAI推進戦略の好例。顧客の経営層に「AI活用のビジョン」を語る材料になる。",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/30/news053.html"
+    },
+    {
+      "rank": 4,
+      "title_ja": "建設現場で見積書100枚超を30分で処理──福地組がAI文書処理で「半日仕事」を激減",
+      "summary_ja": "沖縄の建設会社・福地組は、協力会社ごとに書式が異なる見積書の転記作業にAI文書処理サービスを導入。見積書1枚あたりの処理時間を10〜15分から約1分に短縮し、100枚超の見積書を約30分で処理できるようになった。\n\n建設業界で深刻な「書式バラバラ問題」に対し、AI-OCRの実用性を証明。日本の現場業務では定型外の書類処理が多く、この事例は他業界にも応用可能な好例だ。\n\n日本企業の多くは「書式統一できない」前提で業務を回しており、AI-OCRはすぐに効果が出やすい。顧客への導入提案の際、説得力のある実例として活用できる。",
+      "consultant_insight": "定型外書類のAI処理成功例。顧客の業務効率化提案に即使える具体事例。",
+      "importance": 5,
       "category": "実務",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence"
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2610/30/2000002725/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "ChatGPT ProとBusinessプラン、月500ドル分のAPI利用枠を追加──開発と活用の両立が可能に",
+      "summary_ja": "OpenAIは「ChatGPT」のProおよびBusinessプランに、同社のAPIを利用できる特典を追加。月最大500ドル分（約7万9000円）の利用枠を付与する。これにより、ChatGPT利用者がAPI経由でのアプリ開発も同一プラン内で可能になる。\n\nエンタープライズプランユーザーがAPI開発環境も一元化できる。日本企業は「使う」と「作る」を分けがちだが、この統合により社内開発チームの環境構築が簡素化される。\n\nChatGPT利用企業が社内向けカスタムアプリを開発する際、追加契約なしで試せる。顧客へのAI導入提案で「まず使って、必要なら作る」という段階的導入を提案しやすくなる。",
+      "consultant_insight": "ChatGPT利用企業が内製開発に踏み出しやすくなる。顧客の段階的AI導入提案に活用可能。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/29/2000002728/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "GitHub年次レポート2026、最も使われる言語が判明──AIコーディングでPython超えて急成長の言語とは",
+      "summary_ja": "GitHubは年次レポート「GitHub Octoverse 2026」を公開。開発者が多いプログラミング言語のランキングが発表され、AIコーディングの影響で特定言語が急成長していることが明らかになった。\n\nAIコーディングが言語シェアに影響を与え始めた証左。日本企業の開発チームも、AIと相性の良い言語への移行を検討する時期に来ている。\n\nAIコーディングツールの導入を検討する顧客に、「言語選定」の観点を加えたコンサルティングが可能になる。今後の開発体制を考える材料として有用。",
+      "consultant_insight": "AIコーディング時代の言語トレンド。顧客の開発体制見直しに活かせるデータ。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/29/2000002719/"
     },
     {
       "rank": 7,
-      "title_ja": "Mistral、1兆パラメータの「サイバーセキュリティ特化AI」ウェイト公開──クローズドモデルにない統制力を強調",
-      "summary_ja": "Mistralが1兆パラメータのAIモデルをサイバーセキュリティ分野に特化して公開し、ウェイト（モデルの重み）をオープンソース化した。\nクローズドモデルでは実現困難な「統制」（コントロール）が可能で、企業のセキュリティ防御を自社環境で精緻に調整できる。\nオンプレミス運用を重視する金融・インフラ企業にとって、外部API依存を避けつつ高度なAI防御を実装する選択肢となる。",
-      "consultant_insight": "オンプレAI防御の選択肢として顧客提案可能。外部依存リスク回避を訴求できる。",
+      "title_ja": "AI半導体市場は「メガサイクル」──アドバンテスト好決算、CEO が語る光電融合への期待",
+      "summary_ja": "半導体試験装置大手のアドバンテストは、AIブームによる半導体需要を追い風に、2026年度の通期業績予想を売上高1兆8630億円に上方修正。CEOは「メガサイクル」に突入した半導体市場を支えるものとして、CPU需要や光電融合技術への期待を語った。\n\n半導体市場がAIで構造的に拡大していることを示す好決算。日本の半導体関連企業にとって、AI需要は一過性ではなく長期トレンドであることが裏付けられた。\n\n顧客がAI投資を渋る際、「半導体市場がメガサイクルに入った」というマクロトレンドを示すことで、AI投資の必然性を説明できる。",
+      "consultant_insight": "AI投資の長期的必然性を示すマクロデータ。顧客の経営層への説得材料になる。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/29/news050.html"
+    },
+    {
+      "rank": 8,
+      "title_ja": "人型ロボットのデータ収集拠点が稼働──J-HRTI、千葉に最大40台の実証環境を整備",
+      "summary_ja": "山善やツムラなどが参画する人型ロボット特化コンソーシアム「J-HRTI（ジェイハーティ）」は、千葉県に最大40台の人型ロボットが動く大規模データ収集拠点を稼働。フィジカルAI開発に必要なデータを効率的に収集する環境を整えた。\n\n日本企業が人型ロボット開発でデータ収集の重要性を認識し、実証環境整備に本腰。今後、製造業や物流での人型ロボット活用が現実味を帯びる。\n\nフィジカルAI・ロボット活用を検討する顧客に、日本国内の実証環境の存在を紹介できる。今後の協業可能性を探る材料として有用。",
+      "consultant_insight": "国内フィジカルAI実証環境の立ち上がり。顧客のロボット活用検討に活かせる情報。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00011/00376/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "Mistral、1兆パラメータモデルのウェイトを公開──サイバーセキュリティ特化の大規模モデル",
+      "summary_ja": "Mistralはサイバーセキュリティに特化した1兆パラメータのAIモデルのウェイトを公開。オープンモデルならではの「組織によるサイバー防御の完全制御」を可能にするとしており、クローズドモデルでは実現困難な防御体制を提供する。\n\nサイバーセキュリティ分野で、オープンモデルの利点を活かした大規模モデルが登場。日本企業のセキュリティ部門が、自社環境に特化したAI防御システムを構築できる可能性が広がる。\n\nセキュリティAI導入を検討する顧客に、オープンモデルの選択肢を提示できる。「自社で完全制御できる防御AI」という提案が可能に。",
+      "consultant_insight": "セキュリティ特化オープンモデル。顧客の防御AI構築に新たな選択肢を提供。",
       "importance": 4,
       "category": "ツール",
       "source_name": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
     },
     {
-      "rank": 8,
-      "title_ja": "老舗メーカー、月末600行の承認作業を9割AI化──「紙とハンコ」経理DXの実践例",
-      "summary_ja": "創業90年超のメーカーが、経費申請の約9割をAIが承認する経理DXを実現した。\n月末に集中していた600行の承認作業を自動化し、欠員をきっかけにIT導入を決断した「堅実な取り組み」が成功の鍵だった。\n「紙とハンコ」「現金手渡し」の文化が残る企業でも、段階的なデジタル化で属人化業務を解消できることを示す好例だ。",
-      "consultant_insight": "中小・老舗企業の経理DX成功例。「無理せず段階的」アプローチで説得力を持たせられる。",
-      "importance": 5,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/29/news033.html"
-    },
-    {
-      "rank": 9,
-      "title_ja": "デル新社長「日本企業のAI活用、導入から成果創出へ移行中」──AI成果可視化が次の焦点",
-      "summary_ja": "デル・テクノロジーズの新社長が、日本企業のAI活用が「導入段階から成果創出へ移行しつつある」との認識を示した。\nAIインフラ・データ基盤整備、人材育成、パートナー共創を通じて、日本企業の実利創出を支援する方針を明らかにした。\n「AI導入後の成果可視化」が次の競争軸になりつつあり、ROI測定体制の構築が企業の課題となる。",
-      "consultant_insight": "「成果可視化」フェーズへの移行を示唆。顧客提案でROI測定支援を前面に出せる時期。",
+      "rank": 10,
+      "title_ja": "「高度なAIスキル」だけでは食えない時代に──IT人材が語る「これからの必須スキル」とは",
+      "summary_ja": "2027年度以降、IT国家試験の大幅刷新が予定される中、企業のIT現場はこの変化をどう見ているのか。読者調査から、制度刷新への期待と懸念、資格取得意向の変化、AI・セキュリティなど今後重視されるスキルが明らかになった。\n\nAI時代のIT人材に求められるスキルが変化している証左。日本企業の人材育成戦略も、技術スキル偏重から「AI活用×業務理解×セキュリティ」の複合スキルへシフトが必要。\n\nIT人材育成を検討する顧客に、「AIスキルだけでは不十分」という視点を提供できる。複合スキル育成プログラムの提案材料として活用可能。",
+      "consultant_insight": "AI時代の人材育成の方向性を示す調査。顧客のリスキリング戦略立案に活用できる。",
       "importance": 4,
       "category": "業界",
       "source_name": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/29/news032.html"
-    },
-    {
-      "rank": 10,
-      "title_ja": "AIエージェント分業、「増やせば賢くなる」は半分正解──Meta×ハーバード研究が示す条件",
-      "summary_ja": "AIエージェントを増やせば増やすほど賢くなるわけではなく、分業が力を発揮する条件があることをMeta・ハーバード大の研究が示した。\nタスクの性質やエージェント間の連携設計が成否を左右し、闇雲な「マルチエージェント化」は逆効果になりうる。\n企業がAIエージェントを導入する際、業務プロセスの分析と適切な役割分担設計が不可欠であることを裏付ける研究だ。",
-      "consultant_insight": "「エージェント増やせば解決」への警鐘。顧客の業務分析から設計する提案が正解になる。",
-      "importance": 4,
-      "category": "研究",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/29/2000002632/"
+      "url": "https://kn.itmedia.co.jp/kn/article/2610/29/2000002688/"
     }
   ],
   "digest": [
     {
-      "title_ja": "GitHubレポート、AIコーディングでPython超えの急成長言語が判明",
-      "one_liner": "開発者数ランキングでPythonを超えた言語が明らかに",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/29/2000002719/"
-    },
-    {
-      "title_ja": "AI半導体市場「メガサイクル」突入、アドバンテストCEOが語る期待",
-      "one_liner": "アドバンテスト、AI需要で売上1兆8630億円へ上方修正",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/29/news050.html"
-    },
-    {
-      "title_ja": "Oracle Cloud、Google TPUを2027年に導入へ",
-      "one_liner": "クラウドインフラ競争でGoogleチップ採用を発表",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002681/"
-    },
-    {
-      "title_ja": "AIチャット広告、消費者選択率が約3倍──他商品けなし誘導を検証",
-      "one_liner": "対話型AIの商業的説得力を米研究者が実証",
-      "category": "研究",
-      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002680/"
-    },
-    {
-      "title_ja": "AIが人間に「闇バイト」発注？ 求人サイト「RentAHuman」の実態",
-      "one_liner": "AIエージェントが物理労働を買う市場の倫理的懸念",
-      "category": "研究",
-      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002679/"
-    },
-    {
-      "title_ja": "IT人材調査「高度なAIスキルだけでは食えない」──これからの必須スキル",
-      "one_liner": "IT国家試験刷新を控え、現場が重視するスキルを調査",
-      "category": "業界",
-      "url": "https://kn.itmedia.co.jp/kn/article/2610/29/2000002688/"
-    },
-    {
-      "title_ja": "人型ロボ部品産業、日独が「第三極」狙う──米中対立の間隙を突く",
-      "one_liner": "自動車部品技術を武器に、AIロボ部品市場で存在感",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00203/00001/"
-    },
-    {
-      "title_ja": "ソニーAI卓球ロボ「Ace」、プロ選手に勝利──反応速度20ミリ秒の限界追求",
-      "one_liner": "Nature誌表紙飾ったフィジカルAI好例",
-      "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00202/00002/"
-    },
-    {
-      "title_ja": "ハーモニック、AIロボ部品で売上高5年で7倍へ──波動歯車首位を防衛",
-      "one_liner": "2030年度、ロボ向け部品売上が2025年度の7倍見込み",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00009/00114/"
-    },
-    {
-      "title_ja": "J-HRTI、千葉に40台の人型ロボットデータ収集拠点稼働──課題は計算資源",
-      "one_liner": "山善・ツムラ参画コンソーシアムが大規模拠点開設",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00011/00376/"
-    },
-    {
-      "title_ja": "製造業の生成AI活用「効果あり」6割──課題は技術データの整理",
-      "one_liner": "研究開発で成果、データ構造化が次の壁",
+      "title_ja": "Ropes & Gray、OpenAIと共同で取引デューデリジェンスAIを開発",
+      "one_liner": "法律事務所が文書グループ化・要約・レポート生成を自動化、顧客助言前の業務効率化",
       "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nmc/18/00166/00008/"
+      "url": "https://openai.com/index/ropes-gray-ai-diligence"
     },
     {
-      "title_ja": "日本ペイント、50年分29万件の実験報告書が生成AIでよみがえる",
-      "one_liner": "AIシステム「Ai-Tech」で技術情報活用を加速",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03783/101900003/"
-    },
-    {
-      "title_ja": "Amazon公式、AI活用度による開発者評価を控える方針──顧客の声重視へ",
-      "one_liner": "AI偏重評価の弊害を認め、顧客志向を強調",
+      "title_ja": "AWS、2027年に1兆ドルビジネス目指すも先行投資拡大──Jassy CEO が語る成長戦略",
+      "one_liner": "AmazonはAIクラウド首位を目指し大規模投資継続、収益化は長期戦",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03079/102900047/"
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
     },
     {
-      "title_ja": "Deepgram、Pipecat開発元Dailyを買収──音声AIインフラ強化",
-      "one_liner": "リアルタイム音声・映像基盤の知見獲得へ",
+      "title_ja": "Reddit、検索トラフィック減少でログイン必須体験へシフト",
+      "one_liner": "AIが情報検索を変える中、Redditはオープンウェブからログイン前提モデルへ転換",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+    },
+    {
+      "title_ja": "Rivian・VW合弁、AIアシスタント開発へ範囲拡大",
+      "one_liner": "電気自動車の合弁事業にAI音声アシスタント開発が追加、投資額の増額は未開示",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/"
+    },
+    {
+      "title_ja": "OpenAI出資のThrive Holdings、ADTを153億ドルで買収──AI×ホームセキュリティへ",
+      "one_liner": "ホームセキュリティ大手ADTを買収、AIで住宅防犯市場を再定義する構え",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+    },
+    {
+      "title_ja": "Meta、AIファッションアプリ「Style Sketch」を静かにリリース",
+      "one_liner": "Instagram連携でバーチャルクローゼット構築、写真から服を自動登録",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/"
+    },
+    {
+      "title_ja": "Granola、音声文字起こし機能を追加──Wisprと競合へ",
+      "one_liner": "会議メモアプリが音声入力機能を追加、音声AIツール市場の競争激化",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/"
+    },
+    {
+      "title_ja": "米当局、NvidiaのCEO標的の中国スパイ疑惑を調査",
+      "one_liner": "シンガポールAIクラウド企業幹部が中国スパイの可能性、Nvidiaチップ違法販売疑惑と関連",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/"
+    },
+    {
+      "title_ja": "元Palantir幹部、a16zから17百万ドル調達──建設業AIワールドモデル開発のDream立ち上げ",
+      "one_liner": "物理法則と建設基準を学習したワールドモデルで建設業のAI活用を推進",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/"
+    },
+    {
+      "title_ja": "Wabi、評価額12.5億ドルで55百万ドル調達──ミニアプリ構築AIエージェント",
+      "one_liner": "AIエージェントがミニアプリを構築、パーソナルエージェント市場で急成長",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/"
+    },
+    {
+      "title_ja": "Deepgram、Pipecat開発のDailyを買収──音声AI基盤を強化",
+      "one_liner": "リアルタイム音声・動画インフラ開発のDailyを買収、音声AI基盤を拡充",
       "category": "業界",
       "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/"
     },
     {
-      "title_ja": "Microsoft、Azure実収益を初公開──332億ドルでAWS追撃の実態が明確化",
-      "one_liner": "従来非開示だった四半期収益をドル建てで初公表",
+      "title_ja": "Amazon Alexa、買い物リスト・定期購入・配送指示の管理機能を追加",
+      "one_liner": "Alexaで買い物リスト作成・編集、定期購入管理、配送指示変更が可能に",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/"
+    },
+    {
+      "title_ja": "Google Gemini、ドキュメント・PDFをチャット内で直接生成・編集可能に",
+      "one_liner": "Geminiチャット内でGoogleドキュメント、PDF、スプレッドシート等を生成・編集可能",
+      "category": "ツール",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
+    },
+    {
+      "title_ja": "Microsoft、AI時代の「雇用減少」を示唆──Nadella CEOの発言から読み解く未来",
+      "one_liner": "MicrosoftがAI活用で一部職種の人員削減を示唆、AI時代の雇用戦略が鮮明に",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
+    },
+    {
+      "title_ja": "NYT Cookingアプリ、AIレシピ変更機能をテスト──ユーザーから賛否",
+      "one_liner": "レシピをAIで変更できる機能をテスト、ユーザー間で議論が巻き起こる",
+      "category": "ツール",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool"
     }
   ],
   "date": "20261030",
