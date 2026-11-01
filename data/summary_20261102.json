@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "OpenAI・Google・Microsoftがrobots.txt共通トークンに対応──AI学習拒否を一括指定可能に、Anthropicも実装表明",
+      "summary_ja": "OpenAI、Google、MicrosoftがWebサイト運営者のAI学習利用意向を一括指定できる共通の仕組みへの対応を発表。robots.txtに共通トークンを記述するだけで、各社のAIクローラーを一元管理できる。\nAnthropicも担当者が個人名義で実装を表明しており、業界横断の標準化が進展。従来は各社個別のクローラー設定が必要だった煩雑さが大幅に軽減される。\nコンテンツ保護と透明性の両立を目指す動きとして、Webサイト運営者の権利保護が一歩前進。日本企業も対応すべき実務上の変化となる。",
+      "consultant_insight": "自社Webコンテンツの権利管理方針を見直す好機。robots.txt設定だけで各社AI対応が完結するため、法務・IT部門と早期に方針整理を推奨",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/01/2000002776/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Apple CEO、「AIのためのAIは出さない」と明言──実用性重視の姿勢を改めて表明",
+      "summary_ja": "AppleのCEOが同社のAI戦略について「AI for AI's sake（AIのためのAI）は出荷しない」と明確に発言。実用性と統合性を最優先する姿勢を改めて強調した。\n生成AI競争が過熱する中、Appleは独自路線を堅持。ユーザー体験と既存エコシステムへの統合を重視し、派手な機能追加より実務的価値を追求する。\n日本企業にとっても「AI導入の目的化」を避ける教訓。機能の豊富さより業務への実装可能性を重視すべきとの示唆。",
+      "consultant_insight": "「派手なAI機能」より「業務に根ざした実装」を優先すべき。Apple的思考は日本企業のAI導入方針策定の参考になる",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "NAACP、xAIデータセンターの環境汚染訴訟が前進──大気汚染防止法違反を主張、判事が訴訟継続を認める",
+      "summary_ja": "NAACPがSpaceX傘下のAI企業xAIを相手取った訴訟で、判事が訴訟の継続を認める判断を下した。xAIのデータセンターが大気汚染防止法に違反していると主張。\nAIインフラの急拡大に伴う環境負荷が法的問題に発展。データセンターの立地や運営が地域社会に与える影響への注目が高まっている。\n日本企業がAIインフラを検討する際も、環境規制・地域社会との関係が重要な考慮事項に。ESG観点からの精査が必須。",
+      "consultant_insight": "AIインフラ導入時は技術性能だけでなく環境負荷・地域影響も評価項目に。ESG観点の事前調査が訴訟リスク回避の鍵",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "Microsoft「Surface Laptop Ultra」発表──NVIDIA RTX Spark搭載でWindows PC・AI PCの新時代到来か",
+      "summary_ja": "MicrosoftがNVIDIA RTX Spark搭載の「Surface Laptop Ultra」を発表。大規模言語モデルも扱える高性能GPU搭載で、従来のWindows PCの概念を超える製品に。\nRTX Spark搭載PCの登場はWindowsアーキテクチャの大きな転換点となる可能性。PC・スマートフォン・タブレットの境界を変える動きとして注目される。\n日本企業の業務端末選定にも影響。オンプレミスでの高度AI処理が可能になり、クラウド依存を減らす選択肢が増える。",
+      "consultant_insight": "オンプレミスでLLM処理が現実的に。クラウドコスト削減と機密性向上を両立したい企業は次世代端末への移行計画を検討すべき",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/447/4447551/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "ClaudeとChatGPTの利用上限を一元管理──Mac/iPhone/iPad/Watchで使える「Usage」アプリ登場",
+      "summary_ja": "ClaudeとChatGPTの利用上限をMac、iPhone、iPad、Apple Watchで統合管理できる「Usage」アプリが登場。複数デバイス・複数AIサービスの使用状況を一元把握。\nAI利用の「見える化」ニーズに対応。個人・チームでの利用量管理やコスト最適化に役立つツールとして期待される。\n日本企業でもAI利用コスト管理が課題に。部門別・個人別の使用量可視化は予算管理の実務で有用。",
+      "consultant_insight": "AI利用料金の予実管理に使える。部門単位でのコスト可視化ツールとして導入を検討する価値あり",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/usage-for-claude"
+    },
+    {
+      "rank": 6,
+      "title_ja": "Ideogram、コンテキストウィンドウで精密編集可能な「Precise Edit」発表──画像生成AI編集の新標準へ",
+      "summary_ja": "画像生成AIのIdeogramが「Precise Edit」機能を発表。コンテキストウィンドウを活用した精密な画像編集を実現し、生成後の微調整精度が大幅向上。\n従来の画像生成AIでは難しかった部分的な修正や細部の調整が容易に。デザイン実務でのAI活用が一層現実的になる。\n日本企業のマーケティング・デザイン部門で即戦力に。既存ワークフローへの統合がしやすくなり、導入ハードルが下がる。",
+      "consultant_insight": "デザイン工数削減の実用ツール。マーケ部門での試験導入を推奨、編集精度の高さは業務レベルで使える",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/ideogram"
+    },
+    {
+      "rank": 7,
+      "title_ja": "Fluent 2、ローカル実行のAIチームメイトをMacで実現──クラウド不要の高度AI処理が可能に",
+      "summary_ja": "「Fluent 2」がMac上でローカル実行するAIチームメイト機能を提供開始。クラウド接続不要で高度なAI処理を実現し、機密性とコスト削減を両立。\nローカルLLM実行の実用性が向上。ネットワーク遅延なし・データ流出リスクゼロで業務利用が可能になる。\n日本企業の情報セキュリティポリシーにも適合しやすい。クラウドAI利用が難しい部門での導入候補に。",
+      "consultant_insight": "機密部門でのAI活用に最適。クラウド禁止部署でも使えるローカルAIの選択肢として検討価値あり",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos"
+    },
+    {
+      "rank": 8,
+      "title_ja": "AI木曜会（4000人超）、学習・質問・イベントを統合した「ポータル」正式リリース──コミュニティ運営の新モデル",
+      "summary_ja": "在籍4000人超のAIコミュニティ「AI木曜会」が、学び・質問・イベントを一元化した「AI木曜会ポータル」を正式リリース。コミュニティ運営の効率化とメンバー体験向上を実現。\n分散していた情報・交流の場を統合し、参加ハードルを下げる取り組み。大規模コミュニティの運営ノウハウとして参考になる。\n日本企業の社内AIコミュニティ運営にも応用可能。情報共有とナレッジ蓄積の仕組みづくりのヒントに。",
+      "consultant_insight": "社内AI推進コミュニティ運営の参考に。情報統合プラットフォームは従業員のAIリテラシー向上施策として有効",
+      "importance": 2,
+      "category": "実務",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/447/4447595/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "ゴムマリ、業務AIエージェントに「口コミ返信」機能を追加──カスタマーサポート自動化が前進",
+      "summary_ja": "ゴムマリが提供する業務AIエージェントに「口コミ返信」機能が追加。顧客からの口コミに対する返信を自動生成し、カスタマーサポート業務の効率化を支援。\n定型的だが工数がかかる口コミ対応をAI化。返信の質とスピードを両立し、顧客満足度向上とコスト削減を実現する。\n日本企業のカスタマーサポート部門で即導入可能。特にECサイト運営企業での工数削減効果が期待できる。",
+      "consultant_insight": "EC・サービス業の口コミ対応工数を大幅削減可能。返信品質の標準化にも寄与し、CS部門の生産性向上に直結",
+      "importance": 3,
+      "category": "実務",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/447/4447586/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "AR観光ナビアプリ「Naviu」、2026年11月1日提供開始──AIと歩く新しい日本の旅体験",
+      "summary_ja": "AIと連携したAR観光ナビゲーションアプリ「Naviu」が2026年11月1日から提供開始。AIガイドと一緒に歩く新しい観光体験を提供。\nAR技術とAI対話を組み合わせ、観光地での情報提供とナビゲーションを統合。インバウンド需要への対応や地域観光の活性化に貢献する可能性。\n日本の観光業界にとって有力なツール。自治体や観光事業者との連携事例が今後注目される。",
+      "consultant_insight": "インバウンド対応の新手法。観光関連企業は地域連携での活用可能性を検討すべき、差別化要素として有望",
+      "importance": 2,
+      "category": "実務",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/447/4447583/"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "Riverside、動画制作の一連の業務を自動化するAIエージェントチーム発表",
+      "one_liner": "動画の制作・編集・クリップ作成・投稿まで一貫してAIが処理",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/riverside-fm"
+    },
+    {
+      "title_ja": "Click、あらゆるモデルで動作する管理型エージェントAPIを提供",
+      "one_liner": "複数のAIモデルを統合管理できるエージェントAPI基盤",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/click-6"
+    },
+    {
+      "title_ja": "Modelpeers、AIモデルとエージェントを人のようにフォローできるサービス",
+      "one_liner": "AIモデルの更新・動向を個人のように追跡する新しいUI",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/modelpeers"
+    },
+    {
+      "title_ja": "agentmash、チームでのコーディングエージェント共有を実現するOSSツール",
+      "one_liner": "オープンソースのマルチプレイヤーAIコーディング環境",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/agentmash"
+    },
+    {
+      "title_ja": "ernd、AIスタック向け専用クレジットカードサービス",
+      "one_liner": "AI関連サービス利用に特化した決済手段を提供",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/ernd"
+    },
+    {
+      "title_ja": "Embage、顧客向けエージェント構築・ワークフロー実行・分析を統合",
+      "one_liner": "エージェント開発から運用分析まで一気通貫で提供",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/embage"
+    },
+    {
+      "title_ja": "ClawsGO Science、専用クラウドラボを持つAI研究エージェント",
+      "one_liner": "研究実験環境をクラウドで提供するAIエージェント",
+      "category": "研究",
+      "url": "https://www.producthunt.com/products/clawsgo-science"
+    },
+    {
+      "title_ja": "Expanse（YC P26）、遊休GPU容量の活用サービスを発表",
+      "one_liner": "未使用のGPUリソースを解放し有効活用する仕組み",
+      "category": "業界",
+      "url": "https://news.ycombinator.com/item?id=48356312"
+    },
+    {
+      "title_ja": "Juggler、JUCEの開発者が作るオープンソースGUIコーディングエージェント",
+      "one_liner": "音楽ソフト開発の第一人者による新しいコーディングツール",
+      "category": "ツール",
+      "url": "https://github.com/juggler-ai/juggler"
+    },
+    {
+      "title_ja": "Plandex、複雑なタスクに対応するAIコーディングエンジン",
+      "one_liner": "大規模で複雑なコーディング作業を支援するAIエンジン",
+      "category": "ツール",
+      "url": "https://github.com/plandex-ai/plandex"
+    },
+    {
+      "title_ja": "Twigg.ai、LLM向けのコンテキスト管理インターフェース「Git for LLMs」",
+      "one_liner": "LLMのコンテキストをGitのように管理する仕組み",
+      "category": "ツール",
+      "url": "https://twigg.ai"
+    },
+    {
+      "title_ja": "EPSBench、LLMエージェントの収益予測ベンチマーク論文",
+      "one_liner": "財務分析でのLLMエージェント性能を評価する新指標",
+      "category": "研究",
+      "url": "https://arxiv.org/abs/2610.38293"
+    },
+    {
+      "title_ja": "Weaken to Strengthen、大規模推論モデルの新しい自己蒸留手法論文",
+      "one_liner": "弱化を通じて強化する推論モデルの学習手法",
+      "category": "研究",
+      "url": "https://arxiv.org/abs/2610.38681"
+    },
+    {
+      "title_ja": "Any-Order Generation、事前学習済み自己回帰画像モデルの新手法論文",
+      "one_liner": "任意順序での画像生成を可能にする技術ブレイクスルー",
+      "category": "研究",
+      "url": "https://arxiv.org/abs/2610.39293"
+    },
+    {
+      "title_ja": "ローマ帝国の人物マップを構築するプロジェクト「roman-names.com」",
+      "one_liner": "歴史上の人物をマッピングする野心的な試み",
+      "category": "研究",
+      "url": "https://new.roman-names.com/"
+    }
+  ],
+  "date": "20261102",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
