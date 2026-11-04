@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<script>
+// iPhoneホーム画面アプリ対策：URLにタイムスタンプを付与して強制リロード
+(function(){
+  var url = new URL(window.location.href);
+  var v = url.searchParams.get('v');
+  var today = new Date().toISOString().slice(0,10).replace(/-/g,'');
+  if (v !== today) {
+    url.searchParams.set('v', today);
+    window.location.replace(url.toString());
+  }
+})();
+</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>今日のAIニュース — 2026年11月05日</title>
+  <meta name="description" content="日本のAIコンサル実務向け毎朝更新AIニュースダッシュボード" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1e40af" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="AI News Daily" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: {} }
+    }
+  </script>
+
+  <style>
+    /* PWAホーム画面アイコン用フォールバック */
+    @media (display-mode: standalone) {
+      body { padding-top: env(safe-area-inset-top); }
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen font-sans">
+
+  <!-- ダークモード切替 -->
+  <script>
+    if (localStorage.getItem('theme') === 'dark' ||
+        (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+
+  <!-- ヘッダ -->
+  <header class="bg-blue-800 dark:bg-blue-950 text-white shadow-lg sticky top-0 z-10">
+    <div class="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div>
+        <h1 class="text-lg font-bold leading-tight">📰 今日のAIニュース</h1>
+        <p class="text-blue-200 text-xs mt-0.5">2026年11月05日 &nbsp;|&nbsp; 最終更新: 06:12 JST</p>
+      </div>
+      <button
+        onclick="document.documentElement.classList.toggle('dark'); localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light')"
+        class="p-2 rounded-full hover:bg-blue-700 transition"
+        aria-label="ダークモード切替"
+      >🌙</button>
+    </div>
+  </header><main class="max-w-2xl mx-auto px-4 py-6 space-y-10">
+
+    <!-- ===== 必読 TOP10 ===== -->
+    <section>
+      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <span class="bg-red-600 text-white text-xs px-2 py-0.5 rounded font-semibold">必読</span>
+        TOP 10
+      </h2>
+
+      
+      <div class="space-y-4">
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#1</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/aiplus/article/2611/04/2000002863/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              Anthropic、AI応答の真正性を暗号技術で証明する「FlashProve」を公開
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AnthropicはAIモデルの応答が指定したモデルによるものかを暗号技術で証明するシステム「FlashProve」を発表した。ユーザーが応答の改ざんやモデルのすり替えを検知できるようにする。中身を明かさず計算の正しさを証明する暗号技術「zkSNARK」を活用しており、研究用プロトタイプとして関連資料を公開している。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> AI監査・コンプライアンス体制構築の提案材料として有効。金融・医療など信頼性が重視される業界向けに活用できる。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#2</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/aiplus/article/2611/04/2000002862/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              Claude料金プラン名変更で容量議論→公式が否定「Ultraは元々Proの10倍」
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AnthropicはClaudeのプラン名を「Max 5x」から「Max」に、「Max 20x」から「Ultra」に変更した。Ultraプランの使用制限が「20倍から10倍に減った」という声が寄せられたが、公式は「元々Max 20xの週次制限はProの10倍だった」と否定した。プラン名の数値は価格比を示すもので、使用量の倍率ではないとの説明。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 顧客へのプラン説明時に正確な使用制限を確認すべき。名称変更は実質的な条件変更を伴わないことを伝える必要がある。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#3</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/news/article/2611/04/2000002869/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              GitHub Copilot Fusion正式版、タスク別に最適AIモデル自動選択で高性能・低コスト両立
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">GitHubは年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表した。タスクの性質に応じて複数のAIモデルから最適なものを自動選択し、高性能と低コストを両立させる仕組み。コード補完にはGPT-4o、複雑な推論にはClaude 3.5 Sonnetといった使い分けを自動化する。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 開発チームのコスト最適化提案に直結。マルチモデル戦略の実装例として顧客に提示できる。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-red-500 bg-red-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#4</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-red-500 font-bold">★★★★★</span><span class="text-gray-300"></span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://openai.com/index/openai-to-acquire-pierre" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              OpenAI、コード特化企業Pierre Computer Companyを買収してCodex拡張へ
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">OpenAIはコード開発ツール企業Pierre Computer Company, Inc.を買収すると発表した。Codexのコード構築・理解・レビュー機能を拡張する狙い。OpenAIは開発者向けツールの強化を加速しており、GitHubやVS Codeとの連携深化が期待される。買収金額は非公開。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> OpenAIのエンタープライズ開発環境への本格参入を示すシグナル。Codex導入検討企業への追い風材料。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: OpenAI Blog</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#5</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://openai.com/index/daybreak-red-aws-govcloud" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              OpenAI Daybreak Red、米政府クラウドで利用可能に──GPT-5.6 Cyberをサイバーセキュリティ業務向けに提供
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">OpenAIは「Daybreak Red」をAWS GovCloud (US-East)経由で提供開始した。GPT-5.6 Cyberを承認顧客向けにAmazon Bedrockで利用可能にし、政府機関のサイバーセキュリティ業務を支援する。米国の機密性の高い環境でのAI活用が本格化する。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 日本の公共セクター・防衛産業へのAI導入提案時に、米国の先行事例として活用できる。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: OpenAI Blog</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#6</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/news/article/2611/04/2000002855/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              Apple、刷新版Siri AIを全開発者に開放──アプリ連携で予約・注文などをSiri経由で操作可能に
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">Appleは音声アシスタント「Siri AI」とサードパーティアプリを連携させる機能を開発者向けに開放した。各OSのβ版でプレビュー提供を開始し、「App Intents」を利用してアプリを開かずにSiri AIから直接操作が可能になる。一般ユーザーへの提供は数カ月後の見込み。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> iOS/macOSアプリを持つ顧客企業に、Siri統合による新UX提案の好機。音声UIの実用化が加速する。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#7</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://www.itmedia.co.jp/aiplus/article/2611/04/2000002853/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              「海外モデルのオンプレ稼働も100％安全ではない」──チームみらい安野氏が国産モデル必要性を強調
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">チームみらいの安野貴博党首は、海外オープンウェイトモデルが国内で稼働する際、意図的に自身の性能を低下させたり、データを漏えいさせたりする可能性があると指摘した。自前サーバで動かしても100％安全とは言えず、国産モデルの必要性を強調した。AIサプライチェーンの信頼性確保が課題として浮上している。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 顧客のAIガバナンス戦略に「モデル主権」の視点を加える根拠として使える。国産モデル採用の説得材料に。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-yellow-400 bg-yellow-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#8</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-yellow-500 font-bold">★★★</span><span class="text-gray-300">☆☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://atmarkit.itmedia.co.jp/ait/articles/2611/05/news004.html" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              OSSは「PRを送る」から「自分用に改変」へ？ AIプルリクエスト急増でメンテナーがPR受付停止を宣言
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">AIが生成するプルリクエストの増加を受け、あるOSS開発者が「今後公開するコードではPRの受付をやめ、改変は自由にする」と宣言した。変更を上流に送るのではなく、各自が自分用にカスタマイズする「リミックスモデル」への移行を提唱。OSSエコシステムがAI時代に適応する新たな形として議論を呼んでいる。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> OSSライセンス戦略やAI活用ガイドライン策定時に、新しいコラボレーションモデルの可能性を示唆できる。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#9</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-gray-100 text-gray-800">研究</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://monoist.itmedia.co.jp/mn/articles/2611/04/news046.html" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              東北大×アイシン、16nmプロセスで世界初のSTT-MRAM搭載AIチップを開発──AI処理時間を1/10に短縮
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">東北大学とアイシンは、不揮発性メモリSTT-MRAMを搭載するAIチップを開発した。「近メモリコンピューティング(NMC)」型で、OS起動時間を従来比約39倍高速化し、物体検出などのAI処理時間を約10分の1に短縮する。16nmプロセスでのSTT-MRAM搭載AIチップは世界初。エッジAIの省電力化と高速化を両立する。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 製造業のエッジAI導入提案で、日本発の先端半導体技術として訴求できる。自動車・産業機器向けに有望。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: ITmedia AI+</p>
+        </article>
+        
+        <article class="border-l-4 rounded-lg p-4 shadow-sm border-orange-400 bg-orange-50 dark:bg-gray-800 dark:border-opacity-60">
+          <div class="flex items-start justify-between gap-2 mb-1">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-gray-400 dark:text-gray-500 text-sm font-mono">#10</span>
+              <span class="inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+            </div>
+            <span class="text-sm whitespace-nowrap">
+              <span class="text-orange-400 font-bold">★★★★</span><span class="text-gray-300">☆</span>
+            </span>
+          </div>
+
+          <h3 class="font-bold text-base leading-snug mb-2">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/00001/12146/" target="_blank" rel="noopener noreferrer"
+               class="hover:underline text-blue-700 dark:text-blue-400">
+              富士通、Uvanceの軸足を汎用型から業種特化AIへ──5年で売上2.4倍を目指す成長戦略
+            </a>
+          </h3>
+
+          <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line mb-2">富士通は成長事業モデル「Fujitsu Uvance（ユーバンス）」を刷新し、社会課題軸の汎用サービスから業種ごとの暗黙知を組み込んだAIサービスへと重点を移す。顧客の事業変革を支援し、5年で売上2.4倍を目指す。国内大手SIerが業種特化型AIへ本格シフトする方向性を明確にした。</p>
+
+          
+          <div class="bg-amber-50 dark:bg-amber-900/30 border border-amber-200 dark:border-amber-700 rounded p-2 text-xs text-amber-800 dark:text-amber-300">
+            💼 <strong>実務ポイント:</strong> 大手SIerの戦略転換を顧客に伝え、業種特化AIの価値を再訴求する好機。競合比較の参考材料にも。
+          </div>
+          
+
+          <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">出典: 日経クロステック AI</p>
+        </article>
+        
+      </div>
+      
+    </section>
+
+    <!-- ===== その他注目 ===== -->
+    
+    <section>
+      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <span class="bg-gray-500 text-white text-xs px-2 py-0.5 rounded font-semibold">注目</span>
+        その他 15 件
+      </h2>
+
+      <ul class="divide-y divide-gray-200 dark:divide-gray-700 bg-white dark:bg-gray-800 rounded-lg shadow-sm overflow-hidden">
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://www.itmedia.co.jp/news/article/2611/04/2000002849/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Google、学校向けGemini・検索AI機能を原則オフに──検索のみ無効化は不可で批判
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">K-12生徒向けアカウントでGemini等をデフォルトオフ化、AI禁止校では検索自体が使えず物議</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              DuckDuckGo、GoogleのAI方針への反発受け学校向けに自社検索をアピール
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Google AI制限に不満の教育機関へ、AI機能をオフにできる検索エンジンとして売り込み</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              ChatGPTで動くGIF画像生成が可能に──Images 2.6モデル搭載
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">OpenAI、プロンプトや写真からアニメーションGIFを作成できる新機能を展開開始</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/00001/12155/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              米中間選挙で民主圧勝、「青い波」がAI規制強化の公算──ブームに冷や水か
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">民主党が上下両院制する見込み、AIやデータセンター規制が強まる可能性が浮上</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/01231/00166/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              サムスンとAMD、AI向けCXLベースのメモリー拡張ソリューションを実機検証
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">次世代メモリー規格CXLで容量・帯域を柔軟拡張、AIインフラ課題解消へ協業深化</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://xtech.nikkei.com/atcl/nxt/column/18/03795/102700004/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              富士通・日立・AWSも「ソブリンAI」で競演──AI主権ビジネスに商機見出す
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">国内ITベンダー大手、能動的サイバー防御の追い風受けAI主権確立支援事業に注力</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              データセンター建設、電力待ち長期化で旧ジェットエンジン転用へ
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">電力網接続まで数年待ちのため、一時電源として旧航空機用タービンを活用する動き</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Ballistic Ventures、AI駆動のサイバーセキュリティブームで4.9億ドル調達へ
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">サイバーセキュリティ特化VCが新ファンド3.6億ドル＋別枠1.3億ドルの資金調達を計画</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Uber、Q3にAIエージェント経由の配車はわずか4件──中抜きリスクは遠い
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">サードパーティAIエージェントからの配車依頼は極めて少なく、プラットフォーム脅威は当面限定的</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              Nothing、画面なしAIデバイスを12月発売へ──CEOが予告
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Carl Pei氏が初のAIデバイスを来月投入とX投稿、詳細は不明</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              PCゲーム最大のMODサイトNexus Mods、AI利用の開示を義務化
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">新規MODアップロード時にAI使用の有無明示を必須化、ユーザー選択の透明性向上狙う</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">ツール</span>
+          <div class="min-w-0">
+            <a href="https://ascii.jp/elem/000/004/448/4448552/?rss" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              19万円台で960gの軽量AIノートPC「Acer Swift Air 14」発表
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">最新CPU搭載の14型軽量モデル4機種、日本エイサーが投入</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">実務</span>
+          <div class="min-w-0">
+            <a href="https://monoist.itmedia.co.jp/mn/articles/2611/04/news020.html" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              造船設計に3D CAD×AI、Noahlogyが設計確認作業を効率化へAVEVAと提携
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">3Dモデルデータ対象にAIで設計者の確認作業を支援、造船業務での実用化目指す</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://monoist.itmedia.co.jp/mn/articles/2611/04/news064.html" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              製造業の「秘伝のタレ」はAIに奪われるか？ヤマザキマザックがセミナーで議論
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">JIMTOF2026ブース内で政策研究大学院大学とマザックが競争力源泉をテーマに討論</p>
+            
+          </div>
+        </li>
+        
+        <li class="px-4 py-3 flex items-start gap-3">
+          <span class="mt-0.5 shrink-0 inline-block px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-800">業界</span>
+          <div class="min-w-0">
+            <a href="https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-sm text-blue-700 dark:text-blue-400 hover:underline line-clamp-2">
+              国産AI開発のNoetra、テックブログを開設──開発現場の試行錯誤も発信
+            </a>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">大手出資のAI企業が技術ブログでノウハウ共有を開始</p>
+            
+          </div>
+        </li>
+        
+      </ul>
+    </section>
+    
+
+  </main>
+
+  <!-- フッタ -->
+  <footer class="max-w-2xl mx-auto px-4 py-8 mt-4 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-500 dark:text-gray-400 space-y-4">
+
+    <!-- バックナンバー -->
+    
+    <div>
+      <h3 class="font-semibold text-gray-700 dark:text-gray-300 mb-2">📂 バックナンバー(直近30日)</h3>
+      <ul class="flex flex-wrap gap-2">
+        
+        <li>
+          <a href="archive/2026-11-04.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-11-04
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-11-03.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-11-03
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-11-02.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-11-02
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-30.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-30
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-29.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-29
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-28.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-28
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-27.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-27
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-26.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-26
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-23.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-23
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-22.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-22
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-21.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-21
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-20.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-20
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-19.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-19
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-16.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-16
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-15.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-15
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-14.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-14
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-13.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-13
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-12.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-12
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-09.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-09
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-08.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-08
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-07.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-07
+          </a>
+        </li>
+        
+        <li>
+          <a href="archive/2026-10-06.html" class="text-blue-600 dark:text-blue-400 hover:underline text-xs">
+            2026-10-06
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+    <!-- 取得失敗ソース -->
+    
+    <div>
+      <h3 class="font-semibold text-gray-600 dark:text-gray-400 mb-1">⚠️ 本日取得できなかったソース</h3>
+      <ul class="text-xs space-y-0.5">
+        
+        <li class="text-gray-400">AI-Scholar: [Errno -3] Temporary failure in name resolution</li>
+        
+        <li class="text-gray-400">VentureBeat AI: Client error &#39;429 Too Many Requests&#39; for url &#39;https://venturebeat.com/category/ai/feed/&#39;
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429</li>
+        
+      </ul>
+    </div>
+    
+
+    <p class="text-xs text-center text-gray-400 pt-2">
+      AI News Daily — 毎朝6:00 JST 自動更新 &nbsp;|&nbsp;
+      <a href="https://github.com/hummer-lab-001/ai-news-daily" class="hover:underline" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
