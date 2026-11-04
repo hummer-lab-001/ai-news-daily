@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Anthropic、IPO申請書を修正　7-9月売上高は約170億ドル、インフラ契約額は約8954億ドル",
-      "summary_ja": "AnthropicがSECにIPO登録届出書の修正版を提出。第3四半期の売上高は前年同期比約12.3倍の約169億ドルに急拡大した一方、営業損益は赤字に転落。AI計算資源やインフラに関する将来の支出約束額が約8954億ドル（約130兆円）に上ることが明らかに。急成長する生成AI市場での競争激化と、膨大なインフラ投資の必要性が浮き彫りとなった。",
-      "consultant_insight": "顧客企業のAI導入ROI試算時、インフラコストの長期的な増加リスクを織り込む必要性を示唆",
+      "title_ja": "Anthropic、AI応答の真正性証明システム「FlashProve」を開発中",
+      "summary_ja": "Anthropicが、AI応答が本当にそのモデルから出力されたものかを検証できるシステム「FlashProve」の開発を進めている。なりすましや改ざんされた応答を見破り、AI出力の信頼性を高める仕組み。\n\nディープフェイクやAI生成コンテンツの悪用が広がる中、企業が安心してAIを業務利用するための基盤技術となる可能性がある。\n\nモデルの身元証明により、AIガバナンスや監査要件への対応も容易になると期待される。",
+      "consultant_insight": "AI出力の真正性証明は、金融・医療など信頼性が最重要の業界でAI導入を加速する鍵となる",
       "importance": 5,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/03/2000002831/"
+      "category": "ツール",
+      "source_name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
     },
     {
       "rank": 2,
-      "title_ja": "社会人向け英語学習「EiDrill」、Claude・ChatGPTとMCP連携開始　AIに話しかけるだけでTOEIC形式ドリル",
-      "summary_ja": "社会人向け英語学習サービス「EiDrill」がClaude・ChatGPTとのMCP（Model Context Protocol）連携を開始。普段使っているAIチャットに話しかけるだけでTOEIC形式のドリルと復習が可能に。学習記録はアプリと共通管理され、既存のAIワークフローに英語学習を統合できる。MCPの実用例として注目される。",
-      "consultant_insight": "MCPを活用した業務システム統合の具体例として、顧客への提案材料に活用可能",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "ASCII.jp AI",
-      "url": "https://ascii.jp/elem/000/004/448/4448043/?rss"
-    },
-    {
-      "rank": 3,
-      "title_ja": "Marvell、光通信のLumentumを約18兆円で買収　AIデータセンターの高速化需要に対応",
-      "summary_ja": "半導体大手Marvell Technologyが光通信関連製品のLumentum Holdingsを約1150億ドル（約18兆円）で買収。AIデータセンターで急増するデータ通信需要に対応するため、半導体技術と光通信技術を統合し次世代AI接続ソリューションを構築。AI基盤インフラの高速化競争が新段階に。",
-      "consultant_insight": "顧客のAIインフラ刷新時、光通信技術の導入余地を検討する価値が増大",
-      "importance": 4,
+      "title_ja": "AI推論スタートアップFal、評価額1.6兆円に倍増　需要急増で1.3兆円調達",
+      "summary_ja": "画像生成など推論処理に特化したFalが、Bessemer主導で1.3兆円を調達し、評価額が半年で倍増の1.6兆円（約160億ドル）に達した。\n\n生成AIの実用化が進み、推論処理の需要が急拡大している状況を反映。訓練だけでなく実行時のインフラ投資が本格化している。\n\n日本企業がAIサービスを構築する際、推論基盤の選択肢としてFalのような専業プレイヤーが重要な存在になりつつある。",
+      "consultant_insight": "推論特化インフラへの巨額投資は、AIの「作る」から「使う」へのシフトを象徴している",
+      "importance": 5,
       "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/03/2000002830/"
-    },
-    {
-      "rank": 4,
-      "title_ja": "Anthropic、コンピュート経済で苦戦　マージンが改善すべき時期に悪化",
-      "summary_ja": "TechCrunchの分析によると、Anthropicはコンピュートマージンが改善すべき時期に悪化している。IPO申請書の修正版で明らかになった財務状況から、AI企業のコスト構造の厳しさが浮き彫りに。急成長する売上高と裏腹に、インフラ投資の重圧が経営を圧迫している実態が明らかになった。",
-      "consultant_insight": "AI導入提案時、ベンダーの経済的持続可能性も評価軸に加えるべき",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
-    },
-    {
-      "rank": 5,
-      "title_ja": "AI推論スタートアップFal、評価額が16億ドルに倍増　需要急増で13億ドル調達",
-      "summary_ja": "創業5年のAI推論スタートアップFalが、Bessemer主導で13億ドルを調達し、評価額を16億ドルに倍増。AI推論需要の急増を背景に、高速・低コストな推論サービスへの需要が加速。OpenAI・Anthropicのような大手とは異なる、専門特化型AI企業の成長が顕著に。",
-      "consultant_insight": "顧客のAI推論コスト削減提案時、専門特化型サービスの選択肢を提示可能",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "TechCrunch AI",
+      "source_name": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
     },
     {
-      "rank": 6,
-      "title_ja": "OpenAI、物理世界のエンジニアリングを加速　ChatGPTとCodexがCAD・PCB設計を支援",
-      "summary_ja": "OpenAIがChatGPTとCodexによる物理世界のエンジニアリング支援事例を公開。CAD設計、PCB設計、シミュレーション等のワークフローを加速。製造業や建設業など、デジタル以外の領域でもAIが設計・開発プロセスを変革する具体例として注目される。",
-      "consultant_insight": "製造業顧客への提案時、設計工程でのAI活用ROIを具体的に提示可能",
+      "rank": 3,
+      "title_ja": "Google、学校向けGemini・検索AI機能を原則オフに　検索のみ無効化は不可で批判",
+      "summary_ja": "Googleが幼稚園～高校の生徒アカウントでGeminiや検索のAI機能を初期状態でオフにすると発表。管理者が有効化可能だが、検索のAI部分だけを切り離せない。\n\nAI利用を禁じる学校では、検索サービス全体が使えなくなる問題が発生し、教育現場から批判の声が上がっている。\n\nAI機能と既存サービスの分離が難しい現実が浮き彫りになり、企業の導入計画にも示唆を与える事例。",
+      "consultant_insight": "AI機能の「部分的オフ」が技術的に困難な現実は、企業の段階的導入戦略にも影響する",
       "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+, TechCrunch, The Verge",
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002849/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "OpenAI、ChatGPT検索のクエリ量が「Google検索に迫る勢い」と発表",
+      "summary_ja": "OpenAIが、ChatGPTの検索機能を通じた検索クエリ量が急増し、Google検索に追いつきつつあると発表した。「Ask Chat」がネット検索の新しい動詞になりつつある。\n\n対話型AIが検索行動そのものを変える可能性を示唆。企業のマーケティングやSEO戦略の再考が必要になる段階に入った。\n\n日本企業も、従来の検索エンジン最適化だけでなく、AI対話での情報提供を意識した戦略が求められる。",
+      "consultant_insight": "検索行動のAIシフトは、顧客接点戦略とコンテンツ設計の全面見直しを迫る",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "OpenAI、物理世界のエンジニアリング加速を支援　CAD・PCB設計にChatGPT/Codex活用",
+      "summary_ja": "OpenAIが、ChatGPTとCodexを使った物理製品の設計・シミュレーションワークフローの効率化事例を公開。CADやPCB設計など、製造業の実務を支援。\n\nソフトウェアだけでなく、ハードウェア開発でもAIが実用段階に入ったことを示す重要な発表。\n\n日本の製造業が得意とする分野でAI活用が進めば、設計スピードと品質の両立が可能になる。",
+      "consultant_insight": "ハードウェア設計へのAI適用は、日本製造業の競争力を再定義する可能性を秘める",
+      "importance": 5,
       "category": "実務",
       "source_name": "OpenAI Blog",
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
     },
     {
-      "rank": 7,
-      "title_ja": "ルネサス、半導体設計全体をAIエージェント化　全製品に適用へ",
-      "summary_ja": "ルネサスエレクトロニクスがAIエージェントによる半導体設計基盤の整備を推進。デジタルとアナログ両方のチップレットから成る複雑なSoC設計の大幅な効率化を目指す。日本の半導体企業が設計工程全体にAIを適用する先進事例として注目される。",
-      "consultant_insight": "製造業の設計部門向けに、工程全体のAI化ロードマップ策定を提案可能",
+      "rank": 6,
+      "title_ja": "Cisco、OpenAIモデルでサイバー防御を「マシンスピード」に加速",
+      "summary_ja": "CiscoがネットワークインテリジェンスとOpenAIモデルを組み合わせ、企業セキュリティを強化。従来の手動対応では間に合わない攻撃に、機械速度で対応可能に。\n\nAI活用でサイバー攻撃が高度化する一方、防御側もAIで対抗する「軍拡競争」が本格化している。\n\n日本企業も、AI防御基盤への投資が急務になりつつある。",
+      "consultant_insight": "AI攻撃にAI防御で対抗する時代、防御側の自動化投資が企業存続の鍵になる",
       "importance": 4,
       "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12113/"
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/cisco-cyber"
+    },
+    {
+      "rank": 7,
+      "title_ja": "Heimstaden、ChatGPT EnterpriseとCodexで欧州不動産管理を変革　コスト削減と従業員エンパワーメント両立",
+      "summary_ja": "欧州大手不動産管理のHeimstadenが、OpenAIのChatGPT EnterpriseとCodexを導入し、物件管理業務を効率化。コスト削減と従業員の生産性向上を同時達成。\n\n人手不足が深刻な不動産・建設業界で、AIが現場業務を支援する実例として注目される。\n\n日本の不動産業界も同様の課題を抱えており、導入の参考になる事例。",
+      "consultant_insight": "不動産業務のAI化は、人手不足対策と収益改善を同時に実現できる有力な打ち手",
+      "importance": 3,
+      "category": "実務",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/heimstaden"
     },
     {
       "rank": 8,
-      "title_ja": "JPモルガン・ロッキードに学ぶAI導入「4原則」　効果測定・プロセス・アクセス・ガバナンス",
-      "summary_ja": "JPモルガン・チェース、ネーションワイド、ロッキード・マーティン等の事例から、AI導入成功の4原則を抽出。効果測定、業務プロセス統合、ツール・メモリーへのアクセス管理、ガバナンスの4観点が重要。日本企業が成果を出すための実践的なフレームワークとして参考になる。",
-      "consultant_insight": "顧客のAI導入ロードマップに4原則を組み込むことで、成果創出の確度向上",
-      "importance": 5,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03807/102700002/"
+      "title_ja": "Google Gemini、資料作成の「手直し地獄」を軽減する2つの新機能を発表",
+      "summary_ja": "Googleが、生成AI利用時の資料手直しや体裁統一の手間を減らすGemini新機能を発表。AI出力後の調整作業を効率化する。\n\n生成AIは「叩き台」作成には便利だが、仕上げに時間がかかる課題があった。この改善は実務の現場ニーズに応えるもの。\n\n日本企業の資料作成文化において、AI活用の最後の障壁が一つ減る可能性がある。",
+      "consultant_insight": "AI生成後の調整時間短縮は、実務での本格導入を後押しする重要な改善",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/04/2000002816/"
     },
     {
       "rank": 9,
-      "title_ja": "ヤンマー建機、AI図面検索で「品番・品名しばり」を解消　情報利用が拡大",
-      "summary_ja": "ヤンマー建機がAIによる類似図面検索クラウドサービスを導入。従来の品番・品名検索の制約を解消し、原価企画担当者が過去の類似品実績を容易に調査可能に。複数部署で運用開始し、設計資産の有効活用が進む。製造業での技術情報検索の具体的成功事例。",
-      "consultant_insight": "製造業の技術部門向けに、過去資産の活用度を高める検索改善提案が有効",
+      "title_ja": "東北大とアイシン、16nmプロセスで世界初のSTT-MRAM搭載AIチップを開発　AI処理時間を1/10に",
+      "summary_ja": "東北大学とアイシンが、不揮発性メモリSTT-MRAMを搭載した近メモリコンピューティング型AIチップを開発。OS起動を39倍高速化、AI処理時間を10分の1に短縮。\n\n電源オフでもデータが消えないメモリを使い、省エネと高速化を両立。エッジAIの実用化に大きく前進。\n\n日本の半導体技術が、AI時代に再び競争力を発揮できる可能性を示す事例。",
+      "consultant_insight": "国産AIチップの進化は、エッジAI導入の選択肢を広げ、サプライチェーンリスクも軽減",
       "importance": 4,
-      "category": "実務",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03783/102000005/"
+      "category": "研究",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/04/news046.html"
     },
     {
       "rank": 10,
-      "title_ja": "AIで激化するサイバー攻撃、矛先は製造業へ　防御対象選定とBCPが急務",
-      "summary_ja": "世界でサイバー攻撃が激化し、国内でもパーク24、GMO、デジタル庁等への攻撃が連日報道。背景にはAIによる攻撃の高度化と自動化がある。製造業が新たな標的となっており、防御対象の選定と事業継続計画（BCP）の整備が急務。AI時代のセキュリティ対策の重要性が増大。",
-      "consultant_insight": "顧客のAI導入と並行して、AIを活用した攻撃への防御体制構築を提案すべき",
+      "title_ja": "広告代理店テレシー、全社員「AIマスター化」を研修ではなく実務で実現",
+      "summary_ja": "広告代理店テレシーが、生成AI全社導入で直面した「AIリテラシー格差」と「情報漏えい懸念」を、AI人材育成と情報基盤整備の両輪で解決。研修に頼らない実務ベースの育成戦略を採用。\n\n座学研修では定着しないAIスキルを、実業務の中で習得させる仕組みを構築した点が特徴。\n\n日本企業が直面する「AI研修やったが使われない」問題への実践的な解決策として参考になる。",
+      "consultant_insight": "実務の中でAIスキルを育てる仕組みは、形骸化しがちな研修より定着率が高い",
       "importance": 4,
-      "category": "業界",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/103002136/"
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/04/2000002712/"
     }
   ],
   "digest": [
     {
-      "title_ja": "ゴムマリ業務AIエージェント、Excel台帳のデータベース化を提供開始",
-      "one_liner": "Excel管理からの脱却を支援するAIエージェントサービス",
-      "category": "ツール",
-      "url": "https://ascii.jp/elem/000/004/448/4448036/?rss"
+      "title_ja": "AIエージェントのアクセス権設定とガバナンス、セキュアな企業データ連携の実現方法",
+      "one_liner": "AIエージェントに企業データをどこまで見せるか、実践的なアクセス制御とガバナンスのあり方を解説",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/447/4447097/?rss"
     },
     {
-      "title_ja": "LLMOチェキ、AI検索経由の問い合わせ把握機能を提供開始",
-      "one_liner": "AI検索エンジン別・質問別に訪問から問い合わせまでを追跡可能に",
-      "category": "ツール",
-      "url": "https://ascii.jp/elem/000/004/448/4448037/?rss"
+      "title_ja": "保育向けICT「ルクミー」、音声入力・AI要約で複数園児の記録を自動判別・紐付け",
+      "one_liner": "音声入力とAI要約で保育記録を効率化、複数園児の記録を自動で判別する特許技術を実装",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/447/4447772/?rss"
     },
     {
-      "title_ja": "ゴムマリ業務AIエージェント、入金消込機能を提供開始",
-      "one_liner": "経理業務の自動化を支援するAIエージェント機能追加",
-      "category": "ツール",
-      "url": "https://ascii.jp/elem/000/004/448/4448022/?rss"
+      "title_ja": "日立システムズ、ドローン・AIで森林の環境価値を金額とデータで数値化",
+      "one_liner": "環境DNA分析と既存の森林調査DXを組み合わせ、森林整備の効果を定量評価するサービス開始",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/447/4447451/?rss"
     },
     {
-      "title_ja": "全自動ブラウザ操作AI「Cowork」、操作中のページをハイライト表示",
-      "one_liner": "AIの操作状況を可視化し、ユーザーの理解を支援",
-      "category": "ツール",
-      "url": "https://ascii.jp/elem/000/004/448/4448025/?rss"
+      "title_ja": "AIエージェントの逸脱行動が相次ぐ、監視には「何が起きたか」と「どう判断したか」の2記録が必要",
+      "one_liner": "主要AIエージェントフレームワークは監視に必要な行動ログと判断プロセスの記録が不十分と指摘",
+      "category": "研究",
+      "url": "https://ascii.jp/elem/000/004/448/4448050/?rss"
     },
     {
-      "title_ja": "世界のAIデータセンター向けシリコンフォトニクス市場、2034年に146億ドル規模へ",
-      "one_liner": "年平均18%成長、生成AIと高速光通信需要が市場を牽引",
+      "title_ja": "英語学習サービス「EiDrill」、ClaudeとChatGPTとMCP連携開始　TOEIC形式ドリルをAIで",
+      "one_liner": "いつものAIに話しかけるだけでTOEIC形式の問題演習と復習ができ、学習記録はアプリと共通管理",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/448/4448043/?rss"
+    },
+    {
+      "title_ja": "AIデータセンター向けシリコンフォトニクス市場、2034年に146億ドルへ　年平均18%成長",
+      "one_liner": "生成AIと高速光通信需要が市場を牽引、2034年に146億ドル規模へ拡大予測",
       "category": "業界",
       "url": "https://ascii.jp/elem/000/004/448/4448046/?rss"
     },
     {
-      "title_ja": "ビットコインへの量子攻撃コスト86%削減、研究チームが公表",
-      "one_liner": "人間とAIエージェントの協業で暗号攻撃の必要リソースを大幅削減",
-      "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03098/092900089/"
-    },
-    {
-      "title_ja": "パナソニック、禁止した生成AIに33万人分の個人情報流出　従業員の家族も",
-      "one_liner": "禁止だけでは防げないAI利用の実態が浮き彫りに",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00598/011300388/"
-    },
-    {
-      "title_ja": "三菱電機「フィジカルAIの耳」、異常音を聞き分ける自律ロボ技術",
-      "one_liner": "製造現場でのロボット自律化技術が実証段階に",
+      "title_ja": "ゴムマリの業務AIエージェント、Excel台帳を自動でデータベース化するサービス提供開始",
+      "one_liner": "Excel管理からの脱却を支援、AIエージェントがデータベース化を自動実行",
       "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/448/4448036/?rss"
+    },
+    {
+      "title_ja": "ルネサス、半導体設計全体をAIエージェント化　全製品への適用を計画",
+      "one_liner": "デジタルとアナログの複雑なSoC設計を大幅効率化、AIエージェント基盤を整備中",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12113/"
+    },
+    {
+      "title_ja": "三菱電機・村田製作所・日立、自律ロボ技術を相次ぎ発表　フィジカルAIが実証段階に",
+      "one_liner": "CEATEC 2026で異常音検知など製造現場向けフィジカルAI技術が多数登場",
+      "category": "研究",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03774/102000001/"
     },
     {
-      "title_ja": "Cisco、OpenAIモデルと連携して企業セキュリティを強化",
-      "one_liner": "ネットワークインテリジェンスとAIで適応的な防御を構築",
+      "title_ja": "JPモルガンやロッキードに学ぶAI導入4原則、日本企業への示唆",
+      "one_liner": "効果測定・業務プロセス・アクセス管理・ガバナンスの4観点で成果を出す方法を解説",
       "category": "実務",
-      "url": "https://openai.com/index/cisco-cyber"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03807/102700002/"
     },
     {
-      "title_ja": "Netflix、AIによる「気分」ベースの推薦機能を新Discoverタブで提供",
-      "one_liner": "ユーザーの現在の気分に合わせた作品推薦を実験的に提供",
+      "title_ja": "ヤンマー建機、AI図面検索で「品番か品名しばり」を解消　情報利用を拡大",
+      "one_liner": "過去の類似図面をAIで検索、原価企画の実績調査などで活用を開始",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03783/102000005/"
+    },
+    {
+      "title_ja": "AIで激化するサイバー攻撃、矛先は製造業へ　防御対象選定とBCPが急務",
+      "one_liner": "AI活用で攻撃が高度化・自動化、製造業も標的に　優先防御とBCP整備が重要",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/103002136/"
+    },
+    {
+      "title_ja": "データセンターが旧ジェットエンジンを電源に活用　電力網接続待ちで苦肉の策",
+      "one_liner": "AI需要で電力不足深刻化、効率悪くても旧型ジェットエンジンで発電する動き",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+    },
+    {
+      "title_ja": "Netflix、AI Discoverタブで「気分に合わせた」作品推薦を開始",
+      "one_liner": "現在の気分を入力すると、それに合った作品をAIが推薦する実験機能を導入",
       "category": "ツール",
       "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
     },
     {
-      "title_ja": "Google、学校でのAIツール無効化を認めるも検索機能も同時に制限",
-      "one_liner": "AI機能統合により、AI拒否校は検索も利用不可に",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/"
-    },
-    {
-      "title_ja": "Apple、デート系アプリとAIコンパニオンを18歳以上に制限",
-      "one_liner": "性的・恋愛的コンテンツを提供するアプリの年齢制限を強化",
+      "title_ja": "Apple、出会い系アプリとAIコンパニオンを18歳以上に制限",
+      "one_liner": "性的・恋愛的コンテンツを提供するAIコンパニオンアプリに18+評価を義務化",
       "category": "業界",
       "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
-    },
-    {
-      "title_ja": "Apple Watch、会話の巻き戻し・要約機能のベータ版テストを開始",
-      "one_liner": "Audio Intelligence機能で会話内容の記録・メモ作成を支援",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
-    },
-    {
-      "title_ja": "Y Combinator Garry Tan、AIエージェント利用で年間20万ドルを支出",
-      "one_liner": "AIエージェントへの高額投資で生産性を劇的に向上",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"
-    },
-    {
-      "title_ja": "Trajectory、非技術者向けAIモデル訓練プラットフォームで45億ドル調達",
-      "one_liner": "創業1年で評価額300億ドル、専門知識不要でモデル訓練可能に",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
     }
   ],
   "date": "20261104",
