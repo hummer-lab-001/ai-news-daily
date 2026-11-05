@@ -2,19 +2,19 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Anthropic、AI応答の真正性を暗号技術で証明する「FlashProve」を公開",
-      "summary_ja": "AnthropicはAIモデルの応答が指定したモデルによるものかを暗号技術で証明するシステム「FlashProve」を発表した。ユーザーが応答の改ざんやモデルのすり替えを検知できるようにする。中身を明かさず計算の正しさを証明する暗号技術「zkSNARK」を活用しており、研究用プロトタイプとして関連資料を公開している。",
-      "consultant_insight": "AI監査・コンプライアンス体制構築の提案材料として有効。金融・医療など信頼性が重視される業界向けに活用できる。",
+      "title_ja": "Anthropic、AIの真正性を証明する暗号技術「FlashProve」を公開",
+      "summary_ja": "AnthropicがAIモデルの応答が指定モデルによるものかを暗号技術で証明するシステム「FlashProve」を発表した。ユーザーが応答の改ざんやモデルのすり替えを検知できるようにする仕組みで、中身を明かさず計算の正しさを証明する暗号技術「zkSNARK」を活用している。研究用プロトタイプとして関連技術を公開し、企業がAI出力の信頼性を検証できる基盤を提供する。",
+      "consultant_insight": "AIガバナンス要件が厳しい金融・医療・法務分野で、出力の真正性証明が監査・コンプライアンス対応の鍵になる可能性",
       "importance": 5,
-      "category": "ツール",
+      "category": "研究",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002863/"
     },
     {
       "rank": 2,
-      "title_ja": "Claude料金プラン名変更で容量議論→公式が否定「Ultraは元々Proの10倍」",
-      "summary_ja": "AnthropicはClaudeのプラン名を「Max 5x」から「Max」に、「Max 20x」から「Ultra」に変更した。Ultraプランの使用制限が「20倍から10倍に減った」という声が寄せられたが、公式は「元々Max 20xの週次制限はProの10倍だった」と否定した。プラン名の数値は価格比を示すもので、使用量の倍率ではないとの説明。",
-      "consultant_insight": "顧客へのプラン説明時に正確な使用制限を確認すべき。名称変更は実質的な条件変更を伴わないことを伝える必要がある。",
+      "title_ja": "Claude料金プラン名変更で容量誤解が拡散→公式が即座に否定",
+      "summary_ja": "AnthropicがClaudeのプラン名を「Max 5x」→「Max」、「Max 20x」→「Ultra」に変更した際、Ultraプランの使用制限が「20倍から10倍に減った」との誤解が広がった。しかし公式は「元々Max 20xの週次制限はProの10倍であり、変更はない」と明言。プラン名の数字は相対的な使用量の目安であり、絶対値ではなかったことが判明した。",
+      "consultant_insight": "SaaS型AIサービスの料金体系は誤解を生みやすく、導入前に実際の制限値を確認する必要性を再認識",
       "importance": 4,
       "category": "ツール",
       "source_name": "ITmedia AI+",
@@ -22,175 +22,175 @@
     },
     {
       "rank": 3,
-      "title_ja": "GitHub Copilot Fusion正式版、タスク別に最適AIモデル自動選択で高性能・低コスト両立",
-      "summary_ja": "GitHubは年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表した。タスクの性質に応じて複数のAIモデルから最適なものを自動選択し、高性能と低コストを両立させる仕組み。コード補完にはGPT-4o、複雑な推論にはClaude 3.5 Sonnetといった使い分けを自動化する。",
-      "consultant_insight": "開発チームのコスト最適化提案に直結。マルチモデル戦略の実装例として顧客に提示できる。",
-      "importance": 5,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002869/"
-    },
-    {
-      "rank": 4,
-      "title_ja": "OpenAI、コード特化企業Pierre Computer Companyを買収してCodex拡張へ",
-      "summary_ja": "OpenAIはコード開発ツール企業Pierre Computer Company, Inc.を買収すると発表した。Codexのコード構築・理解・レビュー機能を拡張する狙い。OpenAIは開発者向けツールの強化を加速しており、GitHubやVS Codeとの連携深化が期待される。買収金額は非公開。",
-      "consultant_insight": "OpenAIのエンタープライズ開発環境への本格参入を示すシグナル。Codex導入検討企業への追い風材料。",
+      "title_ja": "OpenAI、コードレビューのPierre Computer Companyを買収",
+      "summary_ja": "OpenAIがコード構築・理解・レビューツールを提供するPierre Computer Companyを買収すると発表した。Codexのツール群を拡張し、開発者がコードを構築・理解・レビューする機能を強化する。買収により、OpenAIは開発者向けエコシステムをさらに充実させ、エンタープライズ開発現場でのCodex活用を加速する狙いがある。",
+      "consultant_insight": "コードレビュー自動化ツールの統合により、既存のCodex導入企業は追加コストなく品質管理機能を強化できる可能性",
       "importance": 5,
       "category": "業界",
       "source_name": "OpenAI Blog",
       "url": "https://openai.com/index/openai-to-acquire-pierre"
     },
     {
-      "rank": 5,
-      "title_ja": "OpenAI Daybreak Red、米政府クラウドで利用可能に──GPT-5.6 Cyberをサイバーセキュリティ業務向けに提供",
-      "summary_ja": "OpenAIは「Daybreak Red」をAWS GovCloud (US-East)経由で提供開始した。GPT-5.6 Cyberを承認顧客向けにAmazon Bedrockで利用可能にし、政府機関のサイバーセキュリティ業務を支援する。米国の機密性の高い環境でのAI活用が本格化する。",
-      "consultant_insight": "日本の公共セクター・防衛産業へのAI導入提案時に、米国の先行事例として活用できる。",
+      "rank": 4,
+      "title_ja": "OpenAI、AWS GovCloudでGPT-5.6 Cyberを政府機関向けに提供開始",
+      "summary_ja": "OpenAIが「Daybreak Red」を通じてAWS GovCloud（US-East）でGPT-5.6 Cyberを承認顧客向けに提供開始した。Amazon Bedrock経由で認可されたサイバーセキュリティ業務に利用可能となる。政府機関や規制対象企業がセキュリティ要件を満たしつつ、最新のAIモデルをサイバー防御に活用できる環境が整う。",
+      "consultant_insight": "日本の公的機関や防衛産業がAI活用を進める際、米国GovCloud事例は調達・運用・セキュリティの参考になる",
       "importance": 4,
-      "category": "業界",
+      "category": "ツール",
       "source_name": "OpenAI Blog",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud"
     },
     {
-      "rank": 6,
-      "title_ja": "Apple、刷新版Siri AIを全開発者に開放──アプリ連携で予約・注文などをSiri経由で操作可能に",
-      "summary_ja": "Appleは音声アシスタント「Siri AI」とサードパーティアプリを連携させる機能を開発者向けに開放した。各OSのβ版でプレビュー提供を開始し、「App Intents」を利用してアプリを開かずにSiri AIから直接操作が可能になる。一般ユーザーへの提供は数カ月後の見込み。",
-      "consultant_insight": "iOS/macOSアプリを持つ顧客企業に、Siri統合による新UX提案の好機。音声UIの実用化が加速する。",
+      "rank": 5,
+      "title_ja": "OpenAI、自律パイプラインでLinuxカーネルの特権昇格脆弱性948件を発見・修正",
+      "summary_ja": "OpenAIが自律パイプラインを構築し、Linuxカーネルのローカル特権昇格脆弱性948件を発見・検証・パッチ生成した。AIがコード解析から脆弱性検出、修正までを自動化し、セキュリティパッチの生成速度を大幅に向上させた。オープンソースソフトウェアのセキュリティ強化にAIが貢献できることを実証した形だ。",
+      "consultant_insight": "脆弱性管理にAIを活用すれば、セキュリティチームの負荷を軽減しつつパッチ適用までの時間を短縮できる",
       "importance": 4,
-      "category": "ツール",
+      "category": "研究",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+    },
+    {
+      "rank": 6,
+      "title_ja": "リコーと川崎重工、設計業務の暗黙知をAIで可視化する戦略的パートナーシップ",
+      "summary_ja": "リコーと川崎重工業がAIを活用した設計業務の知識資産活用に向け、戦略的パートナーシップを構築した。設計文書や図面に蓄積された知識に加え、熟練技術者の経験やノウハウなどの暗黙知をAIで整理・可視化する。技術継承と設計業務の生産性向上を目指し、製造業のAI活用モデルケースとなる可能性がある。",
+      "consultant_insight": "熟練技術者の退職が進む製造業で、暗黙知のAI化は技術継承とコスト削減を両立する現実的な解決策",
+      "importance": 5,
+      "category": "実務",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002855/"
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/05/news011.html"
     },
     {
       "rank": 7,
-      "title_ja": "「海外モデルのオンプレ稼働も100％安全ではない」──チームみらい安野氏が国産モデル必要性を強調",
-      "summary_ja": "チームみらいの安野貴博党首は、海外オープンウェイトモデルが国内で稼働する際、意図的に自身の性能を低下させたり、データを漏えいさせたりする可能性があると指摘した。自前サーバで動かしても100％安全とは言えず、国産モデルの必要性を強調した。AIサプライチェーンの信頼性確保が課題として浮上している。",
-      "consultant_insight": "顧客のAIガバナンス戦略に「モデル主権」の視点を加える根拠として使える。国産モデル採用の説得材料に。",
-      "importance": 4,
-      "category": "業界",
+      "title_ja": "GitHub、タスクごとに最適AIモデルを選ぶ「Copilot Fusion」正式リリース",
+      "summary_ja": "米GitHubが年次イベント「GitHub Universe 2026」で新機能「GitHub Copilot Fusion」の正式リリースを発表した。タスクに応じて最適なAIモデルを自動選択し、高性能と低コストを両立させる仕組みで、開発者は複雑なタスクでは高性能モデル、単純なタスクでは軽量モデルを使い分けられる。API利用コストの最適化が可能になる。",
+      "consultant_insight": "開発工程ごとにモデルを使い分ければ、AI開発コストを最大60%削減できる可能性がある",
+      "importance": 5,
+      "category": "ツール",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002853/"
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002869/"
     },
     {
       "rank": 8,
-      "title_ja": "OSSは「PRを送る」から「自分用に改変」へ？ AIプルリクエスト急増でメンテナーがPR受付停止を宣言",
-      "summary_ja": "AIが生成するプルリクエストの増加を受け、あるOSS開発者が「今後公開するコードではPRの受付をやめ、改変は自由にする」と宣言した。変更を上流に送るのではなく、各自が自分用にカスタマイズする「リミックスモデル」への移行を提唱。OSSエコシステムがAI時代に適応する新たな形として議論を呼んでいる。",
-      "consultant_insight": "OSSライセンス戦略やAI活用ガイドライン策定時に、新しいコラボレーションモデルの可能性を示唆できる。",
-      "importance": 3,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/05/news004.html"
-    },
-    {
-      "rank": 9,
-      "title_ja": "東北大×アイシン、16nmプロセスで世界初のSTT-MRAM搭載AIチップを開発──AI処理時間を1/10に短縮",
-      "summary_ja": "東北大学とアイシンは、不揮発性メモリSTT-MRAMを搭載するAIチップを開発した。「近メモリコンピューティング(NMC)」型で、OS起動時間を従来比約39倍高速化し、物体検出などのAI処理時間を約10分の1に短縮する。16nmプロセスでのSTT-MRAM搭載AIチップは世界初。エッジAIの省電力化と高速化を両立する。",
-      "consultant_insight": "製造業のエッジAI導入提案で、日本発の先端半導体技術として訴求できる。自動車・産業機器向けに有望。",
-      "importance": 4,
-      "category": "研究",
-      "source_name": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/04/news046.html"
-    },
-    {
-      "rank": 10,
-      "title_ja": "富士通、Uvanceの軸足を汎用型から業種特化AIへ──5年で売上2.4倍を目指す成長戦略",
-      "summary_ja": "富士通は成長事業モデル「Fujitsu Uvance（ユーバンス）」を刷新し、社会課題軸の汎用サービスから業種ごとの暗黙知を組み込んだAIサービスへと重点を移す。顧客の事業変革を支援し、5年で売上2.4倍を目指す。国内大手SIerが業種特化型AIへ本格シフトする方向性を明確にした。",
-      "consultant_insight": "大手SIerの戦略転換を顧客に伝え、業種特化AIの価値を再訴求する好機。競合比較の参考材料にも。",
+      "title_ja": "富士通、汎用型から業種特化AIへ軸足移行　5年で売上2.4倍目指す",
+      "summary_ja": "富士通が成長の要と位置付ける事業モデル「Fujitsu Uvance」の刷新を進めている。これまでの社会課題を軸とした汎用的なオファリングサービスから、業種ごとの暗黙知を組み込んだAIサービスへと重点を移し、顧客の事業変革を支援する。5年で売上2.4倍を目指す野心的な目標を掲げる。",
+      "consultant_insight": "大手SIerの業種特化AI戦略は、中堅企業がAI導入する際のパッケージ選定の参考になる",
       "importance": 4,
       "category": "業界",
       "source_name": "日経クロステック AI",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12146/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "富士通・日立・AWSもソブリンAI事業に注力　AI主権確立を支援",
+      "summary_ja": "富士通や日立製作所、NECなどのITベンダー大手が「ソブリン（主権）AI」事業領域に傾注している。政府の「能動的サイバー防御」始動も追い風に、企業のAI主権確立を支援する動きが加速。データ主権とAI主権の両立が、日本企業のAI戦略の重要課題になりつつある。",
+      "consultant_insight": "国産AI基盤の選択肢が増えることで、機密性の高い業務でのAI活用が現実的になる",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03795/102700004/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "OSSメンテナー、AI生成PRの増加を受け「受付停止」を宣言",
+      "summary_ja": "AIが生成するプルリクエストの増加を受け、あるOSS開発者が「今後公開するコードではPRの受付をやめ、改変は自由にする」と宣言した。変更を上流に送るのではなく、各自が自分用にカスタマイズする「リミックスモデル」を提唱。AI時代のOSS開発の在り方に一石を投じる動きとして注目される。",
+      "consultant_insight": "AI生成コードの品質問題は、OSS依存度が高い企業のサプライチェーンリスクになりつつある",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/05/news004.html"
     }
   ],
   "digest": [
     {
-      "title_ja": "Google、学校向けGemini・検索AI機能を原則オフに──検索のみ無効化は不可で批判",
-      "one_liner": "K-12生徒向けアカウントでGemini等をデフォルトオフ化、AI禁止校では検索自体が使えず物議",
-      "category": "ツール",
-      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002849/"
+      "title_ja": "AIシステムの品質確認、押さえるべき8つのポイント",
+      "one_liner": "AI特有の品質特性を理解し、確認方法を解説",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/100500575/110200002/"
     },
     {
-      "title_ja": "DuckDuckGo、GoogleのAI方針への反発受け学校向けに自社検索をアピール",
-      "one_liner": "Google AI制限に不満の教育機関へ、AI機能をオフにできる検索エンジンとして売り込み",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/"
-    },
-    {
-      "title_ja": "ChatGPTで動くGIF画像生成が可能に──Images 2.6モデル搭載",
-      "one_liner": "OpenAI、プロンプトや写真からアニメーションGIFを作成できる新機能を展開開始",
-      "category": "ツール",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
-    },
-    {
-      "title_ja": "米中間選挙で民主圧勝、「青い波」がAI規制強化の公算──ブームに冷や水か",
-      "one_liner": "民主党が上下両院制する見込み、AIやデータセンター規制が強まる可能性が浮上",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12155/"
-    },
-    {
-      "title_ja": "サムスンとAMD、AI向けCXLベースのメモリー拡張ソリューションを実機検証",
-      "one_liner": "次世代メモリー規格CXLで容量・帯域を柔軟拡張、AIインフラ課題解消へ協業深化",
+      "title_ja": "サムスンとAMD、CXLベースのメモリー拡張ソリューションを検証",
+      "one_liner": "AIインフラの容量・帯域拡張課題に両社が協力",
       "category": "業界",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01231/00166/"
     },
     {
-      "title_ja": "富士通・日立・AWSも「ソブリンAI」で競演──AI主権ビジネスに商機見出す",
-      "one_liner": "国内ITベンダー大手、能動的サイバー防御の追い風受けAI主権確立支援事業に注力",
+      "title_ja": "多重下請けはAIでも揺るがない―日経一面で指摘",
+      "one_liner": "60年続く構造、AI時代でも変わらず",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03795/102700004/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00166/110300211/"
     },
     {
-      "title_ja": "データセンター建設、電力待ち長期化で旧ジェットエンジン転用へ",
-      "one_liner": "電力網接続まで数年待ちのため、一時電源として旧航空機用タービンを活用する動き",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+      "title_ja": "Claude Codeでダイエット成功―個人向けエージェントの可能性",
+      "one_liner": "記者が月2kg減量、AI活用の実例",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/110302138/"
     },
     {
-      "title_ja": "Ballistic Ventures、AI駆動のサイバーセキュリティブームで4.9億ドル調達へ",
-      "one_liner": "サイバーセキュリティ特化VCが新ファンド3.6億ドル＋別枠1.3億ドルの資金調達を計画",
+      "title_ja": "Meta、AIコーディングスタートアップConductorを買収",
+      "one_liner": "複数エージェントで同時開発を実現",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
     },
     {
-      "title_ja": "Uber、Q3にAIエージェント経由の配車はわずか4件──中抜きリスクは遠い",
-      "one_liner": "サードパーティAIエージェントからの配車依頼は極めて少なく、プラットフォーム脅威は当面限定的",
+      "title_ja": "Hugging Face、オープンソースAIの収益化を解説",
+      "one_liner": "コスト削減・制御強化で主流化が加速",
       "category": "業界",
-      "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/"
     },
     {
-      "title_ja": "Nothing、画面なしAIデバイスを12月発売へ──CEOが予告",
-      "one_liner": "Carl Pei氏が初のAIデバイスを来月投入とX投稿、詳細は不明",
+      "title_ja": "DuckDuckGo、Google AI制限への反発で学校市場に参入",
+      "one_liner": "AI機能無効化オプション提供で差別化",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/"
+    },
+    {
+      "title_ja": "Apple Siri Recaps、便利だが少し不気味―レビュー",
+      "one_liner": "AI要約機能に好評と懸念の声",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/"
+    },
+    {
+      "title_ja": "Qualcomm、スマホ減収でデータセンター事業に注力",
+      "one_liner": "スマホ売上20%減、AIインフラで補完",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
+    },
+    {
+      "title_ja": "Nothing、スクリーンフリーAIデバイスを12月発表予定",
+      "one_liner": "CEO Carl Peiが予告、AI特化製品",
       "category": "ツール",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
     },
     {
-      "title_ja": "PCゲーム最大のMODサイトNexus Mods、AI利用の開示を義務化",
-      "one_liner": "新規MODアップロード時にAI使用の有無明示を必須化、ユーザー選択の透明性向上狙う",
-      "category": "業界",
-      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures"
-    },
-    {
-      "title_ja": "19万円台で960gの軽量AIノートPC「Acer Swift Air 14」発表",
-      "one_liner": "最新CPU搭載の14型軽量モデル4機種、日本エイサーが投入",
+      "title_ja": "ChatGPT、アニメーションGIF生成機能を追加",
+      "one_liner": "Images 2.6モデルで実装",
       "category": "ツール",
-      "url": "https://ascii.jp/elem/000/004/448/4448552/?rss"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
     },
     {
-      "title_ja": "造船設計に3D CAD×AI、Noahlogyが設計確認作業を効率化へAVEVAと提携",
-      "one_liner": "3Dモデルデータ対象にAIで設計者の確認作業を支援、造船業務での実用化目指す",
-      "category": "実務",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/04/news020.html"
-    },
-    {
-      "title_ja": "製造業の「秘伝のタレ」はAIに奪われるか？ヤマザキマザックがセミナーで議論",
-      "one_liner": "JIMTOF2026ブース内で政策研究大学院大学とマザックが競争力源泉をテーマに討論",
+      "title_ja": "データセンター開発、米中間選挙で逆風に",
+      "one_liner": "建設規制強化派が当選、環境厳しく",
       "category": "業界",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/04/news064.html"
+      "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
     },
     {
-      "title_ja": "国産AI開発のNoetra、テックブログを開設──開発現場の試行錯誤も発信",
-      "one_liner": "大手出資のAI企業が技術ブログでノウハウ共有を開始",
+      "title_ja": "Uber、AIエージェント経由の配車はQ3で4件のみ",
+      "one_liner": "AI仲介サービスの利用率は極めて低調",
       "category": "業界",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002886/"
+      "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+    },
+    {
+      "title_ja": "Sam Altman、RAM購入発言で名前を「Ram Altman」に変更",
+      "one_liner": "選挙夜にPC RAM論争に参戦",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments"
+    },
+    {
+      "title_ja": "Google、AI活用で検索クエリは増加も収益化に課題",
+      "one_liner": "検索成長率は5年で最速だが広告収益は伸び悩み",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3"
     }
   ],
   "date": "20261105",
