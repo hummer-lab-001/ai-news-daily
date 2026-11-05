@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "Claude、Plaid連携で銀行口座に直接接続する「Personal Finance」機能を発表",
+      "summary_ja": "Anthropicは、ClaudeがPlaidを通じて銀行やカードの口座に接続し、支出分析や財務相談ができる新機能を発表した。ユーザーは口座データをClaudeに読み込ませ、自然言語で質問できる。個人財務管理の新しいアプローチとして注目される一方、セキュリティやデータ保護への懸念も指摘されている。",
+      "consultant_insight": "企業向け経費管理や福利厚生サービスとの連携可能性を秘めた機能。金融機関のAI活用戦略に影響",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "The Verge / TechCrunch",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Anthropic、AIの真正性を証明する暗号技術「FlashProve」を開発中",
+      "summary_ja": "Anthropicが、AI応答の真正性を暗号技術で証明する「FlashProve」システムを開発中と報じられた。AI生成コンテンツの信頼性確保が課題となる中、応答が正規のモデルから生成されたことを検証可能にする技術として期待される。ディープフェイクや不正利用への対策として実用化が注目される。",
+      "consultant_insight": "企業のAI活用で「誰が・何を生成したか」の証跡管理が必須になる時代への布石",
+      "importance": 5,
+      "category": "研究",
+      "source_name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/anthropic-claude-plaid-personal-finance"
+    },
+    {
+      "rank": 3,
+      "title_ja": "OpenAI、サイバーセキュリティ特化「GPT-6 Cyber」発表　脆弱性発見と修正に特化",
+      "summary_ja": "OpenAIは、脆弱性の発見と修正に特化した「GPT-6 Cyber」を発表。認可されたシステム内でのみ動作し、他社システムへの不正侵入を防ぐアライメント設計が施されている。政府機関向けにAWS GovCloudで提供開始。自律パイプラインでLinuxカーネルの特権昇格脆弱性948件を発見・修正した実績も公表。",
+      "consultant_insight": "企業のセキュリティ診断業務にAIが本格参入。診断ベンダーは協業か競合かの判断が迫られる",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "OpenAI Blog / The Verge",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber"
+    },
+    {
+      "rank": 4,
+      "title_ja": "OpenAI、「Images 2.6」発表　生成速度50％向上、GIFアニメ作成も可能に",
+      "summary_ja": "OpenAIは画像生成AI「ChatGPT Images 2.6」を発表。生成速度が50％向上し、編集精度も改善。新たにGIFアニメーション作成機能や、保存した画像を別チャットで再利用できる機能を追加。開発者向けには2種類のAPIモデルを提供し、電子透かし技術も導入。マーケティング・デザイン業務での実用性が大幅に向上。",
+      "consultant_insight": "バナー広告やSNS投稿の制作プロセスが劇的に短縮。クリエイティブ職の働き方に変化",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia",
+      "url": "https://www.itmedia.co.jp/news/article/2611/05/2000002894/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Google、「Gemini Omni 1.2 Flash」発表　より長いクリップ処理に対応し高速化",
+      "summary_ja": "Googleは、マルチモーダルAI「Gemini Omni 1.2 Flash」を発表。処理速度と費用対効果を向上させ、より長い動画クリップの分析が可能になった。テキスト、画像、音声、動画を統合処理する能力が強化され、リアルタイム分析やコンテンツ理解の精度が向上。開発者向けAPIも公開。",
+      "consultant_insight": "動画コンテンツの自動要約や字幕生成が実用レベルに。放送・教育業界で即座に活用可能",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "Meta、Muse AIのビデオ通話機能を米国で提供開始　カスタマイズ可能なアバターで対話",
+      "summary_ja": "Metaは、AI agent「Muse」とビデオ通話できる機能を米国ユーザー向けに提供開始。カスタマイズ可能なアニメーションアバターが表示され、リアルタイムで会話できる。タマゴッチ風のウェアラブルデバイスの発売も予定。既に1000万人以上が利用し、4分の1のユーザーが買い物に活用しているという。",
+      "consultant_insight": "接客業務のAI化が加速。小売・サービス業でのバーチャルスタッフ導入の先行事例に",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "TechCrunch / The Verge",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "48ドルの返金が4800ドルに　AIエージェントの暴走を防ぐ本番運用の勘所",
+      "summary_ja": "Linux Foundation傘下のAgentic AI Foundationが日本初の「AGNTCon + MCPCon Japan 2026」を開催。AIエージェントの誤動作で48ドルの返金処理が4800ドルに膨れ上がった事例など、本番環境での制御の重要性が議論された。MCPの共同開発者らがエージェント実装のベストプラクティスを解説。",
+      "consultant_insight": "AIエージェント導入前に「暴走時の上限設定」と「承認フロー」設計が必須。保険的対策を提案",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news012.html"
+    },
+    {
+      "rank": 8,
+      "title_ja": "Preferred Networks、世界最高水準の翻訳特化LLM「PLaMo 3 Translate」をオープン化",
+      "summary_ja": "PFNは翻訳特化型LLM「PLaMo 3 Translate」をオープンウェイトで公開。0.8B〜31Bの4サイズを用意し、オンデバイス利用にも対応。世界最高水準の翻訳性能をうたい、多言語展開を進める日本企業にとって有力な選択肢となる。商用利用も可能で、コスト削減に直結。",
+      "consultant_insight": "自社サーバー運用で翻訳APIコストをゼロ化。グローバル展開企業の必須ツールに",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/05/2000002900/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "OpenAI、コスト最適化の鉄則を公開　GPT-6はAstra・Sol・Lunaの3モデル構成か",
+      "summary_ja": "OpenAIが、AIエージェント開発におけるトークン消費とコスト最適化の手法を解説。全工程で最上位モデルを使うと予算を圧迫し、安価モデル一律では修正ループが増える。GPT-6モデルは「Astra」「Sol」「Luna」の3つになる可能性が示唆され、タスク別モデル選定がCodex開発の鉄則になるという。",
+      "consultant_insight": "AI開発予算の8割はトークン費。タスク別モデル選定のコンサルが新サービスになる",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/05/2000002770/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "リコーと川崎重工、AI活用で設計業務の暗黙知を可視化　技術継承と生産性向上へ連携",
+      "summary_ja": "リコーと川崎重工業が、AIで設計文書や図面の知識に加え、熟練技術者の暗黙知を整理・可視化する戦略的パートナーシップを構築。技術継承と設計業務の生産性向上を目指す。製造業の「2024年問題」(熟練工の大量退職)への対策として、AI活用の先行事例になる。",
+      "consultant_insight": "団塊世代退職後の技術継承問題をAIで解決。重工業・インフラ企業で横展開の余地大",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/05/news011.html"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "フジテレビ、2027年10月めどに全ドラマでAI活用体制へ　「救命病棟24時」で先行導入",
+      "one_liner": "制作効率化とコスト削減を狙い、ドラマ制作の全工程にAIを組み込む",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/05/2000002903/"
+    },
+    {
+      "title_ja": "AI生成画像の99％を検出するChrome拡張機能が登場　米スタートアップ",
+      "one_liner": "偽画像対策として企業の情報セキュリティ部門で需要高まる",
+      "category": "ツール",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/05/2000002892/"
+    },
+    {
+      "title_ja": "デンソー、AIで制御ソフトを自動検図　若手がベテランの知見を引き出す",
+      "one_liner": "PLCソフトのチェックをAI化し、製造業の品質管理業務を効率化",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03783/102600006/"
+    },
+    {
+      "title_ja": "Trust、AIでソースコードから脆弱性を診断する「Webアプリ脆弱性診断サービス」提供開始",
+      "one_liner": "セキュリティ診断の自動化で開発スピードとコスト削減を両立",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/449/4449027/"
+    },
+    {
+      "title_ja": "製造業向け品質チェックAI「DR Agent」、検証企業20社突破　開発サイクル短縮へ",
+      "one_liner": "DRBFM/FTA/FMEAの自動化で不具合リスクを抽出",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/449/4449029/"
+    },
+    {
+      "title_ja": "LG、家電への独自AI半導体搭載を加速　年間数百万個規模に",
+      "one_liner": "オフライン動作のAI家電でプライバシー保護とレスポンス向上",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01231/00167/"
+    },
+    {
+      "title_ja": "Dropbox、Tigris Dataを約530億円で買収　AI基盤を強化",
+      "one_liner": "DBX Agent Cloud開発を加速し、AIモデル開発者向けストレージ提供へ",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
+    },
+    {
+      "title_ja": "Box、NVIDIAのNemotron活用で新コンテンツ検索システム　エージェント対応",
+      "one_liner": "クエリ処理速度4倍、エラー20％減、トークン使用量90％減を実現",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/"
+    },
+    {
+      "title_ja": "YCスタートアップ、材料科学の未解決問題5つに総額約1.5億円の懸賞金",
+      "one_liner": "フロンティアAIが数学や生命科学では進展も材料科学では停滞",
+      "category": "研究",
+      "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/"
+    },
+    {
+      "title_ja": "Agility Robotics、ナスダック上場　人型ロボット企業で初",
+      "one_liner": "倉庫・物流業界向け人型ロボットの商用化が本格化",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/"
+    },
+    {
+      "title_ja": "Apple、社内AI利用の予算削減を実施か　トークン費高騰で",
+      "one_liner": "大手企業も「AI使い放題」から「トークン節約」へ方針転換",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+    },
+    {
+      "title_ja": "OpenAI社長、2027年のIPO準備完了を示唆　企業向け売上が加速",
+      "one_liner": "企業向け収益とインフラ回復でIPO環境が整いつつある",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
+    },
+    {
+      "title_ja": "データセンター反対が中間選挙で争点に　超党派で反対票",
+      "one_liner": "AI需要でデータセンター建設ラッシュも地域住民の反発強まる",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"
+    },
+    {
+      "title_ja": "Uber、AIエージェント経由の配車はほぼゼロ　繁忙期でも4人",
+      "one_liner": "AIエージェントのB2C実用化はまだ「実験段階」",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/"
+    },
+    {
+      "title_ja": "マーベル、レーザー光源大手を約2.7兆円で買収　光電融合の中核部品確保",
+      "one_liner": "AI演算の電力効率化に向け光通信技術の統合が加速",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03627/110500046/"
+    }
+  ],
+  "date": "20261106",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
