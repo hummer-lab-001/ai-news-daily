@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "【図解あり】マルチエージェント設計「15のパターン」　GitHub、Google、Siemensの知見を一気に整理",
-      "summary_ja": "GitHub、Google、Siemensが提示したマルチエージェントシステムの15のデザインパターンを体系的に解説。複数のAIエージェントを連携させる際の設計上の課題や、具体的な活用場面を図解付きで紹介。\n\nAIエージェントの一般化に伴い、単体ではなく複数エージェントを組み合わせて業務を自動化する手法が実用段階に。各パターンは役割分担、データ共有、エラー処理など実装レベルの指針を提供。\n\n日本企業がAIエージェント導入を本格化する際の設計ガイドとして活用可能。エンタープライズでの安定運用を見据えた実践知が凝縮されている。",
-      "consultant_insight": "顧客のAIエージェント導入支援で「どう組み合わせるか」の具体設計に即使える知見",
+      "title_ja": "コクヨ、開発部門の「資料散乱」問題をNotionとAIエージェントで解決",
+      "summary_ja": "コクヨは開発組織で長年の課題だった「情報は蓄積されているのに必要な資料が見つからない」問題に着手。NotionとAIエージェントを組み合わせることで、情報管理から文書レビューまでのプロセスを効率化する仕組みを構築した。\n\n社内に散在する技術文書や設計資料を一元管理し、AIが自動で関連情報を抽出・整理。開発者は必要な情報に即座にアクセスできるようになり、レビュー作業も大幅に短縮された。\n\n製品開発のスピードアップとナレッジ共有の促進を両立させる取り組みとして、他の開発組織にも応用可能な事例となっている。",
+      "consultant_insight": "開発組織の「暗黙知の形式知化」をNotion+AIで実現。顧客の技術部門でも同様のアプローチが有効",
       "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html"
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/09/2000002973/"
     },
     {
       "rank": 2,
-      "title_ja": "【747人の診断データ・続報】AIの使い方をチームや会社で広げている人は、繰り返し作業のAI化が「自分だけで使う人」の2.7倍",
-      "summary_ja": "747人のAI活用診断データを分析した結果、AIの使い方をチームや会社全体に展開している人は、繰り返し作業のAI化率が「自分だけで使う人」の2.7倍に達することが判明。\n\n回答者の64％が「自分だけで使っている」と回答しており、組織全体への展開が進んでいない実態が浮き彫りに。個人利用と組織利用の間に大きな活用度の差が存在。\n\n組織展開を成功させるには、繰り返し作業のテンプレート化や共有の仕組みが鍵。個人の成功体験を組織資産に変える施策が求められる。",
-      "consultant_insight": "AI導入支援で「個人→組織展開」のボトルネック解消策を数値で説明できる貴重なデータ",
+      "title_ja": "「シャドーAI」使用に禁止令は逆効果？企業が取るべき対応策とは",
+      "summary_ja": "「会社公認のAIでは物足りない」と社員が勝手に外部AIツールを使う「シャドーAI」問題が企業で深刻化している。単に禁止令を出すだけでは問題は解決せず、かえって地下化を招く恐れがある。\n\nAI活用を推進しつつリスクも管理するには、社員のニーズを理解し、公式ツールの機能拡充や使いやすさの改善が不可欠。さらにガバナンス体制の整備と教育による意識改革も並行して進める必要がある。\n\nエース社員ほど高度なAIツールを求める傾向があり、イノベーション促進とセキュリティ確保のバランスをどう取るかが経営課題となっている。",
+      "consultant_insight": "禁止より「公式ツールの機能向上+教育」が現実解。顧客のAIガバナンス構築支援に活かせる視点",
       "importance": 5,
       "category": "実務",
-      "source_name": "ASCII.jp AI",
-      "url": "https://ascii.jp/elem/000/004/449/4449555/?rss"
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/09/news038.html"
     },
     {
       "rank": 3,
-      "title_ja": "高市政権の「サイバーセキュリティ緊急対策パッケージ」にサイカルトラストがAIエージェント特許で即日対応支援",
-      "summary_ja": "サイカルトラストが日本初の取り組みとして、高市政権の「サイバーセキュリティ緊急対策パッケージ」にAIエージェント関連特許群で対応。AIエージェントの行為実行前保留とAI診断の実施証明に関する特許を実施許諾込みで提供。\n\n政府のセキュリティ対策要請に対し、特許技術を活用した即日対応体制を構築。AIエージェントの安全性確保と監査証跡の記録を技術的に保証。\n\n日本企業がAIエージェントを業務導入する際、セキュリティ要件をクリアするための実装パターンとして参考になる事例。",
-      "consultant_insight": "政府規制対応が必要な顧客向けに、AIエージェント導入時のセキュリティ実装例として提示可能",
+      "title_ja": "スシロー×富士通、AIで海洋データ解析し養殖漁業の課題解決へ",
+      "summary_ja": "スシロー、クロシオ水産、富士通が連携し、高知県宿毛湾で海洋テック×AI活用の新しい養殖事業に挑戦。「おいしい魚を安定供給する」という小売業の根幹課題に、異業種連携で取り組む。\n\nAIを活用して海洋環境データ（水温、潮流、水質等）を詳細に解析し、最適な養殖条件を導出。漁業の持続可能性向上と品質安定化を両立させる「海の解剖」プロジェクトを推進している。\n\n水産業界が直面する人手不足や気候変動リスクに対し、テクノロジーで解決する新モデルとして、他の食品小売・外食産業にも示唆を与える取り組み。",
+      "consultant_insight": "小売×1次産業のAI活用モデル。顧客の食品・外食セクターでサプライチェーン革新提案に使える",
       "importance": 4,
-      "category": "業界",
-      "source_name": "ASCII.jp AI",
-      "url": "https://ascii.jp/elem/000/004/449/4449561/?rss"
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/09/news039.html"
     },
     {
       "rank": 4,
-      "title_ja": "Apple、Siriのエージェント化を加速──CEO自らAI責任者に開発圧力",
-      "summary_ja": "BloombergのMark Gurmanによると、Apple CEOのJohn TernusがAI責任者のCraig Federighiに対し、Siriのロードマップ加速を強く要請。強力なAIエージェント機能の早期実現を指示。\n\nAppleは他社に遅れているエージェント機能で巻き返しを図る。Siriを単なる音声アシスタントから、タスクを自律実行するエージェントへと進化させる計画。\n\niOSエコシステムでのエージェント標準化が進めば、日本企業のモバイルAI活用戦略にも大きな影響。Apple独自の安全性・プライバシー設計が注目される。",
-      "consultant_insight": "Apple参入でエージェント競争が本格化、顧客のマルチプラットフォーム戦略再検討が必要に",
+      "title_ja": "NEC・イビデン、研究者主導の事業開発で「技術の死の谷」突破へ",
+      "summary_ja": "技術力はあるのに事業化できない「死の谷」問題に、NECとイビデンが独自アプローチで挑む。研究者に事業開発を任せるべきか否か、両社のキーパーソンが議論を展開。\n\nNECは研究者と事業部門の橋渡し役を強化し、技術シーズを市場ニーズと結びつける体制を構築。イビデンは研究者自身が顧客と対話し、技術を事業に昇華させる仕組みづくりを進めている。\n\nAI技術の実用化加速が求められる中、両社の取り組みは「技術を持つ日本企業がどう稼ぐか」という普遍的課題への一つの解を示している。",
+      "consultant_insight": "技術の事業化プロセス改革事例。顧客の研究開発部門の組織改革コンサルに応用可能",
       "importance": 4,
       "category": "業界",
-      "source_name": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/09/news040.html"
     },
     {
       "rank": 5,
-      "title_ja": "Claude Code対応ツール「Agent Clan」──ジェスチャーでエージェント操作",
-      "summary_ja": "Product Huntに登場した「Agent Clan」は、Claude CodeやCodexエージェントをジェスチャー操作で制御できるツール。音声やテキスト以外のインターフェースでAIエージェントを操作。\n\nClaude Codeの普及に伴い、エージェント操作の多様化が進行。開発現場やデザイン業務での直感的な指示手段として期待される。\n\nUIの進化がエージェント活用の敷居を下げる可能性。日本企業の現場でも、非エンジニアのAI活用促進ツールとして検討価値あり。",
-      "consultant_insight": "非技術者のAIエージェント活用を促進する新UI事例として、DX推進部門に紹介可能",
-      "importance": 3,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/agent-clan"
+      "title_ja": "大阪メトロ、オンデマンドバス・駅見守りでAI活用を本格化",
+      "summary_ja": "大阪市高速電気軌道（大阪メトロ）がAI活用を加速。オンデマンドバスの最適ルート設計や駅構内の安全見守りシステムにAIを実装し、公共交通の利便性と安全性を向上させている。\n\n鉄道業界全体でAIの社会実装が進む中、大阪メトロは特に積極的。需要予測、設備保全、顧客サービス改善など多方面でAIを活用し、経営効率化と顧客価値向上を両立させる戦略を推進。\n\n公共インフラのAI活用は行政・自治体への横展開も期待され、スマートシティ構想の重要な構成要素となっている。",
+      "consultant_insight": "公共交通のAI実装事例。自治体・インフラ系顧客への提案材料として有用",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03520/110500026/"
     },
     {
       "rank": 6,
-      "title_ja": "NoMac──AIエージェント専用Macを分単位で課金、サブスク不要",
-      "summary_ja": "「NoMac」はAIエージェント専用のMac環境を分単位で課金提供するサービス。サブスクリプション不要で、必要な時だけMac環境をエージェントに割り当て可能。\n\nClaude CodeなどのエージェントがmacOS環境を必要とする場合に、従量課金で柔軟に利用できる新しいインフラ形態。コスト効率と運用柔軟性を両立。\n\nエージェント実行環境のクラウド化・従量課金化は、日本企業のAI導入コスト最適化の選択肢として有望。PoC段階での低コスト検証にも適する。",
-      "consultant_insight": "エージェント実行環境のコスト最適化提案で、初期投資を抑えたPoC設計に活用可能",
-      "importance": 3,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/nomac"
+      "title_ja": "AIで「仕事不要」と「失業」の二極化進む──ノウハウの有無が分水嶺に",
+      "summary_ja": "生成AIとAIエージェントの急速な進化により、人の業務のあり方が根本的に変わりつつある。見えてきたのは「仕事をしなくてよい人」と「仕事を奪われる人」の二極化という厳しい現実。\n\n分かれ目は「業務ノウハウの有無」。AIを使いこなして生産性を飛躍的に高める層と、AIに代替されて職を失う層に分断される。単純作業だけでなく、判断業務の一部もAIが担い始めている。\n\n企業は従業員のAIリテラシー向上とノウハウ蓄積を急ぐ必要がある。人材戦略の再設計が経営の最重要課題となっている。",
+      "consultant_insight": "AI時代の人材戦略再設計が急務。顧客の組織・人事コンサルティングの核心テーマ",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600007/103000229/"
     },
     {
       "rank": 7,
-      "title_ja": "AXL──AIプロダクトのGTM（市場投入）支援、MCP経由で1,200以上のアクション実行",
-      "summary_ja": "「AXL」はAIプロダクト創業者向けのGTM（Go-To-Market）支援Copilot。Model Context Protocol（MCP）経由で1,200以上のマーケティング・営業アクションを自動実行。\n\nAI製品のローンチ、ユーザー獲得、成長施策を包括的に支援。従来は人手に頼っていたGTM業務をエージェントで自動化し、スタートアップの成長を加速。\n\nMCPを活用した大規模アクション統合の実例として、日本のAIスタートアップ支援やエンタープライズの製品ローンチ戦略に応用可能。",
-      "consultant_insight": "AIスタートアップ支援案件で、GTM自動化の具体例として提案材料になる",
-      "importance": 3,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/axl-2"
+      "title_ja": "日本メーカーの膨大な技術文書、AIで「眠れる知的財産」が覚醒",
+      "summary_ja": "長年事業を続けてきた日本メーカーには、膨大な技術文書が蓄積されている。これまで活用しきれていなかったこの「眠れる資産」を、AIによって強力な知的財産に変える取り組みが一斉に始まった。\n\n過去の設計書、実験データ、トラブルシューティング記録などをAIで解析・体系化し、現場の技術者が即座に参照できる形に。新製品開発の期間短縮や品質向上に直結する成果が出始めている。\n\nベテラン技術者の退職による技術継承問題にも有効で、暗黙知の形式知化を加速。日本の製造業の競争力強化に貢献する施策として注目される。",
+      "consultant_insight": "製造業の「技術文書AI活用」は今後の標準戦略。顧客の技術継承・DX支援に直結",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03783/102900007/"
     },
     {
       "rank": 8,
-      "title_ja": "ChatGPT Images 2.6発表──画像生成・編集・アニメーション作成が可能に",
-      "summary_ja": "OpenAIがChatGPT Images 2.6を発表。AIで画像を作成・編集し、さらにアニメーション化する機能を追加。生成速度は前バージョンから50％向上し、GIFアニメ作成やチャット間での写真再利用が可能に。\n\n画像生成の実用性が大幅に向上し、マーケティング素材やプレゼン資料の制作が一段と効率化。動画・アニメーション対応で表現の幅が広がる。\n\n日本企業のコンテンツ制作業務で、外部デザイナーに依存せず社内で素材を高速生成できる体制構築に貢献。",
-      "consultant_insight": "マーケ・広報部門のビジュアル制作内製化支援で、速度向上とコスト削減を同時提案可能",
+      "title_ja": "NEC、2026年8月に「全員AIワーカー」の新部門設立へ",
+      "summary_ja": "NECが人間ゼロ、AI社員のみで構成される部門を2026年8月に新設する計画を発表。人の指示の意図や文脈を理解し、自律的に業務を遂行する「AIワーカー」を企業の新たな経営資源として位置付ける。\n\nAIワーカーは24時間365日稼働可能で、定型業務から複雑な判断業務まで幅広く対応。企業価値向上や投資戦略の観点からも注目され、人間の従業員との協働モデル構築が鍵となる。\n\n日本企業による「AIワーカー専門部門」設立は前例がなく、AI時代の組織設計の新モデルとして業界の注視を集めている。",
+      "consultant_insight": "「AI専門部門」新設は組織改革の先進事例。顧客の未来組織設計提案に使える",
       "importance": 4,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/openai"
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01679/092800306/"
     },
     {
       "rank": 9,
-      "title_ja": "Exa Monitors v2──Web検索をスケジュール実行してエージェント呼び出し、1,000実行あたり2ドル",
-      "summary_ja": "「Exa Monitors v2」は、Web検索をスケジュール実行し、結果に応じてエージェントを自動呼び出すサービス。1,000回の実行あたり2ドルの低コストで提供。\n\n定期的な情報収集と自動アクションを組み合わせ、市場監視、競合分析、ニュース追跡などを無人化。エージェント起動の契機を外部イベントに連動させる仕組み。\n\n日本企業のマーケティングリサーチや競合モニタリング業務で、人手を介さず最新情報をキャッチアップする自動化基盤として活用可能。",
-      "consultant_insight": "市場調査・競合分析の自動化提案で、低コストかつ継続的な情報収集体制を構築可能",
+      "title_ja": "Amazon、日本で「Alexa+」提供開始──AIアシスタント競争で巻き返しなるか",
+      "summary_ja": "AmazonがAI強化版の個人向けアシスタント「Alexa+」の日本国内提供を開始。ChatGPT、Claude、Geminiなど競合AIアシスタントが急増する中、同社は競争に勝てるのかが焦点。\n\nAlexa+は従来版から大幅に進化し、より自然な対話、複雑なタスクの実行、他サービスとの連携強化などを実現。スマートホームの中核としての地位を維持しつつ、汎用AIアシスタントとしての機能拡充を図る。\n\n日本市場でのAIアシスタント競争は激化しており、ユーザー獲得とエコシステム構築が成否を分ける。",
+      "consultant_insight": "AIアシスタント市場の競争激化。顧客の音声UI戦略立案に参考になる動向",
       "importance": 3,
       "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/exa-ai"
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00086/00426/"
     },
     {
       "rank": 10,
-      "title_ja": "Elvis・Eminem権利者がAI音楽生成「Suno」を提訴──クローン技術の著作権侵害を主張",
-      "summary_ja": "Elvis PresleyやEminemの楽曲権利者グループが、AI音楽生成サービス「Suno」を著作権侵害で提訴。Sunoが既存楽曲をクローン化する技術を無断使用していると主張。\n\nAI生成コンテンツの著作権問題が音楽分野でも激化。権利者側は学習データの透明性と補償を要求し、生成AI企業との対立が深刻化。\n\n日本企業がAI音楽・映像生成を業務利用する際、著作権リスク管理と権利処理の重要性が一層高まる。法務・コンプライアンス対応の強化が必須。",
-      "consultant_insight": "生成AI導入時の著作権リスク評価で、音楽・映像分野の最新訴訟動向として顧客に注意喚起",
+      "title_ja": "調達・営業部門のAI変革が加速──人の役割を再定義する動き",
+      "summary_ja": "企業の調達部門と営業部門で、AIによる業務変革が転機を迎えている。調達では人手作業を代替し生産性・品質を向上、営業では「いずれ消える職種」と言われながらもAIで効果的な育成・増員を図る企業が出現。\n\nAIは単なる自動化ツールではなく、人の役割そのものを再定義する存在に。調達担当者は戦略的な交渉に注力し、営業は顧客関係構築に集中できるようになる。\n\n「ManAIgement（マネイジメント）」として、AIで経営を革新する取り組みが実務レベルで進行中。調達・営業以外の部門にも波及する可能性が高い。",
+      "consultant_insight": "調達・営業のAI活用は即効性あり。顧客の業務改革提案で早期成果を出しやすい領域",
       "importance": 4,
-      "category": "業界",
-      "source_name": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600014/110500238/"
     }
   ],
   "digest": [
     {
-      "title_ja": "プエンテ、生成AIアニメ制作に漫画制作機能を追加──オリジナル作品を漫画化",
-      "one_liner": "AI Anime Factoryが漫画制作に対応、アニメと漫画の相互展開が可能に",
+      "title_ja": "無料画像生成AI「P-H3-Image」、参照画像1枚で同一人物を自在に再現",
+      "one_liner": "人物の一貫性・アニメ表現・ポーズ指定に優れた無料画像生成AIツール",
       "category": "ツール",
-      "url": "https://ascii.jp/elem/000/004/449/4449558/?rss"
+      "url": "https://ascii.jp/elem/000/004/449/4449576/?rss"
     },
     {
-      "title_ja": "Sage2 by Levanto Labs──会話をリアルタイムで構造化データと即時アクションに変換",
-      "one_liner": "音声会議やインタビューを自動で構造化し業務アクションに直結",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/sagecraft"
-    },
-    {
-      "title_ja": "outages.live──エージェント向け無料障害情報フィード",
-      "one_liner": "AIエージェントがシステム障害情報をリアルタイム取得可能に",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/polylane"
-    },
-    {
-      "title_ja": "Frameboy by World Labs──Atlasで3D世界をインタラクティブ探索",
-      "one_liner": "AI生成3D空間を自由に探索できる新ツール、没入体験が向上",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/marble-by-world-labs"
-    },
-    {
-      "title_ja": "Memorias──AIが人生の物語を本にする自伝作成サービス",
-      "one_liner": "対話形式で人生を記録し、AIが自伝として編纂",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/memorias-3"
-    },
-    {
-      "title_ja": "Inkling 2 Small──構築物を視覚的に確認しながら改良するモデル",
-      "one_liner": "AIが生成したコードやデザインを見ながらリアルタイム改善",
+      "title_ja": "AIの「拒否能力」は確率的で穴だらけ──脱獄攻撃と検閲のジレンマ",
+      "one_liner": "安全性の要である拒否機能は突破されやすく、厳格化すれば検閲ツール化のリスク",
       "category": "研究",
-      "url": "https://www.producthunt.com/products/tinker-2"
+      "url": "https://ascii.jp/elem/000/004/449/4449577/?rss"
     },
     {
-      "title_ja": "中間選挙後、Elon MuskとAIデータセンターに逆風──TechCrunch分析",
-      "one_liner": "政治情勢変化でデータセンター投資環境に不透明感",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
-    },
-    {
-      "title_ja": "中国企業幹部がNvidia CEO監視のためスパイ活動──米情報機関メモ",
-      "one_liner": "中国当局がNvidia CEO情報収集目的で技術者をリクルート",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
-    },
-    {
-      "title_ja": "Tools Need Not Speak in Text: Latent Context Compression for Agents（論文）",
-      "one_liner": "エージェントがツールとテキストでなく潜在表現で対話する新手法",
-      "category": "研究",
-      "url": "https://arxiv.org/abs/2611.06500"
-    },
-    {
-      "title_ja": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline RAG（論文）",
-      "one_liner": "オフラインRAGでのテキスト・ベクトル整合性ギャップを測定・解消",
-      "category": "研究",
-      "url": "https://arxiv.org/abs/2611.06498"
-    },
-    {
-      "title_ja": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models（論文）",
-      "one_liner": "拡散モデルでの複数教師オンポリシー蒸留を再考",
-      "category": "研究",
-      "url": "https://arxiv.org/abs/2611.04386"
-    },
-    {
-      "title_ja": "Launch HN: Expanse (YC P26)──無駄なGPU容量を解放するスタートアップ",
-      "one_liner": "遊休GPU資源を有効活用しAI計算コスト削減を実現",
-      "category": "業界",
-      "url": "https://news.ycombinator.com/item?id=48356312"
-    },
-    {
-      "title_ja": "Show HN: ローマ帝国で生きた人々の地図を構築中",
-      "one_liner": "歴史データをAI・GIS技術で可視化、研究・教育に活用",
+      "title_ja": "生成AIとMarkdown記法の親和性──仕様を理解して効率的に活用",
+      "one_liner": "生成AI時代に必須のMarkdown記法の基本と実践的な使い方を解説",
       "category": "実務",
-      "url": "https://new.roman-names.com/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03787/100800001/"
     },
     {
-      "title_ja": "Show HN: Juggler──JUCE創業者によるオープンソースGUIコーディングエージェント",
-      "one_liner": "GUIアプリ開発をエージェントが支援、オープンソースで公開",
+      "title_ja": "光電融合技術「CPO」が普及期に──AIサーバーの消費電力削減へ",
+      "one_liner": "半導体パッケージを光でつなぐCPO技術、Super MicroやKDDIが実用化",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03627/102800045/"
+    },
+    {
+      "title_ja": "人工衛星100万機構想「STARMIND」──宇宙AIデータセンターの実現性は",
+      "one_liner": "SpaceXが宇宙空間に100万機の衛星配備しAIデータセンター構築を計画",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/101902128/"
+    },
+    {
+      "title_ja": "ソブリンAI（Sovereign AI）とは──自国・自社で自立的に開発・運用",
+      "one_liner": "外部依存せず自国データ・技術でAI開発運用する概念、主権確保で注目",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600009/103000235/"
+    },
+    {
+      "title_ja": "ガートナー2027年注目技術トップ10──「AIの制御と信頼」がテーマに",
+      "one_liner": "AIの信頼性・制御性が技術トレンドの中心、ランサムウェア・DDoS動向も",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/449/4449518/?rss"
+    },
+    {
+      "title_ja": "「プログラミングを学ぶ」検索が1年で半減──AI時代の学習トレンド変化",
+      "one_liner": "Google検索でプログラミング学習需要が激減、AI活用にシフトか",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/449/4449518/?rss"
+    },
+    {
+      "title_ja": "Agent Clan──ジェスチャーでClaude CodeとCodexを操作",
+      "one_liner": "ジェスチャー操作でClaudeエージェントを制御する新ツール",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/agent-clan"
+    },
+    {
+      "title_ja": "Google Gemini Omni 1.2 Flash──15秒のAI動画を$0.07/秒で生成",
+      "one_liner": "低コストで高速なAI動画生成、Geminiの新バージョン",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/google-omni-1-2-flash"
+    },
+    {
+      "title_ja": "Nvidia CEO、中国人AI幹部との関係で調査対象に──スパイ疑惑で波紋",
+      "one_liner": "ジェンスン・フアンCEOが中国スパイ疑惑のある幹部との関係で調査開始",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+    },
+    {
+      "title_ja": "Apple、Siriをよりエージェント的に進化させる開発を加速",
+      "one_liner": "ティム・クックがSiriのAIエージェント化ロードマップ加速を指示",
+      "category": "ツール",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+    },
+    {
+      "title_ja": "Elvis・Eminemの権利者がAI音楽クローン「Suno」を提訴",
+      "one_liner": "著名アーティストの楽曲クローンで音楽AI企業が新たな訴訟に直面",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+    },
+    {
+      "title_ja": "Juggler──オープンソースGUIコーディングエージェント、JUCE作者が開発",
+      "one_liner": "JUCE開発者による新しいオープンソースのGUIコーディングエージェント",
       "category": "ツール",
       "url": "https://github.com/juggler-ai/juggler"
     },
     {
-      "title_ja": "Show HN: Plandex──複雑タスク向けAIコーディングエンジン",
-      "one_liner": "大規模リファクタや複数ファイル横断変更をAIが自動実行",
+      "title_ja": "NoMac──AIエージェント専用Mac環境を分単位課金で提供",
+      "one_liner": "サブスクなし、使った分だけ課金のAIエージェント向けMac実行環境",
       "category": "ツール",
-      "url": "https://github.com/plandex-ai/plandex"
+      "url": "https://www.producthunt.com/products/nomac"
     }
   ],
   "date": "20261109",
