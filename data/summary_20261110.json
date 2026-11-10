@@ -3,8 +3,8 @@
     {
       "rank": 1,
       "title_ja": "Anthropic、Claude Fable 5.2とMythos 5.2を発表──API料金2割値下げ、出力速度最大30％向上",
-      "summary_ja": "Anthropicが最上位AIモデルの新版「Claude Fable 5.2」および審査制の「Claude Mythos 5.2」を発表。出力速度は最大30％向上し、API料金は2割値下げされている。\n長時間の複雑な推論やエージェント型コーディングに特化しており、同日より主要クラウドや各種アプリで利用可能。\n企業のAI活用コスト削減と高速化を両立する実務的なアップデートとして注目される。",
-      "consultant_insight": "料金2割減+速度3割増は既存Claude顧客の即時ROI改善に直結、コスト試算の見直しを顧客に提案するタイミング",
+      "summary_ja": "Anthropicは最上位モデルの新版「Claude Fable 5.2」および審査制の「Claude Mythos 5.2」を発表。出力速度は最大30％向上し、API料金は2割値下げされた。長時間の複雑な推論やエージェント型コーディングに特化し、同日より主要クラウドや各種アプリで提供開始。",
+      "consultant_insight": "コスト削減と性能向上を同時実現。既存Claude利用企業は即座に恩恵を受けられ、コスト構造見直しの好機。",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
@@ -12,185 +12,185 @@
     },
     {
       "rank": 2,
-      "title_ja": "Google、第8世代TPUに「8tx」と「8i Max」を追加──機密データ処理と大規模AIエージェントに特化",
-      "summary_ja": "Googleが第8世代TPUに機密データ処理向けの「TPU 8tx」と長大コンテキスト処理向けの「TPU 8i Max」を追加。\n自律的なAIエージェントの普及に伴うセキュリティとメモリ性能の課題に対処する。\nTPU向けソフトウェアのオープンソース化や計算資源の無駄を省く機能の強化も併せて発表し、企業のAIインフラ選択肢が拡大。",
-      "consultant_insight": "機密データをクラウドで処理する金融・医療顧客に、Google Cloudの選択肢として提案可能に",
+      "title_ja": "Anthropic、IPO計画を前進──今週にも評価額レンジを設定へ",
+      "summary_ja": "Wall Street Journal報道によれば、AnthropicがIPO計画を前進させ、今週にも評価額レンジを設定する見込み。AI企業の資金調達環境が変化する中、同社の上場は業界の資金フロー再編の試金石となる。市場の反応が注目される。",
+      "consultant_insight": "Claude導入企業は安定性とガバナンスが強化される可能性。今後の調達戦略に影響大。",
       "importance": 5,
       "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003043/"
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
     },
     {
       "rank": 3,
-      "title_ja": "富士通、FDEを起点に2030年度1500億円目指す──人月ではなく利用料で成果型課金へ転換",
-      "summary_ja": "富士通がFDE（Field Deployment Engineer）を起点に、2030年度に約1500億円の売上を目指す。米パランティアに学び、事業部門と組んで2カ月でAIエージェントまで構築。\n対価は人月ではなく利用料で得て、成果を出し続ける限り収益を上げる新モデルへ転換。\nSIの従来型ビジネスモデルからの大転換として業界に衝撃を与えている。",
-      "consultant_insight": "SIerの人月脱却モデルが本格化、顧客との契約形態見直しの先行事例として参考になる",
+      "title_ja": "Anthropic、天然ガスタービン34億ドル購入でエネルギー確保──AI電力需要への対応加速",
+      "summary_ja": "Anthropicは自社データセンター向けに総額34億ドル相当の天然ガスタービンを購入。AI演算の電力需要急増に対応し、安定供給を確保する狙い。OpenAIやGoogleに続き、AI企業のエネルギーインフラ投資が本格化している。",
+      "consultant_insight": "AI利用企業も電力コストとサステナビリティの両立が課題に。エネルギー戦略を見直すタイミング。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "MCP仕様改訂で「ステートレス化」──企業導入・運用の転換点に",
+      "summary_ja": "AIエージェントと外部ツールをつなぐ「MCP」が2026年7月に仕様改訂。サーバ側で通信状態を保持しない「ステートレス化」が進められ、スケーラビリティと運用性が向上。企業がMCPを導入する上での設計思想が大きく変化している。",
+      "consultant_insight": "MCP導入企業は仕様変更への対応が必須。既存実装の見直しと新規導入の両面で影響大。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/10/news003.html"
+    },
+    {
+      "rank": 5,
+      "title_ja": "富士通、FDEを起点に2030年度1500億円目指す──人月依存から利用料モデルへ転換",
+      "summary_ja": "富士通がFDE（Field Deployment Engineer）を起点に、2030年度に約1500億円の売上を目指す。米パランティアに学び、事業部門と組んで2カ月でAIエージェントまで構築。対価は人月ではなく利用料で得て、成果を出し続ける限り収益を上げる新モデルを展開。",
+      "consultant_insight": "SIビジネスモデルの転換点。FDE活用で成果報酬型契約が現実的に。顧客企業は短期実装・長期収益化を両立可能。",
       "importance": 5,
       "category": "業界",
       "source_name": "日経クロステック AI",
       "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/110400579/110400001/"
     },
     {
-      "rank": 4,
-      "title_ja": "MCP仕様改訂でステートレス化──企業導入の運用負荷が軽減、普及の転換点に",
-      "summary_ja": "AIエージェントと外部ツールをつなぐ「MCP」が2026年7月の仕様改訂で「ステートレス化」を実現。\nサーバ側で通信の状態を保持しない設計により、企業がMCPを導入・運用する際の負荷が大幅に軽減された。\n「MCPはもう特別な存在ではない」との評価が出るほど普及が進み、企業のAIツール連携の標準プロトコルとしての地位を確立。",
-      "consultant_insight": "MCP対応ツールの選定が企業のAI戦略の要に、ステートレス化で導入ハードルが下がった今が提案好機",
+      "rank": 6,
+      "title_ja": "Meta、最小AIモデル「Muse Ember」発表──Spark 1.3に迫る性能を約17分の1のコストで実現",
+      "summary_ja": "MetaはAIモデル「Muse」ファミリーの最小モデル「Muse Ember」を発表。AIエージェントの反復タスクに特化し、上位モデル「Muse Spark 1.3」に迫る性能を約17分の1のコストで実現。同日から開発者向けAPI等で提供開始、大量の反復処理を低コストで可能に。",
+      "consultant_insight": "反復業務の自動化コストが劇的に低下。PoC段階から本番導入へのハードルが大幅に下がった。",
       "importance": 4,
       "category": "ツール",
       "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/10/news003.html"
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003044/"
     },
     {
-      "rank": 5,
-      "title_ja": "NTTデータと日立、FDEで人月脱却へ──AIアプリ蓄積と専門家チームで法人市場深掘り",
-      "summary_ja": "NTTデータは現場で作ったアプリを他社にも展開できる形で蓄積する体制を構築。日立は専門家チームでHMAXを現場に届け、人月依存からの脱却を狙う。\nユーザー企業のAI導入需要を背景に、大手SIerがFDE（Field Deployment Engineer）の強化を急いでいる。\n従来の常駐SE型から、少数精鋭で課題定義から実装まで担うモデルへシフトが加速。",
-      "consultant_insight": "大手SIerのFDE体制構築が本格化、中小SIerも同様の転換を迫られる時期に来ている",
+      "rank": 7,
+      "title_ja": "Google、第8世代TPUに機密データ処理・長大コンテキスト対応版を追加──AIエージェント時代のインフラ強化",
+      "summary_ja": "Googleは第8世代TPUに機密データ処理向け「TPU 8tx」と長大コンテキスト処理向け「TPU 8i Max」を追加。自律的AIエージェントの普及に伴うセキュリティとメモリ性能の課題に対処。TPU向けソフトウェアのオープンソース化や計算資源の無駄を省く機能の強化も併せて発表。",
+      "consultant_insight": "機密データを扱う業界（金融・医療等）でのAIエージェント活用が現実的に。セキュリティとコストの両立が可能に。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003043/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "ChatGPT Enterprise、AWS Marketplaceで提供開始──既存調達プロセスで導入可能に",
+      "summary_ja": "OpenAIはChatGPT EnterpriseをAWS Marketplace経由で提供開始。既存のAWS購買・請求プロセスを活用でき、調達手続きが簡素化される。大企業での導入障壁が低下し、社内AI活用の加速が期待される。",
+      "consultant_insight": "調達部門の承認プロセス短縮で導入スピード向上。既存AWS契約を活用できる企業は即導入検討可能。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+    },
+    {
+      "rank": 9,
+      "title_ja": "NTTデータと日立、FDEでAI導入需要に対応──人月依存からの脱却を狙う",
+      "summary_ja": "NTTデータは現場で作ったアプリを他社にも展開できる形で蓄積する戦略。日立は専門家チームでHMAXを現場に届け、人月依存からの脱却を狙う。AI導入需要を背景に、大手SIerがFDEの強化を急ぐ。",
+      "consultant_insight": "大手SIerのFDE戦略が本格化。顧客企業は短期実装・横展開を前提にした提案を期待できる。",
       "importance": 4,
       "category": "業界",
       "source_name": "日経クロステック AI",
       "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/110400579/110400005/"
     },
     {
-      "rank": 6,
-      "title_ja": "本郷真砂ハートクリニック、ローカルLLMで診療情報処理──受付から予約まで院長自作システムで効率化",
-      "summary_ja": "院内のローカルLLMで診療情報を処理する本郷真砂ハートクリニックが話題に。院長が「Claude Code」で自作したシステムは、受付から次回予約までの流れを大きく変えた。\n患者役として模擬受診した結果、診療データの即時処理と患者への説明の質向上が確認された。\n中小医療機関でもAI活用が実務レベルで進んでいる先行事例として注目される。",
-      "consultant_insight": "小規模事業者こそローカルLLMで業務変革できる好例、医療以外の業種にも応用提案できる",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/09/2000002916/"
-    },
-    {
-      "rank": 7,
-      "title_ja": "ChatGPT Enterprise、AWS Marketplaceで提供開始──調達・請求を既存AWS経由で一本化",
-      "summary_ja": "OpenAIが「ChatGPT Enterprise」をAWS Marketplaceで提供開始。組織は既存のAWS購買・請求関係を通じて調達を簡素化できる。\nAWSを既に利用している企業にとって、新規ベンダー契約なしでChatGPT導入が可能になる。\n企業のAI導入障壁の一つである調達プロセスの複雑さを解消する動きとして評価される。",
-      "consultant_insight": "AWS利用企業へのChatGPT導入提案が一気にしやすく、調達障壁を理由に見送っていた案件を再提案可能",
-      "importance": 4,
-      "category": "ツール",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
-    },
-    {
-      "rank": 8,
-      "title_ja": "米大手テック企業、FDE増強に数千億円投資──AI投資回収へ法人市場深掘り加速",
-      "summary_ja": "マイクロソフトが約6000人のFDEを擁する新組織に25億ドル（約3800億円）を投じるなど、米テック大手がFDE確保や専任組織の新設に相次いで乗り出している。\nAI関連の投資がかさむ中、FDEを核に法人市場を深掘りし収益化を狙う。\n日本企業も同様の動きを見せており、FDEが新たな職種として定着しつつある。",
-      "consultant_insight": "グローバルでFDE職種が確立、日本企業も追随必至で人材確保競争が激化する",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/110400579/110400004/"
-    },
-    {
-      "rank": 9,
-      "title_ja": "クラウドインフラシェア、AWSが26％に後退・Google Cloudは16％に上昇──2026年Q3",
-      "summary_ja": "2026年第3四半期のグローバルクラウドインフラ市場で、AWSのシェアが26％に後退。Google Cloudは16％に上昇し、市場全体は過去最大の高成長率を記録。\nAI需要の急増がクラウド市場の構造変化を加速している。\n日本企業のマルチクラウド戦略にも影響を与える可能性が高い。",
-      "consultant_insight": "Google CloudのAI関連サービス強化がシェア上昇の要因、顧客のクラウド戦略見直し提案の好機",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/09/2000003001/"
-    },
-    {
       "rank": 10,
-      "title_ja": "日本のFDE求人が急増、年収中央値3000万円──顧客折衝+生成AIスキル必須",
-      "summary_ja": "顧客の現場で課題発見から実装まで担う「FDE」の求人が日本でも急増。米国では求人数が1年余りで100倍近くに増え、年収中央値は3000万円。\n日本の求人では顧客折衝に加え、生成AIのスキルを持つ人材が求められる。\n従来の常駐SEとは異なり、1～5人の少数精鋭で課題定義から実装まで担う新職種として確立しつつある。",
-      "consultant_insight": "FDE人材確保が企業のAI実装力の分水嶺に、既存SE人材の再教育プログラム提案が有効",
-      "importance": 4,
+      "title_ja": "建設AIスタートアップBALLAS、シリーズB総額34億円調達──累計53億円で供給力不足に挑む",
+      "summary_ja": "建設インフラの供給力不足にAI-Nativeで挑むBALLASがシリーズBで総額34億円を調達、累計調達額は約53億円に。JIC VGI、日本政策金融公庫、三菱UFJ銀行の支援が加わり、建設業界のDX加速が期待される。",
+      "consultant_insight": "建設業界のAI活用が資金面でも本格化。施工管理・設計業務の効率化ニーズに対応可能。",
+      "importance": 3,
       "category": "業界",
-      "source_name": "日経クロステック AI",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/110400579/110400002/"
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/449/4449948/?rss"
     }
   ],
   "digest": [
     {
-      "title_ja": "Sakana AI、初のモバイルアプリ開発中でテスター募集開始",
-      "one_liner": "日本発AIスタートアップが初のモバイルアプリ「Sakana AI App（仮）」を開発中",
+      "title_ja": "OpenAI、Control Roomでモデル稼働を一元管理──安全性・セキュリティ懸念時に即座に停止可能",
+      "one_liner": "研究インフラ全体でモデル稼働を追跡し、リスク検知時に迅速停止できる中央管理システム。",
+      "category": "ツール",
+      "url": "https://openai.com/index/control-room"
+    },
+    {
+      "title_ja": "CodeRabbit、OpenAIモデルで開発速度20倍に──エージェント型ソフトウェア開発を実践",
+      "one_liner": "OpenAI活用でAI生成コードの信頼性を確保し、同じ開発チームで20倍の出荷を実現。",
+      "category": "実務",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak"
+    },
+    {
+      "title_ja": "空研工業、70年分の冷却塔図面を4.5分で検索──OpenAI APIで修理業務を効率化",
+      "one_liner": "従来18分かかった図面検索を4.5分に短縮、膨大な過去資料をAIで即座に活用。",
+      "category": "実務",
+      "url": "https://openai.com/index/kuken"
+    },
+    {
+      "title_ja": "Sakana AI、初のモバイルアプリ開発中──テスター募集も開始",
+      "one_liner": "日本発AI企業が初のモバイルアプリを開発、テスター募集で一般ユーザーへの展開加速。",
       "category": "ツール",
       "url": "https://www.itmedia.co.jp/aiplus/article/2611/09/2000003008/"
     },
     {
-      "title_ja": "ソニーAI、画像生成AI14モデルの既存キャラ出力調査を発表",
-      "one_liner": "画像生成AIが既存の知的財産をどれくらい認識・出力するかを調査した論文を発表",
+      "title_ja": "ソニーAI、画像生成AI 14モデルの知的財産出力傾向を調査──既存キャラ生成リスクを定量評価",
+      "one_liner": "主要画像生成AIが既存IPをどの程度認識・出力するか技術的に調査、企業利用のリスク把握に有用。",
       "category": "研究",
       "url": "https://www.itmedia.co.jp/news/article/2611/09/2000002982/"
     },
     {
-      "title_ja": "情報漏えい続出で「その人専用詐欺メール」登場の懸念",
-      "one_liner": "企業の不正アクセス相次ぎ、個人情報を使った高度化フィッシングメールの増加懸念",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/news/article/2611/09/2000002926/"
-    },
-    {
-      "title_ja": "Nous Research、Qwen3.8ベースに「西洋の価値観強化」モデル発表も批判",
-      "one_liner": "「Arete-27B」発表で「逆に偏っている」との批判も浮上",
+      "title_ja": "Instagram、AIが「10代」と判断すれば成人登録でも利用制限──日本でも導入へ",
+      "one_liner": "登録年齢に関わらずAIが10代と推定した利用者に保護機能を適用、世界展開へ。",
       "category": "ツール",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/09/2000003002/"
+      "url": "https://ascii.jp/elem/000/004/449/4449945/?rss"
     },
     {
-      "title_ja": "Zoom、AIで「会話から完了へ」の未来を提唱──年次カンファレンス開催",
-      "one_liner": "「Zoomtopia ON THE ROAD 2026 JAPAN」でAI活用の最新イノベーション披露",
+      "title_ja": "KDDI SUMMIT 2026で見えた未来──AIロボット・ソブリンAI基盤など通信基盤活用の最新技術",
+      "one_liner": "通信を基盤に指示の意図を推論するAIロボットや安全な国内データ処理を実現するソブリンAI基盤を展示。",
       "category": "業界",
-      "url": "https://ascii.jp/elem/000/004/449/4449920/?rss"
+      "url": "https://ascii.jp/elem/000/004/447/4447082/?rss"
     },
     {
-      "title_ja": "Apple新製品「HomeView」、ChatGPTなどのAIアプリ対応か",
-      "one_liner": "スマートホームハブでAIチャットボットアプリ対応の準備が進む可能性",
+      "title_ja": "AIキャラチャット「zeta」、iOS版がApp Storeから消失──ダウンロード・アプリ内決済が利用不可に",
+      "one_liner": "App StoreでiOS版が利用できなくなり、運営が公式に発表。",
       "category": "ツール",
-      "url": "https://ascii.jp/elem/000/004/449/4449757/?rss"
+      "url": "https://ascii.jp/elem/000/004/449/4449943/?rss"
     },
     {
-      "title_ja": "日産デザイン新トップ「退屈なクルマは大嫌い」──AI活用で内装シンプル化",
-      "one_liner": "Matthew Weaver氏が日産デザインの今後の方向性を示す",
+      "title_ja": "ゴムマリの業務AIエージェント、レポート作成機能を提供開始",
+      "one_liner": "業務効率化を狙ったAIエージェントがレポート作成タスクに対応。",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/449/4449947/?rss"
+    },
+    {
+      "title_ja": "AI活用調査：部下の成果物が「体裁は整うが中身が具体的でない」68.8％──説明できないケースも63.1％",
+      "one_liner": "AI活用が進む一方、内容の空洞化と説明能力低下が顕在化。",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03565/110500042/"
+      "url": "https://ascii.jp/elem/000/004/449/4449946/?rss"
     },
     {
-      "title_ja": "newmo CTO、メルカリ出身で「PayPayと競った経験」が自動運転に活きる",
-      "one_liner": "2028年レベル4自動運転タクシー実用化目指すスタートアップのCTO経歴に注目",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/at/18/00018/00051/"
+      "title_ja": "特許明細書作成支援AI「ユアサポAI」、図面起点の明細書作成に対応",
+      "one_liner": "図面から明細書を作成する新機能で、特許業務の効率化を支援。",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/449/4449958/?rss"
     },
     {
-      "title_ja": "韓国AI戦略の最新成果を展示会で披露──DC冷却・軍事ドローンも出展",
-      "one_liner": "ソウルで「AI FESTA」など複数のAI関連イベント同時開催",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/rob/18/00006/00208/"
-    },
-    {
-      "title_ja": "経産省、AI利活用の民事責任に関する手引き公表──開発者萎縮を防ぐ",
-      "one_liner": "AI利活用で第三者に損害が生じた場合の法的責任の方向性を示す",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/rob/18/00008/00105/"
-    },
-    {
-      "title_ja": "2032年までのAI投資リスク、4兆ドル超を回収できるか",
-      "one_liner": "AI関連株暴落前後の調査結果から、市場が冷徹な結果に直面する時期に",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00848/00199/"
-    },
-    {
-      "title_ja": "強化学習が世界モデルで最大1000倍高速化──ロボット全身制御で革新",
-      "one_liner": "Sim-to-Realで久々のブレイクスルー、ヒューマノイド制御に応用",
+      "title_ja": "国立情報学研究所、オープンAIモデル「LLM-jp」の開発手法資料を無料公開",
+      "one_liner": "第2回シンポジウムの講演資料を公開、日本発オープンLLMの知見を共有。",
       "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/rob/18/012600001/00199/"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/10/2000003046/"
     },
     {
-      "title_ja": "日本、AIサイバー攻撃に官民で情報統合──政府の分析発信力が重要に",
-      "one_liner": "「サイバーセキュリティ緊急対策パッケージ」で能動的サイバー防御も検討",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/110902142/"
-    },
-    {
-      "title_ja": "Meta、軽量エージェント実行モデル「Muse Ember」発表──10セント/百万トークン",
-      "one_liner": "HaikuやLunaより大幅に安価、エージェント実行に特化",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
-    },
-    {
-      "title_ja": "Medium、AI支援を執筆プロセスに直接組み込む新アプリ「TK」発表",
-      "one_liner": "AI活用の是非で論争が続く中、執筆プラットフォームがAI統合を推進",
+      "title_ja": "Medium、AI支援ライティングアプリ「TK」リリース──執筆プロセスに直接AI統合",
+      "one_liner": "AI論争が続く中、Mediumが執筆プロセスへのAI統合を推進する新アプリを発表。",
       "category": "ツール",
       "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/"
+    },
+    {
+      "title_ja": "Automattic、バイブコーディングアプリ展開プラットフォーム「Spacefast」を発表",
+      "one_liner": "Lovableなどと競合する、バイブコーディングアプリの展開プラットフォームを提供開始。",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/"
+    },
+    {
+      "title_ja": "Apple、50ドルの「Intelligence Usage Packs」でAI機能利用を拡張",
+      "one_liner": "一部Apple Intelligence機能の利用制限を追加料金で解除、Logic ProやCreator Studioで展開。",
+      "category": "ツール",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
     }
   ],
   "date": "20261110",
