@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Anthropic、Claudeに共同編集「Sheets」「Whiteboards」とアプリ統合機能を追加──β版で提供開始",
-      "summary_ja": "Anthropicは、Claudeに共同編集可能な「Claude Sheets」と「Claude Whiteboards」をβ版として追加。さらに外部アプリをClaude内で直接操作できる「インタラクティブアプリ」機能も発表。これにより、チーム作業と外部ツール連携が一つのインターフェースで完結する。\n\n「Claude Dashboards」を「Claude Data」に改称し、一般提供を開始。データ分析とビジュアライゼーション機能が正式版となり、企業での本格導入が可能に。\n\n共同作業スペースとアプリ統合により、Claudeが単なる対話型AIから、業務全体を支えるワークスペースへと進化。Notion、Slack等との競合も視野に入る展開。",
-      "consultant_insight": "従来のチャットUI脱却。クライアント企業に「Claudeを軸にしたワークフロー再設計」を提案する好機",
+      "title_ja": "Amazon、AWSのAPIをローカル再現する「AWS Emulator」を無償公開──全コードをAIエージェントが記述",
+      "summary_ja": "AWSは、クラウド環境を使わずにローカルでAWS APIを再現できるツール「AWS Emulator」を無料で公開した。\n最大の特徴は、すべてのコードが自律型AIエージェントによって記述されており、人間のレビューは介在していない点。\n開発者はAWSアカウント不要で、アプリの構築やCI/CDでの統合テストなどを手元で実行できる。",
+      "consultant_insight": "開発環境のローカル化とAIによる完全自動コード生成の両立は、企業の開発効率とコスト削減の新基準になりうる",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/11/2000003089/"
+      "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003126/"
     },
     {
       "rank": 2,
-      "title_ja": "MCP仕様改訂で「APIを呼ぶのは人間ではなくAIエージェント」時代へ──OpenAPIとの統合で企業API活用が現実に",
-      "summary_ja": "2026年7月のMCP仕様改訂により、既存Web技術（OpenAPI等）との親和性が大幅向上。企業の既存APIをAIエージェントから直接利用する仕組みが整いつつある。\n\nAIエージェントが自らAPIを選択・呼び出す時代に突入。これまで人間が設計していたAPI設計思想の見直しが必要に。エージェント向けの「説明可能性」「エラーハンドリング」が新たな設計要件となる。\n\nレガシーシステムのAPI公開戦略が、AI時代の競争力を左右。既存資産の「エージェント対応」が急務となる。",
-      "consultant_insight": "クライアントの既存API資産を「エージェント対応」へ再設計する大型案件が見込める",
+      "title_ja": "会社員の仕事に「Claude Fable 5.2」は必要か？──調査・要約・資料作成でOpus／Sonnetと比較検証",
+      "summary_ja": "ITmediaが「Claude Fable 5.2」の実務適性を、白書の要約と資料作成、取材前の調査で「Opus 5.5」「Sonnet 5.5」と比較検証した。\n出力のクオリティや利用コストの観点から、会社員の日常業務における各モデルの使い分け基準を実証的に示している。\nFable 5.2の価格性能比と実務における実用性が、具体的なユースケースで明らかになった。",
+      "consultant_insight": "モデル選択の判断基準を実務レベルで示した検証は、企業のAI導入コスト最適化の指針になる",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003113/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "Google、選択肢から答えを選ぶ「Gemini Decisions API」発表──確率と信頼度スコアを返す専用モデル",
+      "summary_ja": "Googleは、ツールの選択や条件判定など選択肢から答えを選ぶ用途に特化した「Gemini Decisions API」を発表した。\n専用モデルを用い、テキストや画像などのマルチモーダル入力を1回の推論で評価し、確率と信頼度スコアを返す。\n従来のモデルより高速かつ安価に動作し、他社が先行する判断特化型AIの分野でGoogleが本格参入した形だ。",
+      "consultant_insight": "判断特化型APIは、業務フローの分岐判定や承認プロセスの自動化に直結し、即座に導入効果を見込める",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003123/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "「APIを呼ぶのは、もう人間ではない」──進化するMCPとOpenAPIとの新しい関係",
+      "summary_ja": "2026年7月のMCP仕様改訂により、既存のWeb技術との親和性が高まり、企業の既存APIをAIエージェントから利用する仕組みが整いつつある。\nAIエージェントが自らAPIを選び、呼び出す時代に、API設計の何を見直す必要があるのかを考察している。\n「API利用者=人間」を前提にした従来設計からの転換が求められている。",
+      "consultant_insight": "既存APIのAIエージェント対応は、システム資産の再活用と自動化拡大の鍵を握る戦略領域になる",
       "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/12/news004.html"
     },
     {
-      "rank": 3,
-      "title_ja": "OpenAI、ChatGPTに「Businesses in ChatGPT」機能追加──企業が自社サイトのクリック数集計・顧客向けAIチャット提供可能に",
-      "summary_ja": "OpenAIは、企業がChatGPT上で自社Webサイトのクリック数を集計したり、顧客にAIチャット機能を提供できる新機能「Businesses in ChatGPT」のβ版を発表。米国から段階的に展開。\n\nChatGPTが単なる対話ツールから、企業の顧客接点・マーケティングプラットフォームへ進化。GoogleビジネスプロフィールやShopifyの領域に踏み込む動き。\n\n企業は追加開発なしで、ChatGPT経由の顧客エンゲージメント・分析が可能に。中小企業のAI活用ハードルが大幅に低下。",
-      "consultant_insight": "中小企業向けに「ChatGPTを起点にした顧客接点DX」の導入支援案件が急増する見込み",
-      "importance": 5,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003088/"
-    },
-    {
-      "rank": 4,
-      "title_ja": "Google、Gemini 4 Carbonとマルチエージェント機能「/swarm」を発表──複雑な開発プロジェクトを複数AIで分担",
-      "summary_ja": "Googleは最上位AIモデル「Gemini 4 Carbon」の一般提供を開始。月額1万4500円の「Google AI Ultra」プラン限定で利用可能。複雑な推論・高度なコーディングに特化。\n\n同時に、大規模開発プロジェクトを複数AIエージェントで分担する「/swarm」機能をプレビュー提供。チーム編成を自動化し、タスクを並列処理。\n\nエージェント協調型の開発環境が現実に。1人のエンジニアが複数AIを「部下」として使う時代の到来を示唆。",
-      "consultant_insight": "大規模開発案件で「AIエージェントチーム編成」を前提とした見積・体制設計が必要に",
-      "importance": 5,
-      "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003093/"
-    },
-    {
       "rank": 5,
-      "title_ja": "Notion AI、委託先不正アクセスでチャット記録漏えいの恐れ──AIツールのセキュリティリスクが顕在化",
-      "summary_ja": "米Notion Labsは、「Notion AI」のチャット記録が漏えいした恐れがあると発表。委託先への不正アクセスが原因。ユーザーとAIの対話履歴が流出した可能性。\n\n生成AIツールに入力した業務データの流出リスクが現実に。企業の機密情報・顧客情報が第三者に渡る危険性が浮き彫りに。\n\nAI導入時の「データガバナンス」「委託先管理」の重要性が再認識される事件。利用規約・データ保管場所の確認が急務。",
-      "consultant_insight": "クライアントのAIツール選定に「データ保管場所・委託先の透明性」を必須基準として追加すべき",
+      "title_ja": "Claude Enterpriseがセキュリティと管理機能を強化──DLP・EDR連携など企業統制を支援",
+      "summary_ja": "Anthropicは「Claude Enterprise」のセキュリティと管理機能の拡充を発表した。\n設定状況の一覧化やDLP連携、個人アカウントの遮断などによって、企業のAI統制とシャドーIT対策を支援する。\n企業が求めるガバナンス要件に応える機能強化で、エンタープライズ市場での競争力を高めた。",
+      "consultant_insight": "DLP連携とシャドーIT対策は、企業のAI全面展開における最後の関門を解消する重要な進化",
       "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/12/2000003082/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "AWSで「ChatGPT Enterprise」を購入可能に──AWSアカウントで一括管理するメリット",
+      "summary_ja": "OpenAIは「ChatGPT Enterprise」をAWS Marketplaceで提供開始した。\n企業は既存のAWSアカウントや契約枠でChatGPT Enterpriseを購入・管理できる。\n企業のAI調達プロセスが既存のクラウド調達フローに統合され、導入障壁が大幅に低下した。",
+      "consultant_insight": "既存の調達プロセスへの統合は、稟議・予算確保の期間を短縮し、AI導入のスピードを加速する",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/12/2000003080/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "「AIとのチャット記録」が漏えいか、Notion──委託先に不正アクセス",
+      "summary_ja": "クラウド型ワークスペース「Notion」を運営する米Notion Labsは、Notionで使えるAIサービス「Notion AI」のチャット記録が漏えいした恐れがあると発表した。\n委託先への不正アクセスが原因で、ユーザーとAIの対話内容が流出した可能性がある。\nAIサービスのデータ管理体制とサプライチェーンリスクが改めて問われている。",
+      "consultant_insight": "AIチャット記録の漏えいリスクは、企業が機密情報をAIに入力する際のポリシー策定を急務にする",
+      "importance": 4,
       "category": "業界",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003104/"
     },
     {
-      "rank": 6,
-      "title_ja": "紀陽銀行、社内知識集約で年間4400時間削減──「できる人に質問が集中」問題をAI検索で解決",
-      "summary_ja": "紀陽銀行は、マニュアルがあっても必要な情報が見つからず、特定の「できる人」に質問が集中する問題をAI検索で解決。年間4400時間の削減を実現。\n\n単なるマニュアル整備ではなく、「情報を見つける仕組み」の再設計が鍵。AIによる自然言語検索で、従業員が自力で疑問を解消できる体制を構築。\n\n属人化解消とナレッジ民主化を同時達成。金融機関の先行事例として他業界への横展開も期待。",
-      "consultant_insight": "「マニュアル整備」で終わらせず、AI検索による「情報アクセス民主化」まで提案すべき",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/11/news029.html"
-    },
-    {
-      "rank": 7,
-      "title_ja": "Gemini NotebookでFAQ自動化──既存マニュアルを読み込ませるだけで根拠付き回答AIを構築",
-      "summary_ja": "Gemini Notebookを活用し、既存のマニュアルを読み込ませるだけで、根拠付きで回答する専用AIを素早く構築できる手法を紹介。「同じ質問に何度も答える」「引き継ぎに手間がかかる」問題を解決。\n\n問い合わせ対応業務の効率化が、特別な開発なしで実現可能に。中小企業でも即座に導入できるハードルの低さ。\n\nFAQボット構築の民主化。コールセンター・ヘルプデスク業務への適用が加速する見込み。",
-      "consultant_insight": "中小企業の問い合わせ業務効率化に「Gemini Notebookによる即席AIボット構築」を提案可能",
+      "rank": 8,
+      "title_ja": "Gemini Notebookで規定探しの手間をゼロにする、「問い合わせ効率化」超入門",
+      "summary_ja": "「同じ質問に何度も答えている」「引き継ぎに手間がかかる」といった課題に対し、Gemini Notebookなら既存のマニュアルを読み込ませるだけで、根拠付きで回答する専用AIを素早く構築できる。\n問い合わせ対応の効率化を、コーディング不要で実現する具体的な手順を紹介している。\n社内ナレッジの活用と問い合わせ対応の自動化が、誰でも実行可能になった。",
+      "consultant_insight": "ノーコードでの問い合わせAI構築は、中小企業でも即座に導入でき、業務効率化の入り口として最適",
       "importance": 4,
       "category": "実務",
       "source_name": "ITmedia AI+",
       "url": "https://kn.itmedia.co.jp/kn/article/2611/11/2000003077/"
     },
     {
-      "rank": 8,
-      "title_ja": "Scene、AIが過去の組立順序を学習し自社ノウハウを反映したM-BOMを生成──技術継承を支援",
-      "summary_ja": "Sceneは、3D手順書作成ソリューション「3D Docs」に、過去の組立順序（M-BOM）をAIに学習させる新機能を追加。自社の組立ノウハウを反映したM-BOMを自動生成。\n\n新製品の組立検討や生産準備を前倒しし、熟練者の暗黙知を形式知化。技術継承の課題をAIで解決する具体例。\n\n製造業の「2024年問題」（熟練技術者の大量退職）に対応する実用的なソリューション。現場主導での導入が可能。",
-      "consultant_insight": "製造業の技術継承課題に「AIによる暗黙知の形式知化」を具体的ツールとセットで提案可能",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/11/news018.html"
-    },
-    {
       "rank": 9,
-      "title_ja": "スタディスト、動画・文書を雑に投入してAIが知識化──「Teachme Knowledge」でマニュアル自動更新",
-      "summary_ja": "スタディストは、新プロダクト「Teachme Knowledge」を発表。現場の動画や文書を事前の仕分けなしに投入すると、AIが要約・構造化を行う仕組みを提供。\n\n熟練者の暗黙知を形式知化し、マニュアルを自動更新。現場の負担を最小化しながら知識の蓄積・共有を実現。\n\n「整理してから投入」ではなく「投入すれば整理される」設計。現場の心理的ハードルを大幅に下げる工夫。",
-      "consultant_insight": "「整理が面倒で知識が埋もれている」企業に、投入だけで済む仕組みとして提案可能",
+      "title_ja": "中小企業の「稼ぐ力」に向き合う弥生──「経営分析AI」と「MCP」で業務データを意思決定の糧に",
+      "summary_ja": "厳しい経営環境の中、「稼ぐ力」が問われている中小企業だが、多くの経営者は付加価値を生み出す業務データを経営判断に活かしきれていない。\n弥生は「経営分析AI」とMCPを活用し、業務データを意思決定に直結させる取り組みを進めている。\n中小企業向けに特化したAI活用の具体策が示された。",
+      "consultant_insight": "中小企業の経営データ活用は、AIによる分析の民主化で初めて現実的な選択肢になる",
       "importance": 4,
       "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/10/news083.html"
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/450/4450788/?rss"
     },
     {
       "rank": 10,
-      "title_ja": "ソフトバンク・NTT・KDDI、フィジカルAIに本格参入──ロボットが動くと通信インフラが儲かる新ビジネスモデル",
-      "summary_ja": "ソフトバンク、NTT、KDDIの通信大手3社がフィジカルAI（ロボット制御AI）ビジネスに本格参入。なぜ通信会社がロボットに注力するのか？\n\n背景には、ロボットの遠隔制御・リアルタイムデータ処理に必要な高速・低遅延通信インフラの需要拡大。ロボットが増えるほど通信トラフィックが増える新たな収益源。\n\n5G/6G時代の「キラーアプリ」としてフィジカルAIを位置づけ。通信と製造・物流の融合が加速。",
-      "consultant_insight": "製造・物流業へのロボット導入提案に、通信キャリアとの連携を組み込むと提案力が増す",
+      "title_ja": "データ連携を自分たちの手に取り戻した井村屋──CData Arcでシステムをつなぎ、AIにも挑戦",
+      "summary_ja": "「あずきバー」で有名な井村屋が、DX化の道のりと「内製化」への執念、強い意思で進めたデータ連携の取り組みを語った。\nデータパイプラインのハブとなった「CData Arc」の使いこなしによって、システム間のデータ連携を自社で実現した。\n中堅企業がベンダー依存を脱却し、自らデータ活用を推進する実例として注目される。",
+      "consultant_insight": "データ連携の内製化は、AI活用の前提となるデータ基盤整備を自社でコントロールできる体制を作る",
       "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/11/news038.html"
+      "category": "実務",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/448/4448768/?rss"
     }
   ],
   "digest": [
     {
-      "title_ja": "Alibaba、中国AI「Qwen4」プレビュー版を提供開始",
-      "one_liner": "中国Alibaba Cloudが次世代AIモデル「Qwen4」を発表、自社AIサービスで試験提供",
-      "category": "ツール",
+      "title_ja": "「非言語系AI」はLLMの弱点を補えるか？──Gartner「2027年の戦略的テクノロジのトップ・トレンド」",
+      "one_liner": "Gartnerが自律型エージェントの統制と変化に耐える基盤の設計を重視、AIの頭脳に不足する3技術を指摘",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/11/news089.html"
+    },
+    {
+      "title_ja": "「成果志向のBIM」とは何か？──Autodeskが描くAI時代の鉄道インフラ",
+      "one_liner": "AutodeskがAIと人間の協働で目標成果を実現する「成果志向のBIM」を提唱、鉄道インフラで実践",
+      "category": "業界",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/12/news016.html"
+    },
+    {
+      "title_ja": "中国AI「Qwen4」ついに登場──プレビュー版を提供開始、AlibabaのAIサービスで",
+      "one_liner": "中国Alibaba CloudがAIモデル「Qwen4」を発表、プレビュー版の提供を開始",
+      "category": "業界",
       "url": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003098/"
     },
     {
-      "title_ja": "TDK×o9、AI時代のSCM変革でレガシー脱却へ",
-      "one_liner": "現場主導でレガシーシステムの壁を越える実践プロセスをTDKが紹介",
+      "title_ja": "AIリテラシーを構築するために組織は今日何をすべきか?",
+      "one_liner": "組織のAI準備状況を評価し、リーダーシップからIT、労働力全体の知識ギャップを特定することから始めるべき",
       "category": "実務",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/11/news024.html"
+      "url": "https://ascii.jp/elem/000/004/450/4450229/?rss"
     },
     {
-      "title_ja": "IT大手4社、サイバー攻撃多発でセキュリティ事業強化",
-      "one_liner": "富士通は商談倍増、各社が専門組織新設やAI活用サービス開発を加速",
+      "title_ja": "「データは企業の基盤であり続ける」──SynologyがAI時代の企業課題と解決策を説明",
+      "one_liner": "Synology JapanがAI時代における企業データ管理・保護の重要性を強調、最新ソリューションを紹介",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/450/4450785/?rss"
+    },
+    {
+      "title_ja": "「AIが気候問題を解決」は本当か？──電力・食肉・自動車の主要企業を検証",
+      "one_liner": "AIは2035年に温室効果ガス排出量を年最大54億トン削減可能だが、主要企業の実績報告はわずか",
+      "category": "研究",
+      "url": "https://ascii.jp/elem/000/004/450/4450792/?rss"
+    },
+    {
+      "title_ja": "「最悪の事態」だけではない、AIとSNSの日常的な問題にも責任を",
+      "one_liner": "テック企業はAIコンパニオンへの依存やフィード中毒など日常的な影響にも責任があるはず",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12163/"
+      "url": "https://ascii.jp/elem/000/004/450/4450791/?rss"
     },
     {
-      "title_ja": "日本製紙ら、釧路にデータセンター半年で新設",
-      "one_liner": "2026年度内稼働予定、スピード構築の背景に迫る",
+      "title_ja": "ラクスがシステム構築支援の新事業──「楽楽クラウド」のノウハウ生かす",
+      "one_liner": "SaaSベンダーのラクスが2027年4月、業務システムの開発支援サービス「ASURACORE」を提供開始",
       "category": "業界",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/11/news017.html"
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/110501525/"
     },
     {
-      "title_ja": "富士フイルム、Q2過去最高益の裏に新たな稼ぎ頭",
-      "one_liner": "instaxチェキに並ぶ事業がカメラ以外で成長",
+      "title_ja": "東急電鉄、AIで閉扉判断を支援──ワンマン運転士の負担軽減へ",
+      "one_liner": "東急電鉄がAI画像解析でドア閉扉判断を支援、車椅子利用者を認識し運転台モニターに表示",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/110501526/"
+    },
+    {
+      "title_ja": "顧客データ持たぬは正解か、サイバー攻撃がAX阻む──鍵は社内の「風通し」",
+      "one_liner": "企業のAI活用にサイバー攻撃の影響が表面化、個々の攻撃以上に心配な動きが見られる",
       "category": "業界",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/11/news032.html"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00849/00203/"
     },
     {
-      "title_ja": "Agoda、異常な安さの理由は「自腹値引き」",
-      "one_liner": "最高商務責任者が明かす、ホテルに負担させない価格戦略",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/11/news028.html"
-    },
-    {
-      "title_ja": "iPadのマルチタスク機能で生成AI活用",
-      "one_liner": "複数アプリ同時操作で生成AIを効率的に使う方法",
+      "title_ja": "iPadのマルチタスク機能で生成AIを使いこなす、複数アプリを同時に扱える",
+      "one_liner": "iPadで生成AIを活用、手書き入力やマルチタスク機能を組み合わせた使い方を紹介",
       "category": "実務",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03708/092900009/"
     },
     {
-      "title_ja": "偏ったAIが生む「ステルス主権放棄」リスク",
-      "one_liner": "AIを通じた情報収集が偏った価値観を固定化する危険性",
-      "category": "研究",
+      "title_ja": "偏ったAIが生みかねない「ステルス主権放棄」、文化や人格をどう守るか",
+      "one_liner": "生成AIを通した情報収集が当たり前になる中、ゆがめられた価値観に基づく情報のリスクを考える必要",
+      "category": "業界",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/110902143/"
     },
     {
-      "title_ja": "AIナレッジマネジメント、最初の利用者は受容性で選ぶ",
-      "one_liner": "段階的な組織展開で業務に根づかせる設計を解説",
+      "title_ja": "広がらないAIナレッジマネジメント、最初の利用者は「受容性」で選ぶ",
+      "one_liner": "AIナレッジ活用の本格展開後、誰から使い始め、どの順序で組織に広げるかの設計を解説",
       "category": "実務",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03242/111100035/"
     },
     {
-      "title_ja": "GMO会長、在宅勤務推奨廃止で賛否",
-      "one_liner": "AI時代にオフィス回帰を進める企業の背景とは",
+      "title_ja": "AI時代こそ在宅からオフィスへ、GMO会長の投稿で議論沸騰",
+      "one_liner": "GMOインターネットグループが在宅勤務推奨廃止を表明、企業の出社回帰の背景を整理",
       "category": "業界",
       "url": "https://xtech.nikkei.com/atcl/nxt/mag/na/18/00332/110200001/"
     },
     {
-      "title_ja": "建設業で生成AI活用、設計業務を3割削減へ",
-      "one_liner": "委託先との連携が鍵、設備・構造設計事務所との協業に期待",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/na/18/00016/110400564/"
-    },
-    {
-      "title_ja": "AI研究者と開発者の関心に違い、論文2000本分析",
-      "one_liner": "arXivの投稿論文から見える、両者の興味の差",
-      "category": "研究",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/040900481/110500040/"
-    },
-    {
-      "title_ja": "2032年までのAIリスク、4兆ドル超の設備投資が回収不能か",
-      "one_liner": "ガートナー調査で明らかになるAIブームの危うさ",
+      "title_ja": "サイバー攻撃多発でIT大手4社がセキュリティー事業強化、富士通は商談倍増",
+      "one_liner": "企業のセキュリティー需要が高まり、IT大手4社が専門組織新設や人員増強、AI活用サービス開発を急ぐ",
       "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600008/110500233/"
-    },
-    {
-      "title_ja": "OpenAI、四半期売上が初の100億ドル超え",
-      "one_liner": "前四半期から約50％増、Q2の67億ドルから急成長",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
-    },
-    {
-      "title_ja": "英Fractile、AI チップ開発で720億円調達",
-      "one_liner": "専用AIチップ競争で英国スタートアップが存在感",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12163/"
     }
   ],
   "date": "20261112",
