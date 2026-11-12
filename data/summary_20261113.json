@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "OpenAI API、GPT-6 Lunaのみ国内推論に対応──データ主権対応が部分的に前進",
+      "summary_ja": "OpenAIのAPIで「GPT-6 Luna」モデルに限り国内推論が可能になった。日本国内でのデータ処理需要に部分的に対応する形となる。ただし対象モデルが限定されているため、企業の全社展開には制約が残る。今後の対象モデル拡大と料金体系が注目される。",
+      "consultant_insight": "国内推論対応は評価できるが、主力モデルが対象外のため全社展開には慎重な判断が必要",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003129/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "NotionのAIチャット記録漏えい、影響が国内企業に拡大──打ち合わせ内容も流出か",
+      "summary_ja": "Notion AIのチャット記録が漏えいした可能性があり、日本企業からの報告が相次いでいる。委託先への不正アクセスが原因とみられ、会議内容など機密情報が含まれていた恐れがある。企業のAI利用におけるサプライチェーンリスクが改めて浮き彫りになった。",
+      "consultant_insight": "AIツール選定時は自社のセキュリティ基準だけでなく、委託先チェーンまで評価が必須",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003140/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "AIで生成したkintoneコードに無料診断サービス──APIキー埋め込みなど動作確認では見つけにくいリスクを検出",
+      "summary_ja": "業務アプリ基盤「kintone」で、AIが生成したカスタマイズコードや外部プラグインのセキュリティリスクを無料診断するサービスが開始された。APIキーの埋め込みや脆弱性など、動作確認だけでは見つけにくい問題を検出する。AI生成コードの実務利用における品質担保の仕組みとして注目される。",
+      "consultant_insight": "AI生成コードの実装前検証を標準プロセス化することで、開発スピードと安全性を両立できる",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/13/2000003159/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "Google、Gemini 4 HydrogenでSearch大幅強化──複雑な質問の理解精度が向上",
+      "summary_ja": "GoogleがGemini 4 Hydrogenを搭載したSearch新版を発表。複雑なクエリの理解力向上、関連リンク表示の改善、視覚的に豊かな回答生成が可能になった。AI Modeでのユーザー体験が大きく向上し、従来の検索との差別化が進む。",
+      "consultant_insight": "検索UIの進化により、情報収集業務のワークフロー自体を見直す好機──RAG設計にも影響",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "TechCrunch AI / Google AI Blog",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "パナソニック、職人の暗黙知をAI化する「フィジカルAI」に250人体制で挑戦──外販も視野",
+      "summary_ja": "パナソニックHDがAIとロボットを組み合わせた「フィジカルAI」の研究開発を強化。約250人体制で工場・物流など自社の強み領域に注力し、3～5年先の事業化を目指す。職人の暗黙知をデータ化し、製造現場の自動化・効率化につなげる。将来的には外販も検討している。",
+      "consultant_insight": "製造業の暗黙知AI化は競争力の源泉──自社開発か外部調達かの判断軸として参考になる",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/12/news037.html"
+    },
+    {
+      "rank": 6,
+      "title_ja": "総務省、Pythonで統計解析を学ぶ無料オンライン講座を1月開講──4週間で需要予測まで",
+      "summary_ja": "総務省統計局が2027年1月12日、Pythonで統計解析と主要な分析手法を学ぶ無料オンライン講座を新規開講する。主成分分析、回帰分析、ランダムフォレストから需要予測の演習まで4週間で習得できる。AI活用の基礎スキル習得機会として注目される。",
+      "consultant_insight": "社内のデータ分析リテラシー底上げに活用できる公的リソース──育成コストを抑えつつ実践的",
+      "importance": 3,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/13/news013.html"
+    },
+    {
+      "rank": 7,
+      "title_ja": "Google DeepMind、細胞種ごとにDNA変異の影響を予測する「AlphaGenome 2」発表",
+      "summary_ja": "Google DeepMindがDNA配列が特定の細胞種に与える影響を予測する次世代AIモデル「AlphaGenome 2」を発表。1億超の細胞データで学習し、細胞の種類や状態を条件指定して予測できる。疾患に関わる遺伝子変異の特定精度を前モデルから大幅に向上させた。非営利目的ならAPI経由で利用可能。",
+      "consultant_insight": "創薬・ヘルスケア領域のAI活用がさらに高度化──製薬企業との連携案件で提案価値が高まる",
+      "importance": 3,
+      "category": "研究",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003132/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "AWS、AIエージェント向けに強力な隔離環境を備えた軽量VM「Nitro Sandboxes」提供開始",
+      "summary_ja": "AWSがAmazon EC2インスタンス上でほぼネイティブ性能で動作しつつ、Nitroハードウェアレベルの強力な隔離環境を備えた軽量仮想マシン「AWS Nitro Sandbox」の提供を開始。AIエージェントの安全な実行環境として設計されている。エージェント時代のインフラ選択肢が広がる。",
+      "consultant_insight": "エージェント実行環境の選定基準に「隔離性能」が加わる──セキュリティ要件の厳しい業界で有力",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003139/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "AI「Muse」専用メールアドレス開始、日本でも取得報告続々──予約メール送受信を任せられる",
+      "summary_ja": "MetaのAIエージェント「Muse」に専用メールアドレス機能が追加され、日本でも取得報告が相次いでいる。Museのメアドから店舗等に予約メールを送らせたり、予定関連のメールをMuseに転送してカレンダーに予定を入れさせたりできる。AIエージェントの実用化が一歩進んだ。",
+      "consultant_insight": "メール業務の自動化がエージェントで現実化──顧客対応業務の設計見直しが必要になる",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003136/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "ユナイテッド航空、外部AIエージェントによる航空券予約を禁止──セキュリティリスクを理由に",
+      "summary_ja": "United Airlinesがサードパーティ製AIエージェントによる自社サービス利用を禁止すると発表。機密情報漏えいや意図しないアカウント操作、航空当局の規制違反の恐れを理由としている。MetaのMuse公開以降、小売・金融業界でも外部AIを制限する動きが広がっている。",
+      "consultant_insight": "AIエージェントの業務利用には提供側の規約確認が必須──禁止措置が広がる可能性に留意",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "ITmedia AI+ / TechCrunch AI",
+      "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003127/"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "旭化成、材料開発プロセス全体を自律化するスマートラボラトリー開設──半導体向け絶縁材に適用",
+      "one_liner": "AI・自動化技術で材料開発を自律実行、2027年1月稼働予定",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03462/"
+    },
+    {
+      "title_ja": "東急電鉄、AIで閉扉判断を支援──ワンマン運転士の負担軽減へ",
+      "one_liner": "カメラ映像をAI解析、車椅子利用者等を検知し運転台に表示",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/110501526/"
+    },
+    {
+      "title_ja": "パナソニック、入力操作で画面変化を予測する世界モデル開発──製造現場の実績入力自動化に道",
+      "one_liner": "モバイル端末への入力作業AI自動化に活用可能な技術",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12162/"
+    },
+    {
+      "title_ja": "ラクス、業務システム開発支援サービス「ASURACORE」を2027年4月提供開始",
+      "one_liner": "SaaSベンダーが用意したソフト群・AIで構築支援",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/110501525/"
+    },
+    {
+      "title_ja": "中国DeepSeek、10月に150億ドルの巨額調達──テンセント・CATLが参加",
+      "one_liner": "6月に続く大型調達、中国AI企業の資金力が鮮明に",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03065/111100023/"
+    },
+    {
+      "title_ja": "Gartner「2027年の戦略的テクノロジのトップ・トレンド」──非言語系AIはLLMの弱点を補えるか",
+      "one_liner": "AIの議論が「何ができるか」から「どう統制するか」へシフト",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/11/news089.html"
+    },
+    {
+      "title_ja": "Autodesk、AI時代の鉄道インフラに「成果志向のBIM」を提唱",
+      "one_liner": "設計から運用・維持管理までデータ駆動で最適化",
+      "category": "業界",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/12/news016.html"
+    },
+    {
+      "title_ja": "EpicAI、生成AIによる故障解析（FTA）の品質評価研究を日本品質管理学会で発表",
+      "one_liner": "製造業の品質管理業務へのAI適用が研究段階で進展",
+      "category": "研究",
+      "url": "https://ascii.jp/elem/000/004/451/4451157/?rss"
+    },
+    {
+      "title_ja": "iPadで手書きラフを基に画像化、ノートアプリから生成AIに貼り付けて指示",
+      "one_liner": "Image Playground以外にも手書き→AI活用の方法が存在",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03708/092900010/"
+    },
+    {
+      "title_ja": "生成AIのメモリー機能を使いこなす──「前にも言ったよね」はAIに通じるのか",
+      "one_liner": "過去のやり取りを別チャットで引き継ぐ際に重宝する機能",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02737/110900070/"
+    },
+    {
+      "title_ja": "Nectar、ブランド向けにクリエイター発見・アウトリーチを自動化するAIエージェント発表",
+      "one_liner": "インフルエンサーマーケティングの業務負荷を軽減",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+    },
+    {
+      "title_ja": "Norwest、AI投資を強化し過去最大40億ドルのファンド組成",
+      "one_liner": "VCのAI投資がさらに加速、資金調達環境は引き続き良好",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
+    },
+    {
+      "title_ja": "Fireworks AIへのサイバー攻撃でNotionユーザーのチャット記録が漏えい",
+      "one_liner": "2か月で2度目のデータ侵害、AIインフラのセキュリティ課題が浮き彫りに",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+    },
+    {
+      "title_ja": "SoftBankの天然ガスタービン先行発注で10億ドル超の損失──AI電力需要への影響は",
+      "one_liner": "AIデータセンター向けエネルギー確保の難しさが明らかに",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+    },
+    {
+      "title_ja": "AIチャットボットが偽小売サイトを推奨、研究で判明──ショッピング利用にリスク",
+      "one_liner": "Gemini、ChatGPT、Perplexityで確認、消費者保護の課題に",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+    }
+  ],
+  "date": "20261113",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
