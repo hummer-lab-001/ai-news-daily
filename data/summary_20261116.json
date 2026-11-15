@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "生成AIに「手足」を与えるAIエージェント、Claude Code登場でブレーク",
-      "summary_ja": "生成AIがAIエージェントとして進化し、対話や思索の相手から実務に使える存在へと変貌を遂げている。Claude Code等の登場により、AIに「手足」を与え、実際の業務を遂行できる段階に到達した。企業の業務フロー全体を変える可能性を秘めた大きなパラダイムシフトが始まっている。",
-      "consultant_insight": "エージェント化により、AIは「相談相手」から「実行者」へ。業務プロセス設計の抜本的見直しが必要に。",
+      "title_ja": "AIエージェントが代わりに支払う「ChatGPT Wallet」、OpenAIが発表",
+      "summary_ja": "OpenAIはAIエージェント「dot」による決済機能「ChatGPT Wallet」を発表した。実際のカード番号を店舗に渡さず、購入ごとに生体認証を求める仕組みで安全性を確保する。米国のChatGPT Pro加入者向けに提供開始。将来は事前承認に基づく自律決済にも対応する計画で、AIエージェントが人間の代わりに実際の購入行為を行う時代が到来する。",
+      "consultant_insight": "AIエージェントによる決済は、承認ワークフローや経費精算の自動化に直結。企業の購買プロセス設計を見直す契機に",
       "importance": 5,
-      "category": "実務",
-      "source_name": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03826/111000001/"
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003208/"
     },
     {
       "rank": 2,
-      "title_ja": "Copilot StudioでAIエージェント作成、初心者でも実装可能な「承認申請」フロー",
-      "summary_ja": "Microsoft Copilot Studioを使い、上長の承認をもらってフローを進めるAIエージェントを初心者でも作成できる具体的な実装方法を解説。プログラミング不要のローコード環境で、企業の承認業務を自動化する実践的なアプローチを提供している。",
-      "consultant_insight": "ローコードでエージェント開発が民主化。IT部門以外でも業務自動化を内製できる時代に突入。",
+      "title_ja": "日経：AIエージェント「Claude Code」登場でブレーク、生成AIに手足を付与",
+      "summary_ja": "生成AIの登場が世界を大きく変えたが、AIエージェントの登場と普及によりさらにもう1段階変わろうとしている。エージェントは生成AIに「手足」を与え、対話や思索の相手から実務に使える存在となる。Claude Codeの登場により、エージェントブレークの兆しが見えてきた。",
+      "consultant_insight": "Claude Codeは対話型AIから実行型AIへの転換点。業務プロセス自動化の提案時に「何ができるか」の具体例として活用可能",
       "importance": 5,
-      "category": "実務",
-      "source_name": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03827/111000001/"
+      "category": "ツール",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03826/111000001/"
     },
     {
       "rank": 3,
-      "title_ja": "IT業界で倒産最多ペース、AIが引き起こす多重下請け構造の崩壊",
-      "summary_ja": "SIer中心のIT業界で長年の多重下請け構造が崩壊しつつある。大手の業績は堅調だが、倒産件数は過去10年間で最多ペースで増加。AIの普及により、大手の受注増が下請け中小企業を潤す構図が過去のものになり、業界構造が根本から変化している。",
-      "consultant_insight": "AI活用で従来の受発注構造が消滅。中堅SIerは「価値提供型」への転換が生き残りの鍵に。",
+      "title_ja": "Copilot Studioで承認申請フローのAIエージェント実装、初心者向け解説",
+      "summary_ja": "「上長の承認をもらってフローを進める」というAIエージェントをMicrosoft Copilot Studioで作成する方法を解説。初心者でも理解できるよう、承認申請機能の実装手順を詳しく紹介。企業の業務フローにAIエージェントを組み込む具体的な手法が学べる。",
+      "consultant_insight": "承認ワークフロー自動化は多くの企業が抱える課題。Copilot Studioの実装例は、AIエージェント導入の初期提案に最適",
       "importance": 5,
-      "category": "業界",
-      "source_name": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03792/110500001/"
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03827/111000001/"
     },
     {
       "rank": 4,
-      "title_ja": "順天堂大学、講義資料をAIで説明動画化──教職員約3,000人に「Sylavids」導入",
-      "summary_ja": "順天堂大学が講義資料を自動的にAI説明動画に変換するシステム「Sylavids」を教職員約3,000人を対象に導入。教材作成の効率化とともに、学習者の理解度向上を図る。医療系大学での大規模導入事例として注目される。",
-      "consultant_insight": "教育コンテンツのAI自動生成が実用段階に。企業研修や顧客向け説明資料にも応用可能。",
+      "title_ja": "OpenAI、科学研究向け専用ブログを新設、GPT-6 Astraが素粒子物理に貢献",
+      "summary_ja": "OpenAIは科学研究向けの新ブログを開設し、AIによる科学的発見の促進に関する最新情報を発信する。第1弾として標準模型の格子定義に関する研究を公開。GPT-6 Astraがアイデアを詳細な証明へと発展させるプロセスを紹介し、AIが高度な理論物理学研究に実際に貢献していることを示した。",
+      "consultant_insight": "科学研究へのAI活用は製薬・材料開発企業に直接関連。GPT-6 Astraの専門分野での実績は導入説得材料に",
       "importance": 4,
-      "category": "実務",
-      "source_name": "ASCII.jp",
-      "url": "https://ascii.jp/elem/000/004/451/4451624/?rss"
+      "category": "研究",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/our-new-blog-for-science"
     },
     {
       "rank": 5,
-      "title_ja": "ゴムマリ、専門業務AI-BPOで「月次決算チェック」サービス開始",
-      "summary_ja": "ゴムマリが専門業務AI-BPOの一環として「月次決算チェック」サービスの提供を開始。経理業務における月次決算の確認作業をAIで効率化し、人的ミスの削減と業務スピードの向上を実現。中小企業の経理部門の負担軽減に貢献する。",
-      "consultant_insight": "経理業務のAI-BPOが本格化。顧問先の間接部門効率化提案の新たな選択肢として有望。",
+      "title_ja": "オートバックスセブン、Geminiで「脱マクロ」、2032年度売上高5000億円目指す",
+      "summary_ja": "オートバックスセブンは2032年度の売上高5000億円を目指してGoogle WorkspaceとGeminiを導入。従来の表計算ソフトのマクロからの移行と、AI活用の全社展開を図る。ライセンス更新を契機に業務基盤を刷新し、経営目標達成の基盤とする戦略。",
+      "consultant_insight": "ライセンス更新を契機とした「脱マクロ」は多くの企業が検討中。Gemini全社展開の実例は同規模企業への提案材料に",
       "importance": 4,
       "category": "実務",
-      "source_name": "ASCII.jp",
-      "url": "https://ascii.jp/elem/000/004/451/4451623/?rss"
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/16/2000003181/"
     },
     {
       "rank": 6,
-      "title_ja": "農業現場のAI活用を経営実践へ──AFJ日本農業経営大学校が新講座開設",
-      "summary_ja": "AFJ日本農業経営大学校が農業現場でのAI活用を経営実践につなげる新講座を開設。農情人代表がメイン講師を務め、農業分野における具体的なAI導入事例と経営への活用方法を指導。第一次産業のDX推進の実践的な教育プログラムとして期待される。",
-      "consultant_insight": "農業分野でもAI活用が経営課題に。地方企業・自治体向け提案で農業DXは新市場。",
+      "title_ja": "メルカリ、AI導入でアプリ開発「2日→数十分」へ、人間のチェックが新たな課題に",
+      "summary_ja": "生成AIの導入により、1～2日かかっていたアプリの画面や試作品の制作が数十分へ短縮されたメルカリ。専門ごとの縦割りを解き、1～3人の少人数で画面から裏側の仕組みまで一気に作り上げる体制へ移行。一方、200～300画面に及ぶアプリではAIが生み出す大量の変更案に対し、人間の最終チェックが追いつかないという新たな課題が浮上している。",
+      "consultant_insight": "開発速度向上の裏で品質管理体制の見直しが必須。AI時代の開発プロセス設計支援の好例",
       "importance": 4,
       "category": "実務",
-      "source_name": "ASCII.jp",
-      "url": "https://ascii.jp/elem/000/004/451/4451633/?rss"
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/16/news031.html"
     },
     {
       "rank": 7,
-      "title_ja": "AIデータセンターで液浸冷却システムの導入加速──絶縁性液体に浸す新方式",
-      "summary_ja": "AI向けデータセンターで、IT機器を専用の液体冷媒に直接浸して冷却する液浸冷却システムの導入が進んでいる。現在主流の空冷方式と比べて冷却性能が高く、発熱量の大きいAIワークロードに対応。絶縁性の高い冷媒液を使用し、エネルギー効率を大幅に向上させる。",
-      "consultant_insight": "AI基盤のインフラコストは冷却が鍵。データセンター選定時の新評価軸として重要に。",
-      "importance": 3,
-      "category": "業界",
-      "source_name": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01679/092800307/"
+      "title_ja": "足立区、議会答弁AIに「分かりません」機能でガード、情報の正確性を重視",
+      "summary_ja": "東京都足立区は2025年にグーグル・クラウド・ジャパンと包括連携協定を結び、議会答弁や区民の声への対応でAIエージェントの実証実験を進めている。「情報を間違えれば区民に影響」との考えから、AIが自信のない回答には「分かりません」と答えるガード機能を実装。運用の仕組みとコツを同社イベントで紹介した。",
+      "consultant_insight": "公共機関のAI活用は「説明責任」が鍵。自治体向け提案時には正確性担保の仕組み設計が必須",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/16/2000003196/"
     },
     {
       "rank": 8,
-      "title_ja": "NVIDIA後継者選び注目──「CUDAの父」バック氏が本命、Apple会長クック氏の名も",
-      "summary_ja": "NVIDIA創業者ジェンスン・ファン氏のCEO辞任を受け、後継者選びに注目が集まる。主力AI事業担当のイアン・バック副社長（「CUDAの父」）が本命とされるほか、Arm CEOのレネ・ハース氏、Apple会長のティム・クック氏などの名前も浮上している。",
-      "consultant_insight": "AIハードウェア業界のリーダーシップ交代は、企業のGPU戦略にも影響。動向注視が必要。",
-      "importance": 3,
+      "title_ja": "大手IT堅調の裏で倒産最多、AIが引き起こす多重下請け構造の崩壊",
+      "summary_ja": "SIerを中心とするIT業界で、長年の慣習だった多重下請け構造が崩壊しつつある。大手の業績が堅調にもかかわらず、倒産件数が過去10年間で最多となるペースで増えている。大手の受注増により下請けの中小企業も潤う構図が過去のものになろうとしており、引き金となったのはAIだ。",
+      "consultant_insight": "IT業界の構造変化は発注企業にもリスク。サプライチェーン見直しとAI内製化支援の提案機会",
+      "importance": 4,
       "category": "業界",
-      "source_name": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12175/"
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03792/110500001/"
     },
     {
       "rank": 9,
-      "title_ja": "Epic Games、アプリストア批判に変化の兆し──AIがもたらすパラダイムシフト",
-      "summary_ja": "アプリストアを巡りプラットフォーム事業者と激しく対立してきたゲーム大手Epic Gamesに変化の兆しが見られる。米国での訴訟は継続するものの、対立の力の入れ具合に変化が出ている。AIがもたらす新たなパラダイムシフトが背景にあると考えられる。",
-      "consultant_insight": "AIによるアプリ配信モデルの変化が既存プラットフォーム戦略を揺るがす可能性。新潮流に注目。",
+      "title_ja": "AIデータセンターで「液浸冷却システム」導入進む、空冷より高い冷却性能",
+      "summary_ja": "IT機器を専用の液体冷媒に直接浸して冷却する液浸冷却システムの導入が、AIデータセンターで進んでいる。現在主流の空冷方式と比べて冷却性能が高く、発熱量の大きいAI向けデータセンターに適している。絶縁性の高い冷媒液を使用する仕組みで、エネルギー効率の向上にも貢献する。",
+      "consultant_insight": "データセンター投資検討中の企業に、冷却方式の選択肢として提示可能。省エネと性能の両立がポイント",
       "importance": 3,
       "category": "業界",
-      "source_name": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00086/00427/"
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01679/092800307/"
     },
     {
       "rank": 10,
-      "title_ja": "米議会、AIチップ輸出規制強化を検討──NVIDIA中国スパイ疑惑を受けて",
-      "summary_ja": "ジェンスン・ファン前NVIDIA CEOと中国スパイ容疑者との関係が明らかになったスキャンダルを受け、米議会がAIチップの輸出規制をさらに厳格化する方向で検討を進めている。国家安全保障の観点から、中国向けAI技術流出への懸念が高まっている。",
-      "consultant_insight": "地政学リスクがAI調達に直結。顧客のサプライチェーン見直し支援が新たなコンサル機会に。",
+      "title_ja": "AI業務利用の情報漏洩・不正操作を防ぐPC常駐型セキュリティ製品、CoWorkerが提供開始",
+      "summary_ja": "CoWorker株式会社は、PCやサーバーに導入してAI利用時のセキュリティリスクを低減する端末常駐型セキュリティ製品「CoWorker AI Harness」の提供を開始。AI業務利用に伴う情報漏洩や不正操作を防ぐことを目的としている。PC常駐型のため、クラウドAIサービス利用時のデータ保護が可能。",
+      "consultant_insight": "AI活用拡大に伴うセキュリティ対策は必須課題。端末側での制御は既存ポリシーとの整合性が取りやすい",
       "importance": 3,
-      "category": "業界",
-      "source_name": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+      "category": "ツール",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/451/4451151/?rss"
     }
   ],
   "digest": [
     {
-      "title_ja": "イーロン・マスク氏ら、ジェンスン・ファン氏のNVIDIA復帰を求める署名運動",
-      "one_liner": "11.5万人以上が署名、辞任したファン氏の復帰を求める動き",
+      "title_ja": "ガートナーが考えるフィジカルAI実装のロードマップと人の役割",
+      "one_liner": "製造業におけるフィジカルAIの現在地とAI時代の人の役割について解説",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news050.html"
     },
     {
-      "title_ja": "NVIDIA、セキュリティ責任者が8月に静かに退任──ファン氏辞任の伏線か",
-      "one_liner": "セキュリティ体制の空白期間が問題視される可能性",
+      "title_ja": "DMG森精機、工作機械部品へのAM活用と最新5軸機を展示",
+      "one_liner": "東京テクノロジーウィークで最新の5軸加工機や金属積層造形機など17台を披露",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/17/news012.html"
     },
     {
-      "title_ja": "ジェンスン・ファン氏の混乱した日々──スキャンダルから辞任までの経緯",
-      "one_liner": "The Vergeが一連の騒動を時系列で整理",
+      "title_ja": "AIモデリング可能な無償3D CAD「SolidCraft」を試用レビュー",
+      "one_liner": "オープンソースのパラメトリック3D CAD、AI対話モデリングの可能性と課題を検証",
+      "category": "ツール",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news011.html"
+    },
+    {
+      "title_ja": "10年間作れなかったアプリがAIで10日で完成、3Dライブアプリ「百夜ステージ」",
+      "one_liner": "動画から1242個のモーションを抽出し自動演出、VRMモデルと組み合わせて実現",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/451/4451644/?rss"
+    },
+    {
+      "title_ja": "農業現場のAI活用を経営実践へ、AFJ日本農業経営大学校の新講座",
+      "one_liner": "農情人代表がメイン講師、農業経営におけるAI活用を実践的に学ぶ",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/451/4451633/?rss"
+    },
+    {
+      "title_ja": "ゴムマリ、専門業務AI-BPO「月次決算チェック」提供開始",
+      "one_liner": "経理業務の専門性をAIとBPOで支援、月次決算の精度向上を図る",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/451/4451623/?rss"
+    },
+    {
+      "title_ja": "アプリストア批判のEpic Gamesに変化の兆し、AIがもたらすパラダイムシフト",
+      "one_liner": "プラットフォーム事業者との対立を続けるも、AI時代の到来で力の入れ具合に変化",
       "category": "業界",
-      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/00086/00427/"
     },
     {
-      "title_ja": "Juggler──オープンソースのGUIコーディングエージェント、JUCEクリエイターが開発",
-      "one_liner": "GitHub公開、ビジュアル開発環境でAIコーディング",
+      "title_ja": "NVIDIA後継者選び、社内なら「CUDAの父」本命、Apple会長の名も",
+      "one_liner": "ファンCEO辞任でバック副社長のほかハース氏やクック氏の名が浮上",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12175/"
+    },
+    {
+      "title_ja": "インド半導体スタートアップBharat Semi、シード2400万ドル調達",
+      "one_liner": "AI対応センサー技術でGeneral Atomicsなどから設計受注獲得",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
+    },
+    {
+      "title_ja": "Jensen Huang氏不在はAI業界にとっても悪材料か",
+      "one_liner": "「ジェンセンはNvidia、この経済の多くがNvidiaに依存している」との指摘",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"
+    },
+    {
+      "title_ja": "米議会、Nvidiaスパイ疑惑受けAIチップ輸出規制強化を検討",
+      "one_liner": "Jensen Huang氏とスパイ容疑者の関係発覚で、中国向け輸出規制をさらに厳格化へ",
+      "category": "業界",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+    },
+    {
+      "title_ja": "Jensen Huang氏、Nvidia復帰を画策か、最新ドラマ情報",
+      "one_liner": "辞任後も影響力を保持、復帰の可能性も取り沙汰される",
+      "category": "業界",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
+    },
+    {
+      "title_ja": "AI関連の求人・応募、エンジニア職よりビジネス職で大きな伸び",
+      "one_liner": "2026年度のIT投資インデックスが過去最高、AI人材需要は非技術職でも拡大",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/451/4451603/?rss"
+    },
+    {
+      "title_ja": "VAIO F16が最大7万円オフ、16型大画面ノートがお買い得",
+      "one_liner": "Intel Coreプロセッサー搭載、充実インターフェースで16万4700円から",
       "category": "ツール",
-      "url": "https://github.com/juggler-ai/juggler"
+      "url": "https://ascii.jp/elem/000/004/451/4451634/?rss"
     },
     {
-      "title_ja": "Plandex──複雑タスク向けAIコーディングエンジン",
-      "one_liner": "大規模プロジェクトの設計・実装をAIが支援",
-      "category": "ツール",
-      "url": "https://github.com/plandex-ai/plandex"
-    },
-    {
-      "title_ja": "Twigg.ai──「LLM向けGit」、コンテキスト管理インターフェース",
-      "one_liner": "プロンプトやコンテキストのバージョン管理を実現",
-      "category": "ツール",
-      "url": "https://twigg.ai"
-    },
-    {
-      "title_ja": "Expanse──遊休GPU容量を活用するプラットフォーム（YC P26）",
-      "one_liner": "企業の未使用GPUリソースを有効活用する仕組み",
-      "category": "ツール",
-      "url": "https://news.ycombinator.com/item?id=48356312"
-    },
-    {
-      "title_ja": "ByteAsk Cloud Agents──大規模コードベースの修正をSlackから実行",
-      "one_liner": "Slack連携でコード修正をAIエージェントが自動対応",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/byteask-cloud-agents"
-    },
-    {
-      "title_ja": "Spiik──会議・講義用AIノートテイカー、ボット不要",
-      "one_liner": "参加者に気づかれずに会議記録を自動化",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/spiik"
-    },
-    {
-      "title_ja": "HiringNow──AIジョブエージェント、他の誰よりも早く求人を発見・応募",
-      "one_liner": "求人検索から応募までAIが自動化",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/hiringnow"
-    },
-    {
-      "title_ja": "Canvas by AgentGrid.io──AIと協働するビジュアルデザインキャンバス",
-      "one_liner": "エージェント設計をビジュアル化して協業",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/agentgrid-io"
-    },
-    {
-      "title_ja": "Pixel Office──ピクセルアートオフィスでAIエージェントチームを運営",
-      "one_liner": "ゲーム感覚でAIエージェントを管理",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/pixel-office-3"
-    },
-    {
-      "title_ja": "Tulvo──スマート＆適応型ワークスペース、全業務を一元管理",
-      "one_liner": "AIが業務フローを学習し最適化",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/tulvo"
-    },
-    {
-      "title_ja": "Rakazo──オープンソースのGrok Bot代替、自分で所有できる",
-      "one_liner": "プライバシー重視のAIチャットボット構築",
+      "title_ja": "オープンソースGrokボット代替「Rakazo」、Product Huntに登場",
+      "one_liner": "自分で所有できるGrokボット代替ツール",
       "category": "ツール",
       "url": "https://www.producthunt.com/products/rakazo"
-    },
-    {
-      "title_ja": "Perit Marketplace──フロンティアAIラボにデータと強化学習タスクを販売",
-      "one_liner": "個人データをAI企業に提供して収益化",
-      "category": "ツール",
-      "url": "https://www.producthunt.com/products/perit-marketplace"
     }
   ],
   "date": "20261116",
