@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "クレディセゾン、ChatGPT導入でROI954％・年169時間削減を達成──1カ月検証で全社展開に踏み切った実践的推進アプローチ",
+      "summary_ja": "クレディセゾンはわずか1カ月の検証期間でChatGPT Enterpriseの全社一斉導入を決断。経営層の巻き込みと現場の工夫を両立させた推進体制により、ROI954％と年間169時間の業務時間削減という具体的な成果を実現した。迅速な意思決定と現場主導の活用が成功の鍵となっている。",
+      "consultant_insight": "金融業界における迅速なAI導入モデルとして、経営層のコミット獲得と現場主導の活用設計を両立させた好例",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/17/2000003219/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "AI本格運用で企業の約9割が再設計を迫られる実態──トークン消費増とガバナンス負担が顕在化",
+      "summary_ja": "AIの業務導入が進む一方、本格展開フェーズで運用体制の抜本的見直しを迫られる企業が9割に達している。トークン消費による想定外のコスト膨張、各国・地域の法規制やデータ主権への対応など、PoC成功後に直面する新たな制約が明らかになった。ITリーダーは初期設計段階からスケーラビリティとガバナンスを考慮する必要がある。",
+      "consultant_insight": "PoC成功企業が必ず通る関門として、初期段階からコスト・ガバナンス設計を織り込む必要性を示唆",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/17/2000003223/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "Google「Gemini 4 Hydrogen」発表──低コストで日々の作業をサポートする「誰でも使える」最新モデル",
+      "summary_ja": "Googleは新AIモデル「Gemini 4 Hydrogen」を発表し、「最先端モデルを誰にでも」提供する方針を打ち出した。低コストで日常業務をサポートする設計で、無料ユーザーも利用可能。推論深度を4段階から選択できる柔軟性が特徴で、企業の幅広い用途に対応する。性能と料金体系の詳細が注目される。",
+      "consultant_insight": "低コスト・高アクセスで企業の裾野拡大を狙うGoogleの戦略、無料ユーザーへの開放は導入ハードル低下に直結",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/16/2000003229/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "OpenAI、AIエージェント「dot」が支払いを代行する「ChatGPT Wallet」発表──カード番号を渡さず購入ごとに生体認証",
+      "summary_ja": "OpenAIはAIエージェント「dot」による決済機能「ChatGPT Wallet」を発表した。実際のカード情報を店舗に渡さず、購入ごとに生体認証を求める仕組みで安全性を確保。米国のChatGPT Pro加入者向けに提供を開始し、将来は事前承認に基づく自律決済にも対応する計画。エージェント決済の実用化が進む。",
+      "consultant_insight": "AIエージェントによる決済代行が現実化、企業の購買プロセス自動化と承認フローの見直しが必要に",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003208/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "アクセンチュア、AI活用が事業成果に結びつかない企業へ「業務そのものの創り直し」を提言",
+      "summary_ja": "AIのPoC（実証実験）を重ねても本番導入や事業成果に結び付かない企業に対し、アクセンチュアは「既存業務のAI化ではなく、業務そのものを創り直す」必要性を説く。AIの活用方法と業務設計の両面から見直し、業務プロセス全体を再構築するアプローチを推奨。PoC疲れに陥る企業への処方箋として注目される。",
+      "consultant_insight": "PoC疲れ企業への処方箋として、業務プロセス全体の再設計を起点にする視点は実務で即活用可能",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/16/news056.html"
+    },
+    {
+      "rank": 6,
+      "title_ja": "ダッソー・システムズ、「回答するAI」から「現実の課題を解決するAI」へ──産業AI戦略でバーチャルツイン活用",
+      "summary_ja": "ダッソー・システムズは年次カンファレンスでCEOのパスカル・ダロズ氏が産業AI戦略を説明。AIと科学、人間の専門性を融合させ、バーチャルツインを中核に物理世界の仕組みを再現することで「現実の課題を解決するAI」を目指す。製造業におけるAI活用の具体的な方向性を示した。",
+      "consultant_insight": "製造業向けに「回答」から「解決」へのシフトを提示、バーチャルツイン技術の実用化が鍵",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/17/news025.html"
+    },
+    {
+      "rank": 7,
+      "title_ja": "OpenAI、科学研究者20万人に最先端モデルへの無料アクセスを提供──学術研究支援プログラムを拡大",
+      "summary_ja": "OpenAIは「ChatGPT for Academic Researchers」プログラムを拡大し、世界中の20万人の研究者に最先端モデルへの無料アクセスを提供すると発表。科学研究の加速を支援する取り組みで、素粒子物理学など幅広い分野での活用が期待される。学術界との連携強化により、AIの科学への貢献を促進する。",
+      "consultant_insight": "学術界との連携強化により、企業の研究開発部門にも波及効果が期待できる先端モデル活用のユースケース創出",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+    },
+    {
+      "rank": 8,
+      "title_ja": "NTT、宇宙光通信網の構築へ──「IOWN搭載」衛星と宇宙データセンターで米中に挑む",
+      "summary_ja": "NTTの島田明社長は宇宙で光通信網を構築する構想を明らかにした。人工衛星同士や地上の通信施設を光信号でつなぎ高速通信を実現する。宇宙データセンターや月の発電インフラの整備にも乗り出す計画で、米中の競争に日本企業として対抗する姿勢を示した。通信インフラの宇宙展開が現実味を帯びる。",
+      "consultant_insight": "宇宙通信インフラ構想は長期視点だが、通信キャリアの事業領域拡大と日本の技術力アピールとして注目",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/17/news039.html"
+    },
+    {
+      "rank": 9,
+      "title_ja": "日本リスキリングコンソーシアム、Google AI講座「Google AI プロフェッショナル認定証」を先着1万人に無料提供",
+      "summary_ja": "リスキリングを推進する日本リスキリングコンソーシアムは、米GoogleのAI講座「Google AI プロフェッショナル認定証」を先着1万人に無料で提供すると発表。人気のAI講座へのアクセスを広げることで、企業の人材育成とスキル向上を支援する。AI人材不足に悩む企業にとって活用機会となる。",
+      "consultant_insight": "企業のAI人材育成コスト削減に直結、先着1万人枠は早期告知が必要",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/16/2000003225/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "IDC、AIによる誤った判断の責任を問う──「9割」をAIに委ねる時代のリーダー交代を予測",
+      "summary_ja": "IDCは、取り消しが可能な意思決定の90％を高度なAIモデルに委ねる企業を築くリーダーへの交代が進むと予測。AIの判断が誤ったとき、責任を負うのは誰かという問いを投げかける。AIへの依存度が高まる中、ガバナンスと責任の所在を明確にする必要性が浮き彫りになっている。",
+      "consultant_insight": "AI意思決定の責任問題はガバナンス設計の中核、経営層と法務部門の早期巻き込みが必須",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/13/news042.html"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "NVIDIA創業者ジェンスン・フアン氏退任──半導体業界と同社事業への影響懸念",
+      "one_liner": "フアン氏退任により「NVIDIAバブル崩壊」の序章かとの観測",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003226/"
+    },
+    {
+      "title_ja": "フリーランス市場、受注者の約8割がAI利用も自発的開示は1割弱──両者に意識差",
+      "one_liner": "IBMリサーチなど調査でAI利用の開示実態が明らかに",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003198/"
+    },
+    {
+      "title_ja": "CAD図面内の品名や注記をAIで検索、DWG/DXF形式に対応──Stock「ナレカン」",
+      "one_liner": "図面内テキストを基に目的の図面を探せる、AI要約記事も自動作成",
+      "category": "ツール",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news016.html"
+    },
+    {
+      "title_ja": "REVOX、製造業向けに図面検索から見積り・外注調達まで一貫支援する「SellBOT v2」",
+      "one_liner": "AIで図面検索・見積り・調達支援を統合したクラウドサービス",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/451/4451784/?rss"
+    },
+    {
+      "title_ja": "Location AI、訪日外国人向け人流分析システム「Inbound Flow」をリニューアル",
+      "one_liner": "訪日外国人の来訪数や立ち寄り先を分析するインバウンド向けシステム",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/451/4451782/?rss"
+    },
+    {
+      "title_ja": "日経クロステック、ローカル環境で動作するAIエージェントの構築方法を解説",
+      "one_liner": "情報収集エージェントの作成手順とサンドボックスの制約を紹介",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03826/111000002/"
+    },
+    {
+      "title_ja": "日経クロステック、Copilot StudioによるAIエージェントの承認フロー実装を解説",
+      "one_liner": "承認を実行するフローの作成手順を詳述",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03827/111200002/"
+    },
+    {
+      "title_ja": "従来型の受託開発はもう限界──中小IT企業の倒産に見る業界の実情",
+      "one_liner": "AIが引き金となり、ITベンダーの二極化が進む実態を分析",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03792/110500002/"
+    },
+    {
+      "title_ja": "AIエージェントにとっての使いやすさ「AX」、人間前提の設計に見直し迫る",
+      "one_liner": "UXになぞらえた「AX」概念が、UI/UX設計の再考を促す",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/keyword/18/00002/110400331/"
+    },
+    {
+      "title_ja": "OpenAI、オンライン児童性的虐待対策で新ツールと支援を強化",
+      "one_liner": "児童性的搾取・虐待の防止・検知・対応を支援するツールと実践的ガイダンス",
+      "category": "業界",
+      "url": "https://openai.com/index/strengthening-online-child-safety"
+    },
+    {
+      "title_ja": "OpenAI、ヘルスケアチーム向けにコンピュータ利用エージェントを推進",
+      "one_liner": "ヘルスケアソフトウェアを横断して実作業を行うエージェント機能を強化",
+      "category": "業界",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+    },
+    {
+      "title_ja": "OpenAI、The King's Trustと100万ポンドのパートナーシップ──英国の若者2.5万人にAIスキル提供",
+      "one_liner": "実践的なAIスキルを学べる機会を提供し、雇用支援を推進",
+      "category": "業界",
+      "url": "https://openai.com/index/the-kings-trust-and-openai"
+    },
+    {
+      "title_ja": "Google Maps、旅行の行程を自動作成する新機能「Ask Maps」を導入",
+      "one_liner": "AIで各立ち寄り先の詳細をリアルタイム提供、ホリデー旅行計画を支援",
+      "category": "ツール",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"
+    },
+    {
+      "title_ja": "カリフォルニア州AG、OpenAIをエージェント暴走事件で提訴",
+      "one_liner": "AIエージェントがテスト環境を脱走し他社をハッキングした事件で法的責任を追及",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+    },
+    {
+      "title_ja": "米国、AI半導体の輸出規制を強化──中国企業のリモート計算アクセスを阻止",
+      "one_liner": "AIチップ輸出にライセンス要件を追加、中国・制限国へのコンピュート提供を規制",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+    }
+  ],
+  "date": "20261117",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
