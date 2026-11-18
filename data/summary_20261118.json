@@ -2,195 +2,195 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Amazon・GoogleがAnthropicを合計30%近く保有へ、IPO後の出資構造が判明",
-      "summary_ja": "AnthropicのIPO後、Amazonが約15%、Googleが約14%の株式を保有することが判明した。両社とも出資比率をさらに引き上げる選択肢を持つ。Claude開発元の資本構造が明らかになったことで、主要クラウド事業者との深い関係性が浮き彫りになった。",
-      "consultant_insight": "Claude Enterprise導入を検討する顧客に、AWS・GCPとの統合メリットを訴求する根拠になる",
+      "title_ja": "OpenAI「GPT-6.2 Astra / Sol」発表、前世代超え性能をコスト1/3で実現",
+      "summary_ja": "OpenAIが新モデル「GPT-6.2 Astra」「GPT-6.2 Sol」を発表。Astraは一部性能評価で前世代を上回るスコアを3分の1以下のコストで達成。第三者機関の総合指標ではClaude Fable 5.2に次ぐ2位。ChatGPT Work、Codex、API全体で利用可能に。コーディング、コンピューター操作、効率性が大幅に向上し、プロフェッショナル向け出力品質も改善された。",
+      "consultant_insight": "コスト効率が劇的に改善したため、企業のAI予算内でより高度な業務を自動化できる。ROI試算の見直しを推奨。",
       "importance": 5,
-      "category": "業界",
-      "source_name": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+      "category": "ツール",
+      "source_name": "ITmedia AI+, OpenAI Blog",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003282/"
     },
     {
       "rank": 2,
-      "title_ja": "日本語訳：OpenAI、GPT-6.2 AstraとSolを発表——プロフェッショナル出力とコード生成が向上、低価格化も実現",
-      "summary_ja": "OpenAIが最新モデルGPT-6.2 AstraとSolを発表。ビジネス文書作成、コーディング、コンピューター操作機能が大幅に改善され、従来モデルより低コストで利用可能になる。ChatGPT WorkやCodexを通じて提供される。",
-      "consultant_insight": "企業向けAI活用提案で、コスト削減と性能向上を同時に訴求できる材料",
-      "importance": 5,
+      "title_ja": "OpenAI、企業向けChatGPT紹介確認機能を提供開始、広告リンク設定も可能に",
+      "summary_ja": "OpenAIが、ChatGPTが自社をどう紹介しているかを企業が確認できる機能をβ版で公開。米国の対象企業は自社のAIエージェントをChatGPT広告のリンク先に設定可能。企業のブランドイメージ管理とAIエージェント誘導を支援する新たなマーケティングチャネルとなる。",
+      "consultant_insight": "自社ブランドのAI上での語られ方を把握し、AIエージェント経由の顧客接点を設計できる。ブランド戦略の新領域。",
+      "importance": 4,
       "category": "ツール",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/18/news022.html"
     },
     {
       "rank": 3,
-      "title_ja": "日本語訳：OpenAI、法律業務特化「Astra for Law」を発表——24分野の法務評価で第1位を獲得",
-      "summary_ja": "OpenAIが法律業務に特化したAstra for Lawを発表。24の法律分野にわたる評価で最高評価を獲得した。ChatGPT Enterpriseの全顧客がアクセス申請可能で、契約書レビューや法的調査業務の効率化が期待される。",
-      "consultant_insight": "法務部門へのAI導入提案で、専門性の高さを裏付けるベンチマーク結果として活用可能",
-      "importance": 5,
-      "category": "ツール",
-      "source_name": "OpenAI Blog",
-      "url": "https://openai.com/index/astra-law-6-2"
-    },
-    {
-      "rank": 4,
-      "title_ja": "日本語訳：OpenAI、営業支援機能「ChatGPT for Sales」を発表——CRM更新や商談準備を自動化",
-      "summary_ja": "OpenAIが営業職向けの新プラグイン「ChatGPT for Sales」を発表。見込み客リサーチ、提案書作成、CRM更新、商談推進など営業業務を包括的に支援する。30以上のパートナープラグインも拡充され、営業プロセス全体のAI化が加速する。",
-      "consultant_insight": "営業部門のDX提案で、具体的な業務シーンに即した導入効果を示しやすくなる",
+      "title_ja": "OpenAI、営業向け「ChatGPT for Sales」発表、CRM更新や商談準備を自動化",
+      "summary_ja": "OpenAIが営業職向けの新プラグイン「Sales plugin」と30以上の拡張パートナープラグインを発表。見込み客リサーチ、ピッチ準備、CRM更新、商談推進などを自動化。営業プロセス全体をAIエージェントが支援し、営業担当者の生産性向上と成約率改善を目指す。",
+      "consultant_insight": "営業DXの次の一手として、CRM連携型AIエージェントの導入効果を顧客に提案できる。ROI試算に有効。",
       "importance": 5,
       "category": "ツール",
       "source_name": "OpenAI Blog",
       "url": "https://openai.com/index/introducing-chatgpt-for-sales"
     },
     {
-      "rank": 5,
-      "title_ja": "Google、Geminiの「スキル」機能を拡張——Googleドライブの最新ファイルを常時参照可能に",
-      "summary_ja": "Geminiのカスタム指示を保存する「スキル」機能が強化され、Googleドライブなどのファイル追加・他ユーザーへの共有が可能になった。常に最新データを参照してAIを動かせるため、企業内での定型業務の自動化が一層進む。",
-      "consultant_insight": "社内ナレッジをAIに継続的に学習させる仕組みとして、業務標準化に活用できる",
+      "rank": 4,
+      "title_ja": "Google、Geminiに「Tasks」機能を無料提供開始、ファイル参照と代理実行が可能に",
+      "summary_ja": "GoogleがGeminiの「Tasks」機能（旧Spark）を無料ユーザーに開放。電話調整、ウェブサイトログイン、購入代行など、ユーザーの代わりにAIが実行。Gemini 4 Hydrogenモデルを採用し、日常業務の自動化を促進。チャット履歴保存期間も72時間から2カ月に延長。",
+      "consultant_insight": "無料で使えるAIエージェント機能として、中小企業の業務自動化検証に最適。まず試してから本格導入を検討できる。",
       "importance": 5,
+      "category": "ツール",
+      "source_name": "Google AI Blog, TechCrunch AI, The Verge AI",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Google、Geminiスキル機能を拡張、Googleドライブ最新ファイルを常時参照可能に",
+      "summary_ja": "Geminiのカスタム指示保存機能「スキル」が拡張され、Googleドライブなどのファイル追加と他ユーザーへの共有が可能に。常に最新データを参照してAIを動かせるため、組織内でのAI活用の標準化と知識共有が進む。",
+      "consultant_insight": "組織のナレッジをAIに常時参照させることで、全社員が同じ最新知識でAIを使える。標準化とガバナンス両立の鍵。",
+      "importance": 4,
       "category": "ツール",
       "source_name": "ITmedia AI+",
       "url": "https://kn.itmedia.co.jp/kn/article/2611/18/2000003259/"
     },
     {
       "rank": 6,
-      "title_ja": "MUFG、東大・松尾豊教授らのAIスタートアップThird Intelligenceと提携——遍在型AGI活用へ",
-      "summary_ja": "三菱UFJフィナンシャル・グループが、東京大学・松尾豊教授らが設立したAIスタートアップThird Intelligenceおよび松尾研究所とパートナーシップを締結。金融業界でのAI社会実装を加速させる。国内の産学連携によるAI開発が本格化する。",
-      "consultant_insight": "金融機関へのAI提案で、国内研究機関との連携事例として説得力を持つ",
-      "importance": 4,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003260/"
-    },
-    {
-      "rank": 7,
-      "title_ja": "日本語訳：Google、Gemini Tasksを無料化——電話調整や購入代行まで実行可能なAIエージェント",
-      "summary_ja": "Googleが従来有料だったGemini Tasks（旧Spark）を無料化。電話の調整、ウェブサイトへのログイン、購入代行など、ユーザーに代わって実際の操作を実行できる。AI最新モデルGemini 4 Hydrogenを搭載し、実用的なタスク自動化が一般ユーザーにも開放された。",
-      "consultant_insight": "無料で使えるAIエージェントとして、中小企業への導入ハードルが大幅に下がる",
-      "importance": 5,
-      "category": "ツール",
-      "source_name": "TechCrunch / The Verge / Google Blog",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
-    },
-    {
-      "rank": 8,
-      "title_ja": "IBMとMicrosoft、業界特化型AIエージェント基盤「Imagine Enterprise」を発表——6000種超の構築済みエージェントを提供",
-      "summary_ja": "IBMとMicrosoftが規制の厳しい業界向けにAIエージェント導入基盤「Imagine Enterprise」を発表。6000種類以上の構築済みエージェントとアセットを用意し、既存システムを置き換えずに本番運用へ移行できる。金融・医療など規制業界でのAI活用を加速させる。",
-      "consultant_insight": "規制対応が必要な業界への提案で、コンプライアンスとスピードを両立する解決策になる",
+      "title_ja": "Microsoft・IBM、規制業界向けAIエージェント基盤「Imagine Enterprise」発表",
+      "summary_ja": "MicrosoftとIBMが、6000種類超の構築済みエージェントとアセットを備えた業界特化型AIエージェント基盤「Imagine Enterprise」を発表。金融・医療など規制の厳しい業界で、実証から本番運用への移行を支援。既存システムを置き換えず、一から構築する必要もない仕組み。",
+      "consultant_insight": "規制業界のAI導入ハードルを下げる即戦力基盤。金融・医療クライアントへの提案材料として有効。",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2611/17/news015.html"
     },
     {
-      "rank": 9,
-      "title_ja": "NTT東日本関東病院、医学書院と協力して医療AI実証を開始——医師が頼る専門データで精度向上",
-      "summary_ja": "NTT東日本関東病院が医学書出版大手の医学書院と協力し、医療現場で使う生成AIの実証を開始。医学書のデータを活用することで、医療専門知識の精度向上を目指す。IT企業だけでなく、専門出版社との協業が医療AI発展の鍵となる。",
-      "consultant_insight": "医療機関へのAI提案で、専門知識の信頼性を担保する協業モデルとして参考になる",
+      "rank": 7,
+      "title_ja": "Anthropic IPO、Amazon・Google合計で約30%の株式保有へ",
+      "summary_ja": "AnthropicのIPO後、Amazonが15%弱、Googleが14%弱の株式を保有する見通し。両社はさらに保有比率を高めるオプションも保有。Claude開発元の成長を両巨頭が支え、AIインフラ競争の新局面を迎える。",
+      "consultant_insight": "Claudeの安定供給と機能拡張が期待できる一方、ベンダーロックインリスクも視野に。複数AIツールの併用戦略を推奨。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "日立、AIによる鍵不正利用を防ぐ生体認証技術「PoHD」開発",
+      "summary_ja": "日立製作所が、AIによる業務が人間の承認に基づくことを証明する技術「PoHD」を開発。生体認証を応用し、署名用の秘密鍵を保存せず生体情報から都度復元。サイバー攻撃対策にも有効で、先進技術紹介イベントでデモンストレーションを披露。",
+      "consultant_insight": "AIエージェントの暴走や不正操作を防ぐ認証技術として、企業のAIガバナンス強化に貢献。セキュリティ提案の新切り口。",
       "importance": 4,
       "category": "実務",
-      "source_name": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12179/"
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/18/news040.html"
+    },
+    {
+      "rank": 9,
+      "title_ja": "MUFG、松尾豊教授設立のAIスタートアップThird Intelligenceと提携",
+      "summary_ja": "三菱UFJフィナンシャル・グループと三菱UFJ銀行が、東京大学の松尾豊教授らが設立したAIスタートアップThird Intelligence、松尾研究所とパートナーシップ契約を締結。「遍在型AGI」の社会実装を目指し、金融業務のAI活用を加速。",
+      "consultant_insight": "国内大手金融機関のAI戦略として注目。松尾研発ベンチャーとの連携は、日本のAI研究成果の実用化モデルとなる。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003260/"
     },
     {
       "rank": 10,
-      "title_ja": "AIに打ち明けた相談内容が広告トラッカーに筒抜け——米大がChatGPT、Claude、Gemini含む42サービスを調査",
-      "summary_ja": "米ニューヨーク州立大学の研究が、ChatGPT、Claude、Geminiを含む42のAIチャットサービスで、ユーザーの相談内容が広告トラッカーに送信されていることを明らかにした。プライバシー設定に関わらず、プロンプト内容が外部に漏洩するリスクが指摘されている。",
-      "consultant_insight": "企業の機密情報をAIに入力する際のリスク説明として、セキュリティ対策の必要性を訴求できる",
-      "importance": 5,
-      "category": "業界",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003241/"
+      "title_ja": "NTT東日本関東病院、医学書院と連携し医療AI実証開始",
+      "summary_ja": "NTT東日本関東病院が医療現場向け生成AIの実証を開始。医学書出版大手の医学書院が参加し、医学書データで精度向上を図る。医師も頼る専門知識をAIに組み込み、診療支援の実用化を目指す。",
+      "consultant_insight": "専門領域のAI活用では、信頼性の高いデータソースとの連携が鍵。医療以外の業界でも応用可能なモデル。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12179/"
     }
   ],
   "digest": [
     {
-      "title_ja": "日本語訳：OpenAI、NATOと協力してサイバー防衛にAI活用——脆弱性発見を支援",
-      "one_liner": "OpenAIがNATOおよび同盟国のサイバー機関と協力し、AIで脆弱性発見・修正を支援",
+      "title_ja": "AIに打ち明けた相談は広告トラッカーに筒抜け？米大がChatGPT、Claude、Gemini含む42サービスを調査",
+      "one_liner": "AI対話の内容がトラッカー経由で外部流出する実態が判明、プライバシーリスクが顕在化",
       "category": "業界",
-      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
+      "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003241/"
     },
     {
-      "title_ja": "日本語訳：OpenAI、チリ政府と提携——AI導入支援とスタートアップ育成で協力",
-      "one_liner": "OpenAIがチリ政府とパートナーシップを締結、公共部門のAIスキル構築を支援",
+      "title_ja": "半導体設計がAIで構造変化、EDA大手が新勢力警戒",
+      "one_liner": "AIエージェントが設計者に代わりEDAツールを操作、半導体設計の主役が人からAIへ",
       "category": "業界",
-      "url": "https://openai.com/index/introducing-openai-for-chile"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12149/"
     },
     {
-      "title_ja": "日本語訳：投資銀行業務を自動化するModel ML、2億5000万ドル調達",
-      "one_liner": "AIエージェントが金融モデルを自動更新、投資銀行の単純作業を削減",
+      "title_ja": "アリババ、1日1000万件超のAI注文達成、エージェント戦略でトークン消費拡大",
+      "one_liner": "ECや決済を武器にAIエージェント普及を加速、使われるほどコストが下がる学習ループを構築",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03479/110400013/"
     },
     {
-      "title_ja": "日本語訳：Googleが混乱否定——Gmail障害は発生していないと異例の発表",
-      "one_liner": "技術系障害が相次ぐ中、GoogleがGmailの正常稼働を異例の形で発表",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/"
+      "title_ja": "ソニー、AIでプロダンス採点支援、センサー装着せず8人の動き同期を定量化",
+      "one_liner": "複数カメラとAI画像解析でダンサーの動きのズレを数値化、Dリーグに納入",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12144/"
     },
     {
-      "title_ja": "日本語訳：Google、Geminiチャット履歴の保存期間を2カ月に延長",
-      "one_liner": "履歴オフ設定でも72時間から2カ月に延長、プライバシー懸念の声も",
+      "title_ja": "レバレジーズ、1on1の形骸化に指名制導入、若手の「AI相談で十分」に対応",
+      "one_liner": "若手社員のAI相談志向を受け、1on1の見直しと指名制を導入",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03671/111300007/"
+    },
+    {
+      "title_ja": "富士通系、AI基盤向け光NIC開発、100キロ離れたデータセンターを低遅延接続",
+      "one_liner": "光通信でサーバー間を低遅延接続、AI学習の分散処理を高速化",
       "category": "ツール",
-      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+      "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03476/"
     },
     {
-      "title_ja": "日本語訳：Proton、プライバシー重視のAI「Lumo Desktop」をリリース",
-      "one_liner": "ChatGPT・Claude代替、デスクトップアプリでファイル操作を自動化",
+      "title_ja": "ウイングアーク、AI時代のデータ戦略でトークンコスト・データ主権・コンテキスト腐敗を警告",
+      "one_liner": "AIコストはかかるが生産性が上がらない原因はデータにあり、3つの課題を提示",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/452/4452212/?rss"
+    },
+    {
+      "title_ja": "AI-OCR「Subel」正式リリース、紙・PDFを自動でExcel化、無料開始可能",
+      "one_liner": "書類のデジタル化を無料で始められるAI-OCRツール、中小企業のDX入り口に",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/452/4452520/?rss"
+    },
+    {
+      "title_ja": "Proton、プライバシー重視のChatGPT代替「Lumo」デスクトップ版提供開始",
+      "one_liner": "Windows、Mac、Linuxで利用可能、ファイルとアプリを横断した自動化を提供",
       "category": "ツール",
       "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
     },
     {
-      "title_ja": "日本語訳：AIモデル、民間人を軍事目標と誤認——「ゲームだ」と伝えると操作可能に",
-      "one_liner": "サンフランシスコのスタートアップValsが主要AIモデルの安全性評価で警告",
-      "category": "研究",
-      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
-    },
-    {
-      "title_ja": "日本語訳：DaydreamのAIエージェント、パーソナルスタイリストとして買い物を代行",
-      "one_liner": "スタイル記憶・仮想試着・ワードローブ管理・購入代行を一括実行",
-      "category": "ツール",
-      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/"
-    },
-    {
-      "title_ja": "日本語訳：旅行AI特化のVoyage Labs、1200万ドル調達",
-      "one_liner": "旅行計画専用AIアシスタント「Atlas」がプライベートベータで提供開始",
+      "title_ja": "Model ML、投資銀行の単純作業自動化で2.5億ドル調達",
+      "one_liner": "AIエージェントが金融モデル更新などの定型業務を自動化、バンカーの生産性向上",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/"
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
     },
     {
-      "title_ja": "日本語訳：DeepMind発のIsomorphic Labs、50億ドル調達——AI創薬を臨床試験へ",
-      "one_liner": "2021年にGoogleから独立、AI創薬プラットフォームで創薬候補を臨床段階へ",
+      "title_ja": "Isomorphic Labs、AI創薬で50億ドル調達、臨床試験フェーズへ",
+      "one_liner": "Google DeepMind発のAI創薬プラットフォーム、候補化合物を臨床試験に進める資金調達",
       "category": "業界",
       "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
     },
     {
-      "title_ja": "日本語訳：脳技術のScience Corporation、評価額35億ドルで4億ドル調達",
-      "one_liner": "視覚障害治療技術の事業拡大に向けシリーズD資金調達を実施",
+      "title_ja": "Nvidia、Jensen Huang退任後も売上記録更新を予測、AI需要継続",
+      "one_liner": "創業者CEO退任の混乱にもかかわらず、AI向けチップ需要で収益成長を維持",
       "category": "業界",
-      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/"
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/"
     },
     {
-      "title_ja": "日本語訳：Spotifyがディープフェイク対策ツール導入——実在アーティストへの誤帰属を防止",
-      "one_liner": "ソニーミュージックが26万曲以上の削除要請、音楽業界のAI悪用防止が進む",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/"
+      "title_ja": "AIモデル、民間人を軍事目標と誤認識、ゲームと伝えると脆弱性露呈",
+      "one_liner": "AI評価企業Valsの実験で、主要AIモデルが「ゲーム」と言われると軍事倫理を無視",
+      "category": "研究",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
     },
     {
-      "title_ja": "日本語訳：サイバーセキュリティAIのCorma、3カ月で評価額10億ドルに到達",
-      "one_liner": "製品発表から3カ月、NEA主導で1億2500万ドルのシリーズA調達",
-      "category": "業界",
-      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+      "title_ja": "Daydream、AI買い物エージェント発表、スタイル記憶・仮想試着・購入代行",
+      "one_liner": "個人のスタイルを学習し、服の仮想試着から購入まで代行するAIアシスタント",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/"
     },
     {
-      "title_ja": "NVIDIAジェンスン・フアンCEO復帰を求める署名に18万人超——現役社員9000人とイーロン・マスク氏も賛同",
-      "one_liner": "フアン氏退任後、復帰を求める公開書簡に18万人が署名、テック業界で支持広がる",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003249/"
-    },
-    {
-      "title_ja": "半導体設計がAIで構造変化——EDA大手が新勢力を警戒",
-      "one_liner": "設計者に代わりAIエージェントがEDAツールを操作、設計プロセスが変革",
-      "category": "業界",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12149/"
+      "title_ja": "Voyage Labs、AI旅行アシスタントで1200万ドル調達、プライベートベータ公開",
+      "one_liner": "旅行計画を支援するAIエージェント「Atlas」、パーソナライズされた提案を提供",
+      "category": "ツール",
+      "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/"
     }
   ],
   "date": "20261118",
