@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "孫正義氏、Anthropic出資見送りを「僕の失敗」と告白──OpenAIへの集中投資とAI戦略の舞台裏",
+      "summary_ja": "ソフトバンクグループの孫正義会長兼社長が、日経主催イベントでAnthropic出資見送りを「失敗例の一つ」と明かした。ダリオ・アモデイCEOと直接面会しその凄さを認めながらも、OpenAIへの集中投資を優先した経緯を説明。同社のClaude Code成功で、AI業界における投資判断の重要性が改めて浮き彫りになった。",
+      "consultant_insight": "顧客企業にとっては、AI基盤選定の多様化リスクを示唆する重要事例。複数ベンダーの評価体制構築を助言すべき。",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/18/news086.html"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Notion AI情報漏洩懸念、CISOが日本での対応状況を公表──「心よりおわび」と再発防止策",
+      "summary_ja": "Notion AIのチャット記録が漏洩した可能性がある事案について、米Notion Labsのデイビッド・ツァオCISOが日本での対応状況を明らかにした。企業の業務ツールとして広く使われるNotionで発生した今回の事案は、AI機能を持つSaaSのセキュリティ管理の重要性を再認識させる出来事となった。日本企業への影響調査と再発防止策の実施状況が焦点。",
+      "consultant_insight": "顧客のSaaS AI機能導入時には、データ保護ポリシーとインシデント対応体制の事前確認を必須チェック項目に。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003299/"
+    },
+    {
+      "rank": 3,
+      "title_ja": "Claude Code／Cursor、SnapchatのAR Lens開発に対応──自然言語でARコンテンツ制作可能に",
+      "summary_ja": "Snapchatが開発者向けに、Claude CodeやCursorなどのAIコーディングアシスタントを使ったAR Lens開発機能を提供開始。自然言語で説明するだけで、AIアシスタントがコード生成から公開まで一貫して処理する。クリエイターの技術的障壁を大幅に下げ、AR体験の民主化を加速させる動きとして注目される。",
+      "consultant_insight": "ノーコード／ローコード領域でのAI活用の新モデル。顧客のデジタルマーケティング部門への提案材料に最適。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "OpenAI「Codex」サンドボックス内部構造を公開──macOS・Linux・Windowsで安全にコマンド実行",
+      "summary_ja": "OpenAIがClaude Code対抗の「Codex」について、ファイルシステムとネットワークの制限をユーザーが制御できるサンドボックス内でコマンドを実行する仕組みを詳細公開。macOS・Linux・Windowsの3プラットフォーム全てで動作し、セキュリティを担保しながらAIエージェントがマシン操作を行える基盤を提供。企業での安全なAI活用の実装モデルとして重要。",
+      "consultant_insight": "顧客のAIエージェント導入時、セキュリティ境界設計の参考実装として提示できる技術情報。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/inside-the-codex-sandbox"
+    },
+    {
+      "rank": 5,
+      "title_ja": "OpenAI、フロンティアAIリスク管理手法を公開──学習から本番運用まで一貫した安全対策",
+      "summary_ja": "OpenAIがフロンティアAI（最先端AI）のリスク管理手法を詳細公開。モデル学習段階からデプロイまで、アライメント調整・サンドボックス実行・ブロッキング・監視の4層防御を実装。企業がAIを安全に業務利用するための実践的なガバナンスフレームワークとして活用できる内容。規制対応や社内ガイドライン策定の参考資料に最適。",
+      "consultant_insight": "顧客のAIガバナンス体制構築時、業界標準として参照すべき実装フレームワーク。規制対応にも有効。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/managing-frontier-ai-risk"
+    },
+    {
+      "rank": 6,
+      "title_ja": "ChatGPT、企業紹介の確認機能を提供開始──自社がどう説明されているか把握可能に",
+      "summary_ja": "OpenAIが企業向けに、ChatGPTがユーザーに対して自社をどのように紹介しているかを確認できる機能をβ版で公開。米国の対象企業は自社のAIエージェントをChatGPT広告のリンク先に設定することも可能。企業のブランド管理とAI時代のマーケティング戦略に新たな選択肢を提供する動き。",
+      "consultant_insight": "顧客のブランド管理部門に、AI生成コンテンツのモニタリング体制構築を提案する根拠として活用できる。",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/18/news022.html"
+    },
+    {
+      "rank": 7,
+      "title_ja": "「オントロジー」の正体、Palantir・Databricks・Snowflake・NVIDIAで中身が違う理由",
+      "summary_ja": "AIが書いたSQLがエラーなく動いても「売上」の定義を取り違えれば正しい結果は得られない。業務上の意味を共有する仕組み「オントロジー」が注目されるが、各社の製品で定義範囲と実行方法が大きく異なる。従来の考え方と主要製品を開発者視点で比較整理し、企業のデータ活用に不可欠な共通理解の構築手法を解説。",
+      "consultant_insight": "顧客のデータ基盤刷新時、業務定義の統一を技術的に支援する製品選定の判断材料として重要。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/19/news008.html"
+    },
+    {
+      "rank": 8,
+      "title_ja": "Anthropic IPO、1株83ドルで価格決定──想定レンジ上回り、完全希薄化ベースで時価総額1.5兆ドル",
+      "summary_ja": "長らく待たれていたAnthropicのIPOが、1株83ドルで価格決定したと報じられた。これは事前の想定価格レンジを上回る水準で、完全希薄化ベースでの時価総額は約1.5兆ドルに達する見通し。Claude Code／Claudeの成功を背景に、AI業界における同社の存在感がさらに高まることが予想される。",
+      "consultant_insight": "AI基盤の選択肢多様化が進む中、顧客への複数ベンダー活用戦略の提案を強化すべき時期。",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "日立、AIによる鍵不正利用を生体認証で防ぐ「PoHD」技術を開発──サイバー攻撃対策にも有効",
+      "summary_ja": "日立製作所が、AIによる業務実行が人間の承認に基づくことを証明する技術「PoHD（Proof of Human Decision）」を開発。生体認証を応用し、署名用の秘密鍵を保存せず生体情報から都度復元する仕組みで、AIエージェントの不正利用やサイバー攻撃を防ぐ。AIの業務活用が進む中、人間の意思決定を技術的に保証する新たなセキュリティ手法として注目される。",
+      "consultant_insight": "顧客のAIエージェント導入時、人間承認を技術的に担保する実装例として提案材料に。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/18/news040.html"
+    },
+    {
+      "rank": 10,
+      "title_ja": "Google AI検索に「一時スレッド」機能、履歴に残さず会話──AIモード専用のプライバシー保護",
+      "summary_ja": "GoogleがAI検索機能「AI Mode」に、検索履歴に残さず会話できる「一時スレッド（Temporary Threads）」機能を追加。将来のおすすめにも影響しない完全なインコグニートモードで、プライバシーを重視したAI活用が可能に。企業での業務利用時の情報管理リスクを低減する選択肢として注目される。",
+      "consultant_insight": "顧客企業の機密情報を扱う業務でのAI活用時、プライバシー保護機能の活用を提案する根拠に。",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "米ロックウェル、人間中心の自律化ビジョンとAI戦略を披露",
+      "one_liner": "製造業の自動化から自律化へ、人間とAIの協調を重視した次世代戦略",
+      "category": "業界",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/19/news026.html"
+    },
+    {
+      "title_ja": "SlackやTeams上の問い合わせを自動調査・回答するAIエージェント",
+      "one_liner": "ベースマキナが「テクサポAI」を正式提供、カスタマーサポート自動化",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/452/4452918/?rss"
+    },
+    {
+      "title_ja": "川崎重工業、フィジカルAIロボを外販へ──溶接・見守り向け28年度に",
+      "one_liner": "造船所・介護現場で鍛えた4脚・犬型ロボット、開発半年で試作完成",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00007/00350/"
+    },
+    {
+      "title_ja": "オムロン、約1000億円でIPC企業買収──フィジカルAI基盤強化",
+      "one_liner": "PLCとIPCの連携でデータ分析と機器制御を統合、AI導入を加速",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00001/00703/"
+    },
+    {
+      "title_ja": "Cognition日本法人、Devin直販とFDEで普及加速へ",
+      "one_liner": "自律型AIエージェント「Devin」、日本市場で直販ビジネス展開",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02893/111700018/"
+    },
+    {
+      "title_ja": "バイドゥ「Kooko」、海外展開1年で1000万人突破",
+      "one_liner": "対話型オフィスAI、世界約200カ国・地域で利用拡大",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02653/111300088/"
+    },
+    {
+      "title_ja": "名古屋大ら、テスラ比70％軽量インバーターを29年に実用化へ",
+      "one_liner": "EV・eVTOL・AIデータセンター向け、三菱電機など8社が参加",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00001/00702/"
+    },
+    {
+      "title_ja": "TDKと太陽誘電、業務提携検討──AI向け電子部品で連携",
+      "one_liner": "製造・調達連携や将来的な資本提携も視野、業界再編の可能性",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00001/00701/"
+    },
+    {
+      "title_ja": "ADEKA、半導体材料特化の研究拠点を埼玉に開設",
+      "one_liner": "AI半導体向け成膜材料やフォトレジスト開発を加速、2036年売上3000億円目標",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/ne/18/00001/00699/"
+    },
+    {
+      "title_ja": "OpenAI、仏紙Le Figaroと提携──ChatGPTで記事要約提供",
+      "one_liner": "要約・抜粋をChatGPTで表示、元記事へのリンクで誘導",
+      "category": "業界",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
+    },
+    {
+      "title_ja": "OpenAI、チップ設計にAI活用──GPT-6 Astraで回路最適化",
+      "one_liner": "Jalapeñoシリコンの回路設計やRISC-Vコア改善に成果",
+      "category": "研究",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models"
+    },
+    {
+      "title_ja": "Geminiアプリ、低メモリAndroid端末でも利用可能に",
+      "one_liner": "Gemini Liveやカスタム画像生成機能が幅広い端末で使える",
+      "category": "ツール",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+    },
+    {
+      "title_ja": "Felicis、Unsiloed AIに7.5百万ドル出資──企業文書をAIエージェント対応に",
+      "one_liner": "7人チームでGoogle・Anthropicと競合、文書処理市場に挑戦",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/"
+    },
+    {
+      "title_ja": "インドHumyn Labs、4700万ドル調達──米ロボット企業向け学習データ供給",
+      "one_liner": "売上の約90％が米国、Mecka AIやXDOFと競合",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    },
+    {
+      "title_ja": "Citiなど大手銀行、AI金融エージェント利用時の顧客保護を制限",
+      "one_liner": "ハッキング被害でも自己責任、AIエージェント活用に制約",
+      "category": "業界",
+      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
+    }
+  ],
+  "date": "20261119",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
