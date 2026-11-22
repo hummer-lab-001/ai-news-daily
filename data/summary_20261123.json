@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "Anthropicの数学者、Claudeと共同でリーマン予想を証明──Leanコミュニティが正式認定",
+      "summary_ja": "Anthropicの数学者レベント・アルポーゲ氏が、Claudeを使って「リーマン予想」の証明を発見したと発表。証明支援系Leanで記述された1700万行の形式証明を公開し、Leanコミュニティは複数の検証を経て「証明は正しい」と認定する共同声明を発表した。\n\n数学の未解決問題をAIが解決する画期的な事例で、Claudeの推論能力と数学者の協働が成果を生んだ。形式証明という厳密な手法により、人間の検証可能性も確保されている。\n\n1700万行という膨大な証明をAIが支援したことで、従来不可能だった複雑な数学問題へのアプローチが現実化。学術研究におけるAI活用の新しい地平を開いた。",
+      "consultant_insight": "数学・科学研究でのClaude活用が実証された。複雑な論理検証が必要な業務への応用可能性を示唆",
+      "importance": 5,
+      "category": "研究",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "OpenAI、perplexityを用いたAIモデル評価の新指標を提案──開発者向け共通アプローチ確立へ",
+      "summary_ja": "OpenAIが、perplexity（困惑度）を用いてAIモデルの進化を測定する手法を提唱。モデルの予測精度と知能の関係性を定量化し、開発者が新興能力を評価するための共通アプローチの確立を目指す。\n\nperplexityは言語モデルが次のトークンをどれだけ正確に予測できるかを示す指標で、低いほど高性能。この指標を標準化することで、異なるモデル間の比較や進化の追跡が容易になる。\n\n開発者コミュニティ全体で評価基準を統一することで、AIモデルの実用性判断や選定がより客観的になり、企業のAI導入判断を支援する基盤となる。",
+      "consultant_insight": "AIモデル選定の客観指標が確立へ。顧客のモデル選定・評価プロセスに科学的根拠を提供可能",
+      "importance": 4,
+      "category": "研究",
+      "source_name": "OpenAI Blog",
+      "url": "https://openai.com/index/perplexity-and-intelligence"
+    },
+    {
+      "rank": 3,
+      "title_ja": "企業のAI活用調査で判明「独自の判断基準」が導入失敗の盲点──管理職の半数が利用停止を経験",
+      "summary_ja": "管理職を対象にした調査で、半数以上が勤務先で利用されなくなったAIツールや用途があると回答。背景には、汎用AIツールが企業独自の判断基準や業務コンテキストに対応できていない課題がある。\n\n導入したAIツールが実務で機能しない理由として、企業固有のルール・基準・暗黙知への対応不足が浮き彫りに。単なる知識提供ではなく、組織特有の判断ロジックの実装が必要。\n\nAI導入の成否は技術性能より、企業文化や業務プロセスへの適合度で決まる。カスタマイズや段階的な組織学習が不可欠であることを示す調査結果。",
+      "consultant_insight": "AI導入失敗の本質は「企業固有ルールの未実装」。カスタマイズ支援とチェンジマネジメントが鍵",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/22/2000003384/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "Ulika、Claude・Cursor・Codexで構築したサイト向けビジュアルエディタを公開",
+      "summary_ja": "Claude Code、Cursor、OpenAI Codexなど、AIコーディングツールで構築したWebサイトを、ビジュアル編集できるツール「Ulika」が登場。ノーコードでデザイン調整や要素配置が可能。\n\nAI生成コードは初期構築は速いが、細かな調整や継続的なメンテナンスに課題がある。Ulikaはこのギャップを埋め、非エンジニアでも生成後の編集・運用ができる環境を提供。\n\nAIコーディングの「作って終わり」から「継続的改善」へ移行を支援。開発と運用の橋渡しツールとして、AIプロジェクトの実用性向上に貢献する。",
+      "consultant_insight": "Claude等で構築後のサイト運用課題を解決。非エンジニアによる継続改善体制の構築を支援可能",
+      "importance": 4,
+      "category": "ツール",
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/ulika"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Signal、AI監視対策でスクリーンショット機能を制限──「実存的脅威」に対抗",
+      "summary_ja": "プライバシー重視のメッセージアプリSignalが、AndroidとiOSアプリでスクリーンショット機能を制限。AI技術による大規模監視を「実存的脅威」と位置づけ、ユーザー保護を強化。\n\nAI画像認識技術の進化により、スクリーンショットから大量の個人情報が抽出・分析されるリスクが増大。Signalはこれを防ぐため、技術的制約を導入して監視耐性を高める。\n\n企業の機密情報保護やコンプライアンスにも示唆的。AIによる情報漏洩リスクが現実化する中、技術的な防御手段の重要性が増している。",
+      "consultant_insight": "AI監視リスクへの技術的対抗策。企業の情報漏洩対策にも応用可能なアプローチとして注目",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+    },
+    {
+      "rank": 6,
+      "title_ja": "FlashLabs、AIエージェント「Hermes Agent」を大幅更新──複数セッション・スケジュールタスクに対応",
+      "summary_ja": "FlashLabsのFlashRev向けAIエージェント「Hermes Agent」が大幅アップデート。複数セッション同時処理やスケジュールタスク機能を追加し、より実務的なエージェント運用が可能に。\n\n単発タスクから継続的な業務プロセスへの対応を強化。複数業務の並行処理やタイムトリガー実行により、人間の監視なしで稼働する自律性が向上。\n\n日本企業でも関心が高いAIエージェントの実用化が進展。バックグラウンドで動作する業務自動化の選択肢が広がる。",
+      "consultant_insight": "AIエージェントの自律化が進展。複数業務の並行自動化による生産性向上を提案可能に",
+      "importance": 3,
+      "category": "ツール",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/453/4453894/?rss"
+    },
+    {
+      "rank": 7,
+      "title_ja": "NVIDIAの二つの顔──好調決算と経営陣のジェンスン復帰要求が併存",
+      "summary_ja": "NVIDIAの最新決算は好調だったが、一方で複数のテック企業経営者がジェンスン・ファンCEOの「復帰」を求める声を上げる異例の状況。現経営陣への不満と将来への不安が交錯。\n\n表面的には成功しているNVIDIAだが、内部的には方向性や意思決定プロセスに対する疑問が浮上。AI半導体市場の急速な変化の中で、リーダーシップへの期待と現実のギャップが顕在化。\n\nAI基盤を支える企業の経営体制は、業界全体の動向に影響を与える。サプライチェーンや技術選定に関わる企業は、NVIDIA動向の注視が必要。",
+      "consultant_insight": "AI基盤企業の経営不安定化は調達リスクに。複数ベンダー戦略の重要性を顧客に訴求可能",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "データセンターが大手テック企業への反発の中心に──ジャーナリスト新著で指摘",
+      "summary_ja": "ジャーナリストのパリス・マルクス氏が新著「Hyperscale」で、データセンターが大手テック企業への社会的反発の中心にあると指摘。AI需要急増に伴うインフラ拡大が地域社会や環境に与える影響が顕在化。\n\nAIモデルの訓練・推論に必要な計算リソースが爆発的に増加し、各地でデータセンター建設が進む。しかし電力消費、水使用、土地占有などをめぐり地域住民との対立が深刻化。\n\n企業のAI導入は技術面だけでなく、社会的受容性や持続可能性も考慮が必要。ESG観点からのAI戦略立案が重要になっている。",
+      "consultant_insight": "AIインフラの社会的コスト問題が浮上。ESG視点でのAI戦略立案支援の需要増を見込む",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "「Binding of Isaac」開発者、AI生成音楽を削除──Steam評価爆撃を受けて対応",
+      "summary_ja": "人気ゲーム「The Binding of Isaac: Repentance Plus」が、一部にAI生成音楽を使用していたことが判明し、Steamでレビュー爆撃を受ける。開発者は該当音楽を削除して対応。\n\nクリエイティブ産業におけるAI生成コンテンツの使用は、ユーザーやクリエイターコミュニティから強い反発を招くリスクがある。特に芸術性が重視される領域では慎重な対応が必要。\n\n企業のコンテンツ制作にAIを導入する際は、透明性の確保とステークホルダーの感情への配慮が不可欠。ブランド毀損リスクを避けるガイドライン整備が求められる。",
+      "consultant_insight": "AI生成コンテンツの透明性欠如はブランドリスクに。導入ガイドライン策定支援の需要あり",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+    },
+    {
+      "rank": 10,
+      "title_ja": "「vibe-coding」革命があらゆるガジェットに波及──デバイス操作の新パラダイム",
+      "summary_ja": "自然言語でコードを生成する「vibe-coding」の概念が、テレビ、カメラなど様々なガジェットに拡大。直感的な指示でデバイスを操作・カスタマイズできる新しいインターフェースが普及へ。\n\n従来の複雑な設定メニューや専用アプリに代わり、「こうしたい」という意図を言葉で伝えるだけでデバイスが対応。技術的知識がなくても高度なカスタマイズが可能になる。\n\nIoTデバイスやスマートホーム製品の操作性向上に直結。企業のプロダクト開発において、AIインターフェースの統合が競争力の鍵になる。",
+      "consultant_insight": "自然言語UIがデバイス標準に。IoT・ハードウェア企業のAI統合戦略立案を支援可能",
+      "importance": 3,
+      "category": "業界",
+      "source_name": "The Verge AI",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "FMV直販でRyzen AI 5搭載一体型PCが24万円台",
+      "one_liner": "AIプロセッサ搭載デスクトップPCが国内で入手可能に",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/453/4453673/?rss"
+    },
+    {
+      "title_ja": "Yoroll、ゲームエンジン不要でプレイ可能なストーリー作成ツール公開",
+      "one_liner": "開発環境不要でインタラクティブコンテンツ制作が可能に",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/yoroll"
+    },
+    {
+      "title_ja": "Webless Agents、顧客対応向けAIエージェントを提供",
+      "one_liner": "対顧客配置を前提に設計されたエージェントサービス",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/webless"
+    },
+    {
+      "title_ja": "TeaserKit、コーディングエージェントがローンチ動画を制作",
+      "one_liner": "AIがプロダクト動画の企画・制作を自動化",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/teaserkit"
+    },
+    {
+      "title_ja": "oovi、デスクトップで動作する複数AIチーム",
+      "one_liner": "ローカル環境で複数のAIエージェントを協働運用",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/oovi"
+    },
+    {
+      "title_ja": "Omi CLI、離席中も動作するAIコーディングエージェント",
+      "one_liner": "バックグラウンド実行可能なコード生成エージェント",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/omi-cli"
+    },
+    {
+      "title_ja": "Resurf、Mac向けナレッジベース兼ブックマークマネージャー",
+      "one_liner": "情報整理と知識管理をMacネイティブで実現",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/resurf-2"
+    },
+    {
+      "title_ja": "Squint、画面上のあらゆる内容を説明するMacアプリ",
+      "one_liner": "視覚情報を即座に解説するAIアシスタント",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/squint"
+    },
+    {
+      "title_ja": "Rankhog、Reddit経由で自動的に顧客獲得",
+      "one_liner": "ソーシャルメディアでの自動マーケティングツール",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/rankhog"
+    },
+    {
+      "title_ja": "Zapyso、Mac内で完結する無料議事録・音声入力ツール",
+      "one_liner": "プライバシー重視の音声文字起こしソリューション",
+      "category": "ツール",
+      "url": "https://www.producthunt.com/products/zapyso"
+    },
+    {
+      "title_ja": "時系列データの因果構造学習に関する新研究論文",
+      "one_liner": "時系列データから因果関係を発見する手法を提案",
+      "category": "研究",
+      "url": "https://arxiv.org/abs/2611.26232"
+    },
+    {
+      "title_ja": "視覚言語行動モデルに安全停止機能を教える研究",
+      "one_liner": "AIロボットの安全性向上に関する学術成果",
+      "category": "研究",
+      "url": "https://arxiv.org/abs/2611.26239"
+    },
+    {
+      "title_ja": "自動運転向けポリシー対応データ評価手法PAD",
+      "one_liner": "自動運転AIのデータ価値を定量評価する新手法",
+      "category": "研究",
+      "url": "https://arxiv.org/abs/2611.25604"
+    },
+    {
+      "title_ja": "Expanse (YC P26)、遊休GPU容量の活用サービスを発表",
+      "one_liner": "未使用の計算リソースを有効活用するプラットフォーム",
+      "category": "業界",
+      "url": "https://news.ycombinator.com/item?id=48356312"
+    },
+    {
+      "title_ja": "ローマ帝国の人物マップ構築プロジェクト公開",
+      "one_liner": "歴史データの可視化とアクセシビリティ向上",
+      "category": "ツール",
+      "url": "https://new.roman-names.com/"
+    }
+  ],
+  "date": "20261123",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
