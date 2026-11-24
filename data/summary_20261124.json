@@ -1,0 +1,201 @@
+{
+  "must_read": [
+    {
+      "rank": 1,
+      "title_ja": "Anthropic「Claude Ship」発表、PRレビューから修正・承認までをAIエージェントで完結",
+      "summary_ja": "AnthropicがGitHub PR処理を全自動化する「Claude Ship」β版を公開。既存のCode Reviewに加え、新エージェント「PR Steward」が自動修正、「Claude Approvals」がポリシー判断を実施。開発者の承認待ち時間を削減し、コードレビューの生産性を大幅に向上させる仕組みを提供。企業のコード品質管理と開発速度の両立を支援する。",
+      "consultant_insight": "コードレビュー工数が開発ボトルネックの企業にとって即導入価値あり。承認フローの自動化で開発速度向上を実現できる。",
+      "importance": 5,
+      "category": "ツール",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003404/"
+    },
+    {
+      "rank": 2,
+      "title_ja": "Anthropic数学者、Claudeと協力してリーマン予想を証明か──167年来の超難問に挑む",
+      "summary_ja": "Anthropicの数学者レベント・アルポゲ氏が、Claude協力のもとリーマン予想の証明を発見したとする文書を2026年11月20日に公開。167年未解決の数学史上最大級の難問に対する突破口となる可能性。イーロン・マスク氏も反応し、AI支援による数学研究の新時代を象徴する出来事として注目を集める。証明の妥当性は数学界の検証待ち。",
+      "consultant_insight": "AI活用が専門知識領域でもブレイクスルーを生む実例。高度な知的作業へのAI活用可能性を示す重要事例。",
+      "importance": 5,
+      "category": "研究",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/453/4453961/?rss"
+    },
+    {
+      "rank": 3,
+      "title_ja": "CrowdStrike、Zscalerを約7兆円で買収──AIエージェントの安全確保を狙う史上最大級のM&A",
+      "summary_ja": "CrowdStrikeがネットワークセキュリティ大手Zscalerを全額株式交換で買収すると発表。企業価値約7兆円、統合後の年間経常収益100億ドル超の巨大案件。ZscalerのZero Trust ExchangeをFalcon基盤に統合し、AIエージェント保護を強化する戦略。エージェント時代のセキュリティ需要を先取りした動き。",
+      "consultant_insight": "AIエージェント展開企業はセキュリティ体制の再構築が急務。統合製品の登場で対策選択肢が広がる。",
+      "importance": 5,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003398/"
+    },
+    {
+      "rank": 4,
+      "title_ja": "住友生命、ChatGPT Enterpriseで524%のROI達成──金融の厳格基準をクリアした実践ポイント",
+      "summary_ja": "住友生命がChatGPT Enterprise導入でヘビーユーザー層の平均ROI524％を実現。金融業界特有の厳格な情報管理基準を満たしながら、全社展開に成功した実例。AI利用を組織成果に直結させるための具体的アプローチを公開。セキュリティとROIを両立させた導入事例として他業界にも示唆を与える。",
+      "consultant_insight": "規制業界でのAI導入ROI実績は説得材料として強力。セキュリティ懸念を持つ顧客への提案に活用できる。",
+      "importance": 5,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/24/2000003335/"
+    },
+    {
+      "rank": 5,
+      "title_ja": "Meta AI責任者「超知能が到来する」と警告──人類が制御失うリスクに1年の猶予",
+      "summary_ja": "MetaのAI責任者アレクサンドル・ワン氏が「Superintelligence is Arriving」と題する文書を公開。人間の能力を大幅に超える超知能の到来が近いとし、今後1年の人類の行動が将来を左右すると警告。AIの急速な進化により制御を失う可能性を指摘し、業界に慎重な対応を求める。技術的特異点が現実的脅威になりつつある。",
+      "consultant_insight": "AI活用推進と同時にガバナンス体制構築が急務。顧客企業のAI戦略にリスク管理視点を組み込む必要あり。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ASCII.jp AI",
+      "url": "https://ascii.jp/elem/000/004/453/4453979/?rss"
+    },
+    {
+      "rank": 6,
+      "title_ja": "玉虫色のAI自主規制──Anthropic裁判資料に見る「安全性」と「成長」の葛藤",
+      "summary_ja": "AI安全性を重視してきたAnthropicが著作権侵害訴訟に直面。裁判資料から創業者の葛藤が浮き彫りに。ライバルや中国勢の台頭、IPO準備が現実路線への転換を迫る。理想と市場競争の狭間で揺れるAI企業の実態を示す事例。自主規制の実効性と企業成長の両立という業界共通の課題を浮き彫りにする。",
+      "consultant_insight": "AI倫理と事業成長のバランスは全企業の課題。顧客のAIガバナンス策定時に参考となる実例。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/111500581/111500004/"
+    },
+    {
+      "rank": 7,
+      "title_ja": "サイバーエージェント・メルカリのClaude全社導入──「企業重視」の姿勢に注目した理由",
+      "summary_ja": "サイバーエージェントとメルカリがClaudeを全社展開し事業システム開発に活用。他AI企業と比較してAnthropicの企業向け姿勢を評価。今後はモデル性能向上よりAIエージェント管理・運用機能の拡充に期待。B2B市場を重視する戦略が日本の大手IT企業に受け入れられている実態が明らかに。",
+      "consultant_insight": "企業向け機能の充実度がツール選定の決め手。顧客のAI選定基準として「運用管理機能」を重視すべき。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/111500581/111500003/"
+    },
+    {
+      "rank": 8,
+      "title_ja": "Claude Code開発責任者「ハイパー・ハイパーグロース」──安全性と成長の両立に自信",
+      "summary_ja": "Claude Code開発責任者が「超超急成長」の要因を安全性と信頼性の担保と説明。現在のAI知能向上は「始まりに過ぎない」とし、さらなる成長に自信を示す。企業向け市場での信頼獲得が急拡大の鍵。技術革新と社会実装のバランスを重視する姿勢が、エンタープライズ市場で支持される理由となっている。",
+      "consultant_insight": "技術だけでなく「信頼性」が企業採用の決め手。顧客提案時に安全性実績を前面に出すべき。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/111500581/111500002/"
+    },
+    {
+      "rank": 9,
+      "title_ja": "日本企業のAI人材確保策──Zenkenがインド開発ラボで「日本に呼ばない」選択",
+      "summary_ja": "生成AI普及で求められるエンジニア像が変化。国内採用難を受け、Zenkenがインドのベテランエンジニアを現地勤務のまま活用するサービスを開始。渡航コスト削減と優秀人材確保を両立。日本企業のAI開発体制構築における新たな選択肢を提示。グローバル人材活用の実践例として注目される。",
+      "consultant_insight": "AI人材不足の顧客に対し、海外リモート開発の選択肢を提示できる。コスト・品質の両面でメリットあり。",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003396/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "パナソニックHD、フィジカルAI戦略を発表──研究開発と現場実装を両輪に推進",
+      "summary_ja": "パナソニックHDが技術未来ビジョンの進捗とフィジカルAI取り組み方針を説明。研究開発と現場実装を並行推進する戦略を明示。製造業のAI活用が物理世界との融合段階に入ったことを示す事例。日本の製造業大手がフィジカルAI領域で本格投資を開始した意義は大きい。",
+      "consultant_insight": "製造業顧客に対しフィジカルAI投資の必要性を訴求する好材料。現場実装事例として活用できる。",
+      "importance": 4,
+      "category": "業界",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/24/news040.html"
+    }
+  ],
+  "digest": [
+    {
+      "title_ja": "日立、フィジカルAI向け独自技術「IWIM」で200兆円市場攻略へ",
+      "one_liner": "社会インフラ向けフィジカルAI市場の資源制約を独自技術で突破",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003382/"
+    },
+    {
+      "title_ja": "Gartner予測：AI拡大IT部門の4割が2028年までにサービス中断",
+      "one_liner": "急速なAI利用拡大がシステム障害リスクを高めると警告",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/24/news023.html"
+    },
+    {
+      "title_ja": "データセンター、地域共生で名誉挽回へ──東大教授「あとはやる気」",
+      "one_liner": "消費電力増大で迷惑施設化したDCが地域貢献で信頼回復を模索",
+      "category": "業界",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/24/news007.html"
+    },
+    {
+      "title_ja": "ロックウェル、AIエージェント指揮する新製品で工程革新",
+      "one_liner": "自動化から自律化へ、LLM活用で設備が自己最適化する時代へ",
+      "category": "ツール",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/24/news024.html"
+    },
+    {
+      "title_ja": "AI活用後も時間かかる工程は「他部門調整」と「例外対応」",
+      "one_liner": "担当者の68.2%が週1回以上、上位者判断待ちを経験",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/453/4453980/?rss"
+    },
+    {
+      "title_ja": "建設業向け「Kencopa工程AIエージェント」、図面から絵工程を自動生成",
+      "one_liner": "作成時間約90%削減、パワポで出力可能",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/453/4453985/?rss"
+    },
+    {
+      "title_ja": "PPIH、PeopleXのAI面接・ロープレサービスを導入",
+      "one_liner": "ドンキ・アピタ展開企業が対話型AI活用で採用強化",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/453/4453995/?rss"
+    },
+    {
+      "title_ja": "中国AI、コスト20分の1も──オープンウエート戦略で台頭",
+      "one_liner": "クローズドモデルと比較し大幅なコスト削減を実現",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600014/111600239/"
+    },
+    {
+      "title_ja": "キャディ177億円調達でユニコーン入り、製造業バーティカルAIで世界へ",
+      "one_liner": "ものづくり現場の暗黙知をデータ化、バリューチェーン変革支援",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600001/111600222/"
+    },
+    {
+      "title_ja": "タタ・コンサル、60万人組織をAI変革──全サービスをAI前提で再定義",
+      "one_liner": "人月ベースのアウトソーシング事業がAIでどう変わるか",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/041700482/111600022/"
+    },
+    {
+      "title_ja": "生成AIで顧客満足度を分析する感情分析アプリの概要を理解",
+      "one_liner": "テキストからポジティブ・ネガティブ傾向を推定",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03796/101400001/"
+    },
+    {
+      "title_ja": "SWCC技術トップ「超電導・水冷・光電融合でAI市場攻める」",
+      "one_liner": "AIデータセンター需要拡大で光ファイバー独自製品に注目",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02127/00210/"
+    },
+    {
+      "title_ja": "オムロン双腕3指ロボット、創薬実験を自動化──専用治具不要",
+      "one_liner": "狭い実験室でも導入容易なAIロボットを開発中",
+      "category": "ツール",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03688/111000019/"
+    },
+    {
+      "title_ja": "FDE（Forward Deployed Engineer）、AI企業が求める高報酬職種とは",
+      "one_liner": "顧客課題解決と自社基盤への知見フィードバックを両立",
+      "category": "実務",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03820/111000001/"
+    },
+    {
+      "title_ja": "Transformer 10年目の限界、アテンション改革で3大技術が進化中",
+      "one_liner": "一極集中への問題提起からポスト・Transformer技術が萌芽",
+      "category": "研究",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03794/111700002/"
+    }
+  ],
+  "date": "20261124",
+  "failed_sources": [
+    "AI-Scholar: [Errno -3] Temporary failure in name resolution",
+    "VentureBeat AI: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}
