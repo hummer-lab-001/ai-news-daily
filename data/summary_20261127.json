@@ -2,9 +2,9 @@
   "must_read": [
     {
       "rank": 1,
-      "title_ja": "Claude Duet、日本でも開始──AnthropicのAIエージェント研究プレビューを米国外に拡大",
-      "summary_ja": "Anthropicが展開するAIエージェント「Claude Duet」の研究プレビューが日本を含む米国外に拡大され、Pro/Max/Ultraプランのウェイトリスト登録ユーザーへ招待開始。日本ユーザーからも「招待が来た」との報告が相次ぐ。\n\nエージェント機能の実装段階が進み、実務でPC操作を代行するClaude活用が現実化。開発者やヘビーユーザーが最新機能を先行体験できる機会に。\n\nAnthropicは段階的にグローバル展開を進めており、日本市場でもAIエージェントの浸透が加速する見通し。企業がエージェント前提の業務設計を検討するタイミングに差し掛かる。",
-      "consultant_insight": "Claude Duetで操作自動化を体験した日本企業が、業務フロー設計を「エージェント前提」に再編する動きが予想される。先行導入企業の実験結果に注目。",
+      "title_ja": "Claude Duet、日本でも開始　AnthropicのAIエージェントが米国外へ拡大",
+      "summary_ja": "Anthropicの「Claude Duet」が日本を含む米国外ユーザーに招待を開始。Pro/Max/Ultraプランのウェイトリスト登録者へ順次届いており、日本のユーザーから招待到達の報告が相次ぐ。AIエージェントとしての実用性が日本市場で検証される段階に入った。",
+      "consultant_insight": "Claude Duetの国内利用開始により、日本企業でもエージェント活用が本格化。顧客への導入検討の好機",
       "importance": 5,
       "category": "ツール",
       "source_name": "ITmedia AI+",
@@ -12,29 +12,29 @@
     },
     {
       "rank": 2,
-      "title_ja": "「Claude Code」の実行を100件→5件に並列化──「Hub」でエージェントのマルチセッション管理を効率化",
-      "summary_ja": "Product Huntに登場した「Hub」は、Claude CodeやCodexといったAIコーディングエージェントを並列実行し、100セッション分の作業負荷を5セッション程度で処理できるようにするツール。エージェント時代の新型開発管理インターフェースとして注目。\n\nコーディングエージェントを使いこなす企業が増える中、「セッション単位のコスト管理」「並列タスクの統制」が課題化。Hubはその解決策を提示し、エージェント活用の実用性を引き上げる。\n\n日本企業でもClaude Codeの並列運用ニーズが高まっており、開発チームのボトルネック解消に直結する可能性がある。",
-      "consultant_insight": "Claude Codeを既に導入した日本企業が、並列化管理ツールで開発速度をさらに倍増させる可能性。チーム規模での検証を推奨。",
+      "title_ja": "「Claude-Mem Cloud Sync」登場、デバイス間でAIエージェントの記憶を同期",
+      "summary_ja": "デバイス切替時にAIエージェントのメモリを維持する「Claude-Mem Cloud Sync」が登場。PC・スマホ間でClaudeの会話履歴や学習内容をクラウド同期し、シームレスな作業継続を可能に。エージェント時代のUX改善に貢献するツール。",
+      "consultant_insight": "マルチデバイス環境での業務継続性向上。モバイルワーク推進企業への提案材料に最適",
       "importance": 5,
       "category": "ツール",
       "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/hub-20"
+      "url": "https://www.producthunt.com/products/claude-mem"
     },
     {
       "rank": 3,
-      "title_ja": "Mac向けAIエージェント監視ツール「Ottante」──エージェントの作業内容を検証し、暴走を事前検知",
-      "summary_ja": "MacでAIエージェントが実行した作業内容を検証する専用ツール「Ottante」が登場。エージェントが期待通りの動作をしているか、あるいは意図しない操作をしていないかをリアルタイムでチェック可能。\n\nAIエージェントの実用化が進む中、「エージェントに任せた作業が正しいか」を確認する手段が不足していた。Ottanteはその検証層を提供し、安全なエージェント運用を支援。\n\nGoogleが同日公開したAIエージェント評価の盲点と合わせ、エージェント監査の重要性が浮き彫りに。日本企業も「任せっきりにしない体制」の構築が必要に。",
-      "consultant_insight": "エージェント導入企業は、実行ログの監査体制を整えないと思わぬリスクを抱える。Mac環境ならOttanteで検証プロセスを追加できる。",
+      "title_ja": "電通、Gemini使いこなす3000人育成プログラム開始　FDE（フルスタック・デジタルエキスパート）育成の内容",
+      "summary_ja": "電通が約3000人を対象に「Gemini Enterprise」活用人材育成を開始。「FDE（フルスタック・デジタルエキスパート）」として、現場での生成AI活用を推進できる人材を体系的に育成。生成AI導入後の「使いこなし」に焦点を当てた大規模プログラム。",
+      "consultant_insight": "大手広告代理店の本格的AI人材育成事例。日本企業へのAI定着化支援の参考モデルとして有効",
       "importance": 5,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/ottante"
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news038.html"
     },
     {
       "rank": 4,
-      "title_ja": "AIエージェントの行動が「適切か暴走か」をどう見極める？──Googleが明かすテストの盲点",
-      "summary_ja": "GoogleはAIコーディングエージェント向けプラグイン開発を通じ、最終回答ベースの評価や実操作テストだけでは見抜けない問題があることを明らかにした。エージェントが期待通りに動作するかの検証手法に課題。\n\n従来のテスト方法では、エージェントが「正しい結果」を返しても、その過程で不要な操作や危険な判断をしていた場合を検知できない。Google側は過程の可視化と評価の重要性を強調。\n\nAIエージェントを業務導入する企業は、結果だけでなくプロセスの妥当性まで検証する体制構築が求められる。日本企業の実務でも盲点となりやすい領域。",
-      "consultant_insight": "エージェントのアウトプットだけでなく、実行過程を記録・検証するフローを設計しないと、思わぬコンプライアンス違反やセキュリティリスクを見逃す。",
+      "title_ja": "AIエージェントの「暴走」を見極める方法　Googleが明かすテストの盲点",
+      "summary_ja": "GoogleがAIコーディングエージェント開発で得た知見を公開。最終回答だけでなく、実行過程の監視が不可欠と判明。「期待通りの動作」と「暴走」の境界を見極めるには、途中の判断プロセスまで検証する必要がある。",
+      "consultant_insight": "エージェント導入時のリスク管理に直結。顧客へのガバナンス設計支援で差別化できる知見",
       "importance": 5,
       "category": "実務",
       "source_name": "ITmedia AI+",
@@ -42,153 +42,153 @@
     },
     {
       "rank": 5,
-      "title_ja": "GPT-6.2 Astraの使用量「誤って割引されていた」──修正後は上限到達が40％早まる見込み",
-      "summary_ja": "OpenAIのプロダクト責任者ティボー・ソティオ氏が、GPT-6.2 AstraとSolの使用量計算に誤りがあり、実際より少なく計算されていたことをX上で公表。修正後はユーザーが上限に到達するまでの時間が約40％短縮される見込み。\n\n従量課金モデルを前提にAI活用を進める企業にとって、コスト予測が突如変わる事態は予算計画に直結。OpenAI側の計算ミスが明るみになり、ユーザー側のコスト管理体制の再点検が必要に。\n\n日本企業でも「予想外のコスト急増」を避けるため、使用量モニタリングと上限設定の厳格化が求められる。",
-      "consultant_insight": "OpenAIの使用量計算ミスは、日本企業のAI予算管理にも波及。リミット設定と定期的なコストレビューを再強化すべきタイミング。",
+      "title_ja": "Pax by Pydantic、コーディング自体もプラグイン化したAIエージェント",
+      "summary_ja": "Pydanticが「Pax」を発表。コーディング処理すらプラグインとして扱う柔軟なアーキテクチャを採用。開発者が独自の処理フローを組み込みやすく、エージェントのカスタマイズ性が大幅向上。開発基盤として注目を集める。",
+      "consultant_insight": "エンタープライズ向けカスタマイズ可能なエージェント基盤。技術選定の新たな選択肢として提案価値あり",
       "importance": 4,
       "category": "ツール",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003495/"
+      "source_name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/products/pydantic"
     },
     {
       "rank": 6,
-      "title_ja": "長期記憶を持つAIエージェント基盤「Remora」──エージェントが学習を蓄積し続ける仕組みを提供",
-      "summary_ja": "AIエージェントに長期記憶機能を提供する基盤「Remora」がProduct Huntに登場。エージェントが過去の対話や操作履歴を保持し、次回以降の判断に活かせる仕組みを実装。\n\n従来のエージェントは単発タスクごとに記憶がリセットされ、継続的な学習が困難だった。Remoraは記憶層を提供し、エージェントの「育成」を可能にする。\n\n日本企業でも、顧客対応エージェントや社内業務エージェントに「記憶」を持たせることで、対応精度の向上やパーソナライズの深化が期待できる。",
-      "consultant_insight": "エージェントに記憶を持たせることで、顧客対応の質が劇的に向上。日本企業のCRMとの統合で差別化が図れる。",
+      "title_ja": "Hub、Claude CodeやCodexを「100セッション→5セッション」で実行可能に",
+      "summary_ja": "「Hub」が登場し、Claude CodeやCodexを効率的に並列実行。100セッション分の処理を5セッション相当のコストで実現する仕組みを提供。トークン消費を抑えつつ大規模開発を支援するツール。",
+      "consultant_insight": "Claude利用コストの大幅削減が可能。ROI重視の顧客への導入提案で即効性あり",
       "importance": 4,
       "category": "ツール",
       "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/remora-6"
+      "url": "https://www.producthunt.com/products/hub-20"
     },
     {
       "rank": 7,
-      "title_ja": "デスクトップで動くAIチーム「DeskFleet」──複数のコーディングエージェントがチーム横断で協働",
-      "summary_ja": "「DeskFleet」は、チームメンバーのマシンをまたいで複数のAIコーディングエージェントを連携実行できるツール。エージェントが分散環境で協働し、大規模タスクを分担処理する。\n\nAIエージェントの活用が個人レベルから組織レベルへ移行する中、チーム規模での調整・管理が課題化。DeskFleetはその解決策を提示し、エージェントの「チーム化」を支援。\n\n日本企業でも、開発チーム全体でエージェントを運用する動きが加速しており、組織横断のエージェント管理基盤が求められる。",
-      "consultant_insight": "エージェントの個別運用から組織運用へシフトする企業に最適。チーム横断のエージェント管理基盤が競争力の源泉に。",
+      "title_ja": "Sansan、AI活用で商談準備を月60時間削減　実践プロンプトを公開",
+      "summary_ja": "Sansanが生成AIで商談準備や社内報告を8割削減し、訪問件数増を実現。読者向けに会議効率化のプロンプトも公開。営業生産性向上の具体例として注目を集める。",
+      "consultant_insight": "営業部門へのAI導入効果を数値で示せる好事例。顧客提案時の説得材料として有効",
       "importance": 4,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/deskfleet"
+      "category": "実務",
+      "source_name": "日経クロステック AI",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03671/111600010/"
     },
     {
       "rank": 8,
-      "title_ja": "Claude・ChatGPTに動画編集を依頼できる「Flurra」──自然言語で編集指示が完結",
-      "summary_ja": "「Flurra」は、ClaudeやChatGPTに自然言語で動画編集を指示できるツール。複雑な編集ソフトの操作を覚えることなく、AIに編集内容を伝えるだけで動画が完成。\n\n動画コンテンツの需要が高まる中、編集作業の効率化が課題。FlurraはAIとの対話で編集を完結させ、非専門家でも高品質な動画制作を可能にする。\n\n日本企業でも、マーケティング部門や営業部門が自前で動画を制作するケースが増えており、AI編集ツールの導入で制作コストと時間を大幅削減できる。",
-      "consultant_insight": "動画制作の内製化を進める企業に最適。AIとの対話だけで編集が完結し、外注コストを削減できる。",
+      "title_ja": "アマダと日立、AIエージェントとフィジカルAIのPoC効果確認　製造現場の自律化へ",
+      "summary_ja": "アマダと日立がAIエージェントとフィジカルAIのPoCで効果を確認。ユーザー工場の自律化と保守サービス高度化に向け協創を加速。製造業のAI活用が実証段階から実装段階へ移行。",
+      "consultant_insight": "製造業向けAI実装の先行事例。製造DX支援案件での参考モデルとして価値あり",
       "importance": 4,
-      "category": "ツール",
-      "source_name": "Product Hunt AI",
-      "url": "https://www.producthunt.com/products/flurra"
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/27/news050.html"
     },
     {
       "rank": 9,
-      "title_ja": "生成AIで人員が増えた部門・減った部門は？──デロイト調査で2026年のAI活用状況が明らかに",
-      "summary_ja": "デロイトの調査により、企業における2026年のAI導入・活用状況が明らかになった。生成AIの導入により人員が増えた部門と減った部門が二極化し、組織再編の実態が浮き彫りに。\n\nAI導入は「人員削減」の文脈で語られることが多いが、実際には業務の再配置や新規領域への人員シフトも発生。デロイトの調査はその実態を数値で示した。\n\n日本企業でもAI導入後の人員配置が課題となっており、削減だけでなく「どこに再配置するか」の戦略が重要に。",
-      "consultant_insight": "AI導入後の人員再配置戦略が企業の成否を分ける。削減だけでなく、成長領域への再配置設計が必須。",
+      "title_ja": "マネーフォワード、家計データをMuseとChatGPTに提供　狙いと安全策を公開",
+      "summary_ja": "マネーフォワードが家計簿データをMetaのMuseとChatGPTに提供開始。AIが朝一番にカード引き落としと預金を照合して通知。最大資産である家計データを外部AIに提供する理由と安全対策を詳細公開。",
+      "consultant_insight": "データ連携型AIサービスのセキュリティ設計例。金融・個人情報扱う顧客への説明材料に有用",
+      "importance": 4,
+      "category": "実務",
+      "source_name": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003490/"
+    },
+    {
+      "rank": 10,
+      "title_ja": "デロイト調査、生成AIで人員増えた部門・減った部門が明らかに",
+      "summary_ja": "デロイトの調査で、2026年の企業AI導入・活用状況が判明。生成AI導入により人員が増加した部門と減少した部門の傾向が明確化。AI導入後の組織再編の実態が浮き彫りに。",
+      "consultant_insight": "AI導入後の組織設計支援に直結するデータ。人事・組織コンサルとの連携提案に活用可能",
       "importance": 4,
       "category": "業界",
       "source_name": "ITmedia AI+",
       "url": "https://www.itmedia.co.jp/aiplus/article/2611/27/2000003505/"
-    },
-    {
-      "rank": 10,
-      "title_ja": "「コスト削減」の次の成果、どう設定する？──AI活用をビジネス変革に結び付ける期待設計",
-      "summary_ja": "ITRの調査では、AI導入時に期待する効果として「業務コストの削減」「業務時間の短縮」が上位に並ぶ。しかしAIをビジネス変革の切り札とする企業は、AIの成果を問う前に「何を期待するか」から見直す必要があると筆者は提言。\n\n効率化の先にある価値創出をどう設計するかが、AI活用の成否を分ける。削減効果だけで満足すると、AIの真価を引き出せないまま終わる。\n\n日本企業でもAI導入の目的が「削減」に偏りがちだが、次のステージとして「新規事業創出」「顧客体験向上」など変革型の期待設計が求められる。",
-      "consultant_insight": "AI導入の成果を「削減」だけで測ると、変革の機会を逃す。次の期待を明確にし、経営層と合意形成を図るべき。",
-      "importance": 4,
-      "category": "実務",
-      "source_name": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/27/news025.html"
     }
   ],
   "digest": [
     {
-      "title_ja": "アマダと日立、AIエージェントのPoCで効果確認──フィジカルAIの現場実装へ",
-      "one_liner": "製造現場でのAIエージェント活用PoC成功例",
+      "title_ja": "「コスト削減」の次の成果設定、ビジネス変革へ結びつける期待の中身",
+      "one_liner": "AI成果をコスト削減から事業変革へシフトさせる期待設定が重要とITR提言",
       "category": "実務",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/27/news050.html"
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/27/news025.html"
     },
     {
-      "title_ja": "Gemini 4 Neonが実際の標高データからスキーシミュレーターを開発──Google公式が勧める利用例",
-      "one_liner": "Gemini 4 Neonの実用デモ紹介",
+      "title_ja": "Gemini 4 Neon、実際の標高データからスキーシミュレーター開発",
+      "one_liner": "Google公式がGemini 4 Neonの活用デモを公開、日常業務への応用例を紹介",
       "category": "ツール",
       "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003494/"
     },
     {
-      "title_ja": "家計データをMuseやChatGPTに渡す狙いと安全策──マネーフォワードに聞く",
-      "one_liner": "金融データのAI連携、安全性をどう担保するか",
-      "category": "実務",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003490/"
+      "title_ja": "GPT-6.2使用量「誤って割引」、修正後はAstraで上限到達40％早まる見込み",
+      "one_liner": "OpenAI、GPT-6.2の使用量計算誤りを修正。実際より少なく計算されていた",
+      "category": "ツール",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003495/"
     },
     {
-      "title_ja": "飲食店のAI商品画像は景品表示法違反にならないのか──弁護士の見解",
-      "one_liner": "AI生成画像と景表法の関係を法的に解説",
-      "category": "業界",
+      "title_ja": "飲食店のAI商品画像、景品表示法違反にならないか？弁護士見解",
+      "one_liner": "生成AI画像のメニュー利用と景表法の関係を法的観点から解説",
+      "category": "実務",
       "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003447/"
     },
     {
-      "title_ja": "Character.AIのチャット履歴競売に41州が異議──未成年者210万アカウント分も対象",
-      "one_liner": "破産企業のユーザーデータ売却に法的ブレーキ",
-      "category": "業界",
-      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003479/"
-    },
-    {
-      "title_ja": "旅行会社に残る価値は？──生成AIが旅の相談を担う時代の業界生存戦略",
-      "one_liner": "AIエージェント普及で旅行業界が問う存在意義",
+      "title_ja": "旅行会社の生存戦略、AIエージェント時代に残る価値とは",
+      "one_liner": "JATA主催シンポで旅行業界のAI時代の差別化戦略を議論",
       "category": "業界",
       "url": "https://www.itmedia.co.jp/business/articles/2611/26/news033.html"
     },
     {
-      "title_ja": "GitHubに「人には見えない隠し文字」──小型AIの操作狙うプロンプトインジェクション1億4500万件調査",
-      "one_liner": "AIエージェント向け攻撃手法が大規模に拡散",
-      "category": "業界",
+      "title_ja": "GitHubに「人には見えない隠し文字」、小型AI操作狙う手法を1億4500万件調査",
+      "one_liner": "AIエージェントへのプロンプトインジェクション攻撃、GitHub上で確認",
+      "category": "実務",
       "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003460/"
     },
     {
-      "title_ja": "税理士・会計事務所特化のAIエージェント──事務所ごとの業務フローに合わせて作り込む",
-      "one_liner": "士業向けカスタムAIエージェント開発、4000万円調達",
-      "category": "実務",
-      "url": "https://ascii.jp/elem/000/004/455/4455347/?rss"
-    },
-    {
-      "title_ja": "AIブームは天然ガスブーム──データが示す米国の電源の現実",
-      "one_liner": "AI需要がエネルギー政策に与える影響を考察",
+      "title_ja": "Character.AIチャット履歴競売、41州とDCが異議　未成年210万含む",
+      "one_liner": "破産手続きでのユーザーデータ売却に米41州が異議、プライバシー法違反と主張",
       "category": "業界",
-      "url": "https://ascii.jp/elem/000/004/455/4455408/?rss"
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003479/"
     },
     {
-      "title_ja": "企業に迫るOSS危機──生成AIの普及で管理・保守の課題が深刻化",
-      "one_liner": "OSSの持続可能性に警鐘、AI時代の新リスク",
+      "title_ja": "マウスコンピューター、建設DX展で建設・土木向け検証済みPC公開",
+      "one_liner": "Vectorworks等の動作検証済み製品を12月2～4日の建設DX展で展示",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/455/4455431/?rss"
+    },
+    {
+      "title_ja": "A2B攻撃、生成AIで脅威増大　アプリ解析からサーバー攻撃へ",
+      "one_liner": "NICT、API・サーバー側脆弱性を突く「A2B攻撃」への注意喚起",
+      "category": "実務",
+      "url": "https://ascii.jp/elem/000/004/455/4455217/?rss"
+    },
+    {
+      "title_ja": "ESET HOME V20、ChatGPT・Copilotの危険リンク警告に対応",
+      "one_liner": "AIエージェント不正動作阻止機能を搭載、個人PCセキュリティ強化",
+      "category": "ツール",
+      "url": "https://ascii.jp/elem/000/004/454/4454060/?rss"
+    },
+    {
+      "title_ja": "情シス「守り」から「変化のトリガー」へ進化、現場が模索する役割",
+      "one_liner": "クラウド・AI時代の情シス担当者の役割変化と対応策を現場視点で解説",
+      "category": "業界",
+      "url": "https://ascii.jp/elem/000/004/451/4451993/?rss"
+    },
+    {
+      "title_ja": "OSS危機、生成AI普及で深刻化　企業に迫るリスク",
+      "one_liner": "OSSの管理・保守課題が生成AI普及で顕在化、企業への影響拡大",
       "category": "業界",
       "url": "https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/041800013/111700109/"
     },
     {
-      "title_ja": "Sansan流AI活用、商談準備を月60時間削減──実践向けプロンプト公開",
-      "one_liner": "社内会議・商談効率化のプロンプト事例",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03671/111600010/"
-    },
-    {
-      "title_ja": "Transformer生みの親が賭ける次のAI──「ブレークスルー起きない方が驚き」",
-      "one_liner": "Transformer共著者が新アーキテクチャ探索に着手",
+      "title_ja": "Transformer生みの親、「次のAI」に賭ける　ブレークスルー探索",
+      "one_liner": "Llion Jones氏、Transformer代替技術の探索理由を語る",
       "category": "研究",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03794/111700005/"
     },
     {
-      "title_ja": "AI利用で重要な「べからず」3つ──手段だけ伝えず・迎合させず・暴言吐かず",
-      "one_liner": "AI活用の落とし穴を回避する基本原則",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03832/111300004/"
+      "title_ja": "カナダ・ドイツ「AI同盟」、中堅国の危機感が原動力",
+      "one_liner": "主権AI開発へ2国連携「Sovereign Technology Alliance」が注目",
+      "category": "業界",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03079/112600048/"
     },
     {
-      "title_ja": "生成AIに任せてはいけない仕事は何か──求められる適切な見極め",
-      "one_liner": "AI得意・不得意の見極めが業務効率化の鍵",
-      "category": "実務",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02737/112200071/"
-    },
-    {
-      "title_ja": "国内月間利用者279万人のSNSを5人で運営──「setlog」のAI活用",
-      "one_liner": "コード99％をAI生成、少数精鋭で大規模運営",
+      "title_ja": "setlog、月間279万人を5人で運営　コードの99％をAI生成",
+      "one_liner": "新興SNSの開発・運用チームがAI活用で極小体制を実現",
       "category": "実務",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/12200/"
     }
